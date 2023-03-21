@@ -17,7 +17,7 @@
 from app import app
 from flask import render_template
 from flask import redirect, request
-from app.utils import get_locale
+from app.utils import get_locale, change_lang_code
 
 
 @app.route('/')
