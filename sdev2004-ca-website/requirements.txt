@@ -1,0 +1,19 @@
+# Flask Framework
+Flask==2.2.2
+Jinja2==3.1.2
+
+# Enviroment Variables
+python-dotenv
+
+# Flask Packages
+Flask-Babelex==0.9.4
+Flask-Phrase==1.1.0
+Flask-Login==0.6.2
+Flask-Migrate==4.0.2
+Flask-Script==2.0.6
+Flask-SQLAlchemy==3.0.2
+Flask-WTF==1.1.1
+
+# Automated tests
+pytest==7.2.1
+pytest-cov==4.0.0
