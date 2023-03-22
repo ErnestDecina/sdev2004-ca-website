@@ -3,7 +3,7 @@
 A travel website that will serve information about Korean and Sweeden.
 
 ## Updated Documentation
-[Word Documentation]()
+[Word Documentation](https://1drv.ms/w/s!Ats780sGNINomRlL078S1AlXuPbA?e=IwNpiD)
 
 ## Roadmap
 
