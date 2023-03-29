@@ -6,16 +6,18 @@ A travel website that will serve information about Korean and Sweeden.
 
 - [x] Setup
 - [x] Persona's
-- [ ] Wireframes
+- [x] Wireframes
 - [ ] To be decided...
 
 ## Authors
 
+- Daniel Wu - [Daniel Wu](https://github.com/Dan21460)
 - Ernest John Decina - [ErnestDecina](https://github.com/ErnestDecina)
-- Michael O'Brian
+- Michael O'Brien - [Michael O'Brien](https://github.com/mobrien273)
 - Ron Pingol - [ronpingol](https://github.com/ronpingol)
 - Sean Tighe - [KindPlayer2](https://github.com/KindPlayer2)
 - Alex Tsang - [Entroshock](https://github.com/Entroshock)
+  
 
 ## [License](LICENSE.md)
 
