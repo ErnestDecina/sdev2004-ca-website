@@ -1,25 +1,20 @@
 <!DOCTYPE html>
 <html lang="en">
+{% set lang_code = session["language"] %}
 <head>
     <meta charset="UTF-8">
-    <title>Title</title>
+    <title>SDEV Assignment</title>
+    <link href="{{ url_for('static', filename= 'css/' +  lang_code + 'local-style.css') }}" rel="stylesheet"/>
 </head>
 <body>
     <!-- Header content -->
-    {% block header %}
-
-    {% endblock %}
-
+    {% include 'layouts/header.html' %}
 
     <!-- Body Content -->
     {% block body %}
-
     {% endblock %}
-
 
     <!-- Footer Content -->
-    {% block footer %}
-
-    {% endblock %}
+    {% include 'layouts/footer.html' %}
 </body>
 </html>

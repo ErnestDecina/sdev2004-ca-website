@@ -1,13 +1,28 @@
 {% if country_selector == "korea"  %}
     <header>
         <nav>
-            Korean Header
+            <p>Korean Header</p>
+            <a href="{{ url_for('set_language', lang_code='en') }}">{{_('English')}}</a>
+            <a href="{{ url_for('set_language', lang_code='ko') }}">{{_('Korean')}}</a>
+            <a href="{{ url_for('set_language', lang_code='sv') }}">{{_('Swedish')}}</a>
         </nav>
     </header>
 {% elif country_selector == "sweden"  %}
     <header>
         <nav>
-            Sweden Header
+            <p>Sweden Header</p>
+            <a href="{{ url_for('set_language', lang_code='en') }}">{{_('English')}}</a>
+            <a href="{{ url_for('set_language', lang_code='ko') }}">{{_('Korean')}}</a>
+            <a href="{{ url_for('set_language', lang_code='sv') }}">{{_('Swedish')}}</a>
+        </nav>
+    </header>
+{% elif country_selector == "ireland" %}
+    <header>
+        <nav>
+            <p>Ireland Header</p>
+            <a href="{{ url_for('set_language', lang_code='en') }}">{{_('English')}}</a>
+            <a href="{{ url_for('set_language', lang_code='ko') }}">{{_('Korean')}}</a>
+            <a href="{{ url_for('set_language', lang_code='sv') }}">{{_('Swedish')}}</a>
         </nav>
     </header>
 {% endif %}

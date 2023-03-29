@@ -15,3 +15,5 @@
 
 # Dependencies
 from app import app
+
+app

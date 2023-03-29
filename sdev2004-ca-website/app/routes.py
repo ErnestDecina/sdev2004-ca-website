@@ -17,15 +17,97 @@
 from app import app
 from flask import render_template
 from flask import redirect, request
-from app.utils import get_locale, change_lang_code
+from app.utils import change_lang_code, start_lang_session_code
 
 
+#
+# Website landing page
+#
+#   Authors:
+#       Daniel Wu
+#       Alex Tsang
+#       Sean Tighe
+#       Micheal O'Brien
+#       Ernest John Decina
+#
 @app.route('/')
 @app.route('/index')
 def index():
     """Landing page users will land at"""
-    return render_template("index.html")
-# End def index()
+    start_lang_session_code()
+    return render_template("index.html", country_selector="ireland")
+
+
+#
+# Korea Home Page
+#
+# Author: Ernest John Decina
+#
+@app.route('/ko/home')
+def ko_home():
+    """Home page of Korea"""
+    start_lang_session_code()
+    return render_template("home.html", country_selector="korea")
+
+
+#
+# Korea Booking Page
+#
+# Author: Ron Pingol
+#
+@app.route('/ko/booking')
+def ko_booking():
+    """Booking page of Korea"""
+    start_lang_session_code()
+    return render_template("booking.html", country_selector="korea")
+
+
+#
+# Korea Todo Page
+#
+# Author: Alex Tsang
+#
+@app.route('/ko/todo')
+def ko_todo():
+    """Todo page of Korea"""
+    start_lang_session_code()
+    return render_template("todo.html", country_selector="korea")
+
+
+#
+# Sweden Home Page
+#
+# Author: Daniel Wu
+#
+@app.route('/sv/home')
+def sv_home():
+    """Home page of Sweeden"""
+    start_lang_session_code()
+    return render_template("home.html", country_selector="sweden")
+
+
+#
+# Sweden Booking Page
+#
+# Author: Micheal O'Brien
+#
+@app.route('/sv/booking')
+def sv_booking():
+    """Booking page of Sweeden"""
+    start_lang_session_code()
+    return render_template("booking.html", country_selector="sweden")
+
+
+#
+# Sweden Todo Page
+#
+# Author: Seán Tighe
+#
+@app.route('/sv/todo')
+def sv_todo():
+    """todo page of Sweeden"""
+    start_lang_session_code()
+    return render_template("todo.html", country_selector="sweden")
 
 
 # Set Language

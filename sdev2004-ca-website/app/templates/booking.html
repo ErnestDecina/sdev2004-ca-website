@@ -1,4 +1,14 @@
 {% extends "base.html" %}
-{% block main %}
 
+<!-- Body -->
+{% block body %}
+    <!-- Body Korea -->
+    {% if country_selector == "korea" %}
+        {% include 'countries/ko/booking.html' %}
+
+    <!-- Body Sweden -->
+    {% elif country_selector == "sweden" %}
+        {% include 'countries/sv/booking.html' %}
+
+    {% endif %}
 {% endblock %}

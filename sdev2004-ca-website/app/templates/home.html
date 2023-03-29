@@ -1,10 +1,15 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <title>$Title$</title>
-</head>
-<body>
-$END$
-</body>
-</html>
+{% extends "base.html" %}
+
+
+<!-- Body -->
+{% block body %}
+    <!-- Body Korea -->
+    {% if country_selector == "korea" %}
+        {% include 'countries/ko/home.html' %}
+
+    <!-- Body Sweden -->
+    {% elif country_selector == "sweden" %}
+        {% include 'countries/sv/home.html' %}
+
+    {% endif %}
+{% endblock %}

@@ -27,5 +27,12 @@ def get_locale():
 
 
 def change_lang_code(lang_code):
+    """Changes the current session language"""
     session.pop('language', lang_code)
     session["language"] = lang_code
+
+
+def start_lang_session_code():
+    """Starts the app in the language english"""
+    if session.get("language") is None:
+        session["language"] = 'en'
