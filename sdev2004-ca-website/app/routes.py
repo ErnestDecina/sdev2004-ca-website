@@ -35,7 +35,7 @@ from app.utils import change_lang_code, start_lang_session_code
 def index():
     """Landing page users will land at"""
     start_lang_session_code()
-    return render_template("index.html", country_selector="ireland")
+    return render_template("index.html", country_selector="en")
 
 
 #
@@ -47,7 +47,7 @@ def index():
 def ko_home():
     """Home page of Korea"""
     start_lang_session_code()
-    return render_template("home.html", country_selector="korea")
+    return render_template("home.html", country_selector="ko")
 
 
 #
@@ -59,7 +59,7 @@ def ko_home():
 def ko_booking():
     """Booking page of Korea"""
     start_lang_session_code()
-    return render_template("booking.html", country_selector="korea")
+    return render_template("booking.html", country_selector="ko")
 
 
 #
@@ -71,7 +71,7 @@ def ko_booking():
 def ko_todo():
     """Todo page of Korea"""
     start_lang_session_code()
-    return render_template("todo.html", country_selector="korea")
+    return render_template("todo.html", country_selector="ko")
 
 
 #
@@ -83,7 +83,7 @@ def ko_todo():
 def sv_home():
     """Home page of Sweeden"""
     start_lang_session_code()
-    return render_template("home.html", country_selector="sweden")
+    return render_template("home.html", country_selector="sv")
 
 
 #
@@ -95,7 +95,7 @@ def sv_home():
 def sv_booking():
     """Booking page of Sweeden"""
     start_lang_session_code()
-    return render_template("booking.html", country_selector="sweden")
+    return render_template("booking.html", country_selector="sv")
 
 
 #
@@ -107,7 +107,7 @@ def sv_booking():
 def sv_todo():
     """todo page of Sweeden"""
     start_lang_session_code()
-    return render_template("todo.html", country_selector="sweden")
+    return render_template("todo.html", country_selector="sv")
 
 
 # Set Language
