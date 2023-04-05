@@ -130,3 +130,5 @@ dmypy.json
 
 # Python Project
 .xml
+./sdev2004-ca-website/.idea
+
