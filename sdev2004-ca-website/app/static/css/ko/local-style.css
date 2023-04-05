@@ -1,0 +1,7 @@
+#hero_2{
+  width: 100%;
+  height: 30vh;
+  background-color: rgba(22, 30, 56, 0.8);
+  overflow: hidden;
+  position: relative;
+}

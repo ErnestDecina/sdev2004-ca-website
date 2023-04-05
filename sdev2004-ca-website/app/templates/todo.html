@@ -4,11 +4,11 @@
 <!-- Body -->
 {% block body %}
     <!-- Body Korea -->
-    {% if country_selector == "korea" %}
+    {% if country_selector == "ko" %}
         {% include 'countries/ko/todo.html' %}
 
     <!-- Body Sweden -->
-    {% elif country_selector == "sweden" %}
+    {% elif country_selector == "sv" %}
         {% include 'countries/sv/todo.html' %}
 
     {% endif %}
