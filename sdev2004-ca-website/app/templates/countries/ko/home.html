@@ -8,139 +8,51 @@ Author: Ernest John Decina
 
 <!-- Korea Home Body -->
 <!-- ======= Hero Section ======= -->
-  <section id="hero">
-    <div id="heroCarousel" data-bs-interval="5000" class="carousel slide carousel-fade" data-bs-ride="carousel">
+<section id="hero">
+    <div class="carousel slide carousel-fade" data-bs-interval="5000" data-bs-ride="carousel" id="heroCarousel">
 
-      <ol class="carousel-indicators" id="hero-carousel-indicators"></ol>
+        <ol class="carousel-indicators" id="hero-carousel-indicators"></ol>
 
-      <div class="carousel-inner" role="listbox">
+        <div class="carousel-inner" role="listbox">
 
-        <!-- Slide 1 -->
-        <div class="carousel-item active" style="background-image: url(assets/img/slide/slide-1.jpg)">
+            <!-- Slide 1 -->
+            <div class="carousel-item active" style="background-image: url({{ url_for('static', filename='img/ko/home/1.jpg' ) }});">
+            </div>
         </div>
-
-        <!-- Slide 2 -->
-        <div class="carousel-item" style="background-image: url(assets/img/slide/slide-2.jpg)">
-        </div>
-
-        <!-- Slide 3 -->
-        <div class="carousel-item" style="background-image: url(assets/img/slide/slide-3.jpg)">
-        </div>
-
-      </div>
-
-      <a class="carousel-control-prev" href="#heroCarousel" role="button" data-bs-slide="prev">
-        <span class="carousel-control-prev-icon bi bi-chevron-left" aria-hidden="true"></span>
-      </a>
-
-      <a class="carousel-control-next" href="#heroCarousel" role="button" data-bs-slide="next">
-        <span class="carousel-control-next-icon bi bi-chevron-right" aria-hidden="true"></span>
-      </a>
-
     </div>
-  </section><!-- End Hero -->
+</section><!-- End Hero -->
 
 <main id="main">
 
     <!-- ======= My & Family Section ======= -->
-    <section id="about" class="about">
-      <div class="container">
+    <section class="about" id="about">
+        <div class="container">
 
-        <div class="section-title">
-          <h2>My & Family</h2>
-          <p>Magnam dolores commodi suscipit. Necessitatibus eius consequatur ex aliquid fuga eum quidem. Sit sint consectetur velit. Quisquam quos quisquam cupiditate. Et nemo qui impedit suscipit alias ea. Quia fugiat sit in iste officiis commodi quidem hic quas.</p>
+            <div class="section-title">
+                <h2>AES Travel: Korea</h2>
+                <p>Are you ready to go travel with your family and friends to korea?</p>
+            </div>
+
+            <div class="intro-text">
+                <p>Welcome to our website dedicated to all things related to traveling to Korea! Korea is a fascinating and vibrant country with a rich culture and history. Whether you're interested in exploring the bustling streets of Seoul, soaking in natural hot springs, or discovering ancient temples, Korea has something for everyone.</p>
+                <p>Korea is a great destination for families looking to spend time together and make new memories.</p>
+            </div>
         </div>
-
-        <div class="row content">
-          <div class="col-lg-6">
-            <img src="assets/img/about.jpg" class="img-fluid" alt="">
-          </div>
-          <div class="col-lg-6 pt-4 pt-lg-0">
-            <p>
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore
-              magna aliqua.
-            </p>
-            <ul>
-              <li><i class="ri-check-double-line"></i> Ullamco laboris nisi ut aliquip ex ea commodo consequat</li>
-              <li><i class="ri-check-double-line"></i> Duis aute irure dolor in reprehenderit in voluptate velit</li>
-              <li><i class="ri-check-double-line"></i> Ullamco laboris nisi ut aliquip ex ea commodo consequat</li>
-            </ul>
-            <p>
-              Ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate
-              velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in
-              culpa qui officia deserunt mollit anim id est laborum.
-            </p>
-            <a href="our-story.html" class="btn-learn-more">Learn More</a>
-          </div>
-        </div>
-
-      </div>
     </section><!-- End My & Family Section -->
 
-    <!-- ======= Features Section ======= -->
-    <section id="features" class="features">
-      <div class="container">
-
-        <div class="row">
-          <div class="col-lg-4 col-md-6 icon-box">
-            <div class="icon"><i class="bi bi-laptop"></i></div>
-            <h4 class="title"><a href="">Lorem Ipsum</a></h4>
-            <p class="description">Voluptatum deleniti atque corrupti quos dolores et quas molestias excepturi sint occaecati cupiditate non provident</p>
-          </div>
-          <div class="col-lg-4 col-md-6 icon-box">
-            <div class="icon"><i class="bi bi-bar-chart"></i></div>
-            <h4 class="title"><a href="">Dolor Sitema</a></h4>
-            <p class="description">Minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat tarad limino ata</p>
-          </div>
-          <div class="col-lg-4 col-md-6 icon-box">
-            <div class="icon"><i class="bi bi-bounding-box"></i></div>
-            <h4 class="title"><a href="">Sed ut perspiciatis</a></h4>
-            <p class="description">Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur</p>
-          </div>
-          <div class="col-lg-4 col-md-6 icon-box">
-            <div class="icon"><i class="bi bi-broadcast"></i></div>
-            <h4 class="title"><a href="">Magni Dolores</a></h4>
-            <p class="description">Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum</p>
-          </div>
-          <div class="col-lg-4 col-md-6 icon-box">
-            <div class="icon"><i class="bi bi-camera"></i></div>
-            <h4 class="title"><a href="">Nemo Enim</a></h4>
-            <p class="description">At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium voluptatum deleniti atque</p>
-          </div>
-          <div class="col-lg-4 col-md-6 icon-box">
-            <div class="icon"><i class="bi bi-diagram-3"></i></div>
-            <h4 class="title"><a href="">Eiusmod Tempor</a></h4>
-            <p class="description">Et harum quidem rerum facilis est et expedita distinctio. Nam libero tempore, cum soluta nobis est eligendi</p>
-          </div>
-        </div>
-
-      </div>
-    </section><!-- End Features Section -->
-
     <!-- ======= Recent Photos Section ======= -->
-    <section id="recent-photos" class="recent-photos">
-      <div class="container">
+    <section class="recent-photos" id="recent-photos">
+        <div class="container">
+            <div class="section-title">
+                <h2>Dont know what to do in Korea?</h2>
+                <p>Well have a look at our guided todo list</p>
+                <div>
+                    <img src="url({{ url_for('static', filename='img/ko/home/1.jpg' ) }})" class="img-fluid" alt="">
+                </div>
 
-        <div class="section-title">
-          <h2>Recent Photos</h2>
-          <p>Magnam dolores commodi suscipit. Necessitatibus eius consequatur ex aliquid fuga eum quidem. Sit sint consectetur velit. Quisquam quos quisquam cupiditate. Et nemo qui impedit suscipit alias ea. Quia fugiat sit in iste officiis commodi quidem hic quas.</p>
+                <a class="btn-learn-more" href="{{ url_for('ko_todo') }}">Continue to "To Do"</a>
+            </div>
         </div>
-
-        <div class="recent-photos-slider swiper">
-          <div class="swiper-wrapper align-items-center">
-            <div class="swiper-slide"><a href="assets/img/recent-photos/recent-photos-1.jpg" class="glightbox"><img src="assets/img/recent-photos/recent-photos-1.jpg" class="img-fluid" alt=""></a></div>
-            <div class="swiper-slide"><a href="assets/img/recent-photos/recent-photos-2.jpg" class="glightbox"><img src="assets/img/recent-photos/recent-photos-2.jpg" class="img-fluid" alt=""></a></div>
-            <div class="swiper-slide"><a href="assets/img/recent-photos/recent-photos-3.jpg" class="glightbox"><img src="assets/img/recent-photos/recent-photos-3.jpg" class="img-fluid" alt=""></a></div>
-            <div class="swiper-slide"><a href="assets/img/recent-photos/recent-photos-4.jpg" class="glightbox"><img src="assets/img/recent-photos/recent-photos-4.jpg" class="img-fluid" alt=""></a></div>
-            <div class="swiper-slide"><a href="assets/img/recent-photos/recent-photos-5.jpg" class="glightbox"><img src="assets/img/recent-photos/recent-photos-5.jpg" class="img-fluid" alt=""></a></div>
-            <div class="swiper-slide"><a href="assets/img/recent-photos/recent-photos-6.jpg" class="glightbox"><img src="assets/img/recent-photos/recent-photos-6.jpg" class="img-fluid" alt=""></a></div>
-            <div class="swiper-slide"><a href="assets/img/recent-photos/recent-photos-7.jpg" class="glightbox"><img src="assets/img/recent-photos/recent-photos-7.jpg" class="img-fluid" alt=""></a></div>
-            <div class="swiper-slide"><a href="assets/img/recent-photos/recent-photos-8.jpg" class="glightbox"><img src="assets/img/recent-photos/recent-photos-8.jpg" class="img-fluid" alt=""></a></div>
-          </div>
-          <div class="swiper-pagination"></div>
-        </div>
-
-      </div>
     </section><!-- End Recent Photos Section -->
 
-  </main><!-- End #main -->
+</main><!-- End #main -->

@@ -14,16 +14,33 @@ Author: Ron Pingol
 </section><!-- End Hero -->
 
 <main id="main">
-    <h1>Accommodation</h1>
-<section id="gallery" class="gallery">
+
+    <!-- ======= Breadcrumbs ======= -->
+    <section id="breadcrumbs" class="breadcrumbs">
+      <div class="container">
+
+        <div class="d-flex justify-content-between align-items-center">
+          <h2>Accommodation</h2>
+          <ol>
+            <li>Home</li>
+            <li>Accommodation</li>
+          </ol>
+        </div>
+
+      </div>
+    </section><!-- End Breadcrumbs -->
+
+  <!-- ======= Gallery Section ======= -->
+  <section id="gallery" class="gallery">
       <div class="container">
 
         <div class="row">
           <div class="col-lg-12 d-flex justify-content-center">
             <ul id="gallery-flters">
-              <li data-filter=".filter-home" class="">Seoul</li>
-              <li data-filter=".filter-beach" class="">Jeju</li>
-              <li data-filter=".filter-vacation" class="">Busan</li>
+              <li data-filter="*" class="filter-active">All</li>
+              <li data-filter=".filter-home" class="">Home</li>
+              <li data-filter=".filter-beach" class="">Beach</li>
+              <li data-filter=".filter-vacation" class="">Vacation</li>
             </ul>
           </div>
         </div>
@@ -32,7 +49,8 @@ Author: Ron Pingol
 
           <div class="col-lg-4 col-md-6 gallery-item filter-home" style="position: absolute; left: 0px; top: 0px;">
             <div class="gallery-wrap">
-              <img src="assets/img/gallery/home-1.jpg" class="img-fluid" alt="">
+              <img src="{{ url_for('static', filename='img/ko/booking/kHotel1.jpg') }}" alt="">
+
               <div class="gallery-info">
                 <h4>Home 1</h4>
                 <p>Home</p>
@@ -45,7 +63,7 @@ Author: Ron Pingol
 
           <div class="col-lg-4 col-md-6 gallery-item filter-vacation" style="position: absolute; left: 0px; top: 298.979px;">
             <div class="gallery-wrap">
-              <img src="assets/img/gallery/vacation-2.jpg" class="img-fluid" alt="">
+              <img src="{{ url_for('static', filename='img/ko/booking/kHotel2.jpg') }}" alt="">
               <div class="gallery-info">
                 <h4>Vacation 2</h4>
                 <p>Vacation</p>
@@ -151,5 +169,4 @@ Author: Ron Pingol
 
       </div>
     </section>
-</main>
-
+  </main>
