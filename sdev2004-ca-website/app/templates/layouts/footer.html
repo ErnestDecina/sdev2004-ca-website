@@ -1,13 +1,34 @@
 {% if country_selector == "ko"  %}
-    <footer>
-            Korean Footer
-    <footer>
-{% elif country_selector == "sv"  %}
-    <footer>
-            Sweden Footer
-    <footer>
+<footer id="footer">
+    <div class="container">
+        <h3>AES Travel</h3>
+        <div class="social-links">
+            <a class="twitter" href="#"><i class="bx bxl-twitter"></i></a>
+            <a class="facebook" href="#"><i class="bx bxl-facebook"></i></a>
+            <a class="instagram" href="#"><i class="bx bxl-instagram"></i></a>
+            <a class="google-plus" href="#"><i class="bx bxl-skype"></i></a>
+            <a class="linkedin" href="#"><i class="bx bxl-linkedin"></i></a>
+        </div>
+        <div class="copyright">
+            &copy; Copyright <strong><span>AES Travels</span></strong>. All Rights Reserved
+        </div>
+        <div class="credits">
+            <!-- All the links in the footer should remain intact. -->
+            <!-- You can delete the links only if you purchased the pro version. -->
+            <!-- Licensing information: https://bootstrapmade.com/license/ -->
+            <!-- Purchase the pro version with working PHP/AJAX contact form: https://bootstrapmade.com/family-multipurpose-html-bootstrap-template-free/ -->
+            Designed by <a href="https://bootstrapmade.com/">BootstrapMade</a>
+        </div>
+    </div>
+</footer>
+
+{% elif country_selector == "sv" %}
+<footer id="footer">
+    Sweden Footer
+</footer>
+
 {% elif country_selector == "en" %}
-    <footer>
-            Ireland Footer
-    </footer>
+<footer id="footer">
+    Ireland Footer
+</footer>
 {% endif %}
