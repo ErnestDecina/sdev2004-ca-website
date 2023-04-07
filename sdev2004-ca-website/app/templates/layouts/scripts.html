@@ -1,0 +1,16 @@
+{% if country_selector == "ko"  %}
+  <!-- Vendor JS Files -->
+
+  <script src="{{ url_for('static', filename= 'vendor/ko/bootstrap/js/bootstrap.bundle.min.js') }}"></script>
+  <script src="{{ url_for('static', filename= 'vendor/ko/glightbox/js/glightbox.min.js') }}"></script>
+  <script src="{{ url_for('static', filename= 'vendor/ko/isotope-layout/isotope.pkgd.min.js') }}"></script>
+  <script src="{{ url_for('static', filename= 'vendor/ko/swiper/swiper-bundle.min.js') }}"></script>
+  <script src="{{ url_for('static', filename= 'vendor/ko/php-email-form/validate.js') }}"></script>
+{% elif country_selector == "sv" %}
+
+{% elif country_selector == "en" %}
+
+{% endif %}
+
+<!-- Template Main JS File -->
+<script src="{{ url_for('static', filename='js/' + country_selector + '/main.js') }}"></script>
