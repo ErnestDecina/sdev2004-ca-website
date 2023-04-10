@@ -8,14 +8,13 @@ Author: Michael O'Brien
 
 
 <!-- Sweden Booking Body -->
-<!--
-<section id="hero_2">
+<section id="hero">
     <div class="hero-container" data-aos="fade-up">
     <h1>AES Travel: Sweden</h1>
     <h2>Get lost in Sweden's untamed wilderness, then find yourself in its vibrant culture.</h2>
     <a href="#about" class="btn-get-started scrollto"><i class="bx bx-chevrons-down"></i></a>
     </div>
-</section> End Hero -->
+</section>
 
 <main id="main">
     <!-- ======= Portfolio Section ======= -->
@@ -42,7 +41,7 @@ Author: Michael O'Brien
 
           <div class="col-lg-4 col-md-6 portfolio-item filter-app">
             <div class="portfolio-wrap">
-              <img src="url({{ url_for('static', filename='img/sv/booking/hotel.jpg' ) }})" class="img-fluid" alt="">
+              <img src="{{ url_for('static', filename='img/sv/booking/hotel.jpg') }}" class="img-fluid" alt="">
               <div class="portfolio-links">
                 <a href="url({{ url_for('static', filename='img/sv/booking/hotel.jpg' ) }})" data-gallery="portfolioGallery" class="portfolio-lightbox" title="App 1"><i class="bx bx-plus"></i></a>
                 <a href="portfolio-details.html" title="More Details"><i class="bx bx-link"></i></a>
@@ -52,7 +51,7 @@ Author: Michael O'Brien
 
           <div class="col-lg-4 col-md-6 portfolio-item filter-web">
             <div class="portfolio-wrap">
-              <img src="url({{ url_for('static', filename='img/sv/booking/red_b&b.jpg' ) }})" class="img-fluid" alt="">
+              <img src="{{ url_for('static', filename='img/sv/booking/red_b&b.jpg' ) }}" class="img-fluid" alt="">
               <div class="portfolio-links">
                 <a href="url({{ url_for('static', filename='img/sv/booking/red_b&b.jpg' ) }})" data-gallery="portfolioGallery" class="portfolio-lightbox" title="Web 3"><i class="bx bx-plus"></i></a>
                 <a href="portfolio-details.html" title="More Details"><i class="bx bx-link"></i></a>
@@ -62,7 +61,7 @@ Author: Michael O'Brien
 
           <div class="col-lg-4 col-md-6 portfolio-item filter-app">
             <div class="portfolio-wrap">
-              <img src="url({{ url_for('static', filename='img/sv/booking/snow_hotel.jpg' ) }})" class="img-fluid" alt="">
+              <img src="{{ url_for('static', filename='img/sv/booking/snow_hotel.jpg' ) }}" class="img-fluid" alt="">
               <div class="portfolio-links">
                 <a href="url({{ url_for('static', filename='img/sv/booking/snow_hotel.jpg' ) }})" data-gallery="portfolioGallery" class="portfolio-lightbox" title="App 2"><i class="bx bx-plus"></i></a>
                 <a href="portfolio-details.html" title="More Details"><i class="bx bx-link"></i></a>
@@ -72,7 +71,7 @@ Author: Michael O'Brien
 
           <div class="col-lg-4 col-md-6 portfolio-item filter-card">
             <div class="portfolio-wrap">
-              <img src="url({{ url_for('static', filename='img/sv/booking/tent_interior.jpg' ) }})" class="img-fluid" alt="">
+              <img src="{{ url_for('static', filename='img/sv/booking/tent_interior.jpg' ) }}" class="img-fluid" alt="">
               <div class="portfolio-links">
                 <a href="url({{ url_for('static', filename='img/sv/booking/tent_interior.jpg' ) }})" data-gallery="portfolioGallery" class="portfolio-lightbox" title="Card 2"><i class="bx bx-plus"></i></a>
                 <a href="portfolio-details.html" title="More Details"><i class="bx bx-link"></i></a>
@@ -82,7 +81,7 @@ Author: Michael O'Brien
 
           <div class="col-lg-4 col-md-6 portfolio-item filter-web">
             <div class="portfolio-wrap">
-              <img src="url({{ url_for('static', filename='img/sv/booking/hostel_interior.jpg' ) }})" class="img-fluid" alt="">
+              <img src="{{ url_for('static', filename='img/sv/booking/hostel_interior.jpg' ) }}" class="img-fluid" alt="">
               <div class="portfolio-links">
                 <a href="url({{ url_for('static', filename='img/sv/booking/hostel_interior.jpg' ) }})" data-gallery="portfolioGallery" class="portfolio-lightbox" title="Web 2"><i class="bx bx-plus"></i></a>
                 <a href="portfolio-details.html" title="More Details"><i class="bx bx-link"></i></a>
@@ -92,7 +91,7 @@ Author: Michael O'Brien
 
           <div class="col-lg-4 col-md-6 portfolio-item filter-app">
             <div class="portfolio-wrap">
-              <img src="url({{ url_for('static', filename='img/sv/booking/old_hotel.jpg' ) }})" class="img-fluid" alt="">
+              <img src="{{ url_for('static', filename='img/sv/booking/old_hotel.jpg' ) }}" class="img-fluid" alt="">
               <div class="portfolio-links">
                 <a href="url({{ url_for('static', filename='img/sv/booking/old_hotel.jpg' ) }})" data-gallery="portfolioGallery" class="portfolio-lightbox" title="App 3"><i class="bx bx-plus"></i></a>
                 <a href="portfolio-details.html" title="More Details"><i class="bx bx-link"></i></a>
@@ -102,7 +101,7 @@ Author: Michael O'Brien
 
           <div class="col-lg-4 col-md-6 portfolio-item filter-card">
             <div class="portfolio-wrap">
-              <img src="url({{ url_for('static', filename='img/sv/booking/lake_campsite.jpg' ) }})" class="img-fluid" alt="">
+              <img src="{{ url_for('static', filename='img/sv/booking/lake_campsite.jpg' ) }}" class="img-fluid" alt="">
               <div class="portfolio-links">
                 <a href="url({{ url_for('static', filename='img/sv/booking/lake_campsite.jpg' ) }})" data-gallery="portfolioGallery" class="portfolio-lightbox" title="Card 1"><i class="bx bx-plus"></i></a>
                 <a href="portfolio-details.html" title="More Details"><i class="bx bx-link"></i></a>
@@ -112,7 +111,7 @@ Author: Michael O'Brien
 
           <div class="col-lg-4 col-md-6 portfolio-item filter-card">
             <div class="portfolio-wrap">
-              <img src="url({{ url_for('static', filename='img/sv/booking/mountain.jpg' ) }})" class="img-fluid" alt="">
+              <img src="{{ url_for('static', filename='img/sv/booking/mountain_campsite.jpg' ) }}" class="img-fluid" alt="">
               <div class="portfolio-links">
                 <a href="url({{ url_for('static', filename='img/sv/booking/mountain_campsite.jpg' ) }})" data-gallery="portfolioGallery" class="portfolio-lightbox" title="Card 3"><i class="bx bx-plus"></i></a>
                 <a href="portfolio-details.html" title="More Details"><i class="bx bx-link"></i></a>
@@ -122,7 +121,7 @@ Author: Michael O'Brien
 
           <div class="col-lg-4 col-md-6 portfolio-item filter-web">
             <div class="portfolio-wrap">
-              <img src="url({{ url_for('static', filename='img/sv/booking/village_b&b.jpg' ) }})" class="img-fluid" alt="">
+              <img src="{{ url_for('static', filename='img/sv/booking/village_b&b.jpg' ) }}" class="img-fluid" alt="">
               <div class="portfolio-links">
                 <a href="url({{ url_for('static', filename='img/sv/booking/village_b&b.jpg' ) }})" data-gallery="portfolioGallery" class="portfolio-lightbox" title="Web 3"><i class="bx bx-plus"></i></a>
                 <a href="portfolio-details.html" title="More Details"><i class="bx bx-link"></i></a>
