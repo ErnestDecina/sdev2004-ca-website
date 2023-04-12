@@ -6,7 +6,8 @@
   <component name="ChangeListManager">
     <list default="true" id="fb73fbaa-32e2-45cb-9917-243a3cee1754" name="Changes" comment="Init commit">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/templates/countries/ko/booking.html" beforeDir="false" afterPath="$PROJECT_DIR$/app/templates/countries/ko/booking.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/templates/countries/ko/home.html" beforeDir="false" afterPath="$PROJECT_DIR$/app/templates/countries/ko/home.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/templates/countries/sv/booking.html" beforeDir="false" afterPath="$PROJECT_DIR$/app/templates/countries/sv/booking.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -41,7 +42,7 @@
     &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
     &quot;git-widget-placeholder&quot;: &quot;master&quot;,
     &quot;ignore.virus.scanning.warn.message&quot;: &quot;true&quot;,
-    &quot;last_opened_file_path&quot;: &quot;D:/User/Ernest John Decina/Files/Code/College/SDEV-Assignment/sdev2004-ca-website/sdev2004-ca-website&quot;,
+    &quot;last_opened_file_path&quot;: &quot;D:/User/Ernest John Decina/Desktop/aspdof/sdev2004-ca-website/sdev2004-ca-website&quot;,
     &quot;settings.editor.selected.configurable&quot;: &quot;com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable&quot;
   }
 }</component>
@@ -178,21 +179,6 @@
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
-    <option name="TAB_STATES">
-      <map>
-        <entry key="MAIN">
-          <value>
-            <State>
-              <option name="CUSTOM_BOOLEAN_PROPERTIES">
-                <map>
-                  <entry key="Show.Git.Branches" value="true" />
-                </map>
-              </option>
-            </State>
-          </value>
-        </entry>
-      </map>
-    </option>
     <option name="RECENT_FILTERS">
       <map>
         <entry key="User">
@@ -204,6 +190,21 @@
                 </option>
               </RecentGroup>
             </list>
+          </value>
+        </entry>
+      </map>
+    </option>
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State>
+              <option name="CUSTOM_BOOLEAN_PROPERTIES">
+                <map>
+                  <entry key="Show.Git.Branches" value="true" />
+                </map>
+              </option>
+            </State>
           </value>
         </entry>
       </map>

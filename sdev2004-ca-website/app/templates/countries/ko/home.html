@@ -9,19 +9,12 @@ Author: Ernest John Decina
 <!-- Korea Home Body -->
 <!-- ======= Hero Section ======= -->
 <section id="hero">
-    <div class="carousel slide carousel-fade" data-bs-interval="5000" data-bs-ride="carousel" id="heroCarousel">
-
-        <ol class="carousel-indicators" id="hero-carousel-indicators"></ol>
-
-        <div class="carousel-inner" role="listbox">
-
-            <!-- Slide 1 -->
-            <div class="carousel-item active"
-                 style="background-image: url({{ url_for('static', filename='img/ko/home/1.jpg' ) }});">
-            </div>
-        </div>
+    <div class="hero-container aos-init aos-animate" data-aos="fade-up" style="background: linear-gradient(rgba(55, 142, 181, 0.5), rgba(55, 142, 181, 0.2)),  url(/static/img/ko/home/1.jpg) top center;">
+    <h1>Welcome to Squad</h1>
+    <h2>We are team of talented designers making websites with Bootstrap</h2>
+    <a href="#about" class="btn-get-started scrollto"><i class="bx bx-chevrons-down"></i></a>
     </div>
-</section><!-- End Hero -->
+</section>
 
 <main id="main">
 
