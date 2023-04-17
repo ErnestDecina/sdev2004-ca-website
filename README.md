@@ -11,10 +11,10 @@ A travel website that will serve information about Korean and Sweeden.
 - [x] Setup
 - [x] Persona's
 - [x] Wireframes
-- [ ] Create Webpages  
-  - [ ] Header
-  - [ ] Footer
-  - [ ] Content
+- [x] Create Webpages  
+  - [x] Header
+  - [x] Footer
+  - [x] Content
 - [ ] Create Translations
 - [ ] Documentation
 - [ ] Presentation
