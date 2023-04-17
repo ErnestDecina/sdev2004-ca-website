@@ -7,31 +7,37 @@
     <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i|Raleway:300,300i,400,400i,500,500i,600,600i,700,700i|Poppins:300,300i,400,400i,500,500i,600,600i,700,700i"
           rel="stylesheet">
 
+    <link href="assets/img/favicon/favicon.png" rel="icon">
+    <link href="assets/img/apple-touch-icon.png" rel="apple-touch-icon">
+
     <!-- BOOT STRAP CSS -->
     {% if country_selector == "sv" %}
-    <!-- Favicons -->
-    <link href="assets/img/favicon.png" rel="icon">
-    <link href="assets/img/apple-touch-icon.png" rel="apple-touch-icon">
-
     <!-- Vendor CSS Files -->
 
-    <link href="{{ url_for('static', filename= 'vendor/sv/bootstrap/css/bootstrap.min.css') }}" rel="stylesheet">
-    <link href="{{ url_for('static', filename= 'vendor/sv/bootstrap-icons/bootstrap-icons.css') }}" rel="stylesheet">
-    <link href="{{ url_for('static', filename= 'vendor/sv/boxicons/css/boxicons.min.css') }}" rel="stylesheet">
-    <link href="{{ url_for('static', filename= 'vendor/sv/glightbox/css/glightbox.min.css') }}" rel="stylesheet">
-    <link href="{{ url_for('static', filename= 'vendor/sv/swiper/swiper-bundle.min.css') }}" rel="stylesheet">
+        <link href="{{ url_for('static', filename= 'vendor/sv/bootstrap/css/bootstrap.min.css') }}" rel="stylesheet">
+        <link href="{{ url_for('static', filename= 'vendor/sv/bootstrap-icons/bootstrap-icons.css') }}" rel="stylesheet">
+        <link href="{{ url_for('static', filename= 'vendor/sv/boxicons/css/boxicons.min.css') }}" rel="stylesheet">
+        <link href="{{ url_for('static', filename= 'vendor/sv/glightbox/css/glightbox.min.css') }}" rel="stylesheet">
+        <link href="{{ url_for('static', filename= 'vendor/sv/swiper/swiper-bundle.min.css') }}" rel="stylesheet">
     {% elif country_selector == "ko" %}
-    <!-- Favicons -->
-    <link href="assets/img/favicon.png" rel="icon">
-    <link href="assets/img/apple-touch-icon.png" rel="apple-touch-icon">
+        <!-- Vendor CSS Files -->
+        <link href="{{ url_for('static', filename= 'vendor/ko/bootstrap/css/bootstrap.min.css') }}" rel="stylesheet">
+        <link href="{{ url_for('static', filename= 'vendor/ko/bootstrap-icons/bootstrap-icons.css') }}" rel="stylesheet">
+        <link href="{{ url_for('static', filename= 'vendor/ko/boxicons/css/boxicons.min.css') }}" rel="stylesheet">
+        <link href="{{ url_for('static', filename= 'vendor/ko/glightbox/css/glightbox.min.css') }}" rel="stylesheet">
+        <link href="{{ url_for('static', filename= 'vendor/ko/remixicon/remixicon.css') }}" rel="stylesheet">
+        <link href="{{ url_for('static', filename= 'vendor/ko/swiper/swiper-bundle.min.css') }}" rel="stylesheet">
+    {% elif country_selector == "en" %}
+        <!-- Google Fonts -->
+        <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i|Raleway:300,300i,400,400i,500,500i,600,600i,700,700i|Poppins:300,300i,400,400i,500,500i,600,600i,700,700i"
+              rel="stylesheet">
 
-    <!-- Vendor CSS Files -->
-    <link href="{{ url_for('static', filename= 'vendor/ko/bootstrap/css/bootstrap.min.css') }}" rel="stylesheet">
-    <link href="{{ url_for('static', filename= 'vendor/ko/bootstrap-icons/bootstrap-icons.css') }}" rel="stylesheet">
-    <link href="{{ url_for('static', filename= 'vendor/ko/boxicons/css/boxicons.min.css') }}" rel="stylesheet">
-    <link href="{{ url_for('static', filename= 'vendor/ko/glightbox/css/glightbox.min.css') }}" rel="stylesheet">
-    <link href="{{ url_for('static', filename= 'vendor/ko/remixicon/remixicon.css') }}" rel="stylesheet">
-    <link href="{{ url_for('static', filename= 'vendor/ko/swiper/swiper-bundle.min.css') }}" rel="stylesheet">
+        <!-- Vendor CSS Files -->
+        <link href="{{ url_for('static', filename= 'vendor/en/bootstrap/css/bootstrap.min.css') }}" rel="stylesheet">
+        <link href="{{ url_for('static', filename= 'vendor/en/bootstrap-icons/bootstrap-icons.css') }}" rel="stylesheet">
+        <link href="{{ url_for('static', filename= 'vendor/en/boxicons/css/boxicons.min.css') }}" rel="stylesheet">
+        <link href="{{ url_for('static', filename= 'vendor/en/glightbox/css/glightbox.min.css') }}" rel="stylesheet">
+        <link href="{{ url_for('static', filename= 'vendor/en/swiper/swiper-bundle.min.css') }}" rel="stylesheet">
     {% endif %}
 
     <link href="{{ url_for('static', filename= 'css/' +  country_selector + '/style.css') }}" rel="stylesheet"/>

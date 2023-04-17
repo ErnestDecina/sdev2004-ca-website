@@ -16,4 +16,5 @@
 # Dependencies
 from app import app
 
-app
+# Start Flask Application
+app.run()
