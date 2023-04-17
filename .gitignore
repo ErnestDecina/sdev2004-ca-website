@@ -183,3 +183,5 @@ modules.xml
 sdev2004-ca-website/.idea/
 .idea/
 sdev2004-ca-website/.idea/workspace.xml
+
+certs/
