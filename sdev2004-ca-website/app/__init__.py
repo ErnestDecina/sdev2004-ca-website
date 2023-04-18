@@ -31,3 +31,8 @@ babel = Babel(app)
 babel.init_app(app, locale_selector=get_locale)
 
 from app import routes
+
+from flask_babel import Babel
+
+app = Flask(__name__)
+babel = Babel(app)
