@@ -105,7 +105,7 @@ def sv_booking():
 #
 @app.route('/sv/todo')
 def sv_todo():
-    """todo page of Sweeden"""
+    """todo page of Sweden"""
     start_lang_session_code()
     return render_template("todo.html", country_selector="sv")
 
