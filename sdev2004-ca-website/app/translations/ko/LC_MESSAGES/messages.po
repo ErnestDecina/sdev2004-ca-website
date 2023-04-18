@@ -7,7 +7,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PROJECT VERSION\n"
 "Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
-
+"POT-Creation-Date: 2023-04-18 15:36+0100\n"
+"PO-Revision-Date: 2023-04-18 15:38+0100\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language: ko\n"
 "Language-Team: ko <LL@li.org>\n"
@@ -17,14 +18,46 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Generated-By: Babel 2.12.1\n"
 
+#: templates/base.html:6
+msgid "SDEV Assignment"
+msgstr ""
 
-=======
+#: templates/index.html:12
+msgid "AES Travel"
+msgstr ""
+
+#: templates/index.html:13
+msgid "Bringing you where you want to be"
+msgstr ""
+
+#: templates/index.html:22
+msgid "Current Travel Plans"
+msgstr ""
+
+#: templates/index.html:23
+msgid "Here is our 2 travel destinations for you to enjoy"
+msgstr ""
+
+#: templates/index.html:54
+msgid "Korea"
+msgstr ""
+
+#: templates/index.html:67
+msgid "Sweden"
+msgstr ""
+
+#: templates/countries/ko/booking.html:11
+msgid "Accommodation"
+msgstr ""
+
 #: templates/countries/ko/booking.html:43
 msgid ""
 "Room: Deluxe King Room | Price: $200/night | Other: Spacious with king-"
 "sized bed, modern furnishings, large en-suite bathroom, panoramic city "
 "views, and complimentary Wi-Fi."
-msgstr ""
+msgstr "룸: 디럭스 킹룸 | 가격: 200달러/박 | 기타: 킹이 있는 넓은-"
+"사이즈 침대, 현대적인 가구, 넓은 실내 욕실, 파노라마 시티"
+"전망, 무료 와이파이"
 
 #: templates/countries/ko/booking.html:56
 msgid ""
@@ -98,12 +131,10 @@ msgid ""
 " of work."
 msgstr ""
 
-
 #: templates/layouts/header.html:15 templates/layouts/header.html:45
 #: templates/layouts/header.html:68
 msgid "English"
 msgstr ""
-
 
 #: templates/layouts/header.html:16 templates/layouts/header.html:46
 #: templates/layouts/header.html:69
@@ -114,39 +145,4 @@ msgstr ""
 #: templates/layouts/header.html:70
 msgid "Swedish"
 msgstr ""
-
-
-#: templates/base.html:6
-msgid "SDEV Assignment"
-msgstr ""
-
-#: templates/index.html:12
-msgid "AES Travel"
-msgstr ""
-
-#: templates/index.html:13
-msgid "Bringing you where you want to be"
-msgstr ""
-
-#: templates/index.html:22
-msgid "Current Travel Plans"
-msgstr ""
-
-#: templates/index.html:23
-msgid "Here is our 2 travel destinations for you to enjoy"
-msgstr ""
-
-#: templates/index.html:54
-msgid "Korea"
-msgstr ""
-
-#: templates/index.html:67
-msgid "Sweden"
-msgstr ""
-
-#: templates/layouts/header.html:15 templates/layouts/header.html:45
-#: templates/layouts/header.html:68
-msgid "English"
-msgstr ""
-
 
