@@ -7,6 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PROJECT VERSION\n"
 "Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
+
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language: ko\n"
 "Language-Team: ko <LL@li.org>\n"
@@ -16,6 +17,8 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Generated-By: Babel 2.12.1\n"
 
+
+=======
 #: templates/countries/ko/booking.html:43
 msgid ""
 "Room: Deluxe King Room | Price: $200/night | Other: Spacious with king-"
@@ -95,12 +98,24 @@ msgid ""
 " of work."
 msgstr ""
 
+
 #: templates/layouts/header.html:15 templates/layouts/header.html:45
 #: templates/layouts/header.html:68
 msgid "English"
 msgstr ""
 
-=======
+
+#: templates/layouts/header.html:16 templates/layouts/header.html:46
+#: templates/layouts/header.html:69
+msgid "Korean"
+msgstr ""
+
+#: templates/layouts/header.html:17 templates/layouts/header.html:47
+#: templates/layouts/header.html:70
+msgid "Swedish"
+msgstr ""
+
+
 #: templates/base.html:6
 msgid "SDEV Assignment"
 msgstr ""
