@@ -7,8 +7,13 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PROJECT VERSION\n"
 "Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
+<<<<<<< HEAD
 "POT-Creation-Date: 2023-04-18 16:01+0100\n"
 "PO-Revision-Date: 2023-04-18 15:04+0100\n"
+=======
+"POT-Creation-Date: 2023-04-18 15:36+0100\n"
+"PO-Revision-Date: 2023-04-18 15:38+0100\n"
+>>>>>>> cbbabfe1f8266e9e1a51027faa81ff015575d351
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language: ko\n"
 "Language-Team: ko <LL@li.org>\n"
@@ -45,13 +50,22 @@ msgstr ""
 #: templates/index.html:67
 msgid "Sweden"
 msgstr ""
+<<<<<<< HEAD
+=======
+
+#: templates/countries/ko/booking.html:11
+msgid "Accommodation"
+msgstr ""
+>>>>>>> cbbabfe1f8266e9e1a51027faa81ff015575d351
 
 #: templates/countries/ko/booking.html:43
 msgid ""
 "Room: Deluxe King Room | Price: $200/night | Other: Spacious with king-"
 "sized bed, modern furnishings, large en-suite bathroom, panoramic city "
 "views, and complimentary Wi-Fi."
-msgstr ""
+msgstr "룸: 디럭스 킹룸 | 가격: 200달러/박 | 기타: 킹이 있는 넓은-"
+"사이즈 침대, 현대적인 가구, 넓은 실내 욕실, 파노라마 시티"
+"전망, 무료 와이파이"
 
 #: templates/countries/ko/booking.html:56
 msgid ""
