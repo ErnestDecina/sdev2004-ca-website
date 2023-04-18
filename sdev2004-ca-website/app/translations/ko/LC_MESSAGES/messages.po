@@ -7,7 +7,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PROJECT VERSION\n"
 "Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
-
+"POT-Creation-Date: 2023-04-18 16:01+0100\n"
+"PO-Revision-Date: 2023-04-18 15:04+0100\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language: ko\n"
 "Language-Team: ko <LL@li.org>\n"
@@ -17,8 +18,34 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Generated-By: Babel 2.12.1\n"
 
+#: templates/base.html:6
+msgid "SDEV Assignment"
+msgstr ""
 
-=======
+#: templates/index.html:12
+msgid "AES Travel"
+msgstr ""
+
+#: templates/index.html:13
+msgid "Bringing you where you want to be"
+msgstr ""
+
+#: templates/index.html:22
+msgid "Current Travel Plans"
+msgstr ""
+
+#: templates/index.html:23
+msgid "Here is our 2 travel destinations for you to enjoy"
+msgstr ""
+
+#: templates/index.html:54
+msgid "Korea"
+msgstr ""
+
+#: templates/index.html:67
+msgid "Sweden"
+msgstr ""
+
 #: templates/countries/ko/booking.html:43
 msgid ""
 "Room: Deluxe King Room | Price: $200/night | Other: Spacious with king-"
@@ -98,12 +125,10 @@ msgid ""
 " of work."
 msgstr ""
 
-
 #: templates/layouts/header.html:15 templates/layouts/header.html:45
 #: templates/layouts/header.html:68
 msgid "English"
 msgstr ""
-
 
 #: templates/layouts/header.html:16 templates/layouts/header.html:46
 #: templates/layouts/header.html:69
@@ -114,39 +139,4 @@ msgstr ""
 #: templates/layouts/header.html:70
 msgid "Swedish"
 msgstr ""
-
-
-#: templates/base.html:6
-msgid "SDEV Assignment"
-msgstr ""
-
-#: templates/index.html:12
-msgid "AES Travel"
-msgstr ""
-
-#: templates/index.html:13
-msgid "Bringing you where you want to be"
-msgstr ""
-
-#: templates/index.html:22
-msgid "Current Travel Plans"
-msgstr ""
-
-#: templates/index.html:23
-msgid "Here is our 2 travel destinations for you to enjoy"
-msgstr ""
-
-#: templates/index.html:54
-msgid "Korea"
-msgstr ""
-
-#: templates/index.html:67
-msgid "Sweden"
-msgstr ""
-
-#: templates/layouts/header.html:15 templates/layouts/header.html:45
-#: templates/layouts/header.html:68
-msgid "English"
-msgstr ""
-
 

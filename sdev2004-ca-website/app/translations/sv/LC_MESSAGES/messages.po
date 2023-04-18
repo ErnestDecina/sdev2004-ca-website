@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PROJECT VERSION\n"
 "Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
-"POT-Creation-Date: 2023-03-29 17:01+0100\n"
+"POT-Creation-Date: 2023-04-18 16:01+0100\n"
 "PO-Revision-Date: 2023-03-29 17:17+0100\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language: sv\n"
@@ -16,29 +16,145 @@ msgstr ""
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=utf-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Generated-By: Babel 2.11.0\n"
+"Generated-By: Babel 2.12.1\n"
 
-#: templates/layouts/ko/booking.html:11
-msgid "Korea Booking Test"
-msgstr "SWEDISH Korea Booking Test"
+#: templates/base.html:6
+msgid "SDEV Assignment"
+msgstr ""
 
-#: templates/layouts/ko/home.html:11
-msgid "Korea Home Test"
-msgstr "SWEDISH Korea Home Test"
+#: templates/index.html:12
+msgid "AES Travel"
+msgstr ""
 
-#: templates/layouts/ko/todo.html:12
-msgid "Korea Todo Test"
-msgstr "SWEDISH Korea Todo Test"
+#: templates/index.html:13
+msgid "Bringing you where you want to be"
+msgstr ""
 
-#: templates/layouts/sv/booking.html:12
-msgid "Sweden Booking Test"
-msgstr "SWEDISH Sweden Booking Test"
+#: templates/index.html:22
+msgid "Current Travel Plans"
+msgstr ""
 
-#: templates/layouts/sv/home.html:12
-msgid "Sweden Home Test"
-msgstr "SWEDISH Sweden Home Test"
+#: templates/index.html:23
+msgid "Here is our 2 travel destinations for you to enjoy"
+msgstr ""
 
-#: templates/layouts/sv/todo.html:11
-msgid "Sweden Todo Test"
-msgstr "SWEDISH Sweden Todo Test"
+#: templates/index.html:54
+msgid "Korea"
+msgstr ""
+
+#: templates/index.html:67
+msgid "Sweden"
+msgstr ""
+
+#: templates/countries/ko/booking.html:43
+msgid ""
+"Room: Deluxe King Room | Price: $200/night | Other: Spacious with king-"
+"sized bed, modern furnishings, large en-suite bathroom, panoramic city "
+"views, and complimentary Wi-Fi."
+msgstr ""
+
+#: templates/countries/ko/booking.html:56
+msgid ""
+"Room: Standard Double Room | Price: $150/night | Other: Cozy and "
+"comfortable, this room features a double bed, modern amenities, and a "
+"sleek en-suite bathroom. Stay connected with complimentary high-speed Wi-"
+"Fi and enjoy a relaxing stay in Busan at an affordable price."
+msgstr ""
+
+#: templates/countries/ko/booking.html:69
+msgid ""
+"Room: Family Suite | Price: $300/night | Other: Perfect for families, "
+"this spacious suite features two bedrooms with a king-sized bed and twin "
+"beds, modern furnishings, and two en-suite bathrooms. Enjoy complimentary"
+" high-speed Wi-Fi and create unforgettable memories with your loved ones "
+"during your stay in Seoul."
+msgstr ""
+
+#: templates/countries/ko/booking.html:82
+msgid ""
+"Room: Garden View Room | Price: $180/night | Other: Relax in this "
+"peaceful room with a garden view, featuring a king-sized bed, elegant "
+"furnishings, and a luxurious en-suite bathroom. Stay connected with "
+"complimentary high-speed Wi-Fi and enjoy a tranquil retreat during your "
+"stay in Jeju."
+msgstr ""
+
+#: templates/countries/ko/booking.html:95
+msgid ""
+"Room: Ocean View Suite | Price: $250/night | Other: Enjoy breathtaking "
+"ocean views from this luxurious suite featuring a king-sized bed, stylish"
+" furnishings, and a spa-like en-suite bathroom. Stay connected with "
+"complimentary high-speed Wi-Fi and unwind in comfort during your stay in "
+"Busan."
+msgstr ""
+
+#: templates/countries/ko/booking.html:108
+msgid ""
+"Room: Executive Suite | Price: $350/night | Other: Indulge in luxury with"
+" this spacious suite featuring a king-sized bed, separate living area, "
+"modern furnishings, and a spa-like en-suite bathroom. Enjoy stunning city"
+" views from your high-floor windows, and stay connected with "
+"complimentary high-speed Wi-Fi during your stay in Seoul."
+msgstr ""
+
+#: templates/countries/ko/booking.html:121
+msgid ""
+"Room: Oceanfront Villa | Price: $450/night | Other: Escape to this "
+"luxurious villa with stunning ocean views, featuring a king-sized bed, "
+"private terrace, elegant furnishings, and a spacious en-suite bathroom "
+"with a whirlpool tub. Stay connected with complimentary high-speed Wi-Fi "
+"and enjoy a peaceful retreat during your stay in Jeju."
+msgstr ""
+
+#: templates/countries/ko/booking.html:134
+msgid ""
+"Room: Family Room | Price: $250/night | Other: Perfect for families, this"
+" spacious room features a king-sized bed, twin beds, modern amenities, "
+"and a sleek en-suite bathroom. Enjoy stunning mountain views from your "
+"room, and stay connected with complimentary high-speed Wi-Fi during your "
+"stay in Jeju."
+msgstr ""
+
+#: templates/countries/ko/booking.html:147
+msgid ""
+"Room: Business Suite | Price: $300/night | Other: Ideal for business "
+"travelers, this spacious suite features a king-sized bed, separate living"
+" area, work desk, and a luxurious en-suite bathroom. Enjoy complimentary "
+"high-speed Wi-Fi and stay productive during your stay in Busan. The suite"
+" also offers panoramic city views for a relaxing retreat after a long day"
+" of work."
+msgstr ""
+
+#: templates/layouts/header.html:15 templates/layouts/header.html:45
+#: templates/layouts/header.html:68
+msgid "English"
+msgstr ""
+
+#: templates/layouts/header.html:16 templates/layouts/header.html:46
+#: templates/layouts/header.html:69
+msgid "Korean"
+msgstr ""
+
+#: templates/layouts/header.html:17 templates/layouts/header.html:47
+#: templates/layouts/header.html:70
+msgid "Swedish"
+msgstr ""
+
+#~ msgid "Korea Booking Test"
+#~ msgstr "SWEDISH Korea Booking Test"
+
+#~ msgid "Korea Home Test"
+#~ msgstr "SWEDISH Korea Home Test"
+
+#~ msgid "Korea Todo Test"
+#~ msgstr "SWEDISH Korea Todo Test"
+
+#~ msgid "Sweden Booking Test"
+#~ msgstr "SWEDISH Sweden Booking Test"
+
+#~ msgid "Sweden Home Test"
+#~ msgstr "SWEDISH Sweden Home Test"
+
+#~ msgid "Sweden Todo Test"
+#~ msgstr "SWEDISH Sweden Todo Test"
 
