@@ -1,13 +1,3 @@
-<!--
-
-File: ko/todo.html
-Desc: Todo page for Korea travel website
-Author: Alex Tsang
-
--->
-
-
-
 <!-- Korea Todo Body -->
 <section id="hero_2" style="background-image: url({{url_for('static', filename='img/ko/todo/header.jpg')}}");>
 </section><!-- End Hero -->
@@ -50,7 +40,7 @@ Author: Alex Tsang
                 <img alt="" class="img-fluid" src="{{ url_for('static', filename='img/ko/todo/hongdae.jpg') }}">
             </div>
             <div class="col-lg-6 pt-4 pt-lg-0 order-2 order-lg-1 content">
-              <h3>{{_("Hongik University (Hongdae) Street")}}</h3>
+              <h3>{{_(Hongik University Hongdae Street)}}</h3>
               <p class="fst-italic">
                 {{_("The heart of Seoul’s youth culture is this eclectic collection of cafes, restaurants, bars, clubs, art markets, galleries, and shops. Its numerous alleys wind through the area, carrying unique themes like clubbing, art, and murals (Picasso Street). Busking, performances, events, and the powerful energy of youthful freedom draw numerous youths to the area, especially on weekends.")}}
               </p>
