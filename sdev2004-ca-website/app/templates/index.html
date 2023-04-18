@@ -9,8 +9,8 @@
     <section class="d-flex align-items-center justify-content-center" id="hero"
              style="background-image: url( {{ url_for('static', filename='img/' + lang_code + '/index/index-hero.webp') }} ); ">
         <div class="container position-relative">
-            <h1>AES Travel</h1>
-            <h2>Bringing you where you want to be</h2>
+            <h1>{{_('AES Travel')}}</h1>
+            <h2>{{_('Bringing you where you want to be')}}</h2>
         </div>
     </section><!-- End Hero -->
 
@@ -19,8 +19,8 @@
             <div class="container">
 
                 <div class="section-title">
-                    <h2>Current Travel Plans</h2>
-                    <p>Here is our 2 travel destinations for you to enjoy</p>
+                    <h2>{{_('Current Travel Plans')}}</h2>
+                    <p>{{_('Here is our 2 travel destinations for you to enjoy')}}</p>
                 </div>
 
                 <div class="row">
@@ -51,7 +51,7 @@
                                 </a>
                             </div>
                             <div class="member-info">
-                                <a  href="{{ url_for('ko_home') }}">Korea</a>
+                                <a  href="{{ url_for('ko_home') }}">{{_('Korea')}}</a>
                             </div>
                         </div>
                     </div>
@@ -64,7 +64,7 @@
                                 </a>
                             </div>
                             <div class="member-info">
-                                <a href="{{ url_for('sv_home') }}">Sweden</a>
+                                <a href="{{ url_for('sv_home') }}">{{_('Sweden')}}</a>
                             </div>
                         </div>
                     </div>

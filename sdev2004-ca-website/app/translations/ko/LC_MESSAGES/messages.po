@@ -7,8 +7,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PROJECT VERSION\n"
 "Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
-"POT-Creation-Date: 2023-03-29 17:01+0100\n"
-"PO-Revision-Date: 2023-03-29 17:02+0100\n"
+"POT-Creation-Date: 2023-04-18 14:42+0100\n"
+"PO-Revision-Date: 2023-04-18 14:42+0100\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language: ko\n"
 "Language-Team: ko <LL@li.org>\n"
@@ -16,29 +16,48 @@ msgstr ""
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=utf-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Generated-By: Babel 2.11.0\n"
+"Generated-By: Babel 2.12.1\n"
 
-#: templates/layouts/ko/booking.html:11
-msgid "Korea Booking Test"
-msgstr "KOREAN Korea Booking Test"
+#: templates/base.html:6
+msgid "SDEV Assignment"
+msgstr ""
 
-#: templates/layouts/ko/home.html:11
-msgid "Korea Home Test"
-msgstr "KOREAN Korea Home Test"
+#: templates/index.html:12
+msgid "AES Travel"
+msgstr ""
 
-#: templates/layouts/ko/todo.html:12
-msgid "Korea Todo Test"
-msgstr "KOREAN Korea Todo Test"
+#: templates/index.html:13
+msgid "Bringing you where you want to be"
+msgstr ""
 
-#: templates/layouts/sv/booking.html:12
-msgid "Sweden Booking Test"
-msgstr "KOREAN Sweden Booking Test"
+#: templates/index.html:22
+msgid "Current Travel Plans"
+msgstr ""
 
-#: templates/layouts/sv/home.html:12
-msgid "Sweden Home Test"
-msgstr "KOREAN Sweden Home Test"
+#: templates/index.html:23
+msgid "Here is our 2 travel destinations for you to enjoy"
+msgstr ""
 
-#: templates/layouts/sv/todo.html:11
-msgid "Sweden Todo Test"
-msgstr "KOREAN Sweden Todo Test"
+#: templates/index.html:54
+msgid "Korea"
+msgstr ""
+
+#: templates/index.html:67
+msgid "Sweden"
+msgstr ""
+
+#: templates/layouts/header.html:15 templates/layouts/header.html:45
+#: templates/layouts/header.html:68
+msgid "English"
+msgstr ""
+
+#: templates/layouts/header.html:16 templates/layouts/header.html:46
+#: templates/layouts/header.html:69
+msgid "Korean"
+msgstr ""
+
+#: templates/layouts/header.html:17 templates/layouts/header.html:47
+#: templates/layouts/header.html:70
+msgid "Swedish"
+msgstr ""
 
