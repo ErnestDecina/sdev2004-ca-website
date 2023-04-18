@@ -24,6 +24,11 @@ A travel website that will serve information about Korean and Sweeden.
 
 ## Translation of Website
 
+### Extract Text
+``` bash
+pybabel extract -F configs/babel.cfg -k _l -o messages.pot .
+```
+
 ### Create new translation for Korea
 
 ``` bash
