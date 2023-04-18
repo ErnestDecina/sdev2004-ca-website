@@ -10,10 +10,9 @@ Author: Seán Tighe
 <!-- ======= Hero Section ======= -->
 <!-- Sweden Body -->
 <section id="hero_2">
-    <div class="hero-container" data-aos="fade-up" >
-
-      <h1>Hej, welcome to Sweden!</h1>
-      <h2>Things to do and places to see.</h2>
+    <div class="hero-container" data-aos="fade-up" style="background: linear-gradient(rgba(55, 142, 181, 0.5), rgba(55, 142, 181, 0.2)),  url({{ url_for('static', filename='img/sv/todo/flags.jpg' ) }}) top center;" >
+      <h1>{{_('Hej, welcome to Sweden!</h1>
+      <h2>{{_('Things to do and places to see.</h2>
     </div>
 </section><!-- End Hero -->
 
@@ -24,40 +23,40 @@ Author: Seán Tighe
       <div class="container">
 
         <div class="section-title" data-aos="fade-in" data-aos-delay="100">
-          <h2>North Sweden</h2>
-          <p>Explore the north of Sweden</p>
+          <h2>{{_("North Sweden")}}</h2>
+          <p>{{_("Explore the north of Sweden")}}</p>
         </div>
 
         <div class="row">
           <div class="col-md-6 col-lg-3 d-flex align-items-stretch mb-5 mb-lg-0">
             <div class="icon-box" data-aos="fade-up">
               <div class="icon"><i class="bx bxl-dribbble"></i></div>
-              <h4 class="title"><a href="">Northern Lights</a></h4>
-              <p class="description">Come visit the Arctic circle and see the stunning lights in the night sky</p>
+              <h4 class="title"><a href="">{{_("Northern Lights")}}</a></h4>
+              <p class="description">{{_("Come visit the Arctic circle and see the stunning lights in the night sky")}}</p>
             </div>
           </div>
 
           <div class="col-md-6 col-lg-3 d-flex align-items-stretch mb-5 mb-lg-0">
             <div class="icon-box" data-aos="fade-up" data-aos-delay="100">
               <div class="icon"><i class="bx bx-file"></i></div>
-              <h4 class="title"><a href="">Architecture</a></h4>
-              <p class="description">Come explore the world famous scandinavian architectural design</p>
+              <h4 class="title"><a href="">{{_("Architecture")}}</a></h4>
+              <p class="description">{{_("Come explore the world famous scandinavian architectural design")}}</p>
             </div>
           </div>
 
           <div class="col-md-6 col-lg-3 d-flex align-items-stretch mb-5 mb-lg-0">
             <div class="icon-box" data-aos="fade-up" data-aos-delay="200">
               <div class="icon"><i class="bx bx-tachometer"></i></div>
-              <h4 class="title"><a href="">Gastrikland</a></h4>
-              <p class="description">Naturally stunning region in the East of Sweden</p>
+              <h4 class="title"><a href="">{{_("Gastrikland")}}</a></h4>
+              <p class="description">{{_("Naturally stunning region in the East of Sweden")}}</p>
             </div>
           </div>
 
           <div class="col-md-6 col-lg-3 d-flex align-items-stretch mb-5 mb-lg-0">
             <div class="icon-box" data-aos="fade-up" data-aos-delay="300">
               <div class="icon"><i class="bx bx-world"></i></div>
-              <h4 class="title"><a href="">Sami</a></h4>
-              <p class="description">Beautiful old Indigenous Culture in the North of Sweden </p>
+              <h4 class="title"><a href="">{{_("Sami")}}</a></h4>
+              <p class="description">{{_("Beautiful old Indigenous Culture in the North of Sweden")}}</p>
             </div>
           </div>
 
@@ -67,16 +66,16 @@ Author: Seán Tighe
     </section><!-- End Services Section -->
 
     <!-- ======= food Section ======= -->
-    <section class="about">
+    <section class="about_2">
       <div class="container">
         <div class="row no-gutters">
           <div class="content col-xl-5 d-flex align-items-stretch" data-aos="fade-up">
             <div class="content">
-              <h3>Swedish food</h3>
+              <h3>{{_("Swedish food")}}</h3>
               <p>
-                Try out these swedish delacacies
+                {{_("Try out these swedish delacacies")}}
               </p>
-              <a href="#" class="about-btn">recipes <i class="bx bx-chevron-right"></i></a>
+              <a href="#" class="about-btn">{{_("recipes")}}<i class="bx bx-chevron-right"></i></a>
             </div>
           </div>
         </div>
@@ -88,40 +87,40 @@ Author: Seán Tighe
       <div class="container">
 
         <div class="section-title" data-aos="fade-in" data-aos-delay="100">
-          <h2>Central Sweden</h2>
-          <p>Explore the Central regions of Sweden</p>
+          <h2>{{_("Central Sweden")}}</h2>
+          <p>{{_("Explore the Central regions of Sweden")}}</p>
         </div>
 
         <div class="row">
           <div class="col-md-6 col-lg-3 d-flex align-items-stretch mb-5 mb-lg-0">
             <div class="icon-box" data-aos="fade-up">
               <div class="icon"><i class="bx bxl-dribbble"></i></div>
-              <h4 class="title"><a href="">Stockholm</a></h4>
-              <p class="description">Come see Sweden's beautiful capital city.</p>
+              <h4 class="title"><a href="">{{_("Stockholm")}}</a></h4>
+              <p class="description">{{_("Come see Sweden's beautiful capital city.")}}</p>
             </div>
           </div>
 
           <div class="col-md-6 col-lg-3 d-flex align-items-stretch mb-5 mb-lg-0">
             <div class="icon-box" data-aos="fade-up" data-aos-delay="100">
               <div class="icon"><i class="bx bx-file"></i></div>
-              <h4 class="title"><a href="">Architecture</a></h4>
-              <p class="description">World famous style</p>
+              <h4 class="title"><a href="">{{_("Architecture")}}</a></h4>
+              <p class="description">{{_("World famous style")}}</p>
             </div>
           </div>
 
           <div class="col-md-6 col-lg-3 d-flex align-items-stretch mb-5 mb-lg-0">
             <div class="icon-box" data-aos="fade-up" data-aos-delay="200">
               <div class="icon"><i class="bx bx-tachometer"></i></div>
-              <h4 class="title"><a href="">Nature</a></h4>
-              <p class="description">Visit one of Sweden's many lakes or hiking trails</p>
+              <h4 class="title"><a href="">{{_("Nature")}}</a></h4>
+              <p class="description">{{_("Visit one of Sweden's many lakes or hiking trails")}}</p>
             </div>
           </div>
 
           <div class="col-md-6 col-lg-3 d-flex align-items-stretch mb-5 mb-lg-0">
             <div class="icon-box" data-aos="fade-up" data-aos-delay="300">
               <div class="icon"><i class="bx bx-world"></i></div>
-              <h4 class="title"><a href="">Festivals</a></h4>
-              <p class="description">lot's of traditional festivals throught the year</p>
+              <h4 class="title"><a href="">{{_("Festivals")}}</a></h4>
+              <p class="description">{{_("lot's of traditional festivals throught the year")}}</p>
             </div>
           </div>
 
@@ -136,11 +135,11 @@ Author: Seán Tighe
         <div class="row no-gutters">
           <div class="content col-xl-5 d-flex align-items-stretch" data-aos="fade-up">
             <div class="content">
-              <h3>Culture</h3>
+              <h3>{{_("Culture")}}</h3>
               <p>
-                Learn More about our culture.
+                {{_("Learn More about our culture.")}}
               </p>
-              <a href="#" class="about-btn">About us <i class="bx bx-chevron-right"></i></a>
+              <a href="#" class="about-btn">{{_("About us")}}<i class="bx bx-chevron-right"></i></a>
             </div>
           </div>
         </div>
@@ -152,40 +151,40 @@ Author: Seán Tighe
       <div class="container">
 
         <div class="section-title" data-aos="fade-in" data-aos-delay="100">
-          <h2>South Sweden</h2>
-          <p>Explore the South of Sweden</p>
+          <h2>{{_("South Sweden")}}</h2>
+          <p>{{_("Explore the South of Sweden")}}</p>
         </div>
 
         <div class="row">
           <div class="col-md-6 col-lg-3 d-flex align-items-stretch mb-5 mb-lg-0">
             <div class="icon-box" data-aos="fade-up">
               <div class="icon"><i class="bx bxl-dribbble"></i></div>
-              <h4 class="title"><a href="">Gothenburg</a></h4>
-              <p class="description">Beautiful city in south</p>
+              <h4 class="title"><a href="">{{_("Gothenburg")}}</a></h4>
+              <p class="description">{{_("Beautiful city in south")}}</p>
             </div>
           </div>
 
           <div class="col-md-6 col-lg-3 d-flex align-items-stretch mb-5 mb-lg-0">
             <div class="icon-box" data-aos="fade-up" data-aos-delay="100">
               <div class="icon"><i class="bx bx-file"></i></div>
-              <h4 class="title"><a href="">Architecture</a></h4>
-              <p class="description">World famous building style</p>
+              <h4 class="title"><a href="">{{_("Architecture")}}</a></h4>
+              <p class="description">{{_("World famous building style")}}</p>
             </div>
           </div>
 
           <div class="col-md-6 col-lg-3 d-flex align-items-stretch mb-5 mb-lg-0">
             <div class="icon-box" data-aos="fade-up" data-aos-delay="200">
               <div class="icon"><i class="bx bx-tachometer"></i></div>
-              <h4 class="title"><a href="">Oresund bridge</a></h4>
-              <p class="description">Longest bridge in Europe connects to Denmark</p>
+              <h4 class="title"><a href="">{{_("Oresund bridge")}}</a></h4>
+              <p class="description">{{_("Longest bridge in Europe connects to Denmark")}}</p>
             </div>
           </div>
 
           <div class="col-md-6 col-lg-3 d-flex align-items-stretch mb-5 mb-lg-0">
             <div class="icon-box" data-aos="fade-up" data-aos-delay="300">
               <div class="icon"><i class="bx bx-world"></i></div>
-              <h4 class="title"><a href="">Festivals</a></h4>
-              <p class="description">lot's of traditional festivals throught the year</p>
+              <h4 class="title"><a href="">{{_("Festivals")}}</a></h4>
+              <p class="description">{{_("lot's of traditional festivals throught the year")}}</p>
             </div>
           </div>
 
@@ -203,32 +202,32 @@ Author: Seán Tighe
           <div class="col-lg-3 col-md-6 d-md-flex align-items-md-stretch">
             <div class="count-box">
               <i class="bi bi-emoji-smile"></i>
-              <span data-purecounter-start="0" data-purecounter-end="232" data-purecounter-duration="1" class="purecounter"></span>
-              <p><strong>Happy Clients</strong></p>
+              <span data-purecounter-start="0" data-purecounter-end="10" data-purecounter-duration="1" class="purecounter"></span>
+              <p><strong>{{_("Happy Clients")}}</strong></p>
             </div>
           </div>
 
           <div class="col-lg-3 col-md-6 d-md-flex align-items-md-stretch">
             <div class="count-box">
               <i class="bi bi-journal-richtext"></i>
-              <span data-purecounter-start="0" data-purecounter-end="521" data-purecounter-duration="1" class="purecounter"></span>
-              <p><strong>Projects</strong></p>
+              <span data-purecounter-start="0" data-purecounter-end="99999999999" data-purecounter-duration="1" class="purecounter"></span>
+              <p><strong>{{_("Projects")}}</strong></p>
             </div>
           </div>
 
           <div class="col-lg-3 col-md-6 d-md-flex align-items-md-stretch">
             <div class="count-box">
               <i class="bi bi-headset"></i>
-              <span data-purecounter-start="0" data-purecounter-end="1463" data-purecounter-duration="1" class="purecounter"></span>
-              <p><strong>Hours Of Support</strong></p>
+              <span data-purecounter-start="0" data-purecounter-end="9999999999999" data-purecounter-duration="1" class="purecounter"></span>
+              <p><strong>{{_("Hours Of Support")}}</strong></p>
             </div>
           </div>
 
           <div class="col-lg-3 col-md-6 d-md-flex align-items-md-stretch">
             <div class="count-box">
               <i class="bi bi-people"></i>
-              <span data-purecounter-start="0" data-purecounter-end="15" data-purecounter-duration="1" class="purecounter"></span>
-              <p><strong>Hard Workers</strong></p>
+              <span data-purecounter-start="0" data-purecounter-end="9999999" data-purecounter-duration="1" class="purecounter"></span>
+              <p><strong>{{_("Hard Workers")}}</strong></p>
             </div>
           </div>
 
