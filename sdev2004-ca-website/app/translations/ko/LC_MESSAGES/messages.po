@@ -65,7 +65,10 @@ msgid ""
 "comfortable, this room features a double bed, modern amenities, and a "
 "sleek en-suite bathroom. Stay connected with complimentary high-speed Wi-"
 "Fi and enjoy a relaxing stay in Busan at an affordable price."
-msgstr ""
+msgstr "객실: 스탠다드 더블룸 | 가격: $150/박 | 기타: 아늑하고 "
+"편안하고, 이 방은 더블 침대, 현대적인 편의 시설, 그리고"
+"욕실이 없는 욕실" 무료 고속 Wi-Fi로 언제든지 연결 가능"
+부산에서 합리적인 가격으로 편안한 시간을 보내십시오."
 
 #: templates/countries/ko/booking.html:69
 msgid ""
@@ -74,7 +77,11 @@ msgid ""
 "beds, modern furnishings, and two en-suite bathrooms. Enjoy complimentary"
 " high-speed Wi-Fi and create unforgettable memories with your loved ones "
 "during your stay in Seoul."
-msgstr ""
+msgstr "객실: 패밀리 스위트 | 가격: $300/박 | 기타: 가족에게 완벽한,"
+"이 넓은 스위트룸은 킹사이즈 침대와 트윈이 있는 침실 두 개가 있습니다."
+"호텔, 현대식 가구, 침실이 딸린 욕실 2개. 무료로 즐기십시오."
+" 초고속 와이파이로 사랑하는 사람들과 잊지 못할 추억 만들기"
+"서울에 머무는 동안."
 
 #: templates/countries/ko/booking.html:82
 msgid ""
@@ -83,7 +90,11 @@ msgid ""
 "furnishings, and a luxurious en-suite bathroom. Stay connected with "
 "complimentary high-speed Wi-Fi and enjoy a tranquil retreat during your "
 "stay in Jeju."
-msgstr ""
+msgstr "객실: 가든뷰 객실 | 가격: $180/박 | 기타: 이 호텔에서 편히 쉬십시오
+"정원이 보이는 침실, 킹사이즈 침대, 우아함"
+"침실, 호화로운 실내 욕실" "와 지속적으로 연결
+"초고속 와이파이를 무료로 제공하고 조용한 휴식을 즐기십시오."
+"제주에 머무르세요."
 
 #: templates/countries/ko/booking.html:95
 msgid ""
@@ -92,7 +103,11 @@ msgid ""
 " furnishings, and a spa-like en-suite bathroom. Stay connected with "
 "complimentary high-speed Wi-Fi and unwind in comfort during your stay in "
 "Busan."
-msgstr ""
+msgstr "객실: 오션뷰 스위트 | 가격: $250/박 | 기타: 숨막히는 시간을 즐기십시오."
+"킹 사이즈 침대가 특징인 이 호화로운 스위트룸에서 멋진 경치를 감상할 수 있습니다."
+" 가구, 그리고 스파 같은 실내 욕실. "와 지속적으로 연결
+"초고속 와이파이를 무료로 제공하고 숙박하는 동안 편안하게 휴식을 취할 수 있습니다."
+"부산."
 
 #: templates/countries/ko/booking.html:108
 msgid ""
@@ -101,7 +116,11 @@ msgid ""
 "modern furnishings, and a spa-like en-suite bathroom. Enjoy stunning city"
 " views from your high-floor windows, and stay connected with "
 "complimentary high-speed Wi-Fi during your stay in Seoul."
-msgstr ""
+msgstr "객실: 이그제큐티브 스위트 | 가격: $350/박 | 기타: 럭셔리함을 즐기십시오."
+" 킹사이즈 침대와 별도의 생활공간이 특징인 이 넓은 스위트룸."
+"현대적인 가구와 스파 같은 실내 욕실. 멋진 도시를 즐겨보세요."
+" 높은 층의 창문에서 보이는 경치, 그리고 "와 연결된 상태 유지
+"서울에 머무는 동안 무료 초고속 와이파이."
 
 #: templates/countries/ko/booking.html:121
 msgid ""
@@ -110,7 +129,11 @@ msgid ""
 "private terrace, elegant furnishings, and a spacious en-suite bathroom "
 "with a whirlpool tub. Stay connected with complimentary high-speed Wi-Fi "
 "and enjoy a peaceful retreat during your stay in Jeju."
-msgstr ""
+msgstr "객실: 오션프론트 빌라 | 가격: $450/박 | 기타: 이스케이프 투 this"
+킹사이즈 침대가 특징인 멋진 바다 전망의 멋진 빌라
+"개인 테라스, 우아한 가구, 넓은 실내 욕실"
+"월풀 욕조로" 무료 고속 Wi-Fi로 언제든지 연결 가능"
+"제주에 머무는 동안 평화로운 휴양을 즐기십시오."
 
 #: templates/countries/ko/booking.html:134
 msgid ""
@@ -119,7 +142,11 @@ msgid ""
 "and a sleek en-suite bathroom. Enjoy stunning mountain views from your "
 "room, and stay connected with complimentary high-speed Wi-Fi during your "
 "stay in Jeju."
-msgstr ""
+msgstr "객실: 패밀리룸 | 가격: 하룻밤에 250달러 | 기타: 가족에게 완벽한, 이것"
+" 넓은 객실에는 킹사이즈 침대, 트윈 침대, 현대적인 편의 시설이 있습니다."
+"날렵한 실내 욕실" "에서 멋진 산 경치를 감상할 수 있습니다."
+"객실에서 무료 고속 Wi-Fi를 사용할 수 있습니다."
+"제주에 머무르세요."
 
 #: templates/countries/ko/booking.html:147
 msgid ""
@@ -129,7 +156,12 @@ msgid ""
 "high-speed Wi-Fi and stay productive during your stay in Busan. The suite"
 " also offers panoramic city views for a relaxing retreat after a long day"
 " of work."
-msgstr ""
+msgstr "객실: Business Suite | 가격: $300/박 | 기타: 비즈니스에 이상적임"
+"따라서, 이 넓은 스위트룸은 킹사이즈 침대, 별도의 거실이 특징입니다."
+" 공간, 업무용 책상, 고급스러운 실내 욕실. 무료로 즐기십시오."
+"부산에 머무는 동안 고속 Wi-Fi와 생산성을 유지합니다. 스위트룸"
+" 또한 긴 하루 후 편안한 휴식을 위한 파노라마 도시 경관을 제공합니다."
+" 노동의."
 
 #: templates/layouts/header.html:15 templates/layouts/header.html:45
 #: templates/layouts/header.html:68
