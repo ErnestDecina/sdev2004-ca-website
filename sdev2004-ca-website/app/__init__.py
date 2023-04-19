@@ -31,7 +31,4 @@ babel = Babel(app)
 babel.init_app(app, locale_selector=get_locale)
 
 from app import routes
-<<<<<<< HEAD
-=======
 
->>>>>>> cbbabfe1f8266e9e1a51027faa81ff015575d351

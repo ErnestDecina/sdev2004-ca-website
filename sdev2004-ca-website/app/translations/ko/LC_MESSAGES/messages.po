@@ -50,13 +50,12 @@ msgstr ""
 #: templates/index.html:67
 msgid "Sweden"
 msgstr ""
-<<<<<<< HEAD
-=======
+
 
 #: templates/countries/ko/booking.html:11
 msgid "Accommodation"
 msgstr ""
->>>>>>> cbbabfe1f8266e9e1a51027faa81ff015575d351
+
 
 #: templates/countries/ko/booking.html:43
 msgid ""
