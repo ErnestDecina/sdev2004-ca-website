@@ -17,6 +17,8 @@
 from flask import Flask, session
 from flask_babel import Babel
 from app.utils import get_locale
+from flask_assets import Environment, Bundle
+
 
 # Create the flask app
 app = Flask(__name__)

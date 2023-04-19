@@ -3,14 +3,11 @@
     <header class="fixed-top" id="header">
         <div class="container d-flex align-items-center justify-content-between">
 
-            <h1 class="logo"><a href="{{ url_for('ko_home') }}">Vist Korea</a></h1>
-            <!-- Uncomment below if you prefer to use an image logo -->
-            <!-- <a href="index.html" class="logo"><img src="assets/img/logo.png" alt="" class="img-fluid"></a>-->
-
+            <h1 class="logo"><a href="{{ url_for('ko_home') }}">{{_("Vist Korea")}}</a></h1>
             <nav class="navbar" id="navbar">
                 <ul>
-                    <li><a class="active" href="{{ url_for('ko_home') }}">Home</a></li>
-                    <li class="dropdown"><a href="#"><span>Language</span> <i class="bi bi-chevron-down"></i></a>
+                    <li><a class="active" href="{{ url_for('ko_home') }}">{{_("Home")}}</a></li>
+                    <li class="dropdown"><a href="#"><span>{{_("Language")}}</span> <i class="bi bi-chevron-down"></i></a>
                         <ul>
                             <li><a href="{{ url_for('set_language', lang_code='en') }}">{{_('English')}}</a></li>
                             <li><a href="{{ url_for('set_language', lang_code='ko') }}">{{_('Korean')}}</a></li>
@@ -29,18 +26,18 @@
     <header class="fixed-top header-transparent" id="header">
         <div class="container d-flex align-items-center justify-content-between position-relative">
             <div class="logo">
-                <h1 class="text-light"><a href="{{ url_for('sv_home') }}"><span>Visit Sweden</span></a></h1>
+                <h1 class="text-light"><a href="{{ url_for('sv_home') }}"><span>{{_("Vist Sweden")}}</span></a></h1>
                 <!-- Uncomment below if you prefer to use an image logo -->
                 <!-- <a href="index.html"><img src="assets/img/logo.png" alt="" class="img-fluid"></a>-->
             </div>
 
             <nav class="navbar" id="navbar">
                 <ul>
-                    <li><a class="nav-link scrollto active" href="{{ url_for('sv_home') }}">Home</a></li>
-                    <li><a class="nav-link scrollto" href="{{ url_for('sv_booking') }}">Booking</a></li>
-                    <li><a class="nav-link scrollto" href="{{ url_for('sv_todo') }}">To do</a></li>
-                    <li><a class="nav-link scrollto" href="#">Contact</a></li>
-                    <li class="dropdown"><a href="#"><span>Language Selector</span> <i class="bi bi-chevron-down"></i></a>
+                    <li><a class="nav-link scrollto active" href="{{ url_for('sv_home') }}">{{_("Home")}}</a></li>
+                    <li><a class="nav-link scrollto" href="{{ url_for('sv_booking') }}">{{_("Booking")}}</a></li>
+                    <li><a class="nav-link scrollto" href="{{ url_for('sv_todo') }}">{{_("To do")}}</a></li>
+                    <li><a class="nav-link scrollto" href="#">{{_("Contact")}}</a></li>
+                    <li class="dropdown"><a href="#"><span>{{_("Language Selector")}}</span> <i class="bi bi-chevron-down"></i></a>
                         <ul>
                             <li><a href="{{ url_for('set_language', lang_code='en') }}">{{_('English')}}</a></li>
                             <li><a href="{{ url_for('set_language', lang_code='ko') }}">{{_('Korean')}}</a></li>
@@ -63,7 +60,7 @@
 
             <nav class="navbar" id="navbar">
                 <ul>
-                    <li class="dropdown"><a href="#"><span>Language</span> <i class="bi bi-chevron-down"></i></a>
+                    <li class="dropdown"><a href="#"><span>{{_("Language")}}</span> <i class="bi bi-chevron-down"></i></a>
                         <ul>
                             <li><a href="{{ url_for('set_language', lang_code='en') }}">{{_('English')}}</a></li>
                             <li><a href="{{ url_for('set_language', lang_code='ko') }}">{{_('Korean')}}</a></li>
