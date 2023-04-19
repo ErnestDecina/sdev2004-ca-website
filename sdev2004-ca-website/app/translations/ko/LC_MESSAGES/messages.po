@@ -246,11 +246,11 @@ msgstr ""
 
 #: templates/countries/ko/todo.html:9
 msgid "Traveling in Korea"
-msgstr ""
+msgstr "한국 여행"
 
 #: templates/countries/ko/todo.html:22
 msgid "The Five Royal Palaces of Seoul"
-msgstr ""
+msgstr "서울 5대 궁"
 
 #: templates/countries/ko/todo.html:24
 msgid ""
@@ -262,11 +262,18 @@ msgid ""
 "architecture; Changgyeonggung Palace, now restored from the damages "
 "caused by Japanese occupation; and Gyeonghuigung Palace, humble and "
 "simple."
-msgstr ""
+msgstr ""서울의 5대 궁은 조선왕조의 왕궁이자"
+"한국 문화와 역사의 상징"입니다. 각 궁궐에는 고유한 "
+"매력을 가지고 있습니다: 경복궁, 왕의 거처; 창덕궁, ""
+"1997년 유네스코 세계문화유산으로 등재된 창덕궁, "
+"덕수궁, 한국 미학과 서양의 조합"
+"건축; 창경궁, 현재 피해에서 복원 된"
+"일본 점령으로 인한; 그리고 경희궁, 겸손하고"
+"단순하다.""
 
 #: templates/countries/ko/todo.html:39
 msgid "Hongik University Hongdae Street"
-msgstr ""
+msgstr "홍익대 홍대 거리"
 
 #: templates/countries/ko/todo.html:41
 msgid ""
@@ -276,11 +283,16 @@ msgid ""
 " and murals (Picasso Street). Busking, performances, events, and the "
 "powerful energy of youthful freedom draw numerous youths to the area, "
 "especially on weekends."
-msgstr ""
+msgstr ""서울 젊은이 문화의 중심은 이 다양한 카페, "
+"레스토랑, 바, 클럽, 아트마켓, 갤러리, 상점. 수많은"
+"골목이 구불구불하게 이어져 있으며, 클럽, 예술, "
+"벽화(피카소 거리)와 같은 독특한 테마를 가지고 있습니다. 버스킹, 공연, 이벤트, 그리고 ""
+"젊은 자유의 강력한 에너지가 수많은 젊은이들을 이 지역으로 끌어들입니다."
+"특히 주말에""
 
 #: templates/countries/ko/todo.html:55
 msgid "COEX (Starfield)"
-msgstr ""
+msgstr "코엑스(스타필드)"
 
 #: templates/countries/ko/todo.html:57
 msgid ""
@@ -289,11 +301,15 @@ msgid ""
 "beloved location for photo ops for its two-story, 13-meter-high "
 "bookstores. It is designed as an open space of communication through "
 "books, and it hosts many literature-themed cultural events."
-msgstr ""
+msgstr ""코엑스는 상점, 영화관, 수족관, "
+"대형 서점, 도서관 등이 있습니다. 특히 스타필드 도서관은 "
+"2층, 13미터 높이의"
+"서점. 책을 통한 열린 소통의 공간으로 설계된 ""
+"책을 통한 소통의 공간으로 설계되었으며, 문학을 테마로 한 다양한 문화 행사를 개최합니다.""
 
 #: templates/countries/ko/todo.html:71
 msgid "Seoul Land"
-msgstr ""
+msgstr "서울랜드"
 
 #: templates/countries/ko/todo.html:73
 msgid ""
@@ -303,11 +319,16 @@ msgid ""
 "inspired by Korean animation characters. The amusement park runs a sled "
 "slope and a fishing spot in winter. At night, Seoul Land turns into Luna "
 "Park decorated with splendid lights."
-msgstr ""
+msgstr ""서울랜드는 모험과 꿈의 땅으로 인기를 얻고 있습니다. 그 "
+"어트랙션은 테마별로 구성되어 있으며, 세계광장, 내일"
+"랜드, 캐릭터 타운, 어드벤처 랜드 등 테마별로 구성되어 있습니다. 약 50여 개의 놀이기구가 있으며, 모두 "
+"한국 애니메이션 캐릭터에서 영감을 받았습니다. 놀이공원에는 썰매장도 운영 중입니다."
+"슬로프와 겨울철 낚시터도 운영합니다. 밤이 되면 서울랜드는 " "루나로 변신합니다.
+"화려한 조명으로 장식된 공원.""
 
 #: templates/countries/ko/todo.html:89
 msgid "Seomjingang Train Village in Gokseong"
-msgstr ""
+msgstr "곡성 섬진강 기차마을"
 
 #: templates/countries/ko/todo.html:91
 msgid ""
@@ -318,19 +339,25 @@ msgid ""
 "history and culture; an animal farm; a VR zone; and a media art "
 "exhibition hall. Visitors can also ride the railbike or the steam "
 "locomotive."
-msgstr ""
+msgstr ""섬진강 기차마을은 "
+"옛 곡성역과 폐선된 전라선"을 활용한 기차 테마파크입니다. 이 마을은 "
+"드림랜드 놀이공원, 도깨비를 테마로 한 요술(마법)랜드, "
+"철도를 배우고 체험할 수 있는 치치뿌뿌 놀이터"
+"역사와 문화, 동물농장, VR존, 미디어 아트"
+"전시관. 방문객들은 또한 레일바이크나 증기 ""
+"기관차.""
 
 #: templates/countries/ko/todo.html:102
 msgid "Looking for accommodation?"
-msgstr ""
+msgstr "숙소를 찾고 계신가요?"
 
 #: templates/countries/ko/todo.html:105
 msgid "Check out South Korea's places to stay"
-msgstr ""
+msgstr "한국의 숙소를 확인해 보세요"
 
 #: templates/countries/ko/todo.html:110
 msgid "Book here"
-msgstr ""
+msgstr "여기에서 예약하세요"
 
 
 #

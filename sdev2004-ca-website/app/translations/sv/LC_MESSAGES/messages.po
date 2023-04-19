@@ -295,18 +295,18 @@ msgstr ""
 
 
 #
-#   ko/booking.html
-#   Author: Ron Pingol
+#   ko/todo.html
+#   Author: Alex Tsang
 #
 
 
 #: templates/countries/ko/todo.html:9
 msgid "Traveling in Korea"
-msgstr ""
+msgstr "Resa i Korea"
 
 #: templates/countries/ko/todo.html:22
 msgid "The Five Royal Palaces of Seoul"
-msgstr ""
+msgstr "De fem kungliga palatsen i Seoul"
 
 #: templates/countries/ko/todo.html:24
 msgid ""
@@ -318,11 +318,18 @@ msgid ""
 "architecture; Changgyeonggung Palace, now restored from the damages "
 "caused by Japanese occupation; and Gyeonghuigung Palace, humble and "
 "simple."
-msgstr ""
+msgstr ""Seouls fem palats är kungliga palats från Joseondynastin och "
+"symboler för Koreas kultur och historia. Varje palats har sin unika "
+"charm: Gyeongbokgung-palatset, det kungliga residenset, Changdeokgung-palatset, "
+"ett av UNESCO:s världsarvslistor som skrevs in 1997 med en anmärkningsvärd skönhet, "
+"Deoksugung-palatset, en kombination av koreansk estetik och västerländsk "
+"arkitektur, Changgyeonggung-palatset, som nu har restaurerats efter skadorna "
+"som orsakades av den japanska ockupationen, och Gyeonghuigung-palatset, ödmjukt och " "
+"enkel.""
 
 #: templates/countries/ko/todo.html:39
 msgid "Hongik University Hongdae Street"
-msgstr ""
+msgstr "Hongik University Hongdae Street"
 
 #: templates/countries/ko/todo.html:41
 msgid ""
@@ -332,11 +339,16 @@ msgid ""
 " and murals (Picasso Street). Busking, performances, events, and the "
 "powerful energy of youthful freedom draw numerous youths to the area, "
 "especially on weekends."
-msgstr ""
+msgstr ""Hjärtat av Seouls ungdomskultur är denna eklektiska samling kaféer."
+"restauranger, barer, klubbar, konstmarknader, gallerier och butiker. Dess många"
+" gränder slingrar sig genom området och har unika teman som klubbande, konst,"
+" och väggmålningar (Picassogatan). Busking, föreställningar, evenemang och "
+" " kraftfull energi från ungdomens frihet lockar många ungdomar till området, "
+"särskilt på helgerna.""
 
 #: templates/countries/ko/todo.html:55
 msgid "COEX (Starfield)"
-msgstr ""
+msgstr "COEX (Starfield)"
 
 #: templates/countries/ko/todo.html:57
 msgid ""
@@ -345,11 +357,15 @@ msgid ""
 "beloved location for photo ops for its two-story, 13-meter-high "
 "bookstores. It is designed as an open space of communication through "
 "books, and it hosts many literature-themed cultural events."
-msgstr ""
+msgstr ""COEX är ett kulturellt centrum med butiker, filmteatrar, ett akvarium, en "
+"stor bokhandel och ett bibliotek. Särskilt Starfield Library är ett "
+" "en populär plats för fotografering på grund av dess två våningar, 13 meter höga "
+"bokhandel. Det är utformat som ett öppet rum för kommunikation genom "
+"böcker och är värd för många kulturella evenemang med litteraturtema.""
 
 #: templates/countries/ko/todo.html:71
 msgid "Seoul Land"
-msgstr ""
+msgstr "Seoul Land"
 
 #: templates/countries/ko/todo.html:73
 msgid ""
@@ -359,11 +375,16 @@ msgid ""
 "inspired by Korean animation characters. The amusement park runs a sled "
 "slope and a fishing spot in winter. At night, Seoul Land turns into Luna "
 "Park decorated with splendid lights."
-msgstr ""
+msgstr ""Seoul Land har blivit populärt som ett land av äventyr och drömmar. Dess "
+"attraktioner är organiserade efter teman, till exempel World Plaza, Tomorrow "
+"Land, Character Town och Adventure Land. Det finns cirka 50 åkattraktioner, alla "
+"inspirerade av koreanska animationskaraktärer. Nöjesparken har en släde "
+"backe och en fiskeplats på vintern. På natten förvandlas Seoul Land till Luna "
+"Park dekorerad med fantastiska ljus.""
 
 #: templates/countries/ko/todo.html:89
 msgid "Seomjingang Train Village in Gokseong"
-msgstr ""
+msgstr "Seomjingang Train Village i Gokseong"
 
 #: templates/countries/ko/todo.html:91
 msgid ""
@@ -374,19 +395,25 @@ msgid ""
 "history and culture; an animal farm; a VR zone; and a media art "
 "exhibition hall. Visitors can also ride the railbike or the steam "
 "locomotive."
-msgstr ""
+msgstr ""Seomjingang Train Village är en park med tågtema som utvecklats från "
+"tidigare Gokseong-stationen och den nedlagda Jeolla-linjen. Byn är "
+"nöjesparken Dreamland, Yosul (Magic) Land med goblin-tema, "
+"Chichippuppu Playground, där besökarna kan lära sig och uppleva järnvägs- "
+"historia och kultur, en djurfarm, en VR-zon och en mediekonstverkstad " ".
+"utställningshall. Besökarna kan också åka rälscykel eller ångbåt "
+"lokomotiv.""
 
 #: templates/countries/ko/todo.html:102
 msgid "Looking for accommodation?"
-msgstr ""
+msgstr "Letar du efter boende?"
 
 #: templates/countries/ko/todo.html:105
 msgid "Check out South Korea's places to stay"
-msgstr ""
+msgstr "Kolla in Sydkoreas platser att bo på"
 
 #: templates/countries/ko/todo.html:110
 msgid "Book here"
-msgstr ""
+msgstr "Boka här"
 
 
 #
