@@ -572,144 +572,144 @@ msgstr ""
 
 #: templates/countries/sv/todo.html:14
 msgid "Hej, welcome to Sweden!"
-msgstr ""
+msgstr "Hej, välkommen till Sverige!"
 
 #: templates/countries/sv/todo.html:15
 msgid "Things to do and places to see."
-msgstr ""
+msgstr "Saker att göra och platser att se."
 
 #: templates/countries/sv/todo.html:26
 msgid "North Sweden"
-msgstr ""
+msgstr "Norra Sverige"
 
 #: templates/countries/sv/todo.html:27
 msgid "Explore the north of Sweden"
-msgstr ""
+msgstr "Utforska norra Sverige"
 
 #: templates/countries/sv/todo.html:34
 msgid "Northern Lights"
-msgstr ""
+msgstr "Norrsken"
 
 #: templates/countries/sv/todo.html:35
 msgid "Come visit the Arctic circle and see the stunning lights in the night sky"
-msgstr ""
+msgstr "Kom och besök polcirkeln och se de fantastiska ljusen på natthimlen"
 
 #: templates/countries/sv/todo.html:42 templates/countries/sv/todo.html:106
 #: templates/countries/sv/todo.html:170
 msgid "Architecture"
-msgstr ""
+msgstr "Arkitektur"
 
 #: templates/countries/sv/todo.html:43
 msgid "Come explore the world famous scandinavian architectural design"
-msgstr ""
+msgstr "Kom och utforska den världsberömda skandinaviska arkitektoniska designen"
 
 #: templates/countries/sv/todo.html:50
 msgid "Gastrikland"
-msgstr ""
+msgstr "Gastrikland"
 
 #: templates/countries/sv/todo.html:51
 msgid "Naturally stunning region in the East of Sweden"
-msgstr ""
+msgstr "Naturligtvis fantastisk region i östra Sverige"
 
 #: templates/countries/sv/todo.html:58
 msgid "Sami"
-msgstr ""
+msgstr "Sami"
 
 #: templates/countries/sv/todo.html:59
 msgid "Beautiful old Indigenous Culture in the North of Sweden"
-msgstr ""
+msgstr "Vacker gammal urfolkskultur i norra Sverige"
 
 #: templates/countries/sv/todo.html:74
 msgid "Swedish food"
-msgstr ""
+msgstr "Svensk mat"
 
 #: templates/countries/sv/todo.html:76
 msgid "Try out these swedish delacacies"
-msgstr ""
+msgstr "Prova dessa svenska delikatesser"
 
 #: templates/countries/sv/todo.html:78
 msgid "recipes"
-msgstr ""
+msgstr "recept"
 
 #: templates/countries/sv/todo.html:90
 msgid "Central Sweden"
-msgstr ""
+msgstr "Mellansverige"
 
 #: templates/countries/sv/todo.html:91
 msgid "Explore the Central regions of Sweden"
-msgstr ""
+msgstr "Utforska Sveriges mellersta regioner"
 
 #: templates/countries/sv/todo.html:98
 msgid "Stockholm"
-msgstr ""
+msgstr "Stockholm"
 
 #: templates/countries/sv/todo.html:99
 msgid "Come see Sweden's beautiful capital city."
-msgstr ""
+msgstr "Kom och se Sveriges vackra huvudstad."
 
 #: templates/countries/sv/todo.html:107
 msgid "World famous style"
-msgstr ""
+msgstr "Världsberömd stil"
 
 #: templates/countries/sv/todo.html:114
 msgid "Nature"
-msgstr ""
+msgstr "Natur"
 
 #: templates/countries/sv/todo.html:115
 msgid "Visit one of Sweden's many lakes or hiking trails"
-msgstr ""
+msgstr "Besök någon av Sveriges många sjöar eller vandringsleder"
 
 #: templates/countries/sv/todo.html:122 templates/countries/sv/todo.html:186
 msgid "Festivals"
-msgstr ""
+msgstr "Festivaler"
 
 #: templates/countries/sv/todo.html:123 templates/countries/sv/todo.html:187
-msgid "lot's of traditional festivals throught the year"
-msgstr ""
+msgid "lot's of traditional festivals through the year"
+msgstr "många traditionella festivaler under året"
 
 #: templates/countries/sv/todo.html:138
 msgid "Culture"
-msgstr ""
+msgstr "Kultur"
 
 #: templates/countries/sv/todo.html:140
 msgid "Learn More about our culture."
-msgstr ""
+msgstr "Lär dig mer om vår kultur."
 
 #: templates/countries/sv/todo.html:154
 msgid "South Sweden"
-msgstr ""
+msgstr "Sydsverige"
 
 #: templates/countries/sv/todo.html:155
 msgid "Explore the South of Sweden"
-msgstr ""
+msgstr "Utforska södra Sverige"
 
 #: templates/countries/sv/todo.html:162
 msgid "Gothenburg"
-msgstr ""
+msgstr "Gothenburg"
 
 #: templates/countries/sv/todo.html:163
 msgid "Beautiful city in south"
-msgstr ""
+msgstr "Vacker stad i söder"
 
 #: templates/countries/sv/todo.html:171
 msgid "World famous building style"
-msgstr ""
+msgstr "Världsberömd byggnadsstil"
 
 #: templates/countries/sv/todo.html:178
 msgid "Oresund bridge"
-msgstr ""
+msgstr "Öresundsbron"
 
 #: templates/countries/sv/todo.html:179
 msgid "Longest bridge in Europe connects to Denmark"
-msgstr ""
+msgstr "Den längsta bron i Europa ansluter till Danmark"
 
 #: templates/countries/sv/todo.html:214
 msgid "Projects"
-msgstr ""
+msgstr "Projekt"
 
 #: templates/countries/sv/todo.html:230
 msgid "Hard Workers"
-msgstr ""
+msgstr "Hårt jobbande arbetare"
 
 #
 #   layouts/*
