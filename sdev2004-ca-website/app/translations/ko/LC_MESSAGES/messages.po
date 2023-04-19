@@ -395,15 +395,15 @@ msgstr ""
 
 #: templates/countries/sv/home.html:14
 msgid "Welcome to Sweden"
-msgstr ""
+msgstr "스웨덴에 오신 것을 환영합니다"
 
 #: templates/countries/sv/home.html:15
 msgid "Where Dreams are made"
-msgstr ""
+msgstr "꿈이 만들어지는 곳"
 
 #: templates/countries/sv/home.html:29
 msgid "About AES SWEDEN"
-msgstr ""
+msgstr "AES 스웨덴 소개"
 
 #: templates/countries/sv/home.html:31
 msgid ""
@@ -428,120 +428,142 @@ msgid ""
 "things Sweden. Start exploring today and get ready to fall in love with "
 "this stunning country!"
 msgstr ""
+"스웨덴 여행 전용 웹사이트에 오신 것을 환영합니다!"
+"이 아름다운 스칸디나비아 국가로의 여행을 계획 중이시군요."
+"올바른 장소. 저희 웹사이트는 "
+"스웨덴 방문을 최대한 활용하는 데 필요한 정보입니다.\n"
+" 여기에서 최고의 장소에 대한 정보를 찾을 수 있습니다 "
+"방문, 가장 흥미로운 일, 가장 맛있는 음식"
+"시도해 보세요. 스톡홀름, 예테보리, 또는 무엇이든 탐험하는 데 관심이 있다면"
+"스웨덴의 다른 놀라운 도시들 중에서, 우리는 당신을 다루었습니다. 당신은 또한 찾을 수 있습니다."
+" 스웨덴을 돌아다니는 방법, 머무를 곳, 계획하는 방법에 대한 팁 "
+"여정.\n"
+" 저희 웹사이트에는 제작에 도움이 되는 리소스도 가득합니다."
+" 여행 계획을 쉽고 스트레스 없이. 비자에 대한 정보를 제공합니다."
+" 및 입국 요건, 환율 및 교통편 "
+"옵션. 또한 "
+"스웨덴을 여행하고 문화 예절에 대한 팁을 제공하여 도움이 됩니다."
+"현지인들과 어울리세요.\n"
+"그래서 당신이 솔로 모험을 계획하고 있든, 로맨틱한 "
+"휴가 또는 가족 휴가, 저희 웹사이트는 모두를 위한 원스톱 상점입니다."
+"things Sweden. 오늘 탐험을 시작하고 사랑에 빠질 준비를 하세요."
+"이 놀라운 나라!"
 
 #: templates/countries/sv/home.html:36 templates/countries/sv/todo.html:142
 msgid "About us"
-msgstr ""
+msgstr "회사 소개"
 
 #: templates/countries/sv/home.html:44
 msgid "Travel Planning"
-msgstr ""
+msgstr "여행 계획"
 
 #: templates/countries/sv/home.html:45
 msgid "We provide the best guides and plans for Travelling"
-msgstr ""
+msgstr "여행을 위한 최고의 가이드와 계획을 제공합니다."
 
 #: templates/countries/sv/home.html:49
 msgid "Destinations"
-msgstr ""
+msgstr "목적지"
 
 #: templates/countries/sv/home.html:50
 msgid "Guides for popular tourist Destinations"
-msgstr ""
+msgstr "인기 관광지 안내"
 
 #: templates/countries/sv/home.html:54
 msgid "Photography"
-msgstr ""
+msgstr "사진술"
 
 #: templates/countries/sv/home.html:55
 msgid ""
 "Articles on travel photography, including tips for taking great photos "
 "and editing techniques"
 msgstr ""
+"멋진 사진을 찍는 요령을 포함한 여행 사진 관련 기사"
+"그리고 편집 기술"
 
 #: templates/countries/sv/home.html:59
 msgid "Safety"
-msgstr ""
+msgstr "안전"
 
 #: templates/countries/sv/home.html:60
 msgid "Your Safety is the most important aspect that we provide on Trips"
-msgstr ""
+msgstr "귀하의 안전은 당사가 Trips에서 제공하는 가장 중요한 측면입니다."
 
 #: templates/countries/sv/home.html:77
 msgid "Services"
-msgstr ""
+msgstr "서비스"
 
 #: templates/countries/sv/home.html:78
 msgid "We Offer a Wide Range of Services which Include"
-msgstr ""
+msgstr "다음과 같은 다양한 서비스를 제공합니다."
 
 #: templates/countries/sv/home.html:85
 msgid "Booking Agency"
-msgstr ""
+msgstr "예약 대행사"
 
 #: templates/countries/sv/home.html:86
 msgid "This agency will handle all bookings and services related"
-msgstr ""
+msgstr "이 대행사는 관련된 모든 예약 및 서비스를 처리합니다."
 
 #: templates/countries/sv/home.html:93
 msgid "Activities Agency"
-msgstr ""
+msgstr "활동 기관"
 
 #: templates/countries/sv/home.html:94
 msgid "Will suggest activities you can do in a selected Trip"
-msgstr ""
+msgstr "선택한 여행에서 할 수 있는 활동을 제안합니다."
 
 #: templates/countries/sv/home.html:101
 msgid "Finanical Agency"
-msgstr ""
+msgstr "금융 기관"
 
 #: templates/countries/sv/home.html:102
 msgid "Handle finances according to your budget and needs"
-msgstr ""
+msgstr "예산과 필요에 따라 재정을 처리합니다."
 
 #: templates/countries/sv/home.html:109
 msgid "Visa Agency"
-msgstr ""
+msgstr "비자 대행사"
 
 #: templates/countries/sv/home.html:110
 msgid "Provides assistance in obtaining Visas"
-msgstr ""
+msgstr "비자 취득 지원 제공"
 
 #: templates/countries/sv/home.html:129 templates/countries/sv/todo.html:206
 msgid "Happy Clients"
-msgstr ""
+msgstr "행복한 고객"
 
 #: templates/countries/sv/home.html:129
 msgid "Travelling the Globe"
-msgstr ""
+msgstr "지구를 여행하다"
 
 #: templates/countries/sv/home.html:137
 msgid "Recommendations"
-msgstr ""
+msgstr "추천"
 
 #: templates/countries/sv/home.html:137
 msgid "being recommended Everyday"
-msgstr ""
+msgstr "매일 추천받는"
 
 #: templates/countries/sv/home.html:145 templates/countries/sv/todo.html:222
 msgid "Hours Of Support"
-msgstr ""
+msgstr "지원 시간"
 
 #: templates/countries/sv/home.html:145
 msgid "given every Week"
-msgstr ""
+msgstr "매주 주어진"
 
 #: templates/countries/sv/home.html:153
 msgid "Winners"
-msgstr ""
+msgstr "수상자"
 
 #: templates/countries/sv/home.html:153
 msgid "for our monthly Travel Lottery"
-msgstr ""
+msgstr "월간 여행 복권"
 
 #: templates/countries/sv/home.html:168
 msgid "Team"
-msgstr ""
+msgstr "팀"
 
 #: templates/countries/sv/home.html:169
 msgid ""
@@ -549,22 +571,25 @@ msgid ""
 "travel experience. With our platform, users can easily browse, book and "
 "plan their trip."
 msgstr ""
+"AES Travel의 헌신적인 팀은 개인화되고 번거로움 없는 서비스를 제공합니다. "
+"여행 경험. 우리 플랫폼을 통해 사용자는 쉽게 검색, 예약 및 "
+"그들의 여행을 계획하십시오."
 
 #: templates/countries/sv/home.html:179
 msgid "Product Manager"
-msgstr ""
+msgstr "제품 관리자"
 
 #: templates/countries/sv/home.html:195
 msgid "Chief Executive Officer"
-msgstr ""
+msgstr "최고 경영자"
 
 #: templates/countries/sv/home.html:211
 msgid "CTO"
-msgstr ""
+msgstr "CTO"
 
 #: templates/countries/sv/home.html:232 templates/layouts/header.html:39
 msgid "Contact"
-msgstr ""
+msgstr "연락하다"
 
 #: templates/countries/sv/home.html:233
 msgid ""
@@ -572,26 +597,29 @@ msgid ""
 "have the option of going to are main offices at the address below or "
 "filling out a form which we will respond according to our working hours."
 msgstr ""
+"아래의 이메일과 전화로 AES Travel에 연락하실 수 있습니다. 또한 "
+"아래 주소의 본사로 가거나 "
+"근무 시간에 따라 응답할 양식을 작성합니다."
 
 #: templates/countries/sv/home.html:240
 msgid "Our Address"
-msgstr ""
+msgstr "우리 주소"
 
 #: templates/countries/sv/home.html:248
 msgid "Email Us"
-msgstr ""
+msgstr "이메일 보내기"
 
 #: templates/countries/sv/home.html:256
 msgid "Call Us"
-msgstr ""
+msgstr "전화주세요"
 
 #: templates/countries/sv/home.html:288
 msgid "Your message has been sent. Thank you!"
-msgstr ""
+msgstr "귀하의 메시지가 전송되었습니다. 감사합니다!"
 
 #: templates/countries/sv/home.html:290
 msgid "Send Message"
-msgstr ""
+msgstr "문자 보내"
 
 #
 #   sv/todo.html

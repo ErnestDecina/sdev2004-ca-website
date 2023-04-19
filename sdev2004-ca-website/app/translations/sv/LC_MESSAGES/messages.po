@@ -399,15 +399,15 @@ msgstr ""
 
 #: templates/countries/sv/home.html:14
 msgid "Welcome to Sweden"
-msgstr ""
+msgstr "Välkommen till Sverige"
 
 #: templates/countries/sv/home.html:15
 msgid "Where Dreams are made"
-msgstr ""
+msgstr "Där drömmar skapas"
 
 #: templates/countries/sv/home.html:29
 msgid "About AES SWEDEN"
-msgstr ""
+msgstr "Om AES SWEDEN"
 
 #: templates/countries/sv/home.html:31
 msgid ""
@@ -432,120 +432,143 @@ msgid ""
 "things Sweden. Start exploring today and get ready to fall in love with "
 "this stunning country!"
 msgstr ""
+"Välkommen till vår webbplats dedikerad till att resa till Sverige! Om du är"
+"planerar du en resa till detta vackra skandinaviska land har du kommit till"
+"rätt plats. Vår webbplats är utformad för att ge dig alla "
+"information du behöver för att få ut det mesta av ditt besök i Sverige.\n"
+"Här hittar du information om de bästa platserna att"
+"besök, de mest intressanta sakerna att göra och den godaste maten att"
+"prova. Oavsett om du är intresserad av att utforska Stockholm, Göteborg eller något annat"
+"av Sveriges andra fantastiska städer har vi dig täckt. Du kan också hitta"
+" tips om hur du tar dig runt i Sverige, var du ska bo och hur du planerar din"
+"resplan.\n"
+"Vår webbplats är också full av användbara resurser att göra"
+" din reseplanering enkel och stressfri. Vi tillhandahåller information om visum"
+" och inträdeskrav, valutakurser och transport "
+"alternativ. Dessutom erbjuder vi råd om hur du förblir säker medan "
+"reser i Sverige och ger tips om kulturell etikett för att hjälpa dig"
+"blanda in med lokalbefolkningen.\n"
+"Så oavsett om du planerar ett soloäventyr, en romantisk"
+"getaway, eller en familjesemester, vår webbplats är din one-stop-shop för alla"
+"saker Sverige. Börja utforska idag och gör dig redo att bli kär i"
+"det här fantastiska landet!"
+
 
 #: templates/countries/sv/home.html:36 templates/countries/sv/todo.html:142
 msgid "About us"
-msgstr ""
+msgstr "Om oss"
 
 #: templates/countries/sv/home.html:44
 msgid "Travel Planning"
-msgstr ""
+msgstr "Reseplanering"
 
 #: templates/countries/sv/home.html:45
 msgid "We provide the best guides and plans for Travelling"
-msgstr ""
+msgstr "Vi tillhandahåller de bästa guiderna och planerna för resor"
 
 #: templates/countries/sv/home.html:49
 msgid "Destinations"
-msgstr ""
+msgstr "Destinationer"
 
 #: templates/countries/sv/home.html:50
 msgid "Guides for popular tourist Destinations"
-msgstr ""
+msgstr "Guider för populära turistmål"
 
 #: templates/countries/sv/home.html:54
 msgid "Photography"
-msgstr ""
+msgstr "Fotografi"
 
 #: templates/countries/sv/home.html:55
 msgid ""
 "Articles on travel photography, including tips for taking great photos "
 "and editing techniques"
 msgstr ""
+"Artiklar om resefotografering, inklusive tips för att ta fantastiska bilder"
+"och redigeringstekniker"
 
 #: templates/countries/sv/home.html:59
 msgid "Safety"
-msgstr ""
+msgstr "Säkerhet"
 
 #: templates/countries/sv/home.html:60
 msgid "Your Safety is the most important aspect that we provide on Trips"
-msgstr ""
+msgstr "Din säkerhet är den viktigaste aspekten som vi tillhandahåller på resor"
 
 #: templates/countries/sv/home.html:77
 msgid "Services"
-msgstr ""
+msgstr "Tjänster"
 
 #: templates/countries/sv/home.html:78
 msgid "We Offer a Wide Range of Services which Include"
-msgstr ""
+msgstr "Vi erbjuder ett brett utbud av tjänster som inkluderar"
 
 #: templates/countries/sv/home.html:85
 msgid "Booking Agency"
-msgstr ""
+msgstr "Bokningsbyrå"
 
 #: templates/countries/sv/home.html:86
 msgid "This agency will handle all bookings and services related"
-msgstr ""
+msgstr "Denna byrå kommer att hantera alla bokningar och tjänster relaterade"
 
 #: templates/countries/sv/home.html:93
 msgid "Activities Agency"
-msgstr ""
+msgstr "Verksamhetsbyrå"
 
 #: templates/countries/sv/home.html:94
 msgid "Will suggest activities you can do in a selected Trip"
-msgstr ""
+msgstr "Kommer att föreslå aktiviteter du kan göra på en utvald resa"
 
 #: templates/countries/sv/home.html:101
 msgid "Finanical Agency"
-msgstr ""
+msgstr "Finansiell byrå"
 
 #: templates/countries/sv/home.html:102
 msgid "Handle finances according to your budget and needs"
-msgstr ""
+msgstr "Hantera ekonomi efter din budget och behov"
 
 #: templates/countries/sv/home.html:109
 msgid "Visa Agency"
-msgstr ""
+msgstr "Visumbyrå"
 
 #: templates/countries/sv/home.html:110
 msgid "Provides assistance in obtaining Visas"
-msgstr ""
+msgstr "Ger hjälp med att få visum"
 
 #: templates/countries/sv/home.html:129 templates/countries/sv/todo.html:206
 msgid "Happy Clients"
-msgstr ""
+msgstr "Nöjda kunder"
 
 #: templates/countries/sv/home.html:129
 msgid "Travelling the Globe"
-msgstr ""
+msgstr "Reser jorden runt"
 
 #: templates/countries/sv/home.html:137
 msgid "Recommendations"
-msgstr ""
+msgstr "Rekommendationer"
 
 #: templates/countries/sv/home.html:137
 msgid "being recommended Everyday"
-msgstr ""
+msgstr "rekommenderas varje dag"
 
 #: templates/countries/sv/home.html:145 templates/countries/sv/todo.html:222
 msgid "Hours Of Support"
-msgstr ""
+msgstr "Supporttimmar"
 
 #: templates/countries/sv/home.html:145
 msgid "given every Week"
-msgstr ""
+msgstr "ges varje vecka"
 
 #: templates/countries/sv/home.html:153
 msgid "Winners"
-msgstr ""
+msgstr "Vinnare"
 
 #: templates/countries/sv/home.html:153
 msgid "for our monthly Travel Lottery"
-msgstr ""
+msgstr "för vårt månatliga reselotteri"
 
 #: templates/countries/sv/home.html:168
 msgid "Team"
-msgstr ""
+msgstr "Team"
 
 #: templates/countries/sv/home.html:169
 msgid ""
@@ -553,22 +576,25 @@ msgid ""
 "travel experience. With our platform, users can easily browse, book and "
 "plan their trip."
 msgstr ""
+"Vårt hängivna team på AES Travel erbjuder ett personligt och problemfritt"
+"reseupplevelse. Med vår plattform kan användare enkelt bläddra, boka och "
+"planera sin resa."
 
 #: templates/countries/sv/home.html:179
 msgid "Product Manager"
-msgstr ""
+msgstr "Produktchef"
 
 #: templates/countries/sv/home.html:195
 msgid "Chief Executive Officer"
-msgstr ""
+msgstr "Verkställande direktör"
 
 #: templates/countries/sv/home.html:211
 msgid "CTO"
-msgstr ""
+msgstr "CTO"
 
 #: templates/countries/sv/home.html:232 templates/layouts/header.html:39
 msgid "Contact"
-msgstr ""
+msgstr "Kontakt"
 
 #: templates/countries/sv/home.html:233
 msgid ""
@@ -576,26 +602,29 @@ msgid ""
 "have the option of going to are main offices at the address below or "
 "filling out a form which we will respond according to our working hours."
 msgstr ""
+"Du kan kontakta AES Travel via e-post och telefon som finns nedan. Du också"
+"har möjlighet att gå till huvudkontor på adressen nedan eller"
+"fyller i ett formulär som vi kommer att svara enligt våra arbetstider."
 
 #: templates/countries/sv/home.html:240
 msgid "Our Address"
-msgstr ""
+msgstr "Vår adress"
 
 #: templates/countries/sv/home.html:248
 msgid "Email Us"
-msgstr ""
+msgstr "Mejla oss"
 
 #: templates/countries/sv/home.html:256
 msgid "Call Us"
-msgstr ""
+msgstr "Ring oss"
 
 #: templates/countries/sv/home.html:288
 msgid "Your message has been sent. Thank you!"
-msgstr ""
+msgstr "Ditt meddelande har skickats. Tack!"
 
 #: templates/countries/sv/home.html:290
 msgid "Send Message"
-msgstr ""
+msgstr "Skicka meddelande"
 
 
 #
