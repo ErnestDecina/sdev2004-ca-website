@@ -1,7 +1,6 @@
 <!-- Korea Home Body -->
 <!-- ======= Hero Section ======= -->
-<section id="hero_2" style=" background-image: url( {{ url_for('static', filename='img/ko/home/cute-family-picture.jpg' ) }} );">
-</section><!-- End Hero -->
+<section id="hero_2" style=" background-image: url( {{ url_for('static', filename='img/ko/home/cute-family-picture.jpg' ) }} );"></section><!-- End Hero -->
 
 <main id="main">
 
@@ -10,15 +9,12 @@
         <div class="container">
 
             <div class="section-title">
-                <h2>{{_("AES Travel: Korea")}}</h2>
+                <h2>{{ gettext("AES Travel: Korea") }}</h2>
                 <p>{{_("Are you ready to go travel with your family and friends to korea?")}}</p>
             </div>
 
             <div class="intro-text">
-                <p>{{_("Welcome to our website dedicated to all things related to traveling to Korea! Korea is a fascinating
-                    and vibrant country with a rich culture and history. Whether you're interested in exploring the
-                    bustling streets of Seoul, soaking in natural hot springs, or discovering ancient temples, Korea has
-                    something for everyone.")}}</p>
+                <p>{{_("Welcome to our website dedicated to all things related to traveling to Korea! Korea is a fascinating and vibrant country with a rich culture and history. Whether you're interested in exploring the bustling streets of Seoul, soaking in natural hot springs, or discovering ancient temples, Korea has something for everyone.")}}</p>
                 <p>{{_("As a society that values community and social connections, Korea is the perfect destination for those looking to explore with their loved ones. From exploring ancient temples and palaces to sampling delicious Korean cuisine, there's something for everyone to enjoy. Our website is here to help you plan your dream trip to Korea. We're in control of every detail, from transportation to accommodations, so you can focus on making the most of your time with your family and friends. Come and discover the beauty and warmth of Korea with us. Book your trip today!")}}</p>
             </div>
         </div>
@@ -73,7 +69,7 @@
     <section class="recent-photos" id="recent-photos">
         <div class="container">
             <div class="section-title">
-                <h2>{{_("Dont know what to do in Korea?')}}</h2>
+                <h2>{{_("Don't know what to do in Korea?")}}</h2>
                 <p style="text-align: left;" >{{_("Are you planning a trip to Korea, but unsure of what to do or where to start? Look no further! Our guided to-do list is the perfect resource for anyone looking to make the most of their time in this beautiful country. Korea is a land of contrasts, where ancient temples and modern skyscrapers coexist, and traditional customs and contemporary trends blend seamlessly. With so much to see and do, it can be overwhelming to plan your itinerary. That's where our guided to-do list comes in. Our team of experts has curated a comprehensive list of must-see attractions, hidden gems, and cultural experiences that will give you a taste of everything Korea has to offer. From exploring the vibrant streets of Seoul to hiking through picturesque national parks, our to-do list has something for everyone. Not sure where to start? Our to-do list is organized by category, making it easy to find activities that match your interests. Whether you're a foodie looking to sample Korean cuisine, a history buff interested in exploring ancient temples and palaces, or a nature lover seeking adventure in Korea's mountains and beaches, we've got you covered.")}}</p>
                 <br>
                 <p>{{_("Well have a look at our guided todo list")}}</p>
@@ -81,7 +77,7 @@
                     <img alt="" class="img-fluid" src="url({{ url_for('static', filename='img/ko/home/1.jpg' ) }})">
                 </div>
 
-                <a class="btn-learn-more" href="{{ url_for('ko_todo') }}">{{_("Continue to "To Do"")}}</a>
+                <a class="btn-learn-more" href="{{ url_for('ko_todo') }}">{{_("Continue to To Do")}}</a>
             </div>
         </div>
     </section><!-- End Recent Photos Section -->
