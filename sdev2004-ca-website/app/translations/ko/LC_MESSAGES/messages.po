@@ -474,27 +474,26 @@ msgid ""
 "getaway, or a family vacation, our website is your one-stop-shop for all "
 "things Sweden. Start exploring today and get ready to fall in love with "
 "this stunning country!"
-msgstr ""
-"스웨덴 여행 전용 웹사이트에 오신 것을 환영합니다!"
-"이 아름다운 스칸디나비아 국가로의 여행을 계획 중이시군요."
-"올바른 장소. 저희 웹사이트는 "
-"스웨덴 방문을 최대한 활용하는 데 필요한 정보입니다.\n"
-" 여기에서 최고의 장소에 대한 정보를 찾을 수 있습니다 "
-"방문, 가장 흥미로운 일, 가장 맛있는 음식"
-"시도해 보세요. 스톡홀름, 예테보리, 또는 무엇이든 탐험하는 데 관심이 있다면"
-"스웨덴의 다른 놀라운 도시들 중에서, 우리는 당신을 다루었습니다. 당신은 또한 찾을 수 있습니다."
-" 스웨덴을 돌아다니는 방법, 머무를 곳, 계획하는 방법에 대한 팁 "
-"여정.\n"
-" 저희 웹사이트에는 제작에 도움이 되는 리소스도 가득합니다."
-" 여행 계획을 쉽고 스트레스 없이. 비자에 대한 정보를 제공합니다."
-" 및 입국 요건, 환율 및 교통편 "
-"옵션. 또한 "
-"스웨덴을 여행하고 문화 예절에 대한 팁을 제공하여 도움이 됩니다."
-"현지인들과 어울리세요.\n"
-"그래서 당신이 솔로 모험을 계획하고 있든, 로맨틱한 "
-"휴가 또는 가족 휴가, 저희 웹사이트는 모두를 위한 원스톱 상점입니다."
-"things Sweden. 오늘 탐험을 시작하고 사랑에 빠질 준비를 하세요."
-"이 놀라운 나라!"
+msgstr "스웨덴 여행 전용 웹사이트에 오신 것을 환영합니다!
+이 아름다운 스칸디나비아 국가로의 여행을 계획 중이시군요.
+올바른 장소. 저희 웹사이트는
+스웨덴 방문을 최대한 활용하는 데 필요한 정보입니다.\n
+여기에서 최고의 장소에 대한 정보를 찾을 수 있습니다
+방문, 가장 흥미로운 일, 가장 맛있는 음식
+시도해 보세요. 스톡홀름, 예테보리, 또는 무엇이든 탐험하는 데 관심이 있다면
+스웨덴의 다른 놀라운 도시들 중에서, 우리는 당신을 다루었습니다. 당신은 또한 찾을 수 있습니다.
+ 스웨덴을 돌아다니는 방법, 머무를 곳, 계획하는 방법에 대한 팁
+여정.\n
+ 저희 웹사이트에는 제작에 도움이 되는 리소스도 가득합니다.
+ 여행 계획을 쉽고 스트레스 없이. 비자에 대한 정보를 제공합니다.
+ 및 입국 요건, 환율 및 교통편
+옵션. 또한
+스웨덴을 여행하고 문화 예절에 대한 팁을 제공하여 도움이 됩니다.
+현지인들과 어울리세요.\n
+그래서 당신이 솔로 모험을 계획하고 있든, 로맨틱한
+휴가 또는 가족 휴가, 저희 웹사이트는 모두를 위한 원스톱 상점입니다.
+things Sweden. 오늘 탐험을 시작하고 사랑에 빠질 준비를 하세요.
+이 놀라운 나라!"
 
 #: templates/countries/sv/home.html:36 templates/countries/sv/todo.html:142
 msgid "About us"
@@ -524,9 +523,8 @@ msgstr "사진술"
 msgid ""
 "Articles on travel photography, including tips for taking great photos "
 "and editing techniques"
-msgstr ""
-"멋진 사진을 찍는 요령을 포함한 여행 사진 관련 기사"
-"그리고 편집 기술"
+msgstr "멋진 사진을 찍는 요령을 포함한 여행 사진 관련 기사
+그리고 편집 기술"
 
 #: templates/countries/sv/home.html:59
 msgid "Safety"
@@ -617,10 +615,9 @@ msgid ""
 "Our devoted team at AES Travel offers a personalized and hassle-free "
 "travel experience. With our platform, users can easily browse, book and "
 "plan their trip."
-msgstr ""
-"AES Travel의 헌신적인 팀은 개인화되고 번거로움 없는 서비스를 제공합니다. "
-"여행 경험. 우리 플랫폼을 통해 사용자는 쉽게 검색, 예약 및 "
-"그들의 여행을 계획하십시오."
+msgstr "AES Travel의 헌신적인 팀은 개인화되고 번거로움 없는 서비스를 제공합니다.
+여행 경험. 우리 플랫폼을 통해 사용자는 쉽게 검색, 예약 및
+그들의 여행을 계획하십시오."
 
 #: templates/countries/sv/home.html:179
 msgid "Product Manager"
@@ -643,10 +640,9 @@ msgid ""
 "You can contact AES Travel by Email and phone which are below. You also "
 "have the option of going to are main offices at the address below or "
 "filling out a form which we will respond according to our working hours."
-msgstr ""
-"아래의 이메일과 전화로 AES Travel에 연락하실 수 있습니다. 또한 "
-"아래 주소의 본사로 가거나 "
-"근무 시간에 따라 응답할 양식을 작성합니다."
+msgstr "아래의 이메일과 전화로 AES Travel에 연락하실 수 있습니다. 또한
+아래 주소의 본사로 가거나
+근무 시간에 따라 응답할 양식을 작성합니다."
 
 #: templates/countries/sv/home.html:240
 msgid "Our Address"
