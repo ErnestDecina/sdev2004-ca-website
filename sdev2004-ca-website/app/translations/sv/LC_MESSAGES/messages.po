@@ -7,8 +7,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PROJECT VERSION\n"
 "Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
-"POT-Creation-Date: 2023-04-18 17:38+0100\n"
-"PO-Revision-Date: 2023-04-18 17:39+0100\n"
+"POT-Creation-Date: 2023-04-19 11:59+0100\n"
+"PO-Revision-Date: 2023-04-19 12:00+0100\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language: sv\n"
 "Language-Team: sv <LL@li.org>\n"
@@ -45,11 +45,6 @@ msgstr ""
 #: templates/index.html:67
 msgid "Sweden"
 msgstr ""
-
-#
-#   ko/booking.html
-#   Author: Ron Pingol
-#
 
 #: templates/countries/ko/booking.html:9
 msgid "Accommodation"
@@ -134,11 +129,6 @@ msgid ""
 " of work."
 msgstr ""
 
-#
-#   ko/home.html
-#   Author: Ernest John Decina
-#
-
 #: templates/countries/ko/home.html:12
 msgid "AES Travel: Korea"
 msgstr ""
@@ -217,13 +207,6 @@ msgstr ""
 #: templates/countries/ko/home.html:80
 msgid "Continue to To Do"
 msgstr ""
-
-
-#
-#   ko/booking.html
-#   Author: Ron Pingol
-#
-
 
 #: templates/countries/ko/todo.html:9
 msgid "Traveling in Korea"
@@ -314,54 +297,58 @@ msgid "Book here"
 msgstr ""
 
 
-#
-#   ko/booking.html
-#   Author: Ron Pingol
-#
-
 
 #: templates/countries/sv/booking.html:13
 msgid "AES Travel: Sweden"
-msgstr ""
+msgstr "AES Travel: Sweden"
 
 #: templates/countries/sv/booking.html:14
 msgid ""
 "Get lost in Sweden's untamed wilderness, then find yourself in its "
 "vibrant culture."
-msgstr ""
+msgstr "Gå vilse i Sveriges otämjda vildmark och befinn dig sedan i dess pulserande kultur."
 
 #: templates/countries/sv/booking.html:25 templates/layouts/header.html:37
 msgid "Booking"
-msgstr ""
+msgstr "Bokning"
 
 #: templates/countries/sv/booking.html:26
+msgid "Find your next adventure in Sweden..."
+msgstr "Hitta ditt nästa äventyr i Sverige..."
+
+#: templates/countries/sv/booking.html:27
 msgid ""
-"Experience the ultimate in comfort, adventure and hospitality at our "
-"handpicked locations across Sweden."
-msgstr ""
+"Sweden offers a diverse range of experiences, and our selection of "
+"hotels, campsites,\n"
+"            and B&Bs reflect that. Whether you're looking for a luxurious"
+" urban getaway in Stockholm, a cozy cabin in the woods,\n"
+"            or a seaside bed and breakfast, we have something for "
+"everyone. Our accommodations offer unique experiences that reflect the "
+"local culture and heritage,\n"
+"            with activities ranging from hiking and skiing in the "
+"mountains to fishing and kayaking in the archipelagos.\n"
+"            You can enjoy a traditional Swedish breakfast with freshly "
+"baked bread or indulge in a spa treatment at our luxury hotels.\n"
+"            Whatever your preference,\n"
+"            we guarantee that you will have an unforgettable experience "
+"while exploring Sweden's natural beauty and vibrant culture."
+msgstr "Sverige erbjuder ett varierat utbud av upplevelser och vårt utbud av hotell, campingplatser och B&B speglar det. Oavsett om du letar efter en lyxig urban semester i Stockholm, en mysig stuga i skogen eller ett bed and breakfast vid havet, har vi något för alla. Våra boenden erbjuder unika upplevelser som speglar den lokala kulturen och arvet, med aktiviteter som sträcker sig från vandring och skidåkning i fjällen till fiske och kajakpaddling i skärgården. Du kan njuta av en traditionell svensk frukost med nybakat bröd eller unna dig en spabehandling på våra lyxhotell. Oavsett vad du föredrar garanterar vi att du kommer att få en oförglömlig upplevelse samtidigt som du utforskar Sveriges naturliga skönhet och pulserande kultur."
 
-#: templates/countries/sv/booking.html:32
+#: templates/countries/sv/booking.html:40
 msgid "All"
-msgstr ""
+msgstr "Allt"
 
-#: templates/countries/sv/booking.html:33
+#: templates/countries/sv/booking.html:41
 msgid "Hotels"
-msgstr ""
+msgstr "Hotell"
 
-#: templates/countries/sv/booking.html:34
+#: templates/countries/sv/booking.html:42
 msgid "Outdoors"
-msgstr ""
+msgstr "Utomhus"
 
-#: templates/countries/sv/booking.html:35
+#: templates/countries/sv/booking.html:43
 msgid "B&Bs"
-msgstr ""
-
-
-#
-#   ko/booking.html
-#   Author: Ron Pingol
-#
-
+msgstr "B&B"
 
 #: templates/countries/sv/home.html:14
 msgid "Welcome to Sweden"
@@ -563,13 +550,6 @@ msgstr ""
 msgid "Send Message"
 msgstr ""
 
-
-#
-#   ko/booking.html
-#   Author: Ron Pingol
-#
-
-
 #: templates/countries/sv/todo.html:14
 msgid "Hej, welcome to Sweden!"
 msgstr ""
@@ -710,12 +690,6 @@ msgstr ""
 #: templates/countries/sv/todo.html:230
 msgid "Hard Workers"
 msgstr ""
-
-#
-#   layouts/*
-#   Author: Ron Pingol
-#
-
 
 #: templates/layouts/footer.html:13 templates/layouts/footer.html:56
 #: templates/layouts/footer.html:75

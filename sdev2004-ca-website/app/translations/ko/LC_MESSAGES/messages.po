@@ -7,8 +7,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PROJECT VERSION\n"
 "Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
-"POT-Creation-Date: 2023-04-18 17:38+0100\n"
-"PO-Revision-Date: 2023-04-18 17:39+0100\n"
+"POT-Creation-Date: 2023-04-19 11:59+0100\n"
+"PO-Revision-Date: 2023-04-19 12:10+0100\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language: ko\n"
 "Language-Team: ko <LL@li.org>\n"
@@ -45,12 +45,6 @@ msgstr ""
 #: templates/index.html:67
 msgid "Sweden"
 msgstr ""
-
-#
-#   ko/booking.html
-#   Author: Ron Pingol
-#
-
 
 #: templates/countries/ko/booking.html:9
 msgid "Accommodation"
@@ -135,18 +129,13 @@ msgid ""
 " of work."
 msgstr ""
 
-#
-#   ko/home.html
-#   Author: Ernest John Decina
-#
-
 #: templates/countries/ko/home.html:12
 msgid "AES Travel: Korea"
 msgstr ""
 
 #: templates/countries/ko/home.html:13
 msgid "Are you ready to go travel with your family and friends to korea?"
-msgstr "당신은 당신의 가족과 친구들과 한국으로 여행을 갈 준비가 되었습니까?"
+msgstr ""
 
 #: templates/countries/ko/home.html:17
 msgid ""
@@ -155,7 +144,7 @@ msgid ""
 " history. Whether you're interested in exploring the bustling streets of "
 "Seoul, soaking in natural hot springs, or discovering ancient temples, "
 "Korea has something for everyone."
-msgstr "한국 여행과 관련된 모든 것을 전담하는 웹사이트에 오신 것을 환영합니다! 한국은 풍부한 문화와 역사를 가진 매혹적이고 활기찬 나라입니다. 여러분이 서울의 번화한 거리를 탐험하거나, 천연 온천에 몸을 담그거나, 고대 사원을 발견하는 것에 관심이 있다면, 한국은 모두를 위한 무언가를 가지고 있습니다."
+msgstr ""
 
 #: templates/countries/ko/home.html:18
 msgid ""
@@ -218,11 +207,6 @@ msgstr ""
 #: templates/countries/ko/home.html:80
 msgid "Continue to To Do"
 msgstr ""
-
-#
-#   ko/todo.html
-#   Author: Alex Tsang
-#
 
 #: templates/countries/ko/todo.html:9
 msgid "Traveling in Korea"
@@ -312,12 +296,6 @@ msgstr ""
 msgid "Book here"
 msgstr ""
 
-
-#
-#   sv/booking.html
-#   Author: Micheal O'Brien
-#
-
 #: templates/countries/sv/booking.html:13
 msgid "AES Travel: Sweden"
 msgstr ""
@@ -326,38 +304,49 @@ msgstr ""
 msgid ""
 "Get lost in Sweden's untamed wilderness, then find yourself in its "
 "vibrant culture."
-msgstr ""
+msgstr "스웨덴의 길들여지지 않은 황무지에서 길을 잃은 다음 활기찬 문화에서 자신을 찾으십시오."
 
 #: templates/countries/sv/booking.html:25 templates/layouts/header.html:37
 msgid "Booking"
-msgstr ""
+msgstr "예약"
 
 #: templates/countries/sv/booking.html:26
+msgid "Find your next adventure in Sweden..."
+msgstr "스웨덴에서 다음 모험을 찾아보세요..."
+
+#: templates/countries/sv/booking.html:27
 msgid ""
-"Experience the ultimate in comfort, adventure and hospitality at our "
-"handpicked locations across Sweden."
-msgstr ""
+"Sweden offers a diverse range of experiences, and our selection of "
+"hotels, campsites,\n"
+"            and B&Bs reflect that. Whether you're looking for a luxurious"
+" urban getaway in Stockholm, a cozy cabin in the woods,\n"
+"            or a seaside bed and breakfast, we have something for "
+"everyone. Our accommodations offer unique experiences that reflect the "
+"local culture and heritage,\n"
+"            with activities ranging from hiking and skiing in the "
+"mountains to fishing and kayaking in the archipelagos.\n"
+"            You can enjoy a traditional Swedish breakfast with freshly "
+"baked bread or indulge in a spa treatment at our luxury hotels.\n"
+"            Whatever your preference,\n"
+"            we guarantee that you will have an unforgettable experience "
+"while exploring Sweden's natural beauty and vibrant culture."
+msgstr "스웨덴은 다양한 경험을 제공하며 우리가 선택한 호텔, 캠프장 및 B&B는 이를 반영합니다. 스톡홀름의 고급스러운 도시 휴양지, 숲속의 아늑한 오두막 또는 해변 B&B를 찾고 계시다면 모두를 위한 것이 있습니다. 숙소는 산에서의 하이킹과 스키부터 군도에서의 낚시와 카약에 이르기까지 다양한 활동을 통해 현지 문화와 유산을 반영하는 독특한 경험을 제공합니다. 갓 구운 빵과 함께 전통적인 스웨덴식 아침 식사를 즐기거나 고급 호텔에서 스파 트리트먼트를 받으실 수 있습니다. 귀하의 선호도가 무엇이든 스웨덴의 자연미와 활기찬 문화를 탐험하면서 잊을 수 없는 경험을 하게 될 것을 보장합니다."
 
-#: templates/countries/sv/booking.html:32
+#: templates/countries/sv/booking.html:40
 msgid "All"
-msgstr ""
+msgstr "모두"
 
-#: templates/countries/sv/booking.html:33
+#: templates/countries/sv/booking.html:41
 msgid "Hotels"
-msgstr ""
+msgstr "호텔"
 
-#: templates/countries/sv/booking.html:34
+#: templates/countries/sv/booking.html:42
 msgid "Outdoors"
-msgstr ""
+msgstr "옥외"
 
-#: templates/countries/sv/booking.html:35
+#: templates/countries/sv/booking.html:43
 msgid "B&Bs"
-msgstr ""
-
-#
-#   sv/home.html
-#   Author: Daniel Wu
-#
+msgstr "비앤비"
 
 #: templates/countries/sv/home.html:14
 msgid "Welcome to Sweden"
@@ -558,11 +547,6 @@ msgstr ""
 #: templates/countries/sv/home.html:290
 msgid "Send Message"
 msgstr ""
-
-#
-#   sv/todo.html
-#   Author: Micheal O'Brien
-#
 
 #: templates/countries/sv/todo.html:14
 msgid "Hej, welcome to Sweden!"
