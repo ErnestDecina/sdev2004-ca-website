@@ -54,14 +54,16 @@ msgstr ""
 
 #: templates/countries/ko/booking.html:9
 msgid "Accommodation"
-msgstr ""
+msgstr "숙소"
 
 #: templates/countries/ko/booking.html:41
 msgid ""
 "Room: Deluxe King Room | Price: $200/night | Other: Spacious with king-"
 "sized bed, modern furnishings, large en-suite bathroom, panoramic city "
 "views, and complimentary Wi-Fi."
-msgstr ""
+msgstr "객실: 디럭스 킹룸 | 가격: $200/박 | 기타: 킹이 있는 넓은 객실-"
+"사이즈 침대, 현대적인 가구, 넓은 실내 욕실, 파노라마 시티"
+"뷰, 무료 와이파이."
 
 #: templates/countries/ko/booking.html:54
 msgid ""
