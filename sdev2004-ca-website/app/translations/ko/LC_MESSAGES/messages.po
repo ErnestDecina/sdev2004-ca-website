@@ -600,144 +600,144 @@ msgstr ""
 
 #: templates/countries/sv/todo.html:14
 msgid "Hej, welcome to Sweden!"
-msgstr ""
+msgstr "헤즈, 스웨덴에 오신 것을 환영합니다!"
 
 #: templates/countries/sv/todo.html:15
 msgid "Things to do and places to see."
-msgstr ""
+msgstr "할 것들과 볼 곳들."
 
 #: templates/countries/sv/todo.html:26
 msgid "North Sweden"
-msgstr ""
+msgstr "북스웨덴"
 
 #: templates/countries/sv/todo.html:27
 msgid "Explore the north of Sweden"
-msgstr ""
+msgstr "스웨덴 북부 탐험"
 
 #: templates/countries/sv/todo.html:34
 msgid "Northern Lights"
-msgstr ""
+msgstr "노던 라이츠"
 
 #: templates/countries/sv/todo.html:35
 msgid "Come visit the Arctic circle and see the stunning lights in the night sky"
-msgstr ""
+msgstr "북극권에 와서 밤하늘의 놀라운 빛을 보세요"
 
 #: templates/countries/sv/todo.html:42 templates/countries/sv/todo.html:106
 #: templates/countries/sv/todo.html:170
 msgid "Architecture"
-msgstr ""
+msgstr "건축학"
 
 #: templates/countries/sv/todo.html:43
 msgid "Come explore the world famous scandinavian architectural design"
-msgstr ""
+msgstr "세계적으로 유명한 스칸디나비아 건축 디자인을 탐험하러 오세요"
 
 #: templates/countries/sv/todo.html:50
 msgid "Gastrikland"
-msgstr ""
+msgstr "가스트리클랜드"
 
 #: templates/countries/sv/todo.html:51
 msgid "Naturally stunning region in the East of Sweden"
-msgstr ""
+msgstr "스웨덴 동부의 자연적으로 놀라운 지역"
 
 #: templates/countries/sv/todo.html:58
 msgid "Sami"
-msgstr ""
+msgstr "사미"
 
 #: templates/countries/sv/todo.html:59
 msgid "Beautiful old Indigenous Culture in the North of Sweden"
-msgstr ""
+msgstr "스웨덴 북부의 아름다운 토착 문화"
 
 #: templates/countries/sv/todo.html:74
 msgid "Swedish food"
-msgstr ""
+msgstr "스웨덴 음식"
 
 #: templates/countries/sv/todo.html:76
 msgid "Try out these swedish delacacies"
-msgstr ""
+msgstr "이 스웨덴 음식들을 먹어보세요"
 
 #: templates/countries/sv/todo.html:78
 msgid "recipes"
-msgstr ""
+msgstr "조리법"
 
 #: templates/countries/sv/todo.html:90
 msgid "Central Sweden"
-msgstr ""
+msgstr "스웨덴 중부"
 
 #: templates/countries/sv/todo.html:91
 msgid "Explore the Central regions of Sweden"
-msgstr ""
+msgstr "스웨덴 중부 지역 탐색"
 
 #: templates/countries/sv/todo.html:98
 msgid "Stockholm"
-msgstr ""
+msgstr "스톡홀름"
 
 #: templates/countries/sv/todo.html:99
 msgid "Come see Sweden's beautiful capital city."
-msgstr ""
+msgstr "스웨덴의 아름다운 수도를 보러 오세요."
 
 #: templates/countries/sv/todo.html:107
 msgid "World famous style"
-msgstr ""
+msgstr "세계적으로 유명한 스타일"
 
 #: templates/countries/sv/todo.html:114
 msgid "Nature"
-msgstr ""
+msgstr "자연."
 
 #: templates/countries/sv/todo.html:115
 msgid "Visit one of Sweden's many lakes or hiking trails"
-msgstr ""
+msgstr "스웨덴의 많은 호수나 등산로 중 하나를 방문하세요"
 
 #: templates/countries/sv/todo.html:122 templates/countries/sv/todo.html:186
 msgid "Festivals"
-msgstr ""
+msgstr "축제"
 
 #: templates/countries/sv/todo.html:123 templates/countries/sv/todo.html:187
 msgid "lot's of traditional festivals throught the year"
-msgstr ""
+msgstr "연중 많은 전통 축제"
 
 #: templates/countries/sv/todo.html:138
 msgid "Culture"
-msgstr ""
+msgstr "문화"
 
 #: templates/countries/sv/todo.html:140
 msgid "Learn More about our culture."
-msgstr ""
+msgstr "우리의 문화에 대해 자세히 알아보세요."
 
 #: templates/countries/sv/todo.html:154
 msgid "South Sweden"
-msgstr ""
+msgstr "남스웨덴"
 
 #: templates/countries/sv/todo.html:155
 msgid "Explore the South of Sweden"
-msgstr ""
+msgstr "스웨덴 남부 탐험"
 
 #: templates/countries/sv/todo.html:162
 msgid "Gothenburg"
-msgstr ""
+msgstr "고테버그"
 
 #: templates/countries/sv/todo.html:163
 msgid "Beautiful city in south"
-msgstr ""
+msgstr "남쪽의 아름다운 도시"
 
 #: templates/countries/sv/todo.html:171
 msgid "World famous building style"
-msgstr ""
+msgstr "세계적으로 유명한 건축 양식"
 
 #: templates/countries/sv/todo.html:178
 msgid "Oresund bridge"
-msgstr ""
+msgstr "오리선대교"
 
 #: templates/countries/sv/todo.html:179
 msgid "Longest bridge in Europe connects to Denmark"
-msgstr ""
+msgstr "덴마크와 연결되는 유럽에서 가장 긴 다리"
 
 #: templates/countries/sv/todo.html:214
 msgid "Projects"
-msgstr ""
+msgstr "계획, 기획, 설계"
 
 #: templates/countries/sv/todo.html:230
 msgid "Hard Workers"
-msgstr ""
+msgstr "열심히 일하는 사람들"
 
 #: templates/layouts/footer.html:13 templates/layouts/footer.html:56
 #: templates/layouts/footer.html:75
