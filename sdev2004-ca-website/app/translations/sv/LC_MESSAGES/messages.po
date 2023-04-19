@@ -7,8 +7,13 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PROJECT VERSION\n"
 "Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
+<<<<<<< HEAD
 "POT-Creation-Date: 2023-04-18 16:01+0100\n"
 "PO-Revision-Date: 2023-03-29 17:17+0100\n"
+=======
+"POT-Creation-Date: 2023-04-18 17:38+0100\n"
+"PO-Revision-Date: 2023-04-18 17:39+0100\n"
+>>>>>>> ea7c4236b7fdc98af8f817de224646fae4740533
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language: sv\n"
 "Language-Team: sv <LL@li.org>\n"
@@ -46,14 +51,31 @@ msgstr ""
 msgid "Sweden"
 msgstr ""
 
+<<<<<<< HEAD
 #: templates/countries/ko/booking.html:43
+=======
+#
+#   ko/booking.html
+#   Author: Ron Pingol
+#
+
+#: templates/countries/ko/booking.html:9
+msgid "Accommodation"
+msgstr ""
+
+#: templates/countries/ko/booking.html:41
+>>>>>>> ea7c4236b7fdc98af8f817de224646fae4740533
 msgid ""
 "Room: Deluxe King Room | Price: $200/night | Other: Spacious with king-"
 "sized bed, modern furnishings, large en-suite bathroom, panoramic city "
 "views, and complimentary Wi-Fi."
 msgstr ""
 
+<<<<<<< HEAD
 #: templates/countries/ko/booking.html:56
+=======
+#: templates/countries/ko/booking.html:54
+>>>>>>> ea7c4236b7fdc98af8f817de224646fae4740533
 msgid ""
 "Room: Standard Double Room | Price: $150/night | Other: Cozy and "
 "comfortable, this room features a double bed, modern amenities, and a "
@@ -61,7 +83,11 @@ msgid ""
 "Fi and enjoy a relaxing stay in Busan at an affordable price."
 msgstr ""
 
+<<<<<<< HEAD
 #: templates/countries/ko/booking.html:69
+=======
+#: templates/countries/ko/booking.html:67
+>>>>>>> ea7c4236b7fdc98af8f817de224646fae4740533
 msgid ""
 "Room: Family Suite | Price: $300/night | Other: Perfect for families, "
 "this spacious suite features two bedrooms with a king-sized bed and twin "
@@ -70,7 +96,11 @@ msgid ""
 "during your stay in Seoul."
 msgstr ""
 
+<<<<<<< HEAD
 #: templates/countries/ko/booking.html:82
+=======
+#: templates/countries/ko/booking.html:80
+>>>>>>> ea7c4236b7fdc98af8f817de224646fae4740533
 msgid ""
 "Room: Garden View Room | Price: $180/night | Other: Relax in this "
 "peaceful room with a garden view, featuring a king-sized bed, elegant "
@@ -79,7 +109,11 @@ msgid ""
 "stay in Jeju."
 msgstr ""
 
+<<<<<<< HEAD
 #: templates/countries/ko/booking.html:95
+=======
+#: templates/countries/ko/booking.html:93
+>>>>>>> ea7c4236b7fdc98af8f817de224646fae4740533
 msgid ""
 "Room: Ocean View Suite | Price: $250/night | Other: Enjoy breathtaking "
 "ocean views from this luxurious suite featuring a king-sized bed, stylish"
@@ -88,7 +122,11 @@ msgid ""
 "Busan."
 msgstr ""
 
+<<<<<<< HEAD
 #: templates/countries/ko/booking.html:108
+=======
+#: templates/countries/ko/booking.html:106
+>>>>>>> ea7c4236b7fdc98af8f817de224646fae4740533
 msgid ""
 "Room: Executive Suite | Price: $350/night | Other: Indulge in luxury with"
 " this spacious suite featuring a king-sized bed, separate living area, "
@@ -97,7 +135,11 @@ msgid ""
 "complimentary high-speed Wi-Fi during your stay in Seoul."
 msgstr ""
 
+<<<<<<< HEAD
 #: templates/countries/ko/booking.html:121
+=======
+#: templates/countries/ko/booking.html:119
+>>>>>>> ea7c4236b7fdc98af8f817de224646fae4740533
 msgid ""
 "Room: Oceanfront Villa | Price: $450/night | Other: Escape to this "
 "luxurious villa with stunning ocean views, featuring a king-sized bed, "
@@ -106,7 +148,11 @@ msgid ""
 "and enjoy a peaceful retreat during your stay in Jeju."
 msgstr ""
 
+<<<<<<< HEAD
 #: templates/countries/ko/booking.html:134
+=======
+#: templates/countries/ko/booking.html:132
+>>>>>>> ea7c4236b7fdc98af8f817de224646fae4740533
 msgid ""
 "Room: Family Room | Price: $250/night | Other: Perfect for families, this"
 " spacious room features a king-sized bed, twin beds, modern amenities, "
@@ -115,7 +161,11 @@ msgid ""
 "stay in Jeju."
 msgstr ""
 
+<<<<<<< HEAD
 #: templates/countries/ko/booking.html:147
+=======
+#: templates/countries/ko/booking.html:145
+>>>>>>> ea7c4236b7fdc98af8f817de224646fae4740533
 msgid ""
 "Room: Business Suite | Price: $300/night | Other: Ideal for business "
 "travelers, this spacious suite features a king-sized bed, separate living"
@@ -125,6 +175,7 @@ msgid ""
 " of work."
 msgstr ""
 
+<<<<<<< HEAD
 #: templates/layouts/header.html:15 templates/layouts/header.html:45
 #: templates/layouts/header.html:68
 msgid "English"
@@ -157,4 +208,637 @@ msgstr ""
 
 #~ msgid "Sweden Todo Test"
 #~ msgstr "SWEDISH Sweden Todo Test"
+=======
+#
+#   ko/home.html
+#   Author: Ernest John Decina
+#
+
+#: templates/countries/ko/home.html:12
+msgid "AES Travel: Korea"
+msgstr ""
+
+#: templates/countries/ko/home.html:13
+msgid "Are you ready to go travel with your family and friends to korea?"
+msgstr ""
+
+#: templates/countries/ko/home.html:17
+msgid ""
+"Welcome to our website dedicated to all things related to traveling to "
+"Korea! Korea is a fascinating and vibrant country with a rich culture and"
+" history. Whether you're interested in exploring the bustling streets of "
+"Seoul, soaking in natural hot springs, or discovering ancient temples, "
+"Korea has something for everyone."
+msgstr ""
+
+#: templates/countries/ko/home.html:18
+msgid ""
+"As a society that values community and social connections, Korea is the "
+"perfect destination for those looking to explore with their loved ones. "
+"From exploring ancient temples and palaces to sampling delicious Korean "
+"cuisine, there's something for everyone to enjoy. Our website is here to "
+"help you plan your dream trip to Korea. We're in control of every detail,"
+" from transportation to accommodations, so you can focus on making the "
+"most of your time with your family and friends. Come and discover the "
+"beauty and warmth of Korea with us. Book your trip today!"
+msgstr ""
+
+#: templates/countries/ko/home.html:30
+msgid "Website Progression"
+msgstr ""
+
+#: templates/countries/ko/home.html:41 templates/layouts/header.html:9
+#: templates/layouts/header.html:36
+msgid "Home"
+msgstr ""
+
+#: templates/countries/ko/home.html:50
+msgid "What to do?"
+msgstr ""
+
+#: templates/countries/ko/home.html:59
+msgid "Booking your Trip"
+msgstr ""
+
+#: templates/countries/ko/home.html:72
+msgid "Don't know what to do in Korea?"
+msgstr ""
+
+#: templates/countries/ko/home.html:73
+msgid ""
+"Are you planning a trip to Korea, but unsure of what to do or where to "
+"start? Look no further! Our guided to-do list is the perfect resource for"
+" anyone looking to make the most of their time in this beautiful country."
+" Korea is a land of contrasts, where ancient temples and modern "
+"skyscrapers coexist, and traditional customs and contemporary trends "
+"blend seamlessly. With so much to see and do, it can be overwhelming to "
+"plan your itinerary. That's where our guided to-do list comes in. Our "
+"team of experts has curated a comprehensive list of must-see attractions,"
+" hidden gems, and cultural experiences that will give you a taste of "
+"everything Korea has to offer. From exploring the vibrant streets of "
+"Seoul to hiking through picturesque national parks, our to-do list has "
+"something for everyone. Not sure where to start? Our to-do list is "
+"organized by category, making it easy to find activities that match your "
+"interests. Whether you're a foodie looking to sample Korean cuisine, a "
+"history buff interested in exploring ancient temples and palaces, or a "
+"nature lover seeking adventure in Korea's mountains and beaches, we've "
+"got you covered."
+msgstr ""
+
+#: templates/countries/ko/home.html:75
+msgid "Well have a look at our guided todo list"
+msgstr ""
+
+#: templates/countries/ko/home.html:80
+msgid "Continue to To Do"
+msgstr ""
+
+
+#
+#   ko/booking.html
+#   Author: Ron Pingol
+#
+
+
+#: templates/countries/ko/todo.html:9
+msgid "Traveling in Korea"
+msgstr ""
+
+#: templates/countries/ko/todo.html:22
+msgid "The Five Royal Palaces of Seoul"
+msgstr ""
+
+#: templates/countries/ko/todo.html:24
+msgid ""
+"The five palaces of Seoul are royal palaces of the Joseon Dynasty and "
+"symbols of Korea’s culture and history. Each palace has its unique "
+"charms: Gyeongbokgung Palace, the royal residence; Changdeokgung Palace, "
+"a UNESCO World Heritage Site inscribed in 1997 with remarkable beauty; "
+"Deoksugung Palace, a combination of Korean aesthetics and Western "
+"architecture; Changgyeonggung Palace, now restored from the damages "
+"caused by Japanese occupation; and Gyeonghuigung Palace, humble and "
+"simple."
+msgstr ""
+
+#: templates/countries/ko/todo.html:39
+msgid "Hongik University Hongdae Street"
+msgstr ""
+
+#: templates/countries/ko/todo.html:41
+msgid ""
+"The heart of Seoul’s youth culture is this eclectic collection of cafes, "
+"restaurants, bars, clubs, art markets, galleries, and shops. Its numerous"
+" alleys wind through the area, carrying unique themes like clubbing, art,"
+" and murals (Picasso Street). Busking, performances, events, and the "
+"powerful energy of youthful freedom draw numerous youths to the area, "
+"especially on weekends."
+msgstr ""
+
+#: templates/countries/ko/todo.html:55
+msgid "COEX (Starfield)"
+msgstr ""
+
+#: templates/countries/ko/todo.html:57
+msgid ""
+"COEX is a cultural center housing shops, film theaters, an aquarium, a "
+"large bookstore, and a library. Starfield Library in particular is a "
+"beloved location for photo ops for its two-story, 13-meter-high "
+"bookstores. It is designed as an open space of communication through "
+"books, and it hosts many literature-themed cultural events."
+msgstr ""
+
+#: templates/countries/ko/todo.html:71
+msgid "Seoul Land"
+msgstr ""
+
+#: templates/countries/ko/todo.html:73
+msgid ""
+"Seoul Land has gained popularity as a land of adventures and dreams. Its "
+"attractions are organized by themes, such as the World Plaza, Tomorrow "
+"Land, Character Town, and Adventure Land. There are about 50 rides, all "
+"inspired by Korean animation characters. The amusement park runs a sled "
+"slope and a fishing spot in winter. At night, Seoul Land turns into Luna "
+"Park decorated with splendid lights."
+msgstr ""
+
+#: templates/countries/ko/todo.html:89
+msgid "Seomjingang Train Village in Gokseong"
+msgstr ""
+
+#: templates/countries/ko/todo.html:91
+msgid ""
+"Seomjingang Train Village is a train-themed park developed from the "
+"former Gokseong Station and the discontinued Jeolla Line. The village is "
+"home to Dreamland amusement park; the goblin-themed Yosul (Magic) Land; "
+"Chichippuppu Playground, where visitors can learn and experience railway "
+"history and culture; an animal farm; a VR zone; and a media art "
+"exhibition hall. Visitors can also ride the railbike or the steam "
+"locomotive."
+msgstr ""
+
+#: templates/countries/ko/todo.html:102
+msgid "Looking for accommodation?"
+msgstr ""
+
+#: templates/countries/ko/todo.html:105
+msgid "Check out South Korea's places to stay"
+msgstr ""
+
+#: templates/countries/ko/todo.html:110
+msgid "Book here"
+msgstr ""
+
+
+#
+#   ko/booking.html
+#   Author: Ron Pingol
+#
+
+
+#: templates/countries/sv/booking.html:13
+msgid "AES Travel: Sweden"
+msgstr ""
+
+#: templates/countries/sv/booking.html:14
+msgid ""
+"Get lost in Sweden's untamed wilderness, then find yourself in its "
+"vibrant culture."
+msgstr ""
+
+#: templates/countries/sv/booking.html:25 templates/layouts/header.html:37
+msgid "Booking"
+msgstr ""
+
+#: templates/countries/sv/booking.html:26
+msgid ""
+"Experience the ultimate in comfort, adventure and hospitality at our "
+"handpicked locations across Sweden."
+msgstr ""
+
+#: templates/countries/sv/booking.html:32
+msgid "All"
+msgstr ""
+
+#: templates/countries/sv/booking.html:33
+msgid "Hotels"
+msgstr ""
+
+#: templates/countries/sv/booking.html:34
+msgid "Outdoors"
+msgstr ""
+
+#: templates/countries/sv/booking.html:35
+msgid "B&Bs"
+msgstr ""
+
+
+#
+#   ko/booking.html
+#   Author: Ron Pingol
+#
+
+
+#: templates/countries/sv/home.html:14
+msgid "Welcome to Sweden"
+msgstr ""
+
+#: templates/countries/sv/home.html:15
+msgid "Where Dreams are made"
+msgstr ""
+
+#: templates/countries/sv/home.html:29
+msgid "About AES SWEDEN"
+msgstr ""
+
+#: templates/countries/sv/home.html:31
+msgid ""
+"Welcome to our website dedicated to traveling to Sweden! If you are "
+"planning a trip to this beautiful Scandinavian country, you have come to "
+"the right place. Our website is designed to provide you with all the "
+"information you need to make the most of your visit to Sweden.\n"
+"                Here, you will find information about the best places to "
+"visit, the most interesting things to do, and the most delicious food to "
+"try. Whether you're interested in exploring Stockholm, Gothenburg, or any"
+" of Sweden's other amazing cities, we have you covered. You can also find"
+" tips on how to get around Sweden, where to stay, and how to plan your "
+"itinerary.\n"
+"                Our website is also packed with helpful resources to make"
+" your trip planning easy and stress-free. We provide information on visas"
+" and entry requirements, currency exchange rates, and transportation "
+"options. Additionally, we offer advice on how to stay safe while "
+"traveling in Sweden and provide tips on cultural etiquette to help you "
+"blend in with the locals.\n"
+"                So whether you are planning a solo adventure, a romantic "
+"getaway, or a family vacation, our website is your one-stop-shop for all "
+"things Sweden. Start exploring today and get ready to fall in love with "
+"this stunning country!"
+msgstr ""
+
+#: templates/countries/sv/home.html:36 templates/countries/sv/todo.html:142
+msgid "About us"
+msgstr ""
+
+#: templates/countries/sv/home.html:44
+msgid "Travel Planning"
+msgstr ""
+
+#: templates/countries/sv/home.html:45
+msgid "We provide the best guides and plans for Travelling"
+msgstr ""
+
+#: templates/countries/sv/home.html:49
+msgid "Destinations"
+msgstr ""
+
+#: templates/countries/sv/home.html:50
+msgid "Guides for popular tourist Destinations"
+msgstr ""
+
+#: templates/countries/sv/home.html:54
+msgid "Photography"
+msgstr ""
+
+#: templates/countries/sv/home.html:55
+msgid ""
+"Articles on travel photography, including tips for taking great photos "
+"and editing techniques"
+msgstr ""
+
+#: templates/countries/sv/home.html:59
+msgid "Safety"
+msgstr ""
+
+#: templates/countries/sv/home.html:60
+msgid "Your Safety is the most important aspect that we provide on Trips"
+msgstr ""
+
+#: templates/countries/sv/home.html:77
+msgid "Services"
+msgstr ""
+
+#: templates/countries/sv/home.html:78
+msgid "We Offer a Wide Range of Services which Include"
+msgstr ""
+
+#: templates/countries/sv/home.html:85
+msgid "Booking Agency"
+msgstr ""
+
+#: templates/countries/sv/home.html:86
+msgid "This agency will handle all bookings and services related"
+msgstr ""
+
+#: templates/countries/sv/home.html:93
+msgid "Activities Agency"
+msgstr ""
+
+#: templates/countries/sv/home.html:94
+msgid "Will suggest activities you can do in a selected Trip"
+msgstr ""
+
+#: templates/countries/sv/home.html:101
+msgid "Finanical Agency"
+msgstr ""
+
+#: templates/countries/sv/home.html:102
+msgid "Handle finances according to your budget and needs"
+msgstr ""
+
+#: templates/countries/sv/home.html:109
+msgid "Visa Agency"
+msgstr ""
+
+#: templates/countries/sv/home.html:110
+msgid "Provides assistance in obtaining Visas"
+msgstr ""
+
+#: templates/countries/sv/home.html:129 templates/countries/sv/todo.html:206
+msgid "Happy Clients"
+msgstr ""
+
+#: templates/countries/sv/home.html:129
+msgid "Travelling the Globe"
+msgstr ""
+
+#: templates/countries/sv/home.html:137
+msgid "Recommendations"
+msgstr ""
+
+#: templates/countries/sv/home.html:137
+msgid "being recommended Everyday"
+msgstr ""
+
+#: templates/countries/sv/home.html:145 templates/countries/sv/todo.html:222
+msgid "Hours Of Support"
+msgstr ""
+
+#: templates/countries/sv/home.html:145
+msgid "given every Week"
+msgstr ""
+
+#: templates/countries/sv/home.html:153
+msgid "Winners"
+msgstr ""
+
+#: templates/countries/sv/home.html:153
+msgid "for our monthly Travel Lottery"
+msgstr ""
+
+#: templates/countries/sv/home.html:168
+msgid "Team"
+msgstr ""
+
+#: templates/countries/sv/home.html:169
+msgid ""
+"Our devoted team at AES Travel offers a personalized and hassle-free "
+"travel experience. With our platform, users can easily browse, book and "
+"plan their trip."
+msgstr ""
+
+#: templates/countries/sv/home.html:179
+msgid "Product Manager"
+msgstr ""
+
+#: templates/countries/sv/home.html:195
+msgid "Chief Executive Officer"
+msgstr ""
+
+#: templates/countries/sv/home.html:211
+msgid "CTO"
+msgstr ""
+
+#: templates/countries/sv/home.html:232 templates/layouts/header.html:39
+msgid "Contact"
+msgstr ""
+
+#: templates/countries/sv/home.html:233
+msgid ""
+"You can contact AES Travel by Email and phone which are below. You also "
+"have the option of going to are main offices at the address below or "
+"filling out a form which we will respond according to our working hours."
+msgstr ""
+
+#: templates/countries/sv/home.html:240
+msgid "Our Address"
+msgstr ""
+
+#: templates/countries/sv/home.html:248
+msgid "Email Us"
+msgstr ""
+
+#: templates/countries/sv/home.html:256
+msgid "Call Us"
+msgstr ""
+
+#: templates/countries/sv/home.html:288
+msgid "Your message has been sent. Thank you!"
+msgstr ""
+
+#: templates/countries/sv/home.html:290
+msgid "Send Message"
+msgstr ""
+
+
+#
+#   ko/booking.html
+#   Author: Ron Pingol
+#
+
+
+#: templates/countries/sv/todo.html:14
+msgid "Hej, welcome to Sweden!"
+msgstr ""
+
+#: templates/countries/sv/todo.html:15
+msgid "Things to do and places to see."
+msgstr ""
+
+#: templates/countries/sv/todo.html:26
+msgid "North Sweden"
+msgstr ""
+
+#: templates/countries/sv/todo.html:27
+msgid "Explore the north of Sweden"
+msgstr ""
+
+#: templates/countries/sv/todo.html:34
+msgid "Northern Lights"
+msgstr ""
+
+#: templates/countries/sv/todo.html:35
+msgid "Come visit the Arctic circle and see the stunning lights in the night sky"
+msgstr ""
+
+#: templates/countries/sv/todo.html:42 templates/countries/sv/todo.html:106
+#: templates/countries/sv/todo.html:170
+msgid "Architecture"
+msgstr ""
+
+#: templates/countries/sv/todo.html:43
+msgid "Come explore the world famous scandinavian architectural design"
+msgstr ""
+
+#: templates/countries/sv/todo.html:50
+msgid "Gastrikland"
+msgstr ""
+
+#: templates/countries/sv/todo.html:51
+msgid "Naturally stunning region in the East of Sweden"
+msgstr ""
+
+#: templates/countries/sv/todo.html:58
+msgid "Sami"
+msgstr ""
+
+#: templates/countries/sv/todo.html:59
+msgid "Beautiful old Indigenous Culture in the North of Sweden"
+msgstr ""
+
+#: templates/countries/sv/todo.html:74
+msgid "Swedish food"
+msgstr ""
+
+#: templates/countries/sv/todo.html:76
+msgid "Try out these swedish delacacies"
+msgstr ""
+
+#: templates/countries/sv/todo.html:78
+msgid "recipes"
+msgstr ""
+
+#: templates/countries/sv/todo.html:90
+msgid "Central Sweden"
+msgstr ""
+
+#: templates/countries/sv/todo.html:91
+msgid "Explore the Central regions of Sweden"
+msgstr ""
+
+#: templates/countries/sv/todo.html:98
+msgid "Stockholm"
+msgstr ""
+
+#: templates/countries/sv/todo.html:99
+msgid "Come see Sweden's beautiful capital city."
+msgstr ""
+
+#: templates/countries/sv/todo.html:107
+msgid "World famous style"
+msgstr ""
+
+#: templates/countries/sv/todo.html:114
+msgid "Nature"
+msgstr ""
+
+#: templates/countries/sv/todo.html:115
+msgid "Visit one of Sweden's many lakes or hiking trails"
+msgstr ""
+
+#: templates/countries/sv/todo.html:122 templates/countries/sv/todo.html:186
+msgid "Festivals"
+msgstr ""
+
+#: templates/countries/sv/todo.html:123 templates/countries/sv/todo.html:187
+msgid "lot's of traditional festivals throught the year"
+msgstr ""
+
+#: templates/countries/sv/todo.html:138
+msgid "Culture"
+msgstr ""
+
+#: templates/countries/sv/todo.html:140
+msgid "Learn More about our culture."
+msgstr ""
+
+#: templates/countries/sv/todo.html:154
+msgid "South Sweden"
+msgstr ""
+
+#: templates/countries/sv/todo.html:155
+msgid "Explore the South of Sweden"
+msgstr ""
+
+#: templates/countries/sv/todo.html:162
+msgid "Gothenburg"
+msgstr ""
+
+#: templates/countries/sv/todo.html:163
+msgid "Beautiful city in south"
+msgstr ""
+
+#: templates/countries/sv/todo.html:171
+msgid "World famous building style"
+msgstr ""
+
+#: templates/countries/sv/todo.html:178
+msgid "Oresund bridge"
+msgstr ""
+
+#: templates/countries/sv/todo.html:179
+msgid "Longest bridge in Europe connects to Denmark"
+msgstr ""
+
+#: templates/countries/sv/todo.html:214
+msgid "Projects"
+msgstr ""
+
+#: templates/countries/sv/todo.html:230
+msgid "Hard Workers"
+msgstr ""
+
+#
+#   layouts/*
+#   Author: Ron Pingol
+#
+
+
+#: templates/layouts/footer.html:13 templates/layouts/footer.html:56
+#: templates/layouts/footer.html:75
+msgid "Copyright"
+msgstr ""
+
+#: templates/layouts/footer.html:13 templates/layouts/footer.html:56
+#: templates/layouts/footer.html:75
+msgid "All Rights Reserved"
+msgstr ""
+
+#: templates/layouts/footer.html:34
+msgid "Home to the Worlds best Travel Services"
+msgstr ""
+
+#: templates/layouts/header.html:6
+msgid "Vist Korea"
+msgstr ""
+
+#: templates/layouts/header.html:10 templates/layouts/header.html:63
+msgid "Language"
+msgstr ""
+
+#: templates/layouts/header.html:12 templates/layouts/header.html:42
+#: templates/layouts/header.html:65
+msgid "English"
+msgstr ""
+
+#: templates/layouts/header.html:13 templates/layouts/header.html:43
+#: templates/layouts/header.html:66
+msgid "Korean"
+msgstr ""
+
+#: templates/layouts/header.html:14 templates/layouts/header.html:44
+#: templates/layouts/header.html:67
+msgid "Swedish"
+msgstr ""
+
+#: templates/layouts/header.html:29
+msgid "Vist Sweden"
+msgstr ""
+
+#: templates/layouts/header.html:38
+msgid "To do"
+msgstr ""
+
+#: templates/layouts/header.html:40
+msgid "Language Selector"
+msgstr ""
+>>>>>>> ea7c4236b7fdc98af8f817de224646fae4740533
 

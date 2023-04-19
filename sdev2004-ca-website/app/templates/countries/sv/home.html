@@ -11,8 +11,8 @@ Author: Daniel Wu
 <!-- ======= Hero Section ======= -->
 <section id="hero">
     <div class="hero-container" data-aos="fade-up" style="background: linear-gradient(rgba(55, 142, 181, 0.5), rgba(55, 142, 181, 0.2)),  url({{ url_for('static', filename='img/sv/home/Riddar.jpg' ) }}) top center;" >
-    <h1>Welcome to Sweden</h1>
-    <h2>Where Dreams are made</h2>
+    <h1>{{_("Welcome to Sweden")}}</h1>
+    <h2>{{_("Where Dreams are made")}}</h2>
     <a href="#about" class="btn-get-started scrollto"><i class="bx bx-chevrons-down"></i></a>
     </div>
 </section><!-- End Hero -->
@@ -26,14 +26,14 @@ Author: Daniel Wu
         <div class="row no-gutters">
           <div class="content col-xl-5 d-flex align-items-stretch" data-aos="fade-up">
             <div class="content">
-              <h3>About AES SWEDEN</h3>
+              <h3>{{_("About AES SWEDEN")}}</h3>
               <p>
-                Welcome to our website dedicated to traveling to Sweden! If you are planning a trip to this beautiful Scandinavian country, you have come to the right place. Our website is designed to provide you with all the information you need to make the most of your visit to Sweden.
+                {{_("Welcome to our website dedicated to traveling to Sweden! If you are planning a trip to this beautiful Scandinavian country, you have come to the right place. Our website is designed to provide you with all the information you need to make the most of your visit to Sweden.
                 Here, you will find information about the best places to visit, the most interesting things to do, and the most delicious food to try. Whether you're interested in exploring Stockholm, Gothenburg, or any of Sweden's other amazing cities, we have you covered. You can also find tips on how to get around Sweden, where to stay, and how to plan your itinerary.
                 Our website is also packed with helpful resources to make your trip planning easy and stress-free. We provide information on visas and entry requirements, currency exchange rates, and transportation options. Additionally, we offer advice on how to stay safe while traveling in Sweden and provide tips on cultural etiquette to help you blend in with the locals.
-                So whether you are planning a solo adventure, a romantic getaway, or a family vacation, our website is your one-stop-shop for all things Sweden. Start exploring today and get ready to fall in love with this stunning country!
+                So whether you are planning a solo adventure, a romantic getaway, or a family vacation, our website is your one-stop-shop for all things Sweden. Start exploring today and get ready to fall in love with this stunning country!")}}
               </p>
-              <a href="#" class="about-btn">About us <i class="bx bx-chevron-right"></i></a>
+              <a href="#" class="about-btn">{{_("About us")}} <i class="bx bx-chevron-right"></i></a>
             </div>
           </div>
           <div class="col-xl-7 d-flex align-items-stretch">
@@ -41,23 +41,23 @@ Author: Daniel Wu
               <div class="row">
                 <div class="col-md-6 icon-box" data-aos="fade-up" data-aos-delay="100">
                   <i class="bx bx-receipt"></i>
-                  <h4>Travel Planning</h4>
-                  <p>We provide the best guides and plans for Travelling</p>
+                  <h4>{{_("Travel Planning")}}</h4>
+                  <p>{{_("We provide the best guides and plans for Travelling")}}</p>
                 </div>
                 <div class="col-md-6 icon-box" data-aos="fade-up" data-aos-delay="200">
                   <i class="bx bx-cube-alt"></i>
-                  <h4>Destinations</h4>
-                  <p>Guides for popular tourist Destinations</p>
+                  <h4>{{_("Destinations")}}</h4>
+                  <p>{{_("Guides for popular tourist Destinations")}}</p>
                 </div>
                 <div class="col-md-6 icon-box" data-aos="fade-up" data-aos-delay="300">
                   <i class="bx bx-images"></i>
-                  <h4>Photography</h4>
-                  <p>Articles on travel photography, including tips for taking great photos and editing techniques</p>
+                  <h4>{{_("Photography")}}</h4>
+                  <p>{{_("Articles on travel photography, including tips for taking great photos and editing techniques")}}</p>
                 </div>
                 <div class="col-md-6 icon-box" data-aos="fade-up" data-aos-delay="400">
                   <i class="bx bx-shield"></i>
-                  <h4>Safety</h4>
-                  <p>Your Safety is the most important aspect that we provide on Trips</p>
+                  <h4>{{_("Safety")}}</h4>
+                  <p>{{_("Your Safety is the most important aspect that we provide on Trips")}}</p>
                 </div>
               </div>
             </div><!-- End .content-->
@@ -74,40 +74,40 @@ Author: Daniel Wu
       <div class="container">
 
         <div class="section-title" data-aos="fade-in" data-aos-delay="100">
-          <h2>Services</h2>
-          <p>We Offer a Wide Range of Services which Include</p>
+          <h2>{{_("Services")}}</h2>
+          <p>{{_("We Offer a Wide Range of Services which Include")}}</p>
         </div>
 
         <div class="row">
           <div class="col-md-6 col-lg-3 d-flex align-items-stretch mb-5 mb-lg-0">
             <div class="icon-box" data-aos="fade-up">
               <div class="icon"><i class="bx bxl-dribbble"></i></div>
-              <h4 class="title"><a href="">Booking Agency</a></h4>
-              <p class="description">This agency will handle all bookings and services related</p>
+              <h4 class="title"><a href="">{{_("Booking Agency")}}</a></h4>
+              <p class="description">{{_("This agency will handle all bookings and services related")}}</p>
             </div>
           </div>
 
           <div class="col-md-6 col-lg-3 d-flex align-items-stretch mb-5 mb-lg-0">
             <div class="icon-box" data-aos="fade-up" data-aos-delay="100">
               <div class="icon"><i class="bx bx-file"></i></div>
-              <h4 class="title"><a href="">Activities Agency</a></h4>
-              <p class="description">Will suggest activities you can do in a selected Trip</p>
+              <h4 class="title"><a href="">{{_("Activities Agency")}}</a></h4>
+              <p class="description">{{_("Will suggest activities you can do in a selected Trip")}}</p>
             </div>
           </div>
 
           <div class="col-md-6 col-lg-3 d-flex align-items-stretch mb-5 mb-lg-0">
             <div class="icon-box" data-aos="fade-up" data-aos-delay="200">
               <div class="icon"><i class="bx bx-tachometer"></i></div>
-              <h4 class="title"><a href="">Finanical Agency</a></h4>
-              <p class="description">Handle finances according to your budget and needs</p>
+              <h4 class="title"><a href="">{{_("Finanical Agency")}}</a></h4>
+              <p class="description">{{_("Handle finances according to your budget and needs")}}</p>
             </div>
           </div>
 
           <div class="col-md-6 col-lg-3 d-flex align-items-stretch mb-5 mb-lg-0">
             <div class="icon-box" data-aos="fade-up" data-aos-delay="300">
               <div class="icon"><i class="bx bx-world"></i></div>
-              <h4 class="title"><a href="">Visa Agency</a></h4>
-              <p class="description">Provides assistance in obtaining Visas</p>
+              <h4 class="title"><a href="">{{_("Visa Agency")}}</a></h4>
+              <p class="description">{{_("Provides assistance in obtaining Visas")}}</p>
             </div>
           </div>
 
@@ -126,7 +126,7 @@ Author: Daniel Wu
             <div class="count-box">
               <i class="bi bi-emoji-smile"></i>
               <span data-purecounter-start="0" data-purecounter-end="2387" data-purecounter-duration="1" class="purecounter"></span>
-              <p><strong>Happy Clients</strong> Travelling the Globe</p>
+              <p><strong>{{_("Happy Clients")}}</strong> {{_("Travelling the Globe")}}</p>
             </div>
           </div>
 
@@ -134,7 +134,7 @@ Author: Daniel Wu
             <div class="count-box">
               <i class="bi bi-journal-richtext"></i>
               <span data-purecounter-start="0" data-purecounter-end="10283" data-purecounter-duration="1" class="purecounter"></span>
-              <p><strong>Recommendations</strong> being recommended Everyday</p>
+              <p><strong>{{_("Recommendations")}}</strong> {{_("being recommended Everyday")}}</p>
             </div>
           </div>
 
@@ -142,7 +142,7 @@ Author: Daniel Wu
             <div class="count-box">
               <i class="bi bi-headset"></i>
               <span data-purecounter-start="0" data-purecounter-end="1463" data-purecounter-duration="1" class="purecounter"></span>
-              <p><strong>Hours Of Support</strong> given every Week</p>
+              <p><strong>{{_("Hours Of Support")}}</strong> {{_("given every Week")}}</p>
             </div>
           </div>
 
@@ -150,7 +150,7 @@ Author: Daniel Wu
             <div class="count-box">
               <i class="bi bi-people"></i>
               <span data-purecounter-start="0" data-purecounter-end="154" data-purecounter-duration="1" class="purecounter"></span>
-              <p><strong>Winners</strong> for our monthly Travel Lottery</p>
+              <p><strong>{{_("Winners")}}</strong> {{_("for our monthly Travel Lottery")}}</p>
             </div>
           </div>
 
@@ -165,8 +165,8 @@ Author: Daniel Wu
       <div class="container">
 
         <div class="section-title" data-aos="fade-in" data-aos-delay="100">
-          <h2>Team</h2>
-          <p>Our devoted team at AES Travel offers a personalized and hassle-free travel experience. With our platform, users can easily browse, book and plan their trip.</p>
+          <h2>{{_("Team")}}</h2>
+          <p>{{_("Our devoted team at AES Travel offers a personalized and hassle-free travel experience. With our platform, users can easily browse, book and plan their trip.")}}</p>
         </div>
 
         <div class="row">
@@ -176,7 +176,7 @@ Author: Daniel Wu
               <div class="pic"><img src="assets/img/team/team-1.jpg" class="img-fluid" alt=""></div>
               <div class="member-info">
                 <h4>Alex Tsang</h4>
-                <span>Product Manager</span>
+                <span>{{_("Product Manager")}}</span>
                 <div class="social">
                   <a href=""><i class="bi bi-twitter"></i></a>
                   <a href=""><i class="bi bi-facebook"></i></a>
@@ -192,7 +192,7 @@ Author: Daniel Wu
               <div class="pic"><img src="assets/img/team/team-2.jpg" class="img-fluid" alt=""></div>
               <div class="member-info">
                 <h4>Ernest John Decina</h4>
-                <span>Chief Executive Officer</span>
+                <span>{{_("Chief Executive Officer")}}</span>
                 <div class="social">
                   <a href=""><i class="bi bi-twitter"></i></a>
                   <a href=""><i class="bi bi-facebook"></i></a>
@@ -208,7 +208,7 @@ Author: Daniel Wu
               <div class="pic"><img src="assets/img/team/team-3.jpg" class="img-fluid" alt=""></div>
               <div class="member-info">
                 <h4>Sean Tighe</h4>
-                <span>CTO</span>
+                <span>{{_("CTO")}}</span>
                 <div class="social">
                   <a href=""><i class="bi bi-twitter"></i></a>
                   <a href=""><i class="bi bi-facebook"></i></a>
@@ -229,15 +229,15 @@ Author: Daniel Wu
       <div class="container" data-aos="fade-up">
 
         <div class="section-title">
-          <h2>Contact</h2>
-          <p>You can contact AES Travel by Email and phone which are below. You also have the option of going to are main offices at the address below or filling out a form which we will respond according to our working hours.</p>
+          <h2>{{_("Contact")}}</h2>
+          <p>{{_("You can contact AES Travel by Email and phone which are below. You also have the option of going to are main offices at the address below or filling out a form which we will respond according to our working hours.")}}</p>
         </div>
 
         <div class="row">
           <div class="col-lg-6">
             <div class="info-box mb-4">
               <i class="bx bx-map"></i>
-              <h3>Our Address</h3>
+              <h3>{{_("Our Address")}}</h3>
               <p>Grangegorman Lower, Dublin 7, D07 H6K8</p>
             </div>
           </div>
@@ -245,7 +245,7 @@ Author: Daniel Wu
           <div class="col-lg-3 col-md-6">
             <div class="info-box  mb-4">
               <i class="bx bx-envelope"></i>
-              <h3>Email Us</h3>
+              <h3>{{_("Email Us")}}</h3>
               <p>AESTRAVEL@gmail.com</p>
             </div>
           </div>
@@ -253,7 +253,7 @@ Author: Daniel Wu
           <div class="col-lg-3 col-md-6">
             <div class="info-box  mb-4">
               <i class="bx bx-phone-call"></i>
-              <h3>Call Us</h3>
+              <h3>{{_("Call Us")}}</h3>
               <p>+353 5589 55488 55</p>
             </div>
           </div>
@@ -285,9 +285,9 @@ Author: Daniel Wu
               <div class="my-3">
                 <div class="loading">Loading</div>
                 <div class="error-message"></div>
-                <div class="sent-message">Your message has been sent. Thank you!</div>
+                <div class="sent-message">{{_("Your message has been sent. Thank you!")}}</div>
               </div>
-              <div class="text-center"><button type="submit">Send Message</button></div>
+              <div class="text-center"><button type="submit">{{_("Send Message")}}</button></div>
             </form>
           </div>
 
