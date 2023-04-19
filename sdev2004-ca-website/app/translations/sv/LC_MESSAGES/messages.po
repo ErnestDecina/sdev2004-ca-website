@@ -397,27 +397,26 @@ msgid ""
 "getaway, or a family vacation, our website is your one-stop-shop for all "
 "things Sweden. Start exploring today and get ready to fall in love with "
 "this stunning country!"
-msgstr ""
-"Välkommen till vår webbplats dedikerad till att resa till Sverige! Om du är"
-"planerar du en resa till detta vackra skandinaviska land har du kommit till"
-"rätt plats. Vår webbplats är utformad för att ge dig alla "
-"information du behöver för att få ut det mesta av ditt besök i Sverige.\n"
-"Här hittar du information om de bästa platserna att"
-"besök, de mest intressanta sakerna att göra och den godaste maten att"
-"prova. Oavsett om du är intresserad av att utforska Stockholm, Göteborg eller något annat"
-"av Sveriges andra fantastiska städer har vi dig täckt. Du kan också hitta"
-" tips om hur du tar dig runt i Sverige, var du ska bo och hur du planerar din"
-"resplan.\n"
-"Vår webbplats är också full av användbara resurser att göra"
-" din reseplanering enkel och stressfri. Vi tillhandahåller information om visum"
-" och inträdeskrav, valutakurser och transport "
-"alternativ. Dessutom erbjuder vi råd om hur du förblir säker medan "
-"reser i Sverige och ger tips om kulturell etikett för att hjälpa dig"
-"blanda in med lokalbefolkningen.\n"
-"Så oavsett om du planerar ett soloäventyr, en romantisk"
-"getaway, eller en familjesemester, vår webbplats är din one-stop-shop för alla"
-"saker Sverige. Börja utforska idag och gör dig redo att bli kär i"
-"det här fantastiska landet!"
+msgstr "Välkommen till vår webbplats dedikerad till att resa till Sverige! Om du är
+planerar du en resa till detta vackra skandinaviska land har du kommit till
+rätt plats. Vår webbplats är utformad för att ge dig alla
+information du behöver för att få ut det mesta av ditt besök i Sverige.\n
+Här hittar du information om de bästa platserna att
+besök, de mest intressanta sakerna att göra och den godaste maten att
+prova. Oavsett om du är intresserad av att utforska Stockholm, Göteborg eller något annat
+av Sveriges andra fantastiska städer har vi dig täckt. Du kan också hitta
+ tips om hur du tar dig runt i Sverige, var du ska bo och hur du planerar din
+resplan.\n
+Vår webbplats är också full av användbara resurser att göra
+ din reseplanering enkel och stressfri. Vi tillhandahåller information om visum
+ och inträdeskrav, valutakurser och transport
+alternativ. Dessutom erbjuder vi råd om hur du förblir säker medan
+reser i Sverige och ger tips om kulturell etikett för att hjälpa dig
+blanda in med lokalbefolkningen.\n"
+Så oavsett om du planerar ett soloäventyr, en romantisk
+getaway, eller en familjesemester, vår webbplats är din one-stop-shop för alla
+saker Sverige. Börja utforska idag och gör dig redo att bli kär i
+det här fantastiska landet!"
 
 
 #: templates/countries/sv/home.html:36 templates/countries/sv/todo.html:142
@@ -448,9 +447,8 @@ msgstr "Fotografi"
 msgid ""
 "Articles on travel photography, including tips for taking great photos "
 "and editing techniques"
-msgstr ""
-"Artiklar om resefotografering, inklusive tips för att ta fantastiska bilder"
-"och redigeringstekniker"
+msgstr "Artiklar om resefotografering, inklusive tips för att ta fantastiska bilder
+och redigeringstekniker"
 
 #: templates/countries/sv/home.html:59
 msgid "Safety"
@@ -541,10 +539,9 @@ msgid ""
 "Our devoted team at AES Travel offers a personalized and hassle-free "
 "travel experience. With our platform, users can easily browse, book and "
 "plan their trip."
-msgstr ""
-"Vårt hängivna team på AES Travel erbjuder ett personligt och problemfritt"
-"reseupplevelse. Med vår plattform kan användare enkelt bläddra, boka och "
-"planera sin resa."
+msgstr "Vårt hängivna team på AES Travel erbjuder ett personligt och problemfritt
+reseupplevelse. Med vår plattform kan användare enkelt bläddra, boka och
+planera sin resa."
 
 #: templates/countries/sv/home.html:179
 msgid "Product Manager"
@@ -567,10 +564,9 @@ msgid ""
 "You can contact AES Travel by Email and phone which are below. You also "
 "have the option of going to are main offices at the address below or "
 "filling out a form which we will respond according to our working hours."
-msgstr ""
-"Du kan kontakta AES Travel via e-post och telefon som finns nedan. Du också"
-"har möjlighet att gå till huvudkontor på adressen nedan eller"
-"fyller i ett formulär som vi kommer att svara enligt våra arbetstider."
+msgstr "Du kan kontakta AES Travel via e-post och telefon som finns nedan. Du också
+har möjlighet att gå till huvudkontor på adressen nedan eller
+fyller i ett formulär som vi kommer att svara enligt våra arbetstider."
 
 #: templates/countries/sv/home.html:240
 msgid "Our Address"
