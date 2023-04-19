@@ -134,26 +134,26 @@ dmypy.json
 sdev2004-ca-website/.idea/
 
 # User-specific stuff:
-.idea/workspace.xml
-.idea/tasks.xml
-.idea/dictionaries
-.idea/vcs.xml
-.idea/jsLibraryMappings.xml
+sdev2004-ca-website/.idea/workspace.xml
+sdev2004-ca-website/.idea/tasks.xml
+sdev2004-ca-website/.idea/dictionaries
+sdev2004-ca-website/.idea/vcs.xml
+sdev2004-ca-website/.idea/jsLibraryMappings.xml
 
 # Sensitive or high-churn files:
-.idea/dataSources.ids
-.idea/dataSources.xml
-.idea/dataSources.local.xml
-.idea/sqlDataSources.xml
-.idea/dynamic.xml
-.idea/uiDesigner.xml
+sdev2004-ca-website/.idea/dataSources.ids
+sdev2004-ca-website/.idea/dataSources.xml
+sdev2004-ca-website/.idea/dataSources.local.xml
+sdev2004-ca-website/.idea/sqlDataSources.xml
+sdev2004-ca-website/.idea/dynamic.xml
+sdev2004-ca-website/.idea/uiDesigner.xml
 
 # Gradle:
-.idea/gradle.xml
-.idea/libraries
+sdev2004-ca-website/.idea/gradle.xml
+sdev2004-ca-website/.idea/libraries
 
 # Mongo Explorer plugin:
-.idea/mongoSettings.xml
+sdev2004-ca-website/.idea/mongoSettings.xml
 
 ## File-based project format:
 *.iws
@@ -177,6 +177,11 @@ fabric.properties
 
 ### Intellij Patch ###
 # Comment Reason: https://github.com/joeblau/gitignore.io/issues/186#issuecomment-215987721
+*.iml
+modules.xml
 
-# *.iml
-# modules.xml
+sdev2004-ca-website/.idea/
+.idea/
+sdev2004-ca-website/.idea/workspace.xml
+
+certs/

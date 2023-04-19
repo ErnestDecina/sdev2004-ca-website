@@ -3,33 +3,94 @@
 
 <!-- Body -->
 {% block body %}
-    <h1>Home Page</h1>
-    <h2>Development</h2>
-    <ul>
-        <h3>Korea</h3>
-        <ul>
-            <li>
-                 <a href="{{ url_for('ko_home') }}">Home</a>
-            </li>
-            <li>
-                 <a href="{{ url_for('ko_todo') }}">Todo</a>
-            </li>
-            <li>
-                 <a href="{{ url_for('ko_booking') }}">Booking</a>
-            </li>
-        </ul>
+<!-- ======= Hero Section ======= -->
+{% set lang_code = session["language"] %}
+{% set background_image =  "background-image: url( {{ url_for('static', filename='img/" + lang_code + "/index/index-hero.webp" %}
+    <section class="d-flex align-items-center justify-content-center" id="hero"
+             style="background-image: url( {{ url_for('static', filename='img/' + lang_code + '/index/index-hero.webp') }} ); ">
+        <div class="container position-relative">
+            <h1>{{_('AES Travel')}}</h1>
+            <h2>{{_('Bringing you where you want to be')}}</h2>
+        </div>
+    </section><!-- End Hero -->
 
-        <h3>Sweden</h3>
-        <ul>
-            <li>
-                 <a href="{{ url_for('sv_home') }}">Home</a>
-            </li>
-            <li>
-                 <a href="{{ url_for('sv_todo') }}">Todo</a>
-            </li>
-            <li>
-                 <a href="{{ url_for('sv_booking') }}">Booking</a>
-            </li>
-        </ul>
-    </ul>
+    <main id="main">
+        <section class="team section-bg" id="team">
+            <div class="container">
+
+                <div class="section-title">
+                    <h2>{{_('Current Travel Plans')}}</h2>
+                    <p>{{_('Here is our 2 travel destinations for you to enjoy')}}</p>
+                </div>
+
+                <div class="row">
+
+                    <div class="col-lg-3 col-md-6 d-flex align-items-stretch" style="visibility: hidden;">
+                        <div class="member">
+                            <div class="member-img">
+                                <img alt="" class="img-fluid" src="">
+                                <div class="social">
+                                    <a href=""><i class="bi bi-twitter"></i></a>
+                                    <a href=""><i class="bi bi-facebook"></i></a>
+                                    <a href=""><i class="bi bi-instagram"></i></a>
+                                    <a href=""><i class="bi bi-linkedin"></i></a>
+                                </div>
+                            </div>
+                            <div class="member-info">
+                                <h4>Walter White</h4>
+                                <span>Chief Executive Officer</span>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-lg-3 col-md-6 d-flex align-items-stretch">
+                        <div class="member">
+                            <div class="member-img">
+                                <a href="{{ url_for('ko_home') }}">
+                                    <img alt="" class="img-fluid" src="{{ url_for('static', filename='img/' + lang_code + '/index/korea_image.webp') }}">
+                                </a>
+                            </div>
+                            <div class="member-info">
+                                <a  href="{{ url_for('ko_home') }}">{{_('Korea')}}</a>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-lg-3 col-md-6 d-flex align-items-stretch">
+                        <div class="member">
+                            <div class="member-img">
+                                <a href="{{ url_for('sv_home') }}">
+                                    <img alt="" class="img-fluid" src="{{ url_for('static', filename='img/' + lang_code + '/index/sweden_image.webp') }}">
+                                </a>
+                            </div>
+                            <div class="member-info">
+                                <a href="{{ url_for('sv_home') }}">{{_('Sweden')}}</a>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-lg-3 col-md-6 d-flex align-items-stretch" style="visibility: hidden;">
+                        <div class="member">
+                            <div class="member-img">
+                                <img alt="" class="img-fluid" src="assets/img/team/team-4.jpg">
+                                <div class="social">
+                                    <a href=""><i class="bi bi-twitter"></i></a>
+                                    <a href=""><i class="bi bi-facebook"></i></a>
+                                    <a href=""><i class="bi bi-instagram"></i></a>
+                                    <a href=""><i class="bi bi-linkedin"></i></a>
+                                </div>
+                            </div>
+                            <div class="member-info">
+                                <h4>Amanda Jepson</h4>
+                                <span>Accountant</span>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+
+            </div>
+        </section>
+
+    </main><!-- End #main -->
 {% endblock %}
