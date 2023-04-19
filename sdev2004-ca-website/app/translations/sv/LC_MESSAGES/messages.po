@@ -60,9 +60,9 @@ msgid ""
 "Room: Deluxe King Room | Price: $200/night | Other: Spacious with king-"
 "sized bed, modern furnishings, large en-suite bathroom, panoramic city "
 "views, and complimentary Wi-Fi."
-msgstr "Rum: Rum Deluxe King | Pris: $ 200 / natt | Övrigt: Rymlig med kung-"
-"Stor säng, modern inredning, stort badrum, panoramautsikt över staden"
-"utsikt och gratis Wi-Fi."
+msgstr "Rum: Rum Deluxe King | Pris: $ 200 / natt | Övrigt: Rymlig med kung-
+Stor säng, modern inredning, stort badrum, panoramautsikt över staden
+utsikt och gratis Wi-Fi."
 
 #: templates/countries/ko/booking.html:54
 msgid ""
@@ -70,10 +70,10 @@ msgid ""
 "comfortable, this room features a double bed, modern amenities, and a "
 "sleek en-suite bathroom. Stay connected with complimentary high-speed Wi-"
 "Fi and enjoy a relaxing stay in Busan at an affordable price."
-msgstr "Rum: Dubbelrum Standard | Pris: $ 150 / natt | Övrigt: Mysigt och "
-"Bekvämt, detta rum har en dubbelsäng, moderna bekvämligheter och en"
-"Elegant badrum. Håll dig uppkopplad med gratis höghastighets-Wi-"
-"Fi och njut av en avkopplande vistelse i Busan till ett överkomligt pris."
+msgstr "Rum: Dubbelrum Standard | Pris: $ 150 / natt | Övrigt: Mysigt och
+Bekvämt, detta rum har en dubbelsäng, moderna bekvämligheter och en
+Elegant badrum. Håll dig uppkopplad med gratis höghastighets-Wi-
+Fi och njut av en avkopplande vistelse i Busan till ett överkomligt pris."
 
 #: templates/countries/ko/booking.html:67
 msgid ""
@@ -82,11 +82,11 @@ msgid ""
 "beds, modern furnishings, and two en-suite bathrooms. Enjoy complimentary"
 " high-speed Wi-Fi and create unforgettable memories with your loved ones "
 "during your stay in Seoul."
-msgstr "Rum: Familjesvit | Pris: $ 300 / natt | Övrigt: Perfekt för familjer, "
-"Denna rymliga svit har två sovrum med en king size-säng och två enkelsängar"
-"Sängar, modern inredning och två badrum. Njut av gratis"
-" höghastighets Wi-Fi och skapa oförglömliga minnen med dina nära och kära "
-"under din vistelse i Seoul."
+msgstr "Rum: Familjesvit | Pris: $ 300 / natt | Övrigt: Perfekt för familjer,
+Denna rymliga svit har två sovrum med en king size-säng och två enkelsängar
+Sängar, modern inredning och två badrum. Njut av gratis
+ höghastighets Wi-Fi och skapa oförglömliga minnen med dina nära och kära
+under din vistelse i Seoul."
 
 #: templates/countries/ko/booking.html:80
 msgid ""
@@ -95,11 +95,11 @@ msgid ""
 "furnishings, and a luxurious en-suite bathroom. Stay connected with "
 "complimentary high-speed Wi-Fi and enjoy a tranquil retreat during your "
 "stay in Jeju."
-msgstr "Rum: Rum med trädgårdsutsikt | Pris: $ 180 / natt | Övrigt: Koppla av i detta "
-"Lugnt rum med utsikt över trädgården, med en king size-säng, elegant"
-"Inredning och ett lyxigt badrum. Håll kontakten med "
-"gratis höghastighets-Wi-Fi och njut av en lugn tillflyktsort under din "
-"stanna i Jeju."
+msgstr "Rum: Rum med trädgårdsutsikt | Pris: $ 180 / natt | Övrigt: Koppla av i detta
+Lugnt rum med utsikt över trädgården, med en king size-säng, elegant
+Inredning och ett lyxigt badrum. Håll kontakten med
+gratis höghastighets-Wi-Fi och njut av en lugn tillflyktsort under din
+stanna i Jeju."
 
 #: templates/countries/ko/booking.html:93
 msgid ""
@@ -108,11 +108,11 @@ msgid ""
 " furnishings, and a spa-like en-suite bathroom. Stay connected with "
 "complimentary high-speed Wi-Fi and unwind in comfort during your stay in "
 "Busan."
-msgstr "Rum: Svit med havsutsikt | Pris: $ 250 / natt | Övrigt: Njut av hisnande "
-"Havsutsikt från denna lyxiga svit med en king size-säng, elegant"
-" möbler, och ett spa-liknande badrum. Håll kontakten med "
-"Gratis höghastighets-Wi-Fi och koppla av i komfort under din vistelse i"
-"Busan."
+msgstr "Rum: Svit med havsutsikt | Pris: $ 250 / natt | Övrigt: Njut av hisnande
+Havsutsikt från denna lyxiga svit med en king size-säng, elegant
+ möbler, och ett spa-liknande badrum. Håll kontakten med
+Gratis höghastighets-Wi-Fi och koppla av i komfort under din vistelse i
+Busan."
 
 #: templates/countries/ko/booking.html:106
 msgid ""
@@ -121,11 +121,11 @@ msgid ""
 "modern furnishings, and a spa-like en-suite bathroom. Enjoy stunning city"
 " views from your high-floor windows, and stay connected with "
 "complimentary high-speed Wi-Fi during your stay in Seoul."
-msgstr "Rum: Svit Executive | Pris: $ 350 / natt | Övrigt: Unna dig lyx med"
-" Denna rymliga svit med en king size-säng, separat vardagsrum, "
-"Modern inredning och ett spa-liknande badrum. Trevlig personal"
-" utsikt från dina fönster på höga våningar och håll kontakten med "
-"gratis höghastighets-Wi-Fi under din vistelse i Seoul."
+msgstr "Rum: Svit Executive | Pris: $ 350 / natt | Övrigt: Unna dig lyx med
+ Denna rymliga svit med en king size-säng, separat vardagsrum,
+Modern inredning och ett spa-liknande badrum. Trevlig personal
+ utsikt från dina fönster på höga våningar och håll kontakten med
+gratis höghastighets-Wi-Fi under din vistelse i Seoul."
 
 #: templates/countries/ko/booking.html:119
 msgid ""
@@ -134,11 +134,11 @@ msgid ""
 "private terrace, elegant furnishings, and a spacious en-suite bathroom "
 "with a whirlpool tub. Stay connected with complimentary high-speed Wi-Fi "
 "and enjoy a peaceful retreat during your stay in Jeju."
-msgstr "Rum: Villa vid havet | Pris: $ 450 / natt | Övrigt: Fly till detta "
-"Lyxig villa med fantastisk havsutsikt, med en king size-säng,"
-"Privat terrass, elegant inredning och ett rymligt badrum"
-"Med ett bubbelbadkar. Håll dig uppkopplad med gratis höghastighets-Wi-Fi"
-"och njut av en lugn tillflyktsort under din vistelse i Jeju."
+msgstr "Rum: Villa vid havet | Pris: $ 450 / natt | Övrigt: Fly till detta
+Lyxig villa med fantastisk havsutsikt, med en king size-säng,
+Privat terrass, elegant inredning och ett rymligt badrum
+Med ett bubbelbadkar. Håll dig uppkopplad med gratis höghastighets-Wi-Fi
+och njut av en lugn tillflyktsort under din vistelse i Jeju."
 
 #: templates/countries/ko/booking.html:132
 msgid ""
@@ -147,11 +147,11 @@ msgid ""
 "and a sleek en-suite bathroom. Enjoy stunning mountain views from your "
 "room, and stay connected with complimentary high-speed Wi-Fi during your "
 "stay in Jeju."
-msgstr "Rum: Familjerum | Pris: $ 250 / natt | Övrigt: Perfekt för familjer, detta"
-" Rymligt rum med en king size-säng, två enkelsängar, moderna bekvämligheter, "
-"och ett elegant badrum. Njut av fantastisk utsikt över bergen från din "
-"rum, och håll kontakten med gratis höghastighets-Wi-Fi under din "
-"stanna i Jeju."
+msgstr "Rum: Familjerum | Pris: $ 250 / natt | Övrigt: Perfekt för familjer, detta
+ Rymligt rum med en king size-säng, två enkelsängar, moderna bekvämligheter,
+och ett elegant badrum. Njut av fantastisk utsikt över bergen från din
+rum, och håll kontakten med gratis höghastighets-Wi-Fi under din
+stanna i Jeju."
 
 #: templates/countries/ko/booking.html:145
 msgid ""
@@ -161,12 +161,12 @@ msgid ""
 "high-speed Wi-Fi and stay productive during your stay in Busan. The suite"
 " also offers panoramic city views for a relaxing retreat after a long day"
 " of work."
-msgstr "Rum: Svit Business | Pris: $ 300 / natt | Övrigt: Perfekt för företag "
-"Resenärer, denna rymliga svit har en king size-säng, separat vardagsrum"
-" område, skrivbord och ett lyxigt badrum. Njut av gratis "
-"höghastighets Wi-Fi och vara produktiv under din vistelse i Busan. Sviten"
-" erbjuder också panoramautsikt över staden för en avkopplande tillflyktsort efter en lång dag"
-" av arbetet."
+msgstr "Rum: Svit Business | Pris: $ 300 / natt | Övrigt: Perfekt för företag
+Resenärer, denna rymliga svit har en king size-säng, separat vardagsrum
+ område, skrivbord och ett lyxigt badrum. Njut av gratis
+höghastighets Wi-Fi och vara produktiv under din vistelse i Busan. Sviten
+ erbjuder också panoramautsikt över staden för en avkopplande tillflyktsort efter en lång dag
+ av arbetet."
 
 #
 #   ko/home.html
