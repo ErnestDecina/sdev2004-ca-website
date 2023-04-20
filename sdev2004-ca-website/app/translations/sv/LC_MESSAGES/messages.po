@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PROJECT VERSION\n"
 "Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
-"POT-Creation-Date: 2023-04-18 17:38+0100\n"
+"POT-Creation-Date: 2023-04-20 13:23+0100\n"
 "PO-Revision-Date: 2023-04-18 17:39+0100\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language: sv\n"
@@ -20,7 +20,7 @@ msgstr ""
 
 #: templates/base.html:6
 msgid "SDEV Assignment"
-msgstr ""
+msgstr "SDEV Uppdrag"
 
 #: templates/index.html:12
 msgid "AES Travel"
@@ -28,43 +28,54 @@ msgstr ""
 
 #: templates/index.html:13
 msgid "Bringing you where you want to be"
-msgstr ""
+msgstr "Tar dig dit du vill vara"
 
 #: templates/index.html:22
 msgid "Current Travel Plans"
-msgstr ""
+msgstr "Aktuella resplaner"
 
 #: templates/index.html:23
 msgid "Here is our 2 travel destinations for you to enjoy"
-msgstr ""
+msgstr "Här är våra 2 resmål för dig att njuta av"
 
 #: templates/index.html:54
 msgid "Korea"
-msgstr ""
+msgstr "Korea"
 
 #: templates/index.html:67
 msgid "Sweden"
-msgstr ""
+msgstr "Sverige"
 
-
-#
-#   ko/booking.html
-#   Author: Ron Pingol
-#
-
+# ko/booking.html
+# Author: Ron Pingol
 #: templates/countries/ko/booking.html:9
 msgid "Accommodation"
 msgstr "Inkvartering"
+
+#: templates/countries/ko/booking.html:26
+#: templates/countries/sv/booking.html:40
+msgid "All"
+msgstr "Allt"
+
+#: templates/countries/ko/booking.html:27
+#, fuzzy
+msgid "Seoul"
+msgstr "Seoul Land"
+
+#: templates/countries/ko/booking.html:28
+msgid "Jeju"
+msgstr "Jeju"
+
+#: templates/countries/ko/booking.html:29
+msgid "Busan"
+msgstr "Busan"
 
 #: templates/countries/ko/booking.html:41
 msgid ""
 "Room: Deluxe King Room | Price: $200/night | Other: Spacious with king-"
 "sized bed, modern furnishings, large en-suite bathroom, panoramic city "
 "views, and complimentary Wi-Fi."
-msgstr "Rum: Rum Deluxe King | Pris: $ 200 / natt | Övrigt: Rymlig med kung-
-Stor säng, modern inredning, stort badrum, panoramautsikt över staden
-utsikt och gratis Wi-Fi."
-
+msgstr "Rum: Rum Deluxe King | Pris: $ 200 / natt | Övrigt: Rymlig med kung"
 
 #: templates/countries/ko/booking.html:54
 msgid ""
@@ -72,11 +83,7 @@ msgid ""
 "comfortable, this room features a double bed, modern amenities, and a "
 "sleek en-suite bathroom. Stay connected with complimentary high-speed Wi-"
 "Fi and enjoy a relaxing stay in Busan at an affordable price."
-msgstr "Rum: Dubbelrum Standard | Pris: $ 150 / natt | Övrigt: Mysigt och
-Bekvämt, detta rum har en dubbelsäng, moderna bekvämligheter och en
-Elegant badrum. Håll dig uppkopplad med gratis höghastighets-Wi-
-Fi och njut av en avkopplande vistelse i Busan till ett överkomligt pris."
-
+msgstr "Rum: Dubbelrum Standard | Pris: $ 150 / natt | Övrigt: Mysigt oc"
 
 #: templates/countries/ko/booking.html:67
 msgid ""
@@ -85,12 +92,7 @@ msgid ""
 "beds, modern furnishings, and two en-suite bathrooms. Enjoy complimentary"
 " high-speed Wi-Fi and create unforgettable memories with your loved ones "
 "during your stay in Seoul."
-msgstr "Rum: Familjesvit | Pris: $ 300 / natt | Övrigt: Perfekt för familjer,
-Denna rymliga svit har två sovrum med en king size-säng och två enkelsängar
-Sängar, modern inredning och två badrum. Njut av gratis
- höghastighets Wi-Fi och skapa oförglömliga minnen med dina nära och kära
-under din vistelse i Seoul."
-
+msgstr "Rum: Familjesvit | Pris: $ 300 / natt | Övrigt: Perfekt för familjer"
 
 #: templates/countries/ko/booking.html:80
 msgid ""
@@ -99,12 +101,9 @@ msgid ""
 "furnishings, and a luxurious en-suite bathroom. Stay connected with "
 "complimentary high-speed Wi-Fi and enjoy a tranquil retreat during your "
 "stay in Jeju."
-msgstr "Rum: Rum med trädgårdsutsikt | Pris: $ 180 / natt | Övrigt: Koppla av i detta
-Lugnt rum med utsikt över trädgården, med en king size-säng, elegant
-Inredning och ett lyxigt badrum. Håll kontakten med
-gratis höghastighets-Wi-Fi och njut av en lugn tillflyktsort under din
-stanna i Jeju."
-
+msgstr ""
+"Rum: Rum med trädgårdsutsikt | Pris: $ 180 / natt | Övrigt: Koppla av i "
+"dett"
 
 #: templates/countries/ko/booking.html:93
 msgid ""
@@ -113,11 +112,7 @@ msgid ""
 " furnishings, and a spa-like en-suite bathroom. Stay connected with "
 "complimentary high-speed Wi-Fi and unwind in comfort during your stay in "
 "Busan."
-msgstr "Rum: Svit med havsutsikt | Pris: $ 250 / natt | Övrigt: Njut av hisnande
-Havsutsikt från denna lyxiga svit med en king size-säng, elegant
- möbler, och ett spa-liknande badrum. Håll kontakten med
-Gratis höghastighets-Wi-Fi och koppla av i komfort under din vistelse i
-Busan."
+msgstr "Rum: Svit med havsutsikt | Pris: $ 250 / natt | Övrigt: Njut av hisnand"
 
 #: templates/countries/ko/booking.html:106
 msgid ""
@@ -126,12 +121,7 @@ msgid ""
 "modern furnishings, and a spa-like en-suite bathroom. Enjoy stunning city"
 " views from your high-floor windows, and stay connected with "
 "complimentary high-speed Wi-Fi during your stay in Seoul."
-msgstr "Rum: Svit Executive | Pris: $ 350 / natt | Övrigt: Unna dig lyx med
- Denna rymliga svit med en king size-säng, separat vardagsrum,
-Modern inredning och ett spa-liknande badrum. Trevlig personal
- utsikt från dina fönster på höga våningar och håll kontakten med
-gratis höghastighets-Wi-Fi under din vistelse i Seoul."
-
+msgstr "Rum: Svit Executive | Pris: $ 350 / natt | Övrigt: Unna dig lyx me"
 
 #: templates/countries/ko/booking.html:119
 msgid ""
@@ -140,12 +130,7 @@ msgid ""
 "private terrace, elegant furnishings, and a spacious en-suite bathroom "
 "with a whirlpool tub. Stay connected with complimentary high-speed Wi-Fi "
 "and enjoy a peaceful retreat during your stay in Jeju."
-msgstr "Rum: Villa vid havet | Pris: $ 450 / natt | Övrigt: Fly till detta
-Lyxig villa med fantastisk havsutsikt, med en king size-säng,
-Privat terrass, elegant inredning och ett rymligt badrum
-Med ett bubbelbadkar. Håll dig uppkopplad med gratis höghastighets-Wi-Fi
-och njut av en lugn tillflyktsort under din vistelse i Jeju."
-
+msgstr "Rum: Villa vid havet | Pris: $ 450 / natt | Övrigt: Fly till dett"
 
 #: templates/countries/ko/booking.html:132
 msgid ""
@@ -154,11 +139,7 @@ msgid ""
 "and a sleek en-suite bathroom. Enjoy stunning mountain views from your "
 "room, and stay connected with complimentary high-speed Wi-Fi during your "
 "stay in Jeju."
-msgstr "Rum: Familjerum | Pris: $ 250 / natt | Övrigt: Perfekt för familjer, detta
- Rymligt rum med en king size-säng, två enkelsängar, moderna bekvämligheter,
-och ett elegant badrum. Njut av fantastisk utsikt över bergen från din
-rum, och håll kontakten med gratis höghastighets-Wi-Fi under din
-stanna i Jeju."
+msgstr "Rum: Familjerum | Pris: $ 250 / natt | Övrigt: Perfekt för familjer, dett"
 
 #: templates/countries/ko/booking.html:145
 msgid ""
@@ -168,48 +149,17 @@ msgid ""
 "high-speed Wi-Fi and stay productive during your stay in Busan. The suite"
 " also offers panoramic city views for a relaxing retreat after a long day"
 " of work."
-msgstr "Rum: Svit Business | Pris: $ 300 / natt | Övrigt: Perfekt för företag
-Resenärer, denna rymliga svit har en king size-säng, separat vardagsrum
- område, skrivbord och ett lyxigt badrum. Njut av gratis
-höghastighets Wi-Fi och vara produktiv under din vistelse i Busan. Sviten
- erbjuder också panoramautsikt över staden för en avkopplande tillflyktsort efter en lång dag
- av arbetet."
+msgstr "Rum: Svit Business | Pris: $ 300 / natt | Övrigt: Perfekt för företa"
 
-#: templates/layouts/header.html:17 templates/layouts/header.html:47
-#: templates/layouts/header.html:70
-msgid "Swedish"
-msgstr ""
-
-#~ msgid "Korea Booking Test"
-#~ msgstr "SWEDISH Korea Booking Test"
-
-#~ msgid "Korea Home Test"
-#~ msgstr "SWEDISH Korea Home Test"
-
-#~ msgid "Korea Todo Test"
-#~ msgstr "SWEDISH Korea Todo Test"
-
-#~ msgid "Sweden Booking Test"
-#~ msgstr "SWEDISH Sweden Booking Test"
-
-#~ msgid "Sweden Home Test"
-#~ msgstr "SWEDISH Sweden Home Test"
-
-#~ msgid "Sweden Todo Test"
-#~ msgstr "SWEDISH Sweden Todo Test"
-=======
-#
-#   ko/home.html
-#   Author: Ernest John Decina
-#
-
+# ko/home.html
+# Author: Ernest John Decina
 #: templates/countries/ko/home.html:12
 msgid "AES Travel: Korea"
-msgstr ""
+msgstr "AES Travel: Korea"
 
 #: templates/countries/ko/home.html:13
 msgid "Are you ready to go travel with your family and friends to korea?"
-msgstr ""
+msgstr "Är du redo att resa med familj och vänner till Korea?"
 
 #: templates/countries/ko/home.html:17
 msgid ""
@@ -219,6 +169,11 @@ msgid ""
 "Seoul, soaking in natural hot springs, or discovering ancient temples, "
 "Korea has something for everyone."
 msgstr ""
+"Välkommen till vår webbplats dedikerad till allt som har med att resa "
+"till Korea! Korea är ett fascinerande och levande land med en rik kultur "
+"och historia. Oavsett om du är intresserad av att utforska Seouls livliga"
+" gator, njuta av naturliga varma källor eller upptäcka antika tempel, har"
+" Korea något för alla."
 
 #: templates/countries/ko/home.html:18
 msgid ""
@@ -231,27 +186,35 @@ msgid ""
 "most of your time with your family and friends. Come and discover the "
 "beauty and warmth of Korea with us. Book your trip today!"
 msgstr ""
+"Som ett samhälle som värdesätter gemenskap och sociala kontakter är Korea"
+" den perfekta destinationen för dem som vill utforska med sina nära och "
+"kära. Från att utforska antika tempel och palats till att prova utsökt "
+"koreansk mat, det finns något för alla att njuta av. Vår hemsida är här "
+"för att hjälpa dig att planera din drömresa till Korea. Vi har kontroll "
+"över varje detalj, från transport till boende, så du kan fokusera på att "
+"få ut det mesta av din tid med din familj och dina vänner. Kom och "
+"upptäck Koreas skönhet och värme med oss. Boka din resa idag!"
 
 #: templates/countries/ko/home.html:30
 msgid "Website Progression"
-msgstr ""
+msgstr "Webbplatsprogression"
 
 #: templates/countries/ko/home.html:41 templates/layouts/header.html:9
 #: templates/layouts/header.html:36
 msgid "Home"
-msgstr ""
+msgstr "Hem"
 
 #: templates/countries/ko/home.html:50
 msgid "What to do?"
-msgstr ""
+msgstr "Vad ska man göra?"
 
 #: templates/countries/ko/home.html:59
 msgid "Booking your Trip"
-msgstr ""
+msgstr "Boka din resa"
 
 #: templates/countries/ko/home.html:72
 msgid "Don't know what to do in Korea?"
-msgstr ""
+msgstr "Vet du inte vad du ska göra i Korea?"
 
 #: templates/countries/ko/home.html:73
 msgid ""
@@ -273,22 +236,35 @@ msgid ""
 "nature lover seeking adventure in Korea's mountains and beaches, we've "
 "got you covered."
 msgstr ""
+"Planerar du en resa till Korea, men osäker på vad du ska göra eller var "
+"du ska börja? Kolla inte vidare! Vår guidade att göra-lista är den "
+"perfekta resursen för alla som vill få ut det mesta av sin tid i detta "
+"vackra land. Korea är ett land av kontraster, där antika tempel och "
+"moderna skyskrapor samexisterar, och traditionella seder och samtida "
+"trender smälter samman sömlöst. Med så mycket att se och göra kan det "
+"vara överväldigande att planera din resplan. Det är där vår guidade att-"
+"göra-lista kommer in. Vårt team av experter har sammanställt en "
+"omfattande lista med attraktioner som måste ses, gömda pärlor och "
+"kulturella upplevelser som ger dig en smak av allt Korea har att erbjuda."
+" Från att utforska Seouls livliga gator till att vandra genom pittoreska "
+"nationalparker, vår att göra-lista har något för alla. Är du osäker på "
+"var du ska börja? Vår att-göra-lista är organiserad efter kategori, "
+"vilket gör det enkelt att hitta aktiviteter som matchar dina intressen. "
+"Oavsett om du är en matälskare som vill prova koreansk mat, en "
+"historiefantast som är intresserad av att utforska antika tempel och "
+"palats eller en naturälskare som söker äventyr i Koreas berg och "
+"stränder, så har vi dig täckt."
 
 #: templates/countries/ko/home.html:75
 msgid "Well have a look at our guided todo list"
-msgstr ""
+msgstr "Ta en titt på vår guidade att göra-lista"
 
 #: templates/countries/ko/home.html:80
 msgid "Continue to To Do"
-msgstr ""
+msgstr "Fortsätt att göra"
 
-
-#
-#   ko/todo.html
-#   Author: Alex Tsang
-#
-
-
+# ko/todo.html
+# Author: Alex Tsang
 #: templates/countries/ko/todo.html:9
 msgid "Traveling in Korea"
 msgstr "Resa i Korea"
@@ -307,14 +283,15 @@ msgid ""
 "architecture; Changgyeonggung Palace, now restored from the damages "
 "caused by Japanese occupation; and Gyeonghuigung Palace, humble and "
 "simple."
-msgstr ""Seouls fem palats är kungliga palats från Joseondynastin och "
-"symboler för Koreas kultur och historia. Varje palats har sin unika "
-"charm: Gyeongbokgung-palatset, det kungliga residenset, Changdeokgung-palatset, "
-"ett av UNESCO:s världsarvslistor som skrevs in 1997 med en anmärkningsvärd skönhet, "
-"Deoksugung-palatset, en kombination av koreansk estetik och västerländsk "
-"arkitektur, Changgyeonggung-palatset, som nu har restaurerats efter skadorna "
-"som orsakades av den japanska ockupationen, och Gyeonghuigung-palatset, ödmjukt och " "
-"enkel.""
+msgstr ""
+"\"Seouls fem palats är kungliga palats från Joseondynastin och symboler "
+"för Koreas kultur och historia. Varje palats har sin unika charm: "
+"Gyeongbokgung-palatset, det kungliga residenset, Changdeokgung-palatset, "
+"ett av UNESCO:s världsarvslistor som skrevs in 1997 med en "
+"anmärkningsvärd skönhet, Deoksugung-palatset, en kombination av koreansk "
+"estetik och västerländsk arkitektur, Changgyeonggung-palatset, som nu har"
+" restaurerats efter skadorna som orsakades av den japanska ockupationen, "
+"och Gyeonghuigung-palatset, ödmjukt och \" enkel.\""
 
 #: templates/countries/ko/todo.html:39
 msgid "Hongik University Hongdae Street"
@@ -328,12 +305,13 @@ msgid ""
 " and murals (Picasso Street). Busking, performances, events, and the "
 "powerful energy of youthful freedom draw numerous youths to the area, "
 "especially on weekends."
-msgstr ""Hjärtat av Seouls ungdomskultur är denna eklektiska samling kaféer."
-"restauranger, barer, klubbar, konstmarknader, gallerier och butiker. Dess många"
-" gränder slingrar sig genom området och har unika teman som klubbande, konst,"
-" och väggmålningar (Picassogatan). Busking, föreställningar, evenemang och "
-" " kraftfull energi från ungdomens frihet lockar många ungdomar till området, "
-"särskilt på helgerna.""
+msgstr ""
+"\"Hjärtat av Seouls ungdomskultur är denna eklektiska samling "
+"kaféer.restauranger, barer, klubbar, konstmarknader, gallerier och "
+"butiker. Dess många gränder slingrar sig genom området och har unika "
+"teman som klubbande, konst, och väggmålningar (Picassogatan). Busking, "
+"föreställningar, evenemang och  \" kraftfull energi från ungdomens frihet"
+" lockar många ungdomar till området, särskilt på helgerna.\""
 
 #: templates/countries/ko/todo.html:55
 msgid "COEX (Starfield)"
@@ -346,11 +324,13 @@ msgid ""
 "beloved location for photo ops for its two-story, 13-meter-high "
 "bookstores. It is designed as an open space of communication through "
 "books, and it hosts many literature-themed cultural events."
-msgstr ""COEX är ett kulturellt centrum med butiker, filmteatrar, ett akvarium, en "
-"stor bokhandel och ett bibliotek. Särskilt Starfield Library är ett "
-" "en populär plats för fotografering på grund av dess två våningar, 13 meter höga "
-"bokhandel. Det är utformat som ett öppet rum för kommunikation genom "
-"böcker och är värd för många kulturella evenemang med litteraturtema.""
+msgstr ""
+"\"COEX är ett kulturellt centrum med butiker, filmteatrar, ett akvarium, "
+"en stor bokhandel och ett bibliotek. Särskilt Starfield Library är ett  "
+"\"en populär plats för fotografering på grund av dess två våningar, 13 "
+"meter höga bokhandel. Det är utformat som ett öppet rum för kommunikation"
+" genom böcker och är värd för många kulturella evenemang med "
+"litteraturtema.\""
 
 #: templates/countries/ko/todo.html:71
 msgid "Seoul Land"
@@ -364,12 +344,13 @@ msgid ""
 "inspired by Korean animation characters. The amusement park runs a sled "
 "slope and a fishing spot in winter. At night, Seoul Land turns into Luna "
 "Park decorated with splendid lights."
-msgstr ""Seoul Land har blivit populärt som ett land av äventyr och drömmar. Dess "
-"attraktioner är organiserade efter teman, till exempel World Plaza, Tomorrow "
-"Land, Character Town och Adventure Land. Det finns cirka 50 åkattraktioner, alla "
-"inspirerade av koreanska animationskaraktärer. Nöjesparken har en släde "
-"backe och en fiskeplats på vintern. På natten förvandlas Seoul Land till Luna "
-"Park dekorerad med fantastiska ljus.""
+msgstr ""
+"\"Seoul Land har blivit populärt som ett land av äventyr och drömmar. "
+"Dess attraktioner är organiserade efter teman, till exempel World Plaza, "
+"Tomorrow Land, Character Town och Adventure Land. Det finns cirka 50 "
+"åkattraktioner, alla inspirerade av koreanska animationskaraktärer. "
+"Nöjesparken har en släde backe och en fiskeplats på vintern. På natten "
+"förvandlas Seoul Land till Luna Park dekorerad med fantastiska ljus.\""
 
 #: templates/countries/ko/todo.html:89
 msgid "Seomjingang Train Village in Gokseong"
@@ -384,13 +365,14 @@ msgid ""
 "history and culture; an animal farm; a VR zone; and a media art "
 "exhibition hall. Visitors can also ride the railbike or the steam "
 "locomotive."
-msgstr ""Seomjingang Train Village är en park med tågtema som utvecklats från "
+msgstr ""
+"\"Seomjingang Train Village är en park med tågtema som utvecklats från "
 "tidigare Gokseong-stationen och den nedlagda Jeolla-linjen. Byn är "
-"nöjesparken Dreamland, Yosul (Magic) Land med goblin-tema, "
-"Chichippuppu Playground, där besökarna kan lära sig och uppleva järnvägs- "
-"historia och kultur, en djurfarm, en VR-zon och en mediekonstverkstad " ".
-"utställningshall. Besökarna kan också åka rälscykel eller ångbåt "
-"lokomotiv.""
+"nöjesparken Dreamland, Yosul (Magic) Land med goblin-tema, Chichippuppu "
+"Playground, där besökarna kan lära sig och uppleva järnvägs- historia och"
+" kultur, en djurfarm, en VR-zon och en mediekonstverkstad \" "
+"\"utställningshall. Besökarna kan också åka rälscykel eller ångbåt "
+"lokomotiv.\""
 
 #: templates/countries/ko/todo.html:102
 msgid "Looking for accommodation?"
@@ -404,8 +386,6 @@ msgstr "Kolla in Sydkoreas platser att bo på"
 msgid "Book here"
 msgstr "Boka här"
 
-
-
 #: templates/countries/sv/booking.html:13
 msgid "AES Travel: Sweden"
 msgstr "AES Travel: Sweden"
@@ -414,7 +394,9 @@ msgstr "AES Travel: Sweden"
 msgid ""
 "Get lost in Sweden's untamed wilderness, then find yourself in its "
 "vibrant culture."
-msgstr "Gå vilse i Sveriges otämjda vildmark och befinn dig sedan i dess pulserande kultur."
+msgstr ""
+"Gå vilse i Sveriges otämjda vildmark och befinn dig sedan i dess "
+"pulserande kultur."
 
 #: templates/countries/sv/booking.html:25 templates/layouts/header.html:37
 msgid "Booking"
@@ -440,11 +422,18 @@ msgid ""
 "            Whatever your preference,\n"
 "            we guarantee that you will have an unforgettable experience "
 "while exploring Sweden's natural beauty and vibrant culture."
-msgstr "Sverige erbjuder ett varierat utbud av upplevelser och vårt utbud av hotell, campingplatser och B&B speglar det. Oavsett om du letar efter en lyxig urban semester i Stockholm, en mysig stuga i skogen eller ett bed and breakfast vid havet, har vi något för alla. Våra boenden erbjuder unika upplevelser som speglar den lokala kulturen och arvet, med aktiviteter som sträcker sig från vandring och skidåkning i fjällen till fiske och kajakpaddling i skärgården. Du kan njuta av en traditionell svensk frukost med nybakat bröd eller unna dig en spabehandling på våra lyxhotell. Oavsett vad du föredrar garanterar vi att du kommer att få en oförglömlig upplevelse samtidigt som du utforskar Sveriges naturliga skönhet och pulserande kultur."
-
-#: templates/countries/sv/booking.html:40
-msgid "All"
-msgstr "Allt"
+msgstr ""
+"Sverige erbjuder ett varierat utbud av upplevelser och vårt utbud av "
+"hotell, campingplatser och B&B speglar det. Oavsett om du letar efter en "
+"lyxig urban semester i Stockholm, en mysig stuga i skogen eller ett bed "
+"and breakfast vid havet, har vi något för alla. Våra boenden erbjuder "
+"unika upplevelser som speglar den lokala kulturen och arvet, med "
+"aktiviteter som sträcker sig från vandring och skidåkning i fjällen till "
+"fiske och kajakpaddling i skärgården. Du kan njuta av en traditionell "
+"svensk frukost med nybakat bröd eller unna dig en spabehandling på våra "
+"lyxhotell. Oavsett vad du föredrar garanterar vi att du kommer att få en "
+"oförglömlig upplevelse samtidigt som du utforskar Sveriges naturliga "
+"skönhet och pulserande kultur."
 
 #: templates/countries/sv/booking.html:41
 msgid "Hotels"
@@ -492,27 +481,7 @@ msgid ""
 "getaway, or a family vacation, our website is your one-stop-shop for all "
 "things Sweden. Start exploring today and get ready to fall in love with "
 "this stunning country!"
-msgstr "Välkommen till vår webbplats dedikerad till att resa till Sverige! Om du är
-planerar du en resa till detta vackra skandinaviska land har du kommit till
-rätt plats. Vår webbplats är utformad för att ge dig alla
-information du behöver för att få ut det mesta av ditt besök i Sverige.\n
-Här hittar du information om de bästa platserna att
-besök, de mest intressanta sakerna att göra och den godaste maten att
-prova. Oavsett om du är intresserad av att utforska Stockholm, Göteborg eller något annat
-av Sveriges andra fantastiska städer har vi dig täckt. Du kan också hitta
- tips om hur du tar dig runt i Sverige, var du ska bo och hur du planerar din
-resplan.\n
-Vår webbplats är också full av användbara resurser att göra
- din reseplanering enkel och stressfri. Vi tillhandahåller information om visum
- och inträdeskrav, valutakurser och transport
-alternativ. Dessutom erbjuder vi råd om hur du förblir säker medan
-reser i Sverige och ger tips om kulturell etikett för att hjälpa dig
-blanda in med lokalbefolkningen.\n"
-Så oavsett om du planerar ett soloäventyr, en romantisk
-getaway, eller en familjesemester, vår webbplats är din one-stop-shop för alla
-saker Sverige. Börja utforska idag och gör dig redo att bli kär i
-det här fantastiska landet!"
-
+msgstr "Välkommen till vår webbplats dedikerad till att resa till Sverige! Om du ä"
 
 #: templates/countries/sv/home.html:36 templates/countries/sv/todo.html:142
 msgid "About us"
@@ -542,8 +511,7 @@ msgstr "Fotografi"
 msgid ""
 "Articles on travel photography, including tips for taking great photos "
 "and editing techniques"
-msgstr "Artiklar om resefotografering, inklusive tips för att ta fantastiska bilder
-och redigeringstekniker"
+msgstr "Artiklar om resefotografering, inklusive tips för att ta fantastiska bilde"
 
 #: templates/countries/sv/home.html:59
 msgid "Safety"
@@ -634,9 +602,7 @@ msgid ""
 "Our devoted team at AES Travel offers a personalized and hassle-free "
 "travel experience. With our platform, users can easily browse, book and "
 "plan their trip."
-msgstr "Vårt hängivna team på AES Travel erbjuder ett personligt och problemfritt
-reseupplevelse. Med vår plattform kan användare enkelt bläddra, boka och
-planera sin resa."
+msgstr "Vårt hängivna team på AES Travel erbjuder ett personligt och problemfrit"
 
 #: templates/countries/sv/home.html:179
 msgid "Product Manager"
@@ -659,9 +625,7 @@ msgid ""
 "You can contact AES Travel by Email and phone which are below. You also "
 "have the option of going to are main offices at the address below or "
 "filling out a form which we will respond according to our working hours."
-msgstr "Du kan kontakta AES Travel via e-post och telefon som finns nedan. Du också
-har möjlighet att gå till huvudkontor på adressen nedan eller
-fyller i ett formulär som vi kommer att svara enligt våra arbetstider."
+msgstr "Du kan kontakta AES Travel via e-post och telefon som finns nedan. Du ocks"
 
 #: templates/countries/sv/home.html:240
 msgid "Our Address"
@@ -777,7 +741,8 @@ msgid "Festivals"
 msgstr "Festivaler"
 
 #: templates/countries/sv/todo.html:123 templates/countries/sv/todo.html:187
-msgid "lot's of traditional festivals through the year"
+#, fuzzy
+msgid "lot's of traditional festivals throught the year"
 msgstr "många traditionella festivaler under året"
 
 #: templates/countries/sv/todo.html:138
@@ -827,50 +792,67 @@ msgstr "Hårt jobbande arbetare"
 #: templates/layouts/footer.html:13 templates/layouts/footer.html:56
 #: templates/layouts/footer.html:75
 msgid "Copyright"
-msgstr ""
+msgstr "upphovsrätt"
 
 #: templates/layouts/footer.html:13 templates/layouts/footer.html:56
 #: templates/layouts/footer.html:75
 msgid "All Rights Reserved"
-msgstr ""
+msgstr "Alla rättigheter förbehållna"
 
 #: templates/layouts/footer.html:34
 msgid "Home to the Worlds best Travel Services"
-msgstr ""
+msgstr "Hem till världens bästa resetjänster"
 
 #: templates/layouts/header.html:6
 msgid "Vist Korea"
-msgstr ""
+msgstr "Besök Korea"
 
 #: templates/layouts/header.html:10 templates/layouts/header.html:63
 msgid "Language"
-msgstr ""
+msgstr "Språk"
 
 #: templates/layouts/header.html:12 templates/layouts/header.html:42
 #: templates/layouts/header.html:65
 msgid "English"
-msgstr ""
+msgstr "engelsk"
 
 #: templates/layouts/header.html:13 templates/layouts/header.html:43
 #: templates/layouts/header.html:66
 msgid "Korean"
-msgstr ""
+msgstr "koreanska"
 
 #: templates/layouts/header.html:14 templates/layouts/header.html:44
 #: templates/layouts/header.html:67
 msgid "Swedish"
-msgstr ""
+msgstr "svenska"
 
 #: templates/layouts/header.html:29
 msgid "Vist Sweden"
-msgstr ""
+msgstr "Besök Sverige"
 
 #: templates/layouts/header.html:38
 msgid "To do"
-msgstr ""
+msgstr "Att göra"
 
 #: templates/layouts/header.html:40
 msgid "Language Selector"
-msgstr ""
+msgstr "Språkväljare"
 
+#~ msgid "Korea Booking Test"
+#~ msgstr "SWEDISH Korea Booking Test"
+
+#~ msgid "Korea Home Test"
+#~ msgstr "SWEDISH Korea Home Test"
+
+#~ msgid "Korea Todo Test"
+#~ msgstr "SWEDISH Korea Todo Test"
+
+#~ msgid "Sweden Booking Test"
+#~ msgstr "SWEDISH Sweden Booking Test"
+
+#~ msgid "Sweden Home Test"
+#~ msgstr "SWEDISH Sweden Home Test"
+
+#~ msgid "Sweden Todo Test"
+#~ msgstr "SWEDISH Sweden Todo Test"
 
