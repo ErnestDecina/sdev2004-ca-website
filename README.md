@@ -15,18 +15,19 @@ A travel website that will serve information about Korean and Sweeden.
   - [x] Header
   - [x] Footer
   - [x] Content
-- [ ] Create Translations
-- [ ] Documentation
+- [x] Create Translations
+- [x] Documentation
 - [ ] Presentation
 - [ ] Optional: Host Website
   - [ ] Get Domain
   - [ ] Setup VPS
 
 ## Translation of Website
+Make sure to be in the sdev2004-ca-website/app directory
 
 ### Extract Text
 ``` bash
-pybabel extract -F configs/babel.cfg -k _l -o messages.pot .
+pybabel extract -F configs/babel.cfg -k _l -o translations/messages.pot .
 ```
 
 ### Create new translation for Korea
@@ -39,6 +40,16 @@ pybabel init -i ./translations/messages.pot -d translations -l ko
 
 ``` bash
 pybabel init -i ./translations/messages.pot -d translations -l sv
+```
+
+### Updating translations for Korea
+``` bash
+pybabel update -i .\translations\messages.pot -d .\translations\
+```
+
+### Updating translations for Sweden
+``` bash
+pybabel update -i .\translations\messages.pot -d .\translations\
 ```
 
 ### Compiling translations
