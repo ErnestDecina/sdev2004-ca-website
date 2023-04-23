@@ -14,10 +14,13 @@
 #
 
 # Dependencies
+import os
 from app import app
 from waitress import serve
 
 # Start Flask Application
 if __name__ == "__main__":
-    print("App running on http://localhost:5000")
-    serve(app, listen="*:5000")
+    print("App running on http://localhost:")
+    app.run(host=os.getenv('IP', '0.0.0.0'), 
+            port=int(os.getenv('PORT', 5000)))
+    # serve(app, listen="*:5000")
