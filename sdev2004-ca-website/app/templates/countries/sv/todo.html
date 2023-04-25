@@ -9,6 +9,8 @@ Author: Seán Tighe
 
 <!-- ======= Hero Section ======= -->
 <!-- Sweden Body -->
+{% set lang_code = session["language"] %}
+{% if lang_code == "sv" %}
 <section id="hero_2">
     <div class="hero-container" data-aos="fade-up" style="background: linear-gradient(rgba(55, 142, 181, 0.5), rgba(55, 142, 181, 0.2)),  url({{ url_for('static', filename='img/sv/todo/flags.jpg' ) }}) top center;" >
       <h1>{{_("Hej, welcome to Sweden!")}}</h1>

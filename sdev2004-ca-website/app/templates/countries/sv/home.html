@@ -9,6 +9,8 @@ Author: Daniel Wu
 
 <!-- Sweden Home Body -->
 <!-- ======= Hero Section ======= -->
+{% set lang_code = session["language"] %}
+{% if lang_code == "sv" %}
 <section id="hero">
     <div class="hero-container" data-aos="fade-up" style="background: linear-gradient(rgba(55, 142, 181, 0.5), rgba(55, 142, 181, 0.2)),  url({{ url_for('static', filename='img/sv/home/Riddar.jpg' ) }}) top center;" >
     <h1>{{_("Welcome to Sweden")}}</h1>
