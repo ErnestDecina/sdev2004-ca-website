@@ -134,7 +134,7 @@ Author: Michael O'Brien
               <div class="portfolio-links">
                 <a href="url({{ url_for('static', filename='img/sv/booking/village_b&b.jpg' ) }})" data-gallery="portfolioGallery" class="portfolio-lightbox" title="Web 3"><i class="bx bx-plus"></i></a>
                 <a href="portfolio-details.html" title="More Details"><i class="bx bx-link"></i></a>
-              </div>w
+              </div>
             </div>
           </div>
 
@@ -303,90 +303,133 @@ Author: Michael O'Brien
   </main>
 {% elif lang_code == "en" %}
     <section class="d-flex align-items-center justify-content-center" id="hero"
-             style="background-image: url( {{ url_for('static', filename='img/' + lang_code + '/index/index-hero.webp') }} ); ">
-        <div class="container position-relative">
-            <h1>{{_('AES Travel')}}</h1>
-            <h2>{{_('Bringing you where you want to be')}}</h2>
-        </div>
-    </section><!-- End Hero -->
-
-    <main id="main">
-        <section class="team section-bg" id="team">
-            <div class="container">
-
-                <div class="section-title">
-                    <h2>{{_('Current Travel Plans')}}</h2>
-                    <p>{{_('Here is our 2 travel destinations for you to enjoy')}}</p>
-                </div>
-
-                <div class="row">
-
-                    <div class="col-lg-3 col-md-6 d-flex align-items-stretch" style="visibility: hidden;">
-                        <div class="member">
-                            <div class="member-img">
-                                <img alt="" class="img-fluid" src="">
-                                <div class="social">
-                                    <a href=""><i class="bi bi-twitter"></i></a>
-                                    <a href=""><i class="bi bi-facebook"></i></a>
-                                    <a href=""><i class="bi bi-instagram"></i></a>
-                                    <a href=""><i class="bi bi-linkedin"></i></a>
-                                </div>
-                            </div>
-                            <div class="member-info">
-                                <h4>Walter White</h4>
-                                <span>Chief Executive Officer</span>
-                            </div>
-                        </div>
-                    </div>
-
-                    <div class="col-lg-3 col-md-6 d-flex align-items-stretch">
-                        <div class="member">
-                            <div class="member-img">
-                                <a href="{{ url_for('ko_home') }}">
-                                    <img alt="" class="img-fluid" src="{{ url_for('static', filename='img/' + lang_code + '/index/korea_image.webp') }}">
-                                </a>
-                            </div>
-                            <div class="member-info">
-                                <a  href="{{ url_for('ko_home') }}">{{_('Korea')}}</a>
-                            </div>
-                        </div>
-                    </div>
-
-                    <div class="col-lg-3 col-md-6 d-flex align-items-stretch">
-                        <div class="member">
-                            <div class="member-img">
-                                <a href="{{ url_for('sv_home') }}">
-                                    <img alt="" class="img-fluid" src="{{ url_for('static', filename='img/' + lang_code + '/index/sweden_image.webp') }}">
-                                </a>
-                            </div>
-                            <div class="member-info">
-                                <a href="{{ url_for('sv_home') }}">{{_('Sweden')}}</a>
-                            </div>
-                        </div>
-                    </div>
-
-                    <div class="col-lg-3 col-md-6 d-flex align-items-stretch" style="visibility: hidden;">
-                        <div class="member">
-                            <div class="member-img">
-                                <img alt="" class="img-fluid" src="assets/img/team/team-4.jpg">
-                                <div class="social">
-                                    <a href=""><i class="bi bi-twitter"></i></a>
-                                    <a href=""><i class="bi bi-facebook"></i></a>
-                                    <a href=""><i class="bi bi-instagram"></i></a>
-                                    <a href=""><i class="bi bi-linkedin"></i></a>
-                                </div>
-                            </div>
-                            <div class="member-info">
-                                <h4>Amanda Jepson</h4>
-                                <span>Accountant</span>
-                            </div>
-                        </div>
-                    </div>
-
-                </div>
-
-            </div>
+             style="background-image: url( {{ url_for('static', filename='img/sv/booking/sweden_landscape_1.jpg') }} ); ">
+          <div class="container position-relative">
+            <h1>{{_('AES Travel: Sweden')}}</h1>
+            <h2>{{_('Escape to the untouched beauty of Sweden - where nature, culture, and adventure collide!')}}</h2>
+          </div>
         </section>
 
-    </main><!-- End #main -->
+<main id="main">
+    <!-- ======= Portfolio Section ======= -->
+    <section id="portfolio" class="portfolio">
+      <div class="container">
+
+       <div class="section-title" data-aos="fade-in" data-aos-delay="100">
+          <h2>{{_("Booking")}}</h2>
+          <h4>{{_("Find your next adventure in Sweden...")}}</h4>
+          <p>{{_("Welcome to Sweden, a land of breathtaking natural beauty, captivating culture, and thrilling adventure! Whether you're seeking the tranquility of unspoiled wilderness, the vibrant energy of cosmopolitan cities, or the rich history and heritage of a proud and storied people, Sweden has it all. From the rugged mountains and pristine forests of the north to the sparkling lakes and vibrant cities of the south, every corner of this remarkable country is waiting to be discovered. Explore ancient Viking settlements, soak in hot springs under the Northern Lights, hike through towering pine forests, or savor the flavors of Swedish cuisine - the possibilities are endless. Come experience the warm hospitality, stunning landscapes, and endless opportunities for excitement and discovery that await you in Sweden!")}}
+            </p>
+        </div>
+
+
+
+        <div class="row" data-aos="fade-in">
+          <div class="col-lg-12 d-flex justify-content-center">
+            <ul id="portfolio-flters">
+              <li data-filter="*" class="filter-active">{{_("All")}}</li>
+              <li data-filter=".filter-app">{{_("Hotels")}}</li>
+              <li data-filter=".filter-card">{{_("Outdoors")}}</li>
+              <li data-filter=".filter-web">{{_("B&Bs")}}</li>
+            </ul>
+          </div>
+        </div>
+
+        <div class="row portfolio-container" data-aos="fade-up">
+
+          <div class="col-lg-4 col-md-6 portfolio-item filter-app">
+            <div class="portfolio-wrap">
+              <img src="{{ url_for('static', filename='img/sv/booking/ice_hotel_1.jpg') }}" class="img-fluid" alt="">
+              <div class="portfolio-links">
+                <a href="url({{ url_for('static', filename='img/sv/booking/ice_hotel_1.jpg' ) }})" data-gallery="portfolioGallery" class="portfolio-lightbox" title="App 1"><i class="bx bx-plus"></i></a>
+                <a href="portfolio-details.html" title="More Details"><i class="bx bx-link"></i></a>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-lg-4 col-md-6 portfolio-item filter-web">
+            <div class="portfolio-wrap">
+              <img src="{{ url_for('static', filename='img/sv/booking/lake_b&b_1.jpg' ) }}" class="img-fluid" alt="">
+              <div class="portfolio-links">
+                <a href="url({{ url_for('static', filename='img/sv/booking/lake_b&b_1.jpg' ) }})" data-gallery="portfolioGallery" class="portfolio-lightbox" title="Web 3"><i class="bx bx-plus"></i></a>
+                <a href="portfolio-details.html" title="More Details"><i class="bx bx-link"></i></a>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-lg-4 col-md-6 portfolio-item filter-app">
+            <div class="portfolio-wrap">
+              <img src="{{ url_for('static', filename='img/sv/booking/castle_hotel_1.jpg' ) }}" class="img-fluid" alt="">
+              <div class="portfolio-links">
+                <a href="url({{ url_for('static', filename='img/sv/booking/castle_hotel_1.jpg' ) }})" data-gallery="portfolioGallery" class="portfolio-lightbox" title="App 2"><i class="bx bx-plus"></i></a>
+                <a href="portfolio-details.html" title="More Details"><i class="bx bx-link"></i></a>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-lg-4 col-md-6 portfolio-item filter-card">
+            <div class="portfolio-wrap">
+              <img src="{{ url_for('static', filename='img/sv/booking/lapland_camp_1.jpg' ) }}" class="img-fluid" alt="">
+              <div class="portfolio-links">
+                <a href="url({{ url_for('static', filename='img/sv/booking/lapland_camp_1.jpg' ) }})" data-gallery="portfolioGallery" class="portfolio-lightbox" title="Card 2"><i class="bx bx-plus"></i></a>
+                <a href="portfolio-details.html" title="More Details"><i class="bx bx-link"></i></a>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-lg-4 col-md-6 portfolio-item filter-web">
+            <div class="portfolio-wrap">
+              <img src="{{ url_for('static', filename='img/sv/booking/solo_hostel.jpg' ) }}" class="img-fluid" alt="">
+              <div class="portfolio-links">
+                <a href="url({{ url_for('static', filename='img/sv/booking/solo_hostel.jpg' ) }})" data-gallery="portfolioGallery" class="portfolio-lightbox" title="Web 2"><i class="bx bx-plus"></i></a>
+                <a href="portfolio-details.html" title="More Details"><i class="bx bx-link"></i></a>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-lg-4 col-md-6 portfolio-item filter-app">
+            <div class="portfolio-wrap">
+              <img src="{{ url_for('static', filename='img/sv/booking/hostel_alley.jpg' ) }}" class="img-fluid" alt="">
+              <div class="portfolio-links">
+                <a href="url({{ url_for('static', filename='img/sv/booking/hostel_alley.jpg' ) }})" data-gallery="portfolioGallery" class="portfolio-lightbox" title="App 3"><i class="bx bx-plus"></i></a>
+                <a href="portfolio-details.html" title="More Details"><i class="bx bx-link"></i></a>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-lg-4 col-md-6 portfolio-item filter-card">
+            <div class="portfolio-wrap">
+              <img src="{{ url_for('static', filename='img/sv/booking/solo_camper.jpg' ) }}" class="img-fluid" alt="">
+              <div class="portfolio-links">
+                <a href="url({{ url_for('static', filename='img/sv/booking/solo_camper.jpg' ) }})" data-gallery="portfolioGallery" class="portfolio-lightbox" title="Card 1"><i class="bx bx-plus"></i></a>
+                <a href="portfolio-details.html" title="More Details"><i class="bx bx-link"></i></a>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-lg-4 col-md-6 portfolio-item filter-card">
+            <div class="portfolio-wrap">
+              <img src="{{ url_for('static', filename='img/sv/booking/lake_hiker.jpg' ) }}" class="img-fluid" alt="">
+              <div class="portfolio-links">
+                <a href="url({{ url_for('static', filename='img/sv/booking/lake_hiker.jpg' ) }})" data-gallery="portfolioGallery" class="portfolio-lightbox" title="Card 3"><i class="bx bx-plus"></i></a>
+                <a href="portfolio-details.html" title="More Details"><i class="bx bx-link"></i></a>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-lg-4 col-md-6 portfolio-item filter-web">
+            <div class="portfolio-wrap">
+              <img src="{{ url_for('static', filename='img/sv/booking/old_rural_b&b.jpg' ) }}" class="img-fluid" alt="">
+              <div class="portfolio-links">
+                <a href="url({{ url_for('static', filename='img/sv/booking/old_rural_b&b.jpg' ) }})" data-gallery="portfolioGallery" class="portfolio-lightbox" title="Web 3"><i class="bx bx-plus"></i></a>
+                <a href="portfolio-details.html" title="More Details"><i class="bx bx-link"></i></a>
+              </div>
+            </div>
+          </div>
+
+        </div>
+
+      </div>
+    </section><!-- End Portfolio Section -->
+</main>
 {% endif %}
