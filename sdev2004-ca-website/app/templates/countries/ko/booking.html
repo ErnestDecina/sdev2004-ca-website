@@ -1,4 +1,6 @@
 <!--Ron Pingol Booking Page -->
+{% set lang_code = session["language"] %}
+{% if lang_code == "ko" %}
 <main id="main" aria-hidden="true">
 
     <!-- ======= Breadcrumbs ======= -->
@@ -155,7 +157,230 @@
 
       </div>
     </section>
-
-
-
   </main>
+
+{% elif lang_code == "sv" %}
+<!-- Sweden Booking Body -->
+<section id="hero">
+    <div class="hero-container" data-aos="fade-up" style="background: linear-gradient(rgba(55, 142, 181, 0.5), rgba(55, 142, 181, 0.2)),  url({{ url_for('static', filename='img/sv/booking/frozen_river_hotel.jpg' ) }}) top center;" >>
+    <h1>{{_("AES Travel: Sweden")}}</h1>
+    <h2>{{_("Get lost in Sweden's untamed wilderness, then find yourself in its vibrant culture.")}}</h2>
+    <a href="#about" class="btn-get-started scrollto"><i class="bx bx-chevrons-down"></i></a>
+    </div>
+</section>
+
+<main id="main">
+    <!-- ======= Portfolio Section ======= -->
+    <section id="portfolio" class="portfolio">
+      <div class="container">
+
+        <div class="section-title" data-aos="fade-in" data-aos-delay="100">
+          <h2>{{_("Booking")}}</h2>
+          <h4>{{_("Find your next adventure in Sweden...")}}</h4>
+          <p>{{_("Sweden offers a diverse range of experiences, and our selection of hotels, campsites,
+            and B&Bs reflect that. Whether you're looking for a luxurious urban getaway in Stockholm, a cozy cabin in the woods,
+            or a seaside bed and breakfast, we have something for everyone. Our accommodations offer unique experiences that reflect the local culture and heritage,
+            with activities ranging from hiking and skiing in the mountains to fishing and kayaking in the archipelagos.
+            You can enjoy a traditional Swedish breakfast with freshly baked bread or indulge in a spa treatment at our luxury hotels.
+            Whatever your preference,
+            we guarantee that you will have an unforgettable experience while exploring Sweden's natural beauty and vibrant culture.")}}
+            </p>
+        </div>
+
+        <div class="row" data-aos="fade-in">
+          <div class="col-lg-12 d-flex justify-content-center">
+            <ul id="portfolio-flters">
+              <li data-filter="*" class="filter-active">{{_("All")}}</li>
+              <li data-filter=".filter-app">{{_("Hotels")}}</li>
+              <li data-filter=".filter-card">{{_("Outdoors")}}</li>
+              <li data-filter=".filter-web">{{_("B&Bs")}}</li>
+            </ul>
+          </div>
+        </div>
+
+        <div class="row portfolio-container" data-aos="fade-up">
+
+          <div class="col-lg-4 col-md-6 portfolio-item filter-app">
+            <div class="portfolio-wrap">
+              <img src="{{ url_for('static', filename='img/sv/booking/hotel.jpg') }}" class="img-fluid" alt="">
+              <div class="portfolio-links">
+                <a href="url({{ url_for('static', filename='img/sv/booking/hotel.jpg' ) }})" data-gallery="portfolioGallery" class="portfolio-lightbox" title="App 1"><i class="bx bx-plus"></i></a>
+                <a href="portfolio-details.html" title="More Details"><i class="bx bx-link"></i></a>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-lg-4 col-md-6 portfolio-item filter-web">
+            <div class="portfolio-wrap">
+              <img src="{{ url_for('static', filename='img/sv/booking/red_b&b.jpg' ) }}" class="img-fluid" alt="">
+              <div class="portfolio-links">
+                <a href="url({{ url_for('static', filename='img/sv/booking/red_b&b.jpg' ) }})" data-gallery="portfolioGallery" class="portfolio-lightbox" title="Web 3"><i class="bx bx-plus"></i></a>
+                <a href="portfolio-details.html" title="More Details"><i class="bx bx-link"></i></a>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-lg-4 col-md-6 portfolio-item filter-app">
+            <div class="portfolio-wrap">
+              <img src="{{ url_for('static', filename='img/sv/booking/snow_hotel.jpg' ) }}" class="img-fluid" alt="">
+              <div class="portfolio-links">
+                <a href="url({{ url_for('static', filename='img/sv/booking/snow_hotel.jpg' ) }})" data-gallery="portfolioGallery" class="portfolio-lightbox" title="App 2"><i class="bx bx-plus"></i></a>
+                <a href="portfolio-details.html" title="More Details"><i class="bx bx-link"></i></a>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-lg-4 col-md-6 portfolio-item filter-card">
+            <div class="portfolio-wrap">
+              <img src="{{ url_for('static', filename='img/sv/booking/tent_interior.jpg' ) }}" class="img-fluid" alt="">
+              <div class="portfolio-links">
+                <a href="url({{ url_for('static', filename='img/sv/booking/tent_interior.jpg' ) }})" data-gallery="portfolioGallery" class="portfolio-lightbox" title="Card 2"><i class="bx bx-plus"></i></a>
+                <a href="portfolio-details.html" title="More Details"><i class="bx bx-link"></i></a>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-lg-4 col-md-6 portfolio-item filter-web">
+            <div class="portfolio-wrap">
+              <img src="{{ url_for('static', filename='img/sv/booking/hostel_interior.jpg' ) }}" class="img-fluid" alt="">
+              <div class="portfolio-links">
+                <a href="url({{ url_for('static', filename='img/sv/booking/hostel_interior.jpg' ) }})" data-gallery="portfolioGallery" class="portfolio-lightbox" title="Web 2"><i class="bx bx-plus"></i></a>
+                <a href="portfolio-details.html" title="More Details"><i class="bx bx-link"></i></a>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-lg-4 col-md-6 portfolio-item filter-app">
+            <div class="portfolio-wrap">
+              <img src="{{ url_for('static', filename='img/sv/booking/old_hotel.jpg' ) }}" class="img-fluid" alt="">
+              <div class="portfolio-links">
+                <a href="url({{ url_for('static', filename='img/sv/booking/old_hotel.jpg' ) }})" data-gallery="portfolioGallery" class="portfolio-lightbox" title="App 3"><i class="bx bx-plus"></i></a>
+                <a href="portfolio-details.html" title="More Details"><i class="bx bx-link"></i></a>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-lg-4 col-md-6 portfolio-item filter-card">
+            <div class="portfolio-wrap">
+              <img src="{{ url_for('static', filename='img/sv/booking/lake_campsite.jpg' ) }}" class="img-fluid" alt="">
+              <div class="portfolio-links">
+                <a href="url({{ url_for('static', filename='img/sv/booking/lake_campsite.jpg' ) }})" data-gallery="portfolioGallery" class="portfolio-lightbox" title="Card 1"><i class="bx bx-plus"></i></a>
+                <a href="portfolio-details.html" title="More Details"><i class="bx bx-link"></i></a>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-lg-4 col-md-6 portfolio-item filter-card">
+            <div class="portfolio-wrap">
+              <img src="{{ url_for('static', filename='img/sv/booking/mountain_campsite.jpg' ) }}" class="img-fluid" alt="">
+              <div class="portfolio-links">
+                <a href="url({{ url_for('static', filename='img/sv/booking/mountain_campsite.jpg' ) }})" data-gallery="portfolioGallery" class="portfolio-lightbox" title="Card 3"><i class="bx bx-plus"></i></a>
+                <a href="portfolio-details.html" title="More Details"><i class="bx bx-link"></i></a>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-lg-4 col-md-6 portfolio-item filter-web">
+            <div class="portfolio-wrap">
+              <img src="{{ url_for('static', filename='img/sv/booking/village_b&b.jpg' ) }}" class="img-fluid" alt="">
+              <div class="portfolio-links">
+                <a href="url({{ url_for('static', filename='img/sv/booking/village_b&b.jpg' ) }})" data-gallery="portfolioGallery" class="portfolio-lightbox" title="Web 3"><i class="bx bx-plus"></i></a>
+                <a href="portfolio-details.html" title="More Details"><i class="bx bx-link"></i></a>
+              </div>
+            </div>
+          </div>
+
+        </div>
+
+      </div>
+    </section><!-- End Portfolio Section -->
+</main>
+{% elif lang_code == "en" %}
+    <section class="d-flex align-items-center justify-content-center" id="hero"
+             style="background-image: url( {{ url_for('static', filename='img/' + lang_code + '/index/index-hero.webp') }} ); ">
+        <div class="container position-relative">
+            <h1>{{_('AES Travel')}}</h1>
+            <h2>{{_('Bringing you where you want to be')}}</h2>
+        </div>
+    </section><!-- End Hero -->
+
+    <main id="main">
+        <section class="team section-bg" id="team">
+            <div class="container">
+
+                <div class="section-title">
+                    <h2>{{_('Current Travel Plans')}}</h2>
+                    <p>{{_('Here is our 2 travel destinations for you to enjoy')}}</p>
+                </div>
+
+                <div class="row">
+
+                    <div class="col-lg-3 col-md-6 d-flex align-items-stretch" style="visibility: hidden;">
+                        <div class="member">
+                            <div class="member-img">
+                                <img alt="" class="img-fluid" src="">
+                                <div class="social">
+                                    <a href=""><i class="bi bi-twitter"></i></a>
+                                    <a href=""><i class="bi bi-facebook"></i></a>
+                                    <a href=""><i class="bi bi-instagram"></i></a>
+                                    <a href=""><i class="bi bi-linkedin"></i></a>
+                                </div>
+                            </div>
+                            <div class="member-info">
+                                <h4>Walter White</h4>
+                                <span>Chief Executive Officer</span>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-lg-3 col-md-6 d-flex align-items-stretch">
+                        <div class="member">
+                            <div class="member-img">
+                                <a href="{{ url_for('ko_home') }}">
+                                    <img alt="" class="img-fluid" src="{{ url_for('static', filename='img/' + lang_code + '/index/korea_image.webp') }}">
+                                </a>
+                            </div>
+                            <div class="member-info">
+                                <a  href="{{ url_for('ko_home') }}">{{_('Korea')}}</a>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-lg-3 col-md-6 d-flex align-items-stretch">
+                        <div class="member">
+                            <div class="member-img">
+                                <a href="{{ url_for('sv_home') }}">
+                                    <img alt="" class="img-fluid" src="{{ url_for('static', filename='img/' + lang_code + '/index/sweden_image.webp') }}">
+                                </a>
+                            </div>
+                            <div class="member-info">
+                                <a href="{{ url_for('sv_home') }}">{{_('Sweden')}}</a>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-lg-3 col-md-6 d-flex align-items-stretch" style="visibility: hidden;">
+                        <div class="member">
+                            <div class="member-img">
+                                <img alt="" class="img-fluid" src="assets/img/team/team-4.jpg">
+                                <div class="social">
+                                    <a href=""><i class="bi bi-twitter"></i></a>
+                                    <a href=""><i class="bi bi-facebook"></i></a>
+                                    <a href=""><i class="bi bi-instagram"></i></a>
+                                    <a href=""><i class="bi bi-linkedin"></i></a>
+                                </div>
+                            </div>
+                            <div class="member-info">
+                                <h4>Amanda Jepson</h4>
+                                <span>Accountant</span>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+
+            </div>
+        </section>
+
+    </main><!-- End #main -->
+{% endif %}

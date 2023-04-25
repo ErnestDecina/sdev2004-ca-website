@@ -6,7 +6,8 @@ Author: Michael O'Brien
 
 -->
 
-
+{% set lang_code = session["language"] %}
+{% if lang_code == "ko" %}
 <!-- Sweden Booking Body -->
 <section id="hero">
     <div class="hero-container" data-aos="fade-up" style="background: linear-gradient(rgba(55, 142, 181, 0.5), rgba(55, 142, 181, 0.2)),  url({{ url_for('static', filename='img/sv/booking/frozen_river_hotel.jpg' ) }}) top center;" >>
@@ -133,7 +134,7 @@ Author: Michael O'Brien
               <div class="portfolio-links">
                 <a href="url({{ url_for('static', filename='img/sv/booking/village_b&b.jpg' ) }})" data-gallery="portfolioGallery" class="portfolio-lightbox" title="Web 3"><i class="bx bx-plus"></i></a>
                 <a href="portfolio-details.html" title="More Details"><i class="bx bx-link"></i></a>
-              </div>
+              </div>w
             </div>
           </div>
 
@@ -142,3 +143,250 @@ Author: Michael O'Brien
       </div>
     </section><!-- End Portfolio Section -->
 </main>
+{% elif lang_code == "ko" %}
+<main id="main" aria-hidden="true">
+
+    <!-- ======= Breadcrumbs ======= -->
+    <section id="breadcrumbs" class="breadcrumbs">
+      <div class="container">
+
+        <div class="d-flex justify-content-between align-items-center">
+          <h2>{{_("Accommodation")}}</h2>
+          <ol>
+            <li>{{_(Home)}}</li>
+            <li>{{_(Accommodation)}}</li>
+          </ol>
+        </div>
+
+      </div>
+    </section><!-- End Breadcrumbs -->
+
+  <!-- ======= Gallery Section ======= -->
+  <section id="gallery" class="gallery">
+      <div class="container">
+
+        <div class="row">
+          <div class="col-lg-12 d-flex justify-content-center">
+            <ul id="gallery-flters">
+              <li data-filter="*" class="filter-active">{{_("All")}}</li>
+              <li data-filter=".filter-home" class="">{{_("Seoul")}}</li>
+              <li data-filter=".filter-beach" class="">{{_("Jeju")}}</li>
+              <li data-filter=".filter-vacation" class="">{{_("Busan")}}</li>
+            </ul>
+          </div>
+        </div>
+
+        <div class="row gallery-container" style="position: relative; height: 1850px;">
+
+          <div class="col-lg-4 col-md-6 gallery-item filter-home" style="position: absolute; left: 0px; top: 0px;">
+            <div class="gallery-wrap">
+              <img src="{{ url_for('static', filename='img/ko/booking/khotel1.jpg') }}" alt="" style="height: 300px;">
+
+              <div class="gallery-info">
+                <h4>{{_("Room: Deluxe King Room | Price: $200/night | Other: Spacious with king-sized bed, modern furnishings, large en-suite bathroom, panoramic city views, and complimentary Wi-Fi.")}}</h4>
+                <p>Seoul</p>
+                <div class="gallery-links">
+                  <a href="assets/img/gallery/home-1.jpg" class="glightbox" title="Home 1"><i class="bx bx-plus"></i></a>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-lg-4 col-md-6 gallery-item filter-vacation" style="position: absolute; left: 360px; top: 0px;">
+            <div class="gallery-wrap">
+              <img src="{{ url_for('static', filename='img/ko/booking/khotel5.jpg') }}" alt="" style="height: 350px">
+              <div class="gallery-info">
+                <h4>{{_("Room: Standard Double Room | Price: $150/night | Other: Cozy and comfortable, this room features a double bed, modern amenities, and a sleek en-suite bathroom. Stay connected with complimentary high-speed Wi-Fi and enjoy a relaxing stay in Busan at an affordable price.")}}</h4>
+                <p>Busan</p>
+                <div class="gallery-links">
+                  <a href="assets/img/gallery/vacation-2.jpg" class="glightbox" title="Vacation 2"><i class="bx bx-plus"></i></a>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-lg-4 col-md-6 gallery-item filter-home" style="position: absolute; left: 0px; top: 330px;">
+            <div class="gallery-wrap">
+              <img src="{{ url_for('static', filename='img/ko/booking/khotel2.jpg') }}" alt="" style="height: 375px;">
+              <div class="gallery-info">
+                <h4>{{_("Room: Family Suite | Price: $300/night | Other: Perfect for families, this spacious suite features two bedrooms with a king-sized bed and twin beds, modern furnishings, and two en-suite bathrooms. Enjoy complimentary high-speed Wi-Fi and create unforgettable memories with your loved ones during your stay in Seoul.")}}</h4>
+                <p>Seoul</p>
+                <div class="gallery-links">
+                  <a href="assets/img/gallery/home-2.jpg" class="glightbox" title="Home 2"><i class="bx bx-plus"></i></a>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-lg-4 col-md-6 gallery-item filter-beach" style="position: absolute; left: 360px; top: 380px;">
+            <div class="gallery-wrap">
+              <img src="{{ url_for('static', filename='img/ko/booking/khotel11.jpg') }}" alt="" style="height: 425px;">
+              <div class="gallery-info">
+                <h4>{{_("Room: Garden View Room | Price: $180/night | Other: Relax in this peaceful room with a garden view, featuring a king-sized bed, elegant furnishings, and a luxurious en-suite bathroom. Stay connected with complimentary high-speed Wi-Fi and enjoy a tranquil retreat during your stay in Jeju.")}}</h4>
+                <p>Jeju</p>
+                <div class="gallery-links">
+                  <a href="assets/img/gallery/beach-2.jpg" class="glightbox" title="Beach 2"><i class="bx bx-plus"></i></a>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-lg-4 col-md-6 gallery-item filter-vacation" style="position: absolute; left: 0px; top: 735px;">
+            <div class="gallery-wrap">
+              <img src="{{ url_for('static', filename='img/ko/booking/khotel7.jpg') }}" alt="" style="height: 300px;">
+              <div class="gallery-info">
+                <h4>{{_("Room: Ocean View Suite | Price: $250/night | Other: Enjoy breathtaking ocean views from this luxurious suite featuring a king-sized bed, stylish furnishings, and a spa-like en-suite bathroom. Stay connected with complimentary high-speed Wi-Fi and unwind in comfort during your stay in Busan.")}}</h4>
+                <p>Busan</p>
+                <div class="gallery-links">
+                  <a href="assets/img/gallery/vacation-1.jpg" class="glightbox" title="Vacation 1"><i class="bx bx-plus"></i></a>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-lg-4 col-md-6 gallery-item filter-home" style="position: absolute; left: 360px; top: 835px;">
+            <div class="gallery-wrap">
+              <img src="{{ url_for('static', filename='img/ko/booking/khotel6.jpg') }}" alt="" style="height: 450px;">
+              <div class="gallery-info">
+                <h4>{{_("Room: Executive Suite | Price: $350/night | Other: Indulge in luxury with this spacious suite featuring a king-sized bed, separate living area, modern furnishings, and a spa-like en-suite bathroom. Enjoy stunning city views from your high-floor windows, and stay connected with complimentary high-speed Wi-Fi during your stay in Seoul.")}}</h4>
+                <p>Seoul</p>
+                <div class="gallery-links">
+                  <a href="assets/img/gallery/home-3.jpg" class="glightbox" title="Home 3"><i class="bx bx-plus"></i></a>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-lg-4 col-md-6 gallery-item filter-beach" style="position: absolute; left: 0px; top: 1065px;">
+            <div class="gallery-wrap">
+              <img src="{{ url_for('static', filename='img/ko/booking/khotel10.jpg') }}" alt="" style="height: 375px;">
+              <div class="gallery-info">
+                <h4>{{_("Room: Oceanfront Villa | Price: $450/night | Other: Escape to this luxurious villa with stunning ocean views, featuring a king-sized bed, private terrace, elegant furnishings, and a spacious en-suite bathroom with a whirlpool tub. Stay connected with complimentary high-speed Wi-Fi and enjoy a peaceful retreat during your stay in Jeju.")}}</h4>
+                <p>Jeju</p>
+                <div class="gallery-links">
+                  <a href="assets/img/gallery/beach-1.jpg" class="glightbox" title="Beach 1"><i class="bx bx-plus"></i></a>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-lg-4 col-md-6 gallery-item filter-beach" style="position: absolute; left: 360px; top: 1315px;">
+            <div class="gallery-wrap">
+              <img src="{{ url_for('static', filename='img/ko/booking/khotel3.jpg') }}" alt="" style="height: 475px;">
+              <div class="gallery-info">
+                <h4>{{_("Room: Family Room | Price: $250/night | Other: Perfect for families, this spacious room features a king-sized bed, twin beds, modern amenities, and a sleek en-suite bathroom. Enjoy stunning mountain views from your room, and stay connected with complimentary high-speed Wi-Fi during your stay in Jeju.")}}</h4>
+                <p>Jeju</p>
+                <div class="gallery-links">
+                  <a href="assets/img/gallery/beach-3.jpg" class="glightbox" title="Beach 3"><i class="bx bx-plus"></i></a>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-lg-4 col-md-6 gallery-item filter-vacation" style="position: absolute; left: 0px; top: 1420px;">
+            <div class="gallery-wrap">
+              <img src="{{ url_for('static', filename='img/ko/booking/khotel9.jpg') }}" alt="" style="height: 400px;">
+              <div class="gallery-info">
+                <h4>{{_("Room: Business Suite | Price: $300/night | Other: Ideal for business travelers, this spacious suite features a king-sized bed, separate living area, work desk, and a luxurious en-suite bathroom. Enjoy complimentary high-speed Wi-Fi and stay productive during your stay in Busan. The suite also offers panoramic city views for a relaxing retreat after a long day of work.")}}</h4>
+                <p>Busan</p>
+                <div class="gallery-links">
+                  <a href="assets/img/gallery/vacation-3.jpg" class="glightbox" title="Vacation 3"><i class="bx bx-plus"></i></a>
+                </div>
+              </div>
+            </div>
+          </div>
+
+        </div>
+
+      </div>
+    </section>
+  </main>
+{% elif lang_code == "en" %}
+    <section class="d-flex align-items-center justify-content-center" id="hero"
+             style="background-image: url( {{ url_for('static', filename='img/' + lang_code + '/index/index-hero.webp') }} ); ">
+        <div class="container position-relative">
+            <h1>{{_('AES Travel')}}</h1>
+            <h2>{{_('Bringing you where you want to be')}}</h2>
+        </div>
+    </section><!-- End Hero -->
+
+    <main id="main">
+        <section class="team section-bg" id="team">
+            <div class="container">
+
+                <div class="section-title">
+                    <h2>{{_('Current Travel Plans')}}</h2>
+                    <p>{{_('Here is our 2 travel destinations for you to enjoy')}}</p>
+                </div>
+
+                <div class="row">
+
+                    <div class="col-lg-3 col-md-6 d-flex align-items-stretch" style="visibility: hidden;">
+                        <div class="member">
+                            <div class="member-img">
+                                <img alt="" class="img-fluid" src="">
+                                <div class="social">
+                                    <a href=""><i class="bi bi-twitter"></i></a>
+                                    <a href=""><i class="bi bi-facebook"></i></a>
+                                    <a href=""><i class="bi bi-instagram"></i></a>
+                                    <a href=""><i class="bi bi-linkedin"></i></a>
+                                </div>
+                            </div>
+                            <div class="member-info">
+                                <h4>Walter White</h4>
+                                <span>Chief Executive Officer</span>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-lg-3 col-md-6 d-flex align-items-stretch">
+                        <div class="member">
+                            <div class="member-img">
+                                <a href="{{ url_for('ko_home') }}">
+                                    <img alt="" class="img-fluid" src="{{ url_for('static', filename='img/' + lang_code + '/index/korea_image.webp') }}">
+                                </a>
+                            </div>
+                            <div class="member-info">
+                                <a  href="{{ url_for('ko_home') }}">{{_('Korea')}}</a>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-lg-3 col-md-6 d-flex align-items-stretch">
+                        <div class="member">
+                            <div class="member-img">
+                                <a href="{{ url_for('sv_home') }}">
+                                    <img alt="" class="img-fluid" src="{{ url_for('static', filename='img/' + lang_code + '/index/sweden_image.webp') }}">
+                                </a>
+                            </div>
+                            <div class="member-info">
+                                <a href="{{ url_for('sv_home') }}">{{_('Sweden')}}</a>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-lg-3 col-md-6 d-flex align-items-stretch" style="visibility: hidden;">
+                        <div class="member">
+                            <div class="member-img">
+                                <img alt="" class="img-fluid" src="assets/img/team/team-4.jpg">
+                                <div class="social">
+                                    <a href=""><i class="bi bi-twitter"></i></a>
+                                    <a href=""><i class="bi bi-facebook"></i></a>
+                                    <a href=""><i class="bi bi-instagram"></i></a>
+                                    <a href=""><i class="bi bi-linkedin"></i></a>
+                                </div>
+                            </div>
+                            <div class="member-info">
+                                <h4>Amanda Jepson</h4>
+                                <span>Accountant</span>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+
+            </div>
+        </section>
+
+    </main><!-- End #main -->
+{% endif %}

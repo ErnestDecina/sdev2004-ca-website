@@ -1,4 +1,6 @@
 <!-- Korea Todo Body -->
+{% set lang_code = session["language"] %}
+{% if lang_code == "ko" %}
 <section id="hero_2" style=" background-image: url({{url_for('static', filename='img/ko/todo/header.jpg')}}");>
 </section><!-- End Hero -->
 
@@ -112,3 +114,321 @@
         </div>
     </section>
 </main>
+{% elif lang_code == "sv" %}
+<!-- Sweden Body -->
+<section id="hero_2">
+    <div class="hero-container" data-aos="fade-up" style="background: linear-gradient(rgba(55, 142, 181, 0.5), rgba(55, 142, 181, 0.2)),  url({{ url_for('static', filename='img/sv/todo/flags.jpg' ) }}) top center;" >
+      <h1>{{_("Hej, welcome to Sweden!")}}</h1>
+      <h2>{{_("Things to do and places to see.")}}</h2>
+    </div>
+</section><!-- End Hero -->
+
+<main id="main">
+
+      <!-- ======= North Section ======= -->
+    <section class="services">
+      <div class="container">
+
+        <div class="section-title" data-aos="fade-in" data-aos-delay="100">
+          <h2>{{_("North Sweden")}}</h2>
+          <p>{{_("Explore the north of Sweden")}}</p>
+        </div>
+
+        <div class="row">
+          <div class="col-md-6 col-lg-3 d-flex align-items-stretch mb-5 mb-lg-0">
+            <div class="icon-box" data-aos="fade-up">
+              <div class="icon"><i class="bx bxl-dribbble"></i></div>
+              <h4 class="title"><a href="">{{_("Northern Lights")}}</a></h4>
+              <p class="description">{{_("Come visit the Arctic circle and see the stunning lights in the night sky")}}</p>
+            </div>
+          </div>
+
+          <div class="col-md-6 col-lg-3 d-flex align-items-stretch mb-5 mb-lg-0">
+            <div class="icon-box" data-aos="fade-up" data-aos-delay="100">
+              <div class="icon"><i class="bx bx-file"></i></div>
+              <h4 class="title"><a href="">{{_("Architecture")}}</a></h4>
+              <p class="description">{{_("Come explore the world famous scandinavian architectural design")}}</p>
+            </div>
+          </div>
+
+          <div class="col-md-6 col-lg-3 d-flex align-items-stretch mb-5 mb-lg-0">
+            <div class="icon-box" data-aos="fade-up" data-aos-delay="200">
+              <div class="icon"><i class="bx bx-tachometer"></i></div>
+              <h4 class="title"><a href="">{{_("Gastrikland")}}</a></h4>
+              <p class="description">{{_("Naturally stunning region in the East of Sweden")}}</p>
+            </div>
+          </div>
+
+          <div class="col-md-6 col-lg-3 d-flex align-items-stretch mb-5 mb-lg-0">
+            <div class="icon-box" data-aos="fade-up" data-aos-delay="300">
+              <div class="icon"><i class="bx bx-world"></i></div>
+              <h4 class="title"><a href="">{{_("Sami")}}</a></h4>
+              <p class="description">{{_("Beautiful old Indigenous Culture in the North of Sweden")}}</p>
+            </div>
+          </div>
+
+        </div>
+
+      </div>
+    </section><!-- End Services Section -->
+
+    <!-- ======= food Section ======= -->
+    <section class="about_2">
+      <div class="container">
+        <div class="row no-gutters">
+          <div class="content col-xl-5 d-flex align-items-stretch" data-aos="fade-up">
+            <div class="content">
+              <h3>{{_("Swedish food")}}</h3>
+              <p>
+                {{_("Try out these swedish delacacies")}}
+              </p>
+              <a href="#" class="about-btn">{{_("recipes")}}<i class="bx bx-chevron-right"></i></a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section><!-- End About Section -->
+
+    <!-- ======= Middle Section ======= -->
+    <section id="services" class="services">
+      <div class="container">
+
+        <div class="section-title" data-aos="fade-in" data-aos-delay="100">
+          <h2>{{_("Central Sweden")}}</h2>
+          <p>{{_("Explore the Central regions of Sweden")}}</p>
+        </div>
+
+        <div class="row">
+          <div class="col-md-6 col-lg-3 d-flex align-items-stretch mb-5 mb-lg-0">
+            <div class="icon-box" data-aos="fade-up">
+              <div class="icon"><i class="bx bxl-dribbble"></i></div>
+              <h4 class="title"><a href="">{{_("Stockholm")}}</a></h4>
+              <p class="description">{{_("Come see Sweden's beautiful capital city.")}}</p>
+            </div>
+          </div>
+
+          <div class="col-md-6 col-lg-3 d-flex align-items-stretch mb-5 mb-lg-0">
+            <div class="icon-box" data-aos="fade-up" data-aos-delay="100">
+              <div class="icon"><i class="bx bx-file"></i></div>
+              <h4 class="title"><a href="">{{_("Architecture")}}</a></h4>
+              <p class="description">{{_("World famous style")}}</p>
+            </div>
+          </div>
+
+          <div class="col-md-6 col-lg-3 d-flex align-items-stretch mb-5 mb-lg-0">
+            <div class="icon-box" data-aos="fade-up" data-aos-delay="200">
+              <div class="icon"><i class="bx bx-tachometer"></i></div>
+              <h4 class="title"><a href="">{{_("Nature")}}</a></h4>
+              <p class="description">{{_("Visit one of Sweden's many lakes or hiking trails")}}</p>
+            </div>
+          </div>
+
+          <div class="col-md-6 col-lg-3 d-flex align-items-stretch mb-5 mb-lg-0">
+            <div class="icon-box" data-aos="fade-up" data-aos-delay="300">
+              <div class="icon"><i class="bx bx-world"></i></div>
+              <h4 class="title"><a href="">{{_("Festivals")}}</a></h4>
+              <p class="description">{{_("lot's of traditional festivals throught the year")}}</p>
+            </div>
+          </div>
+
+        </div>
+
+      </div>
+    </section><!-- End Services Section -->
+
+  <!-- ======= About Section ======= -->
+    <section id="about" class="about">
+      <div class="container">
+        <div class="row no-gutters">
+          <div class="content col-xl-5 d-flex align-items-stretch" data-aos="fade-up">
+            <div class="content">
+              <h3>{{_("Culture")}}</h3>
+              <p>
+                {{_("Learn More about our culture.")}}
+              </p>
+              <a href="#" class="about-btn">{{_("About us")}}<i class="bx bx-chevron-right"></i></a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section><!-- End About Section -->
+
+    <!-- ======= South Section ======= -->
+    <section class="services">
+      <div class="container">
+
+        <div class="section-title" data-aos="fade-in" data-aos-delay="100">
+          <h2>{{_("South Sweden")}}</h2>
+          <p>{{_("Explore the South of Sweden")}}</p>
+        </div>
+
+        <div class="row">
+          <div class="col-md-6 col-lg-3 d-flex align-items-stretch mb-5 mb-lg-0">
+            <div class="icon-box" data-aos="fade-up">
+              <div class="icon"><i class="bx bxl-dribbble"></i></div>
+              <h4 class="title"><a href="">{{_("Gothenburg")}}</a></h4>
+              <p class="description">{{_("Beautiful city in south")}}</p>
+            </div>
+          </div>
+
+          <div class="col-md-6 col-lg-3 d-flex align-items-stretch mb-5 mb-lg-0">
+            <div class="icon-box" data-aos="fade-up" data-aos-delay="100">
+              <div class="icon"><i class="bx bx-file"></i></div>
+              <h4 class="title"><a href="">{{_("Architecture")}}</a></h4>
+              <p class="description">{{_("World famous building style")}}</p>
+            </div>
+          </div>
+
+          <div class="col-md-6 col-lg-3 d-flex align-items-stretch mb-5 mb-lg-0">
+            <div class="icon-box" data-aos="fade-up" data-aos-delay="200">
+              <div class="icon"><i class="bx bx-tachometer"></i></div>
+              <h4 class="title"><a href="">{{_("Oresund bridge")}}</a></h4>
+              <p class="description">{{_("Longest bridge in Europe connects to Denmark")}}</p>
+            </div>
+          </div>
+
+          <div class="col-md-6 col-lg-3 d-flex align-items-stretch mb-5 mb-lg-0">
+            <div class="icon-box" data-aos="fade-up" data-aos-delay="300">
+              <div class="icon"><i class="bx bx-world"></i></div>
+              <h4 class="title"><a href="">{{_("Festivals")}}</a></h4>
+              <p class="description">{{_("lot's of traditional festivals throught the year")}}</p>
+            </div>
+          </div>
+
+        </div>
+
+      </div>
+    </section><!-- End Services Section -->
+
+    <!-- ======= Counts Section ======= -->
+    <section id="counts" class="counts  section-bg">
+      <div class="container">
+
+        <div class="row no-gutters">
+
+          <div class="col-lg-3 col-md-6 d-md-flex align-items-md-stretch">
+            <div class="count-box">
+              <i class="bi bi-emoji-smile"></i>
+              <span data-purecounter-start="0" data-purecounter-end="10" data-purecounter-duration="1" class="purecounter"></span>
+              <p><strong>{{_("Happy Clients")}}</strong></p>
+            </div>
+          </div>
+
+          <div class="col-lg-3 col-md-6 d-md-flex align-items-md-stretch">
+            <div class="count-box">
+              <i class="bi bi-journal-richtext"></i>
+              <span data-purecounter-start="0" data-purecounter-end="99999999999" data-purecounter-duration="1" class="purecounter"></span>
+              <p><strong>{{_("Projects")}}</strong></p>
+            </div>
+          </div>
+
+          <div class="col-lg-3 col-md-6 d-md-flex align-items-md-stretch">
+            <div class="count-box">
+              <i class="bi bi-headset"></i>
+              <span data-purecounter-start="0" data-purecounter-end="9999999999999" data-purecounter-duration="1" class="purecounter"></span>
+              <p><strong>{{_("Hours Of Support")}}</strong></p>
+            </div>
+          </div>
+
+          <div class="col-lg-3 col-md-6 d-md-flex align-items-md-stretch">
+            <div class="count-box">
+              <i class="bi bi-people"></i>
+              <span data-purecounter-start="0" data-purecounter-end="9999999" data-purecounter-duration="1" class="purecounter"></span>
+              <p><strong>{{_("Hard Workers")}}</strong></p>
+            </div>
+          </div>
+
+        </div>
+
+      </div>
+    </section><!-- End Counts Section -->
+</main>
+{% elif lang_code == "en" %}
+    <section class="d-flex align-items-center justify-content-center" id="hero"
+             style="background-image: url( {{ url_for('static', filename='img/' + lang_code + '/index/index-hero.webp') }} ); ">
+        <div class="container position-relative">
+            <h1>{{_('AES Travel')}}</h1>
+            <h2>{{_('Bringing you where you want to be')}}</h2>
+        </div>
+    </section><!-- End Hero -->
+
+    <main id="main">
+        <section class="team section-bg" id="team">
+            <div class="container">
+
+                <div class="section-title">
+                    <h2>{{_('Current Travel Plans')}}</h2>
+                    <p>{{_('Here is our 2 travel destinations for you to enjoy')}}</p>
+                </div>
+
+                <div class="row">
+
+                    <div class="col-lg-3 col-md-6 d-flex align-items-stretch" style="visibility: hidden;">
+                        <div class="member">
+                            <div class="member-img">
+                                <img alt="" class="img-fluid" src="">
+                                <div class="social">
+                                    <a href=""><i class="bi bi-twitter"></i></a>
+                                    <a href=""><i class="bi bi-facebook"></i></a>
+                                    <a href=""><i class="bi bi-instagram"></i></a>
+                                    <a href=""><i class="bi bi-linkedin"></i></a>
+                                </div>
+                            </div>
+                            <div class="member-info">
+                                <h4>Walter White</h4>
+                                <span>Chief Executive Officer</span>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-lg-3 col-md-6 d-flex align-items-stretch">
+                        <div class="member">
+                            <div class="member-img">
+                                <a href="{{ url_for('ko_home') }}">
+                                    <img alt="" class="img-fluid" src="{{ url_for('static', filename='img/' + lang_code + '/index/korea_image.webp') }}">
+                                </a>
+                            </div>
+                            <div class="member-info">
+                                <a  href="{{ url_for('ko_home') }}">{{_('Korea')}}</a>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-lg-3 col-md-6 d-flex align-items-stretch">
+                        <div class="member">
+                            <div class="member-img">
+                                <a href="{{ url_for('sv_home') }}">
+                                    <img alt="" class="img-fluid" src="{{ url_for('static', filename='img/' + lang_code + '/index/sweden_image.webp') }}">
+                                </a>
+                            </div>
+                            <div class="member-info">
+                                <a href="{{ url_for('sv_home') }}">{{_('Sweden')}}</a>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-lg-3 col-md-6 d-flex align-items-stretch" style="visibility: hidden;">
+                        <div class="member">
+                            <div class="member-img">
+                                <img alt="" class="img-fluid" src="assets/img/team/team-4.jpg">
+                                <div class="social">
+                                    <a href=""><i class="bi bi-twitter"></i></a>
+                                    <a href=""><i class="bi bi-facebook"></i></a>
+                                    <a href=""><i class="bi bi-instagram"></i></a>
+                                    <a href=""><i class="bi bi-linkedin"></i></a>
+                                </div>
+                            </div>
+                            <div class="member-info">
+                                <h4>Amanda Jepson</h4>
+                                <span>Accountant</span>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+
+            </div>
+        </section>
+
+    </main><!-- End #main -->
+{% endif %}

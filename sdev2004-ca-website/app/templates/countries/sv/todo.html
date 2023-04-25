@@ -236,3 +236,207 @@ Author: Seán Tighe
       </div>
     </section><!-- End Counts Section -->
 </main>
+
+{% elif lang_code == "ko" %}
+<section id="hero_2" style=" background-image: url({{url_for('static', filename='img/ko/todo/header.jpg')}}");>
+</section><!-- End Hero -->
+
+<main id="main">
+
+    <section id="title" class="title">
+        <div class="container">
+          <div style="text-align:center"> <h2>{{_("Traveling in Korea")}}</h2> </div>
+        </div>
+    </section>
+
+
+    <section id="todo-spotone" class="todo-spotone">
+        <div class="container">
+
+          <div class="row">
+            <div class="col-lg-6 order-1 order-lg-2">
+                <img alt="" class="img-fluid" src="{{ url_for('static', filename='img/ko/todo/gyeongpoop.jpg') }}">
+            </div>
+            <div class="col-lg-6 pt-4 pt-lg-0 order-2 order-lg-1 content">
+              <h3>{{_("The Five Royal Palaces of Seoul")}}</h3>
+              <p class="fst-italic">
+                {{_("The five palaces of Seoul are royal palaces of the Joseon Dynasty and symbols of Korea’s culture and history. Each palace has its unique charms: Gyeongbokgung Palace, the royal residence; Changdeokgung Palace, a UNESCO World Heritage Site inscribed in 1997 with remarkable beauty; Deoksugung Palace, a combination of Korean aesthetics and Western architecture; Changgyeonggung Palace, now restored from the damages caused by Japanese occupation; and Gyeonghuigung Palace, humble and simple.")}}
+              </p>
+            </div>
+          </div>
+    </section>
+
+
+  <section id="todo-spotTwo" class="todo-spotTwo">
+        <div class="container">
+
+          <div class="row">
+            <div class="col-lg-6">
+                <img alt="" class="img-fluid" src="{{ url_for('static', filename='img/ko/todo/hongdae.jpg') }}">
+            </div>
+            <div class="col-lg-6 pt-4 pt-lg-0 order-2 order-lg-1 content">
+              <h3>{{_("Hongik University Hongdae Street")}}</h3>
+              <p class="fst-italic">
+                {{_("The heart of Seoul’s youth culture is this eclectic collection of cafes, restaurants, bars, clubs, art markets, galleries, and shops. Its numerous alleys wind through the area, carrying unique themes like clubbing, art, and murals (Picasso Street). Busking, performances, events, and the powerful energy of youthful freedom draw numerous youths to the area, especially on weekends.")}}
+              </p>
+            </div>
+          </div>
+    </section>
+
+    <section id="todo-spotThree" class="todo-spotThree">
+        <div class="container">
+
+          <div class="row">
+            <div class="col-lg-6 order-1 order-lg-2">
+                <img alt="" class="img-fluid" src="{{ url_for('static', filename='img/ko/todo/COEX.jpg') }}">
+            </div>
+            <div class="col-lg-6 pt-4 pt-lg-0 order-2 order-lg-1 content">
+              <h3>{{_("COEX (Starfield)")}}</h3>
+              <p class="fst-italic">
+                {{_("COEX is a cultural center housing shops, film theaters, an aquarium, a large bookstore, and a library. Starfield Library in particular is a beloved location for photo ops for its two-story, 13-meter-high bookstores. It is designed as an open space of communication through books, and it hosts many literature-themed cultural events.")}}
+              </p>
+            </div>
+          </div>
+    </section>
+
+    <section id="todo-spotFour" class="todo-spotFour">
+        <div class="container">
+
+          <div class="row">
+            <div class="col-lg-6">
+                <img alt="" class="img-fluid" src="{{ url_for('static', filename='img/ko/todo/seoulland.jpg') }}">
+            </div>
+            <div class="col-lg-6 pt-4 pt-lg-0 order-2 order-lg-1 content">
+              <h3>{{_("Seoul Land")}}</h3>
+              <p class="fst-italic">
+                {{_("Seoul Land has gained popularity as a land of adventures and dreams. Its attractions are organized by themes, such as the World Plaza, Tomorrow Land, Character Town, and Adventure Land. There are about 50 rides, all inspired by Korean animation characters. The amusement park runs a sled slope and a fishing spot in winter. At night, Seoul Land turns into Luna Park decorated with splendid lights.")}}
+              </p>
+            </div>
+          </div>
+    </section>
+
+
+
+    <section id="todo-spotFive" class="todo-spotFive">
+        <div class="container">
+
+          <div class="row">
+            <div class="col-lg-6 order-1 order-lg-2">
+                <img alt="" class="img-fluid" src="{{ url_for('static', filename='img/ko/todo/seomjingang.jpg') }}">
+            </div>
+            <div class="col-lg-6 pt-4 pt-lg-0 order-2 order-lg-1 content">
+              <h3>{{_("Seomjingang Train Village in Gokseong")}}</h3>
+              <p class="fst-italic">
+                {{_("Seomjingang Train Village is a train-themed park developed from the former Gokseong Station and the discontinued Jeolla Line. The village is home to Dreamland amusement park; the goblin-themed Yosul (Magic) Land; Chichippuppu Playground, where visitors can learn and experience railway history and culture; an animal farm; a VR zone; and a media art exhibition hall. Visitors can also ride the railbike or the steam locomotive.") }}
+              </p>
+            </div>
+          </div>
+    </section>
+
+
+
+    <section class="recent-photos" id="recent-photos">
+        <div class="container">
+            <div class="section-title">
+                <h2>{{_("Looking for accommodation?")}}</h2>
+                <p style="text-align: left;"></p>
+                <br>
+                <p>{{_("Check out South Korea\'s places to stay")}}</p>
+                <div>
+                    <img alt="" class="img-fluid" src="url(/static/img/ko/home/1.jpg)">
+                </div>
+
+                <a class="btn-learn-more" href="/ko/booking">{{_("Book here")}}</a>
+            </div>
+        </div>
+    </section>
+</main>
+{% elif lang_code == "en" %}
+    <section class="d-flex align-items-center justify-content-center" id="hero"
+             style="background-image: url( {{ url_for('static', filename='img/' + lang_code + '/index/index-hero.webp') }} ); ">
+        <div class="container position-relative">
+            <h1>{{_('AES Travel')}}</h1>
+            <h2>{{_('Bringing you where you want to be')}}</h2>
+        </div>
+    </section><!-- End Hero -->
+
+    <main id="main">
+        <section class="team section-bg" id="team">
+            <div class="container">
+
+                <div class="section-title">
+                    <h2>{{_('Current Travel Plans')}}</h2>
+                    <p>{{_('Here is our 2 travel destinations for you to enjoy')}}</p>
+                </div>
+
+                <div class="row">
+
+                    <div class="col-lg-3 col-md-6 d-flex align-items-stretch" style="visibility: hidden;">
+                        <div class="member">
+                            <div class="member-img">
+                                <img alt="" class="img-fluid" src="">
+                                <div class="social">
+                                    <a href=""><i class="bi bi-twitter"></i></a>
+                                    <a href=""><i class="bi bi-facebook"></i></a>
+                                    <a href=""><i class="bi bi-instagram"></i></a>
+                                    <a href=""><i class="bi bi-linkedin"></i></a>
+                                </div>
+                            </div>
+                            <div class="member-info">
+                                <h4>Walter White</h4>
+                                <span>Chief Executive Officer</span>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-lg-3 col-md-6 d-flex align-items-stretch">
+                        <div class="member">
+                            <div class="member-img">
+                                <a href="{{ url_for('ko_home') }}">
+                                    <img alt="" class="img-fluid" src="{{ url_for('static', filename='img/' + lang_code + '/index/korea_image.webp') }}">
+                                </a>
+                            </div>
+                            <div class="member-info">
+                                <a  href="{{ url_for('ko_home') }}">{{_('Korea')}}</a>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-lg-3 col-md-6 d-flex align-items-stretch">
+                        <div class="member">
+                            <div class="member-img">
+                                <a href="{{ url_for('sv_home') }}">
+                                    <img alt="" class="img-fluid" src="{{ url_for('static', filename='img/' + lang_code + '/index/sweden_image.webp') }}">
+                                </a>
+                            </div>
+                            <div class="member-info">
+                                <a href="{{ url_for('sv_home') }}">{{_('Sweden')}}</a>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-lg-3 col-md-6 d-flex align-items-stretch" style="visibility: hidden;">
+                        <div class="member">
+                            <div class="member-img">
+                                <img alt="" class="img-fluid" src="assets/img/team/team-4.jpg">
+                                <div class="social">
+                                    <a href=""><i class="bi bi-twitter"></i></a>
+                                    <a href=""><i class="bi bi-facebook"></i></a>
+                                    <a href=""><i class="bi bi-instagram"></i></a>
+                                    <a href=""><i class="bi bi-linkedin"></i></a>
+                                </div>
+                            </div>
+                            <div class="member-info">
+                                <h4>Amanda Jepson</h4>
+                                <span>Accountant</span>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+
+            </div>
+        </section>
+
+    </main><!-- End #main -->
+{% endif %}
