@@ -12,7 +12,7 @@ Author: Daniel Wu
 {% set lang_code = session["language"] %}
 {% if lang_code == "sv" %}
 <section id="hero">
-    <div class="hero-container" data-aos="fade-up" style="background: linear-gradient(rgba(55, 142, 181, 0.5), rgba(55, 142, 181, 0.2)),  url({{ url_for('static', filename='img/sv/home/Riddar.jpg' ) }}) top center;" >
+    <div class="hero-container" data-aos="fade-up" style="  background: linear-gradient(rgba(55, 142, 181, 0.5), rgba(55, 142, 181, 0.2)),  url({{ url_for('static', filename='img/sv/home/Riddar.jpg' ) }}) top center;" >
     <h1>{{_("Welcome to Sweden")}}</h1>
     <h2>{{_("Where Dreams are made")}}</h2>
     <a href="#about" class="btn-get-started scrollto"><i class="bx bx-chevrons-down"></i></a>
@@ -301,7 +301,7 @@ Author: Daniel Wu
   </main><!-- End #main -->
 
 {% elif lang_code == "ko" %}
-<section id="hero_2" style=" background-image: url( {{ url_for('static', filename='img/ko/home/cute-family-picture.jpg' ) }} );"></section><!-- End Hero -->
+<section id="hero_2" style=" background-image: url( {{ url_for('static', filename='img/sv/home/swedengroup.jpg' ) }} );"></section><!-- End Hero -->
 
 <main id="main">
 
@@ -310,13 +310,13 @@ Author: Daniel Wu
         <div class="container">
 
             <div class="section-title">
-                <h2>{{ gettext("AES Travel: Korea") }}</h2>
-                <p>{{_("Are you ready to go travel with your family and friends to korea?")}}</p>
+                <h2>{{ gettext("AES Travel: Sweden") }}</h2>
+                <p>{{_("Are you ready to go travel with your family and friends to Sweden?")}}</p>
             </div>
 
             <div class="intro-text">
-                <p>{{_("Welcome to our website dedicated to all things related to traveling to Korea! Korea is a fascinating and vibrant country with a rich culture and history. Whether you're interested in exploring the bustling streets of Seoul, soaking in natural hot springs, or discovering ancient temples, Korea has something for everyone.")}}</p>
-                <p>{{_("As a society that values community and social connections, Korea is the perfect destination for those looking to explore with their loved ones. From exploring ancient temples and palaces to sampling delicious Korean cuisine, there's something for everyone to enjoy. Our website is here to help you plan your dream trip to Korea. We're in control of every detail, from transportation to accommodations, so you can focus on making the most of your time with your family and friends. Come and discover the beauty and warmth of Korea with us. Book your trip today!")}}</p>
+                <p>{{_("Welcome to our website dedicated to traveling to Sweden! If you are planning a trip to this beautiful Scandinavian country, you have come to the right place.")}}</p>
+                <p>{{_("Our website is also packed with helpful resources to make your trip planning easy and stress-free.")}}</p>
             </div>
         </div>
     </section><!-- End My & Family Section -->
@@ -337,7 +337,7 @@ Author: Daniel Wu
 
                 <div class="col-lg-4 col-md-6 gallery-item filter-home">
                     <div class="gallery-wrap">
-                        <img alt="" class="img-fluid" src="{{ url_for('static', filename='img/ko/home/1.jpg' ) }}" style="height: 260px;">
+                        <img alt="" class="img-fluid" src="{{ url_for('static', filename='img/sv/home/couple.jpg' ) }}" style="height: 260px;">
                         <div class="gallery-info">
                             <h4>{{_("Home")}}</h4>
                         </div>
@@ -346,7 +346,7 @@ Author: Daniel Wu
 
                 <div class="col-lg-4 col-md-6 gallery-item filter-vacation">
                     <div class="gallery-wrap">
-                        <img alt="" class="img-fluid" src="{{ url_for('static', filename='img/ko/home/family.jpg' ) }}">
+                        <img alt="" class="img-fluid" src="{{ url_for('static', filename='img/sv/home/donkey.jpg' ) }}">
                         <div class="gallery-info">
                             <h4>{{_("What to do?")}}</h4>
                         </div>
@@ -355,7 +355,7 @@ Author: Daniel Wu
 
                 <div class="col-lg-4 col-md-6 gallery-item filter-home">
                     <div class="gallery-wrap">
-                        <img alt="" class="img-fluid" src="{{ url_for('static', filename='img/ko/home/flights.jpg' ) }}">
+                        <img alt="" class="img-fluid" src="{{ url_for('static', filename='img/sv/home/lights.jpg' ) }}">
                         <div class="gallery-info">
                             <h4>{{_("Booking your Trip")}}</h4>
                         </div>
@@ -370,15 +370,12 @@ Author: Daniel Wu
     <section class="recent-photos" id="recent-photos">
         <div class="container">
             <div class="section-title">
-                <h2>{{_("Don't know what to do in Korea?")}}</h2>
-                <p style="text-align: left;" >{{_("Are you planning a trip to Korea, but unsure of what to do or where to start? Look no further! Our guided to-do list is the perfect resource for anyone looking to make the most of their time in this beautiful country. Korea is a land of contrasts, where ancient temples and modern skyscrapers coexist, and traditional customs and contemporary trends blend seamlessly. With so much to see and do, it can be overwhelming to plan your itinerary. That's where our guided to-do list comes in. Our team of experts has curated a comprehensive list of must-see attractions, hidden gems, and cultural experiences that will give you a taste of everything Korea has to offer. From exploring the vibrant streets of Seoul to hiking through picturesque national parks, our to-do list has something for everyone. Not sure where to start? Our to-do list is organized by category, making it easy to find activities that match your interests. Whether you're a foodie looking to sample Korean cuisine, a history buff interested in exploring ancient temples and palaces, or a nature lover seeking adventure in Korea's mountains and beaches, we've got you covered.")}}</p>
+                <h2>{{_("Don't know what to do in Sweden?")}}</h2>
+                <p style="text-align: left;" >{{_("Are you planning a trip to Sweden, but unsure of what to do or where to start? Look no further! Our guided to-do list is the perfect resource for anyone looking to make the most of their time in this beautiful country. Sweden is a land of contrasts, where ancient Nordic Castles and modern architecture coexist, and traditional customs and contemporary trends blend seamlessly. With so much to see and do, it can be overwhelming to plan your itinerary. That's where our guided to-do list comes in. Our team of experts has curated a comprehensive list of must-see attractions, hidden gems, and cultural experiences that will give you a taste of everything Sweden has to offer. From exploring the vibrant streets of Stockholm to hiking through picturesque glacier parks, our to-do list has something for everyone. Not sure where to start? Our to-do list is organized by category, making it easy to find activities that match your interests , we've got you covered.")}}</p>
                 <br>
                 <p>{{_("Well have a look at our guided todo list")}}</p>
-                <div>
-                    <img alt="" class="img-fluid" src="url({{ url_for('static', filename='img/ko/home/1.jpg' ) }})">
-                </div>
 
-                <a class="btn-learn-more" href="{{ url_for('ko_todo') }}">{{_("Continue to To Do")}}</a>
+                <a class="btn-learn-more" href="{{ url_for('sv_todo') }}">{{_("Continue to To Do")}}</a>
             </div>
         </div>
     </section><!-- End Recent Photos Section -->
@@ -388,88 +385,182 @@ Author: Daniel Wu
     <section class="d-flex align-items-center justify-content-center" id="hero"
              style="background-image: url( {{ url_for('static', filename='img/' + lang_code + '/index/index-hero.webp') }} ); ">
         <div class="container position-relative">
-            <h1>{{_('AES Travel')}}</h1>
-            <h2>{{_('Bringing you where you want to be')}}</h2>
+            <h1>{{_('AES Sweden')}}</h1>
+            <h2>{{_('Where Dreams are made')}}</h2>
         </div>
     </section><!-- End Hero -->
 
-    <main id="main">
-        <section class="team section-bg" id="team">
-            <div class="container">
+     <main id="main">
 
-                <div class="section-title">
-                    <h2>{{_('Current Travel Plans')}}</h2>
-                    <p>{{_('Here is our 2 travel destinations for you to enjoy')}}</p>
-                </div>
+    <!-- ======= About Section ======= -->
+    <section id="about" class="about">
+      <div class="container">
 
-                <div class="row">
-
-                    <div class="col-lg-3 col-md-6 d-flex align-items-stretch" style="visibility: hidden;">
-                        <div class="member">
-                            <div class="member-img">
-                                <img alt="" class="img-fluid" src="">
-                                <div class="social">
-                                    <a href=""><i class="bi bi-twitter"></i></a>
-                                    <a href=""><i class="bi bi-facebook"></i></a>
-                                    <a href=""><i class="bi bi-instagram"></i></a>
-                                    <a href=""><i class="bi bi-linkedin"></i></a>
-                                </div>
-                            </div>
-                            <div class="member-info">
-                                <h4>Walter White</h4>
-                                <span>Chief Executive Officer</span>
-                            </div>
-                        </div>
-                    </div>
-
-                    <div class="col-lg-3 col-md-6 d-flex align-items-stretch">
-                        <div class="member">
-                            <div class="member-img">
-                                <a href="{{ url_for('ko_home') }}">
-                                    <img alt="" class="img-fluid" src="{{ url_for('static', filename='img/' + lang_code + '/index/korea_image.webp') }}">
-                                </a>
-                            </div>
-                            <div class="member-info">
-                                <a  href="{{ url_for('ko_home') }}">{{_('Korea')}}</a>
-                            </div>
-                        </div>
-                    </div>
-
-                    <div class="col-lg-3 col-md-6 d-flex align-items-stretch">
-                        <div class="member">
-                            <div class="member-img">
-                                <a href="{{ url_for('sv_home') }}">
-                                    <img alt="" class="img-fluid" src="{{ url_for('static', filename='img/' + lang_code + '/index/sweden_image.webp') }}">
-                                </a>
-                            </div>
-                            <div class="member-info">
-                                <a href="{{ url_for('sv_home') }}">{{_('Sweden')}}</a>
-                            </div>
-                        </div>
-                    </div>
-
-                    <div class="col-lg-3 col-md-6 d-flex align-items-stretch" style="visibility: hidden;">
-                        <div class="member">
-                            <div class="member-img">
-                                <img alt="" class="img-fluid" src="assets/img/team/team-4.jpg">
-                                <div class="social">
-                                    <a href=""><i class="bi bi-twitter"></i></a>
-                                    <a href=""><i class="bi bi-facebook"></i></a>
-                                    <a href=""><i class="bi bi-instagram"></i></a>
-                                    <a href=""><i class="bi bi-linkedin"></i></a>
-                                </div>
-                            </div>
-                            <div class="member-info">
-                                <h4>Amanda Jepson</h4>
-                                <span>Accountant</span>
-                            </div>
-                        </div>
-                    </div>
-
-                </div>
-
+        <div class="row no-gutters">
+          <div class="content col-xl-5 d-flex align-items-stretch" data-aos="fade-up">
+            <div class="content">
+              <h3>{{_("About AES SWEDEN")}}</h3>
+              <p>
+                {{_("Welcome to our website dedicated to traveling to Sweden! If you are planning a trip to this beautiful Scandinavian country, you have come to the right place. Our website is designed to provide you with all the information you need to make the most of your visit to Sweden.
+                Here, you will find information about the best places to visit, the most interesting things to do, and the most delicious food to try. Whether you're interested in exploring Stockholm, Gothenburg, or any of Sweden's other amazing cities, we have you covered. You can also find tips on how to get around Sweden, where to stay, and how to plan your itinerary.
+                Our website is also packed with helpful resources to make your trip planning easy and stress-free. We provide information on visas and entry requirements, currency exchange rates, and transportation options. Additionally, we offer advice on how to stay safe while traveling in Sweden and provide tips on cultural etiquette to help you blend in with the locals.
+                So whether you are planning a solo adventure, a romantic getaway, or a family vacation, our website is your one-stop-shop for all things Sweden. Start exploring today and get ready to fall in love with this stunning country!")}}
+              </p>
+              <a href="#" class="about-btn">{{_("About us")}} <i class="bx bx-chevron-right"></i></a>
             </div>
-        </section>
+          </div>
+          <div class="col-xl-7 d-flex align-items-stretch">
+            <div class="icon-boxes d-flex flex-column justify-content-center">
+              <div class="row">
+                <div class="col-md-6 icon-box" data-aos="fade-up" data-aos-delay="100">
+                  <i class="bx bx-receipt"></i>
+                  <h4>{{_("Travel Planning")}}</h4>
+                  <p>{{_("We provide the best guides and plans for Travelling")}}</p>
+                </div>
+                <div class="col-md-6 icon-box" data-aos="fade-up" data-aos-delay="200">
+                  <i class="bx bx-cube-alt"></i>
+                  <h4>{{_("Destinations")}}</h4>
+                  <p>{{_("Guides for popular tourist Destinations")}}</p>
+                </div>
+                <div class="col-md-6 icon-box" data-aos="fade-up" data-aos-delay="300">
+                  <i class="bx bx-images"></i>
+                  <h4>{{_("Photography")}}</h4>
+                  <p>{{_("Articles on travel photography, including tips for taking great photos and editing techniques")}}</p>
+                </div>
+                <div class="col-md-6 icon-box" data-aos="fade-up" data-aos-delay="400">
+                  <i class="bx bx-shield"></i>
+                  <h4>{{_("Safety")}}</h4>
+                  <p>{{_("Your Safety is the most important aspect that we provide on Trips")}}</p>
+                </div>
+              </div>
+            </div><!-- End .content-->
+          </div>
+        </div>
+
+      </div>
+    </section><!-- End About Section -->
+
+         <img src="{{ url_for('static', filename='img/sv/home/gothenburg.jpg' ) }}" class="img-fluid" alt="">
+
+         <!-- ======= Services Section ======= -->
+    <section id="services" class="services">
+      <div class="container">
+
+        <div class="section-title" data-aos="fade-in" data-aos-delay="100">
+          <h2>{{_("Services")}}</h2>
+          <p>{{_("We Offer a Wide Range of Services which Include")}}</p>
+        </div>
+
+        <div class="row">
+          <div class="col-md-6 col-lg-3 d-flex align-items-stretch mb-5 mb-lg-0">
+            <div class="icon-box" data-aos="fade-up">
+              <div class="icon"><i class="bx bxl-dribbble"></i></div>
+              <h4 class="title"><a href="">{{_("Booking Agency")}}</a></h4>
+              <p class="description">{{_("This agency will handle all bookings and services related")}}</p>
+            </div>
+          </div>
+
+          <div class="col-md-6 col-lg-3 d-flex align-items-stretch mb-5 mb-lg-0">
+            <div class="icon-box" data-aos="fade-up" data-aos-delay="100">
+              <div class="icon"><i class="bx bx-file"></i></div>
+              <h4 class="title"><a href="">{{_("Activities Agency")}}</a></h4>
+              <p class="description">{{_("Will suggest activities you can do in a selected Trip")}}</p>
+            </div>
+          </div>
+
+          <div class="col-md-6 col-lg-3 d-flex align-items-stretch mb-5 mb-lg-0">
+            <div class="icon-box" data-aos="fade-up" data-aos-delay="200">
+              <div class="icon"><i class="bx bx-tachometer"></i></div>
+              <h4 class="title"><a href="">{{_("Finanical Agency")}}</a></h4>
+              <p class="description">{{_("Handle finances according to your budget and needs")}}</p>
+            </div>
+          </div>
+
+          <div class="col-md-6 col-lg-3 d-flex align-items-stretch mb-5 mb-lg-0">
+            <div class="icon-box" data-aos="fade-up" data-aos-delay="300">
+              <div class="icon"><i class="bx bx-world"></i></div>
+              <h4 class="title"><a href="">{{_("Visa Agency")}}</a></h4>
+              <p class="description">{{_("Provides assistance in obtaining Visas")}}</p>
+            </div>
+          </div>
+
+        </div>
+
+      </div>
+    </section><!-- End Services Section -->
+
+
+         <!-- ======= Contact Section ======= -->
+    <section id="contact" class="contact section-bg">
+      <div class="container" data-aos="fade-up">
+
+        <div class="section-title">
+          <h2>{{_("Contact")}}</h2>
+          <p>{{_("You can contact AES Travel by Email and phone which are below. You also have the option of going to are main offices at the address below or filling out a form which we will respond according to our working hours.")}}</p>
+        </div>
+
+        <div class="row">
+          <div class="col-lg-6">
+            <div class="info-box mb-4">
+              <i class="bx bx-map"></i>
+              <h3>{{_("Our Address")}}</h3>
+              <p>Grangegorman Lower, Dublin 7, D07 H6K8</p>
+            </div>
+          </div>
+
+          <div class="col-lg-3 col-md-6">
+            <div class="info-box  mb-4">
+              <i class="bx bx-envelope"></i>
+              <h3>{{_("Email Us")}}</h3>
+              <p>AESTRAVEL@gmail.com</p>
+            </div>
+          </div>
+
+          <div class="col-lg-3 col-md-6">
+            <div class="info-box  mb-4">
+              <i class="bx bx-phone-call"></i>
+              <h3>{{_("Call Us")}}</h3>
+              <p>+353 5589 55488 55</p>
+            </div>
+          </div>
+
+        </div>
+
+        <div class="row">
+
+          <div class="col-lg-6 ">
+            <iframe class="mb-4 mb-lg-0" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2381.3483716183287!2d-6.281766284803596!3d53.35491998177104!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x48670c2cc96fac29%3A0x31b7c884b3584d80!2s7%20Grangegorman%20Lower%2C%20Arran%20Quay%2C%20Dublin%207%2C%20D07%20X8R6!5e0!3m2!1sen!2sie!4v1681077967150!5m2!1sen!2sie" width="635" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade" frameborder="0" style="border:0; width: 100%; height: 384px;" allowfullscreen></iframe>
+          </div>
+
+          <div class="col-lg-6">
+            <form action="forms/contact.php" method="post" role="form" class="php-email-form">
+              <div class="row">
+                <div class="col-md-6 form-group">
+                  <input type="text" name="name" class="form-control" id="name" placeholder="Your Name" required>
+                </div>
+                <div class="col-md-6 form-group mt-3 mt-md-0">
+                  <input type="email" class="form-control" name="email" id="email" placeholder="Your Email" required>
+                </div>
+              </div>
+              <div class="form-group mt-3">
+                <input type="text" class="form-control" name="subject" id="subject" placeholder="Subject" required>
+              </div>
+              <div class="form-group mt-3">
+                <textarea class="form-control" name="message" rows="5" placeholder="Message" required></textarea>
+              </div>
+              <div class="my-3">
+                <div class="loading">Loading</div>
+                <div class="error-message"></div>
+                <div class="sent-message">{{_("Your message has been sent. Thank you!")}}</div>
+              </div>
+              <div class="text-center"><button type="submit">{{_("Send Message")}}</button></div>
+            </form>
+          </div>
+
+        </div>
+
+      </div>
+    </section><!-- End Contact Section -->
 
     </main><!-- End #main -->
 {% endif %}
