@@ -1,163 +1,101 @@
 <!--Ron Pingol Booking Page -->
 {% set lang_code = session["language"] %}
 {% if lang_code == "ko" %}
-<main id="main" aria-hidden="true">
+<section id="hero_2" style=" background-image: url({{url_for('static', filename='img/ko/todo/header.jpg')}}");>
+</section><!-- End Hero -->
 
-    <!-- ======= Breadcrumbs ======= -->
-    <section id="breadcrumbs" class="breadcrumbs">
-      <div class="container">
+<main id="main">
 
-        <div class="d-flex justify-content-between align-items-center">
-          <h2>{{_("Accommodation")}}</h2>
-          <ol>
-            <li>{{_(Home)}}</li>
-            <li>{{_(Accommodation)}}</li>
-          </ol>
+    <section id="title" class="title">
+        <div class="container">
+          <div style="text-align:center"> <h2>{{_("Accommodation in Korea")}}</h2> </div>
         </div>
-
-      </div>
-    </section><!-- End Breadcrumbs -->
-
-  <!-- ======= Gallery Section ======= -->
-  <section id="gallery" class="gallery">
-      <div class="container">
-
-        <div class="row">
-          <div class="col-lg-12 d-flex justify-content-center">
-            <ul id="gallery-flters">
-              <li data-filter="*" class="filter-active">{{_("All")}}</li>
-              <li data-filter=".filter-home" class="">{{_("Seoul")}}</li>
-              <li data-filter=".filter-beach" class="">{{_("Jeju")}}</li>
-              <li data-filter=".filter-vacation" class="">{{_("Busan")}}</li>
-            </ul>
-          </div>
-        </div>
-
-        <div class="row gallery-container" style="position: relative; height: 1850px;">
-
-          <div class="col-lg-4 col-md-6 gallery-item filter-home" style="position: absolute; left: 0px; top: 0px;">
-            <div class="gallery-wrap">
-              <img src="{{ url_for('static', filename='img/ko/booking/khotel1.jpg') }}" alt="" style="height: 300px;">
-
-              <div class="gallery-info">
-                <h4>{{_("Room: Deluxe King Room | Price: $200/night | Other: Spacious with king-sized bed, modern furnishings, large en-suite bathroom, panoramic city views, and complimentary Wi-Fi.")}}</h4>
-                <p>Seoul</p>
-                <div class="gallery-links">
-                  <a href="assets/img/gallery/home-1.jpg" class="glightbox" title="Home 1"><i class="bx bx-plus"></i></a>
-                </div>
-              </div>
-            </div>
-          </div>
-
-          <div class="col-lg-4 col-md-6 gallery-item filter-vacation" style="position: absolute; left: 360px; top: 0px;">
-            <div class="gallery-wrap">
-              <img src="{{ url_for('static', filename='img/ko/booking/khotel5.jpg') }}" alt="" style="height: 350px">
-              <div class="gallery-info">
-                <h4>{{_("Room: Standard Double Room | Price: $150/night | Other: Cozy and comfortable, this room features a double bed, modern amenities, and a sleek en-suite bathroom. Stay connected with complimentary high-speed Wi-Fi and enjoy a relaxing stay in Busan at an affordable price.")}}</h4>
-                <p>Busan</p>
-                <div class="gallery-links">
-                  <a href="assets/img/gallery/vacation-2.jpg" class="glightbox" title="Vacation 2"><i class="bx bx-plus"></i></a>
-                </div>
-              </div>
-            </div>
-          </div>
-
-          <div class="col-lg-4 col-md-6 gallery-item filter-home" style="position: absolute; left: 0px; top: 330px;">
-            <div class="gallery-wrap">
-              <img src="{{ url_for('static', filename='img/ko/booking/khotel2.jpg') }}" alt="" style="height: 375px;">
-              <div class="gallery-info">
-                <h4>{{_("Room: Family Suite | Price: $300/night | Other: Perfect for families, this spacious suite features two bedrooms with a king-sized bed and twin beds, modern furnishings, and two en-suite bathrooms. Enjoy complimentary high-speed Wi-Fi and create unforgettable memories with your loved ones during your stay in Seoul.")}}</h4>
-                <p>Seoul</p>
-                <div class="gallery-links">
-                  <a href="assets/img/gallery/home-2.jpg" class="glightbox" title="Home 2"><i class="bx bx-plus"></i></a>
-                </div>
-              </div>
-            </div>
-          </div>
-
-          <div class="col-lg-4 col-md-6 gallery-item filter-beach" style="position: absolute; left: 360px; top: 380px;">
-            <div class="gallery-wrap">
-              <img src="{{ url_for('static', filename='img/ko/booking/khotel11.jpg') }}" alt="" style="height: 425px;">
-              <div class="gallery-info">
-                <h4>{{_("Room: Garden View Room | Price: $180/night | Other: Relax in this peaceful room with a garden view, featuring a king-sized bed, elegant furnishings, and a luxurious en-suite bathroom. Stay connected with complimentary high-speed Wi-Fi and enjoy a tranquil retreat during your stay in Jeju.")}}</h4>
-                <p>Jeju</p>
-                <div class="gallery-links">
-                  <a href="assets/img/gallery/beach-2.jpg" class="glightbox" title="Beach 2"><i class="bx bx-plus"></i></a>
-                </div>
-              </div>
-            </div>
-          </div>
-
-          <div class="col-lg-4 col-md-6 gallery-item filter-vacation" style="position: absolute; left: 0px; top: 735px;">
-            <div class="gallery-wrap">
-              <img src="{{ url_for('static', filename='img/ko/booking/khotel7.jpg') }}" alt="" style="height: 300px;">
-              <div class="gallery-info">
-                <h4>{{_("Room: Ocean View Suite | Price: $250/night | Other: Enjoy breathtaking ocean views from this luxurious suite featuring a king-sized bed, stylish furnishings, and a spa-like en-suite bathroom. Stay connected with complimentary high-speed Wi-Fi and unwind in comfort during your stay in Busan.")}}</h4>
-                <p>Busan</p>
-                <div class="gallery-links">
-                  <a href="assets/img/gallery/vacation-1.jpg" class="glightbox" title="Vacation 1"><i class="bx bx-plus"></i></a>
-                </div>
-              </div>
-            </div>
-          </div>
-
-          <div class="col-lg-4 col-md-6 gallery-item filter-home" style="position: absolute; left: 360px; top: 835px;">
-            <div class="gallery-wrap">
-              <img src="{{ url_for('static', filename='img/ko/booking/khotel6.jpg') }}" alt="" style="height: 450px;">
-              <div class="gallery-info">
-                <h4>{{_("Room: Executive Suite | Price: $350/night | Other: Indulge in luxury with this spacious suite featuring a king-sized bed, separate living area, modern furnishings, and a spa-like en-suite bathroom. Enjoy stunning city views from your high-floor windows, and stay connected with complimentary high-speed Wi-Fi during your stay in Seoul.")}}</h4>
-                <p>Seoul</p>
-                <div class="gallery-links">
-                  <a href="assets/img/gallery/home-3.jpg" class="glightbox" title="Home 3"><i class="bx bx-plus"></i></a>
-                </div>
-              </div>
-            </div>
-          </div>
-
-          <div class="col-lg-4 col-md-6 gallery-item filter-beach" style="position: absolute; left: 0px; top: 1065px;">
-            <div class="gallery-wrap">
-              <img src="{{ url_for('static', filename='img/ko/booking/khotel10.jpg') }}" alt="" style="height: 375px;">
-              <div class="gallery-info">
-                <h4>{{_("Room: Oceanfront Villa | Price: $450/night | Other: Escape to this luxurious villa with stunning ocean views, featuring a king-sized bed, private terrace, elegant furnishings, and a spacious en-suite bathroom with a whirlpool tub. Stay connected with complimentary high-speed Wi-Fi and enjoy a peaceful retreat during your stay in Jeju.")}}</h4>
-                <p>Jeju</p>
-                <div class="gallery-links">
-                  <a href="assets/img/gallery/beach-1.jpg" class="glightbox" title="Beach 1"><i class="bx bx-plus"></i></a>
-                </div>
-              </div>
-            </div>
-          </div>
-
-          <div class="col-lg-4 col-md-6 gallery-item filter-beach" style="position: absolute; left: 360px; top: 1315px;">
-            <div class="gallery-wrap">
-              <img src="{{ url_for('static', filename='img/ko/booking/khotel3.jpg') }}" alt="" style="height: 475px;">
-              <div class="gallery-info">
-                <h4>{{_("Room: Family Room | Price: $250/night | Other: Perfect for families, this spacious room features a king-sized bed, twin beds, modern amenities, and a sleek en-suite bathroom. Enjoy stunning mountain views from your room, and stay connected with complimentary high-speed Wi-Fi during your stay in Jeju.")}}</h4>
-                <p>Jeju</p>
-                <div class="gallery-links">
-                  <a href="assets/img/gallery/beach-3.jpg" class="glightbox" title="Beach 3"><i class="bx bx-plus"></i></a>
-                </div>
-              </div>
-            </div>
-          </div>
-
-          <div class="col-lg-4 col-md-6 gallery-item filter-vacation" style="position: absolute; left: 0px; top: 1420px;">
-            <div class="gallery-wrap">
-              <img src="{{ url_for('static', filename='img/ko/booking/khotel9.jpg') }}" alt="" style="height: 400px;">
-              <div class="gallery-info">
-                <h4>{{_("Room: Business Suite | Price: $300/night | Other: Ideal for business travelers, this spacious suite features a king-sized bed, separate living area, work desk, and a luxurious en-suite bathroom. Enjoy complimentary high-speed Wi-Fi and stay productive during your stay in Busan. The suite also offers panoramic city views for a relaxing retreat after a long day of work.")}}</h4>
-                <p>Busan</p>
-                <div class="gallery-links">
-                  <a href="assets/img/gallery/vacation-3.jpg" class="glightbox" title="Vacation 3"><i class="bx bx-plus"></i></a>
-                </div>
-              </div>
-            </div>
-          </div>
-
-        </div>
-
-      </div>
     </section>
-  </main>
+
+
+    <section id="portfolio" class="portfolio">
+        <div class="container">
+
+          <div class="row portfolio-contain">
+            <div class="col-lg-4 col-md-6 portfolio-item filter-app">
+                <img alt="" class="img-fluid" src="{{ url_for('static', filename='img/ko/booking/jeju.jpg') }}">
+            </div>
+            <div class="col-lg-6 pt-4 pt-lg-0 order-2 order-lg-1 content">
+              <h3>{{_("Jeju-Do Island Resort")}}</h3>
+              <p class="fst-italic">
+                {{_("               Room: Deluxe King Room with Ocean View. Price: ₩200 per night. Other: Amenities include an outdoor pool, fitness center, and spa. The hotel offers on-site dining options and free Wi-Fi. Located near popular attractions, free parking provided.")}}
+              </p>
+            </div>
+          </div>
+    </section>
+
+
+  <section id="todo-spotTwo" class="todo-spotTwo">
+        <div class="container">
+
+          <div class="row">
+            <div class="col-lg-6">
+                <img alt="" class="img-fluid" src="{{ url_for('static', filename='img/ko/booking/seoulHotel.jpg') }}">
+            </div>
+            <div class="col-lg-6 pt-4 pt-lg-0 order-2 order-lg-1 content">
+              <h3>{{_("Hongdae Street Hotel")}}</h3>
+              <p class="fst-italic">
+                {{_("Room: Standard Double Room. Price: ₩80 per night. Other: Located in the heart of Hongdae Street with easy access to public transportation. Offers 24-hour front desk, luggage storage, and laundry facilities for guests' convenience.")}}
+              </p>
+            </div>
+          </div>
+    </section>
+
+    <section id="todo-spotThree" class="todo-spotThree">
+        <div class="container">
+
+          <div class="row">
+            <div class="col-lg-6 order-1 order-lg-2">
+                <img alt="" class="img-fluid" src="{{ url_for('static', filename='img/ko/booking/seoulGangnam.jpg') }}">
+            </div>
+            <div class="col-lg-6 pt-4 pt-lg-0 order-2 order-lg-1 content">
+              <h3>{{_("Seoul Gangnam Street Hotel")}}</h3>
+              <p class="fst-italic">
+                {{_("Room: Superior Twin Room. Price: ₩120 per night. Other: Located in the heart of Gangnam Street with easy access to public transportation. Offers fitness center, sauna, and business center. Free parking provided for guests who arrive by car. Breakfast available for an additional fee.")}}
+              </p>
+            </div>
+          </div>
+    </section>
+
+    <section id="todo-spotFour" class="todo-spotFour">
+        <div class="container">
+
+          <div class="row">
+            <div class="col-lg-6">
+                <img alt="" class="img-fluid" src="{{ url_for('static', filename='img/ko/booking/incheon.jpg') }}">
+            </div>
+            <div class="col-lg-6 pt-4 pt-lg-0 order-2 order-lg-1 content">
+              <h3>{{_("Seoul Incheon Hotel")}}</h3>
+              <p class="fst-italic">
+                {{_("Room: Deluxe King Room with City View. Price: ₩150 per night. Other: Located in Incheon with easy access to public transportation. Offers indoor swimming pool, fitness center, and spa. Free breakfast served daily in the hotel's restaurant. Free shuttle service to and from the airport provided.")}}
+              </p>
+            </div>
+          </div>
+    </section>
+
+
+
+    <section id="todo-spotFive" class="todo-spotFive">
+        <div class="container">
+
+          <div class="row">
+            <div class="col-lg-6 order-1 order-lg-2">
+                <img alt="" class="img-fluid" src="{{ url_for('static', filename='img/ko/booking/neighborhood.jpg') }}">
+            </div>
+            <div class="col-lg-6 pt-4 pt-lg-0 order-2 order-lg-1 content">
+              <h3>{{_("Seoul NeighbourHood Hotel")}}</h3>
+              <p class="fst-italic">
+                {{_("Room: Standard Queen Room. Price: ₩60 per night. Other: Located in a quiet neighbourhood with easy access to public transportation. Offers 24-hour front desk, luggage storage, and laundry facilities. Free parking provided for guests who arrive by car. Breakfast not included, but plenty of dining options available in the neighbourhood. Cozy room with comfortable queen-sized bed and modern amenities like flat-screen TV and free Wi-Fi.") }}
+              </p>
+            </div>
+          </div>
+    </section>
+
 
 {% elif lang_code == "sv" %}
 <!-- Sweden Booking Body -->
@@ -203,17 +141,20 @@
           <div class="col-lg-4 col-md-6 portfolio-item filter-app">
             <div class="portfolio-wrap">
               <img src="{{ url_for('static', filename='img/sv/booking/hotel.jpg') }}" class="img-fluid" alt="">
-              <div class="portfolio-links">
+                <h5>Rum: Dubbelrum Superior med balkong. Pris: 150 EUR per natt inklusive frukost. Övrigt: Beläget i en charmig svensk stad med bastu, gym, restaurang på plats och gratis parkering.</h5>
+                <div class="portfolio-links">
                 <a href="url({{ url_for('static', filename='img/sv/booking/hotel.jpg' ) }})" data-gallery="portfolioGallery" class="portfolio-lightbox" title="App 1"><i class="bx bx-plus"></i></a>
                 <a href="portfolio-details.html" title="More Details"><i class="bx bx-link"></i></a>
+
               </div>
             </div>
           </div>
 
           <div class="col-lg-4 col-md-6 portfolio-item filter-web">
             <div class="portfolio-wrap">
-              <img src="{{ url_for('static', filename='img/sv/booking/red_b&b.jpg' ) }}" class="img-fluid" alt="">
-              <div class="portfolio-links">
+                <img src="{{ url_for('static', filename='img/sv/booking/red_b&b.jpg' ) }}" class="img-fluid" alt="">
+                <h6>Rum: Standard tvåbäddsrum. Pris: 80 EUR per natt. Övrigt: Beläget i hjärtat av en historisk europeisk stad, erbjuder enkel tillgång till kollektivtrafik och erbjuder en gratis välkomstdrink vid ankomsten.</h6>
+                <div class="portfolio-links">
                 <a href="url({{ url_for('static', filename='img/sv/booking/red_b&b.jpg' ) }})" data-gallery="portfolioGallery" class="portfolio-lightbox" title="Web 3"><i class="bx bx-plus"></i></a>
                 <a href="portfolio-details.html" title="More Details"><i class="bx bx-link"></i></a>
               </div>
@@ -223,7 +164,8 @@
           <div class="col-lg-4 col-md-6 portfolio-item filter-app">
             <div class="portfolio-wrap">
               <img src="{{ url_for('static', filename='img/sv/booking/snow_hotel.jpg' ) }}" class="img-fluid" alt="">
-              <div class="portfolio-links">
+                <h7>Rum: Svit Deluxe med havsutsikt. Pris: EUR 400 per natt inklusive frukost. Övrigt: Beläget i ett tropiskt paradis med spa, gym och utomhuspool. Erbjuder enkel tillgång till närliggande sevärdheter och matställen på plats.</h7>
+                <div class="portfolio-links">
                 <a href="url({{ url_for('static', filename='img/sv/booking/snow_hotel.jpg' ) }})" data-gallery="portfolioGallery" class="portfolio-lightbox" title="App 2"><i class="bx bx-plus"></i></a>
                 <a href="portfolio-details.html" title="More Details"><i class="bx bx-link"></i></a>
               </div>
@@ -233,7 +175,8 @@
           <div class="col-lg-4 col-md-6 portfolio-item filter-card">
             <div class="portfolio-wrap">
               <img src="{{ url_for('static', filename='img/sv/booking/tent_interior.jpg' ) }}" class="img-fluid" alt="">
-              <div class="portfolio-links">
+                <h8>Rum: Standard enkelrum. Pris:  500 per EUR. Övrigt: Hotellet ligger i ett bekvämt område med enkel tillgång till kollektivtrafik och erbjuder en 24-timmarsreception och bagageförvaring.</h8>
+                <div class="portfolio-links">
                 <a href="url({{ url_for('static', filename='img/sv/booking/tent_interior.jpg' ) }})" data-gallery="portfolioGallery" class="portfolio-lightbox" title="Card 2"><i class="bx bx-plus"></i></a>
                 <a href="portfolio-details.html" title="More Details"><i class="bx bx-link"></i></a>
               </div>
@@ -243,7 +186,8 @@
           <div class="col-lg-4 col-md-6 portfolio-item filter-web">
             <div class="portfolio-wrap">
               <img src="{{ url_for('static', filename='img/sv/booking/hostel_interior.jpg' ) }}" class="img-fluid" alt="">
-              <div class="portfolio-links">
+                <h9>Rum: Rum Superior Queen med utsikt över staden. Pris: EUR 120 per natt. Övrigt: Beläget i en livlig kanadensisk stad med enkel tillgång till kollektivtrafik. Här finns ett fitnesscenter och en restaurang som serverar internationella rätter.</h9>
+                <div class="portfolio-links">
                 <a href="url({{ url_for('static', filename='img/sv/booking/hostel_interior.jpg' ) }})" data-gallery="portfolioGallery" class="portfolio-lightbox" title="Web 2"><i class="bx bx-plus"></i></a>
                 <a href="portfolio-details.html" title="More Details"><i class="bx bx-link"></i></a>
               </div>
@@ -253,7 +197,8 @@
           <div class="col-lg-4 col-md-6 portfolio-item filter-app">
             <div class="portfolio-wrap">
               <img src="{{ url_for('static', filename='img/sv/booking/old_hotel.jpg' ) }}" class="img-fluid" alt="">
-              <div class="portfolio-links">
+                <h10>Rum: Dubbelrum Deluxe med bergsutsikt. Pris: EUR 200 per natt inklusive frukost. Övrigt: Beläget i ett naturskönt område med enkel tillgång till närliggande vandringsleder och utomhusattraktioner. Här finns en utomhuspool, ett spa och en restaurang som serverar lokala rätter.</h10>
+                <div class="portfolio-links">
                 <a href="url({{ url_for('static', filename='img/sv/booking/old_hotel.jpg' ) }})" data-gallery="portfolioGallery" class="portfolio-lightbox" title="App 3"><i class="bx bx-plus"></i></a>
                 <a href="portfolio-details.html" title="More Details"><i class="bx bx-link"></i></a>
               </div>
@@ -263,7 +208,8 @@
           <div class="col-lg-4 col-md-6 portfolio-item filter-card">
             <div class="portfolio-wrap">
               <img src="{{ url_for('static', filename='img/sv/booking/lake_campsite.jpg' ) }}" class="img-fluid" alt="">
-              <div class="portfolio-links">
+                <h11>Rum: Rum Standard Queen. Pris: EUR 80 per natt. Övrigt: Beläget i en historisk del av staden med enkel tillgång till kollektivtrafik. Här erbjuds 24-timmarsreception och bagageförvaring.</h11>
+                <div class="portfolio-links">
                 <a href="url({{ url_for('static', filename='img/sv/booking/lake_campsite.jpg' ) }})" data-gallery="portfolioGallery" class="portfolio-lightbox" title="Card 1"><i class="bx bx-plus"></i></a>
                 <a href="portfolio-details.html" title="More Details"><i class="bx bx-link"></i></a>
               </div>
@@ -273,7 +219,8 @@
           <div class="col-lg-4 col-md-6 portfolio-item filter-card">
             <div class="portfolio-wrap">
               <img src="{{ url_for('static', filename='img/sv/booking/mountain_campsite.jpg' ) }}" class="img-fluid" alt="">
-              <div class="portfolio-links">
+                <h12>Rum: Rum Superior King med utsikt över trädgården. Pris: EUR 150 per natt inklusive frukost. Övrigt: Ligger i ett lugnt område med enkel tillgång till närliggande vandringsleder och utomhusaktiviteter. Här finns spa, fitnesscenter och restaurang som serverar internationella rätter.</h12>
+                <div class="portfolio-links">
                 <a href="url({{ url_for('static', filename='img/sv/booking/mountain_campsite.jpg' ) }})" data-gallery="portfolioGallery" class="portfolio-lightbox" title="Card 3"><i class="bx bx-plus"></i></a>
                 <a href="portfolio-details.html" title="More Details"><i class="bx bx-link"></i></a>
               </div>
@@ -283,7 +230,8 @@
           <div class="col-lg-4 col-md-6 portfolio-item filter-web">
             <div class="portfolio-wrap">
               <img src="{{ url_for('static', filename='img/sv/booking/village_b&b.jpg' ) }}" class="img-fluid" alt="">
-              <div class="portfolio-links">
+                <h13>Rum: Rum Deluxe Queen med havsutsikt. Pris: EUR 300 per natt. Övrigt: Beläget i en pittoresk kuststad med enkel tillgång till närliggande vattensporter. Här finns utomhuspool, spa och restaurang som serverar lokala fisk- och skaldjursrätter.</h13>
+                <div class="portfolio-links">
                 <a href="url({{ url_for('static', filename='img/sv/booking/village_b&b.jpg' ) }})" data-gallery="portfolioGallery" class="portfolio-lightbox" title="Web 3"><i class="bx bx-plus"></i></a>
                 <a href="portfolio-details.html" title="More Details"><i class="bx bx-link"></i></a>
               </div>
