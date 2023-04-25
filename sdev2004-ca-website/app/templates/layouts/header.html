@@ -7,16 +7,34 @@
             <h1 class="logo"><a href="{{ url_for('ko_home') }}">{{_("Vist Korea")}}</a></h1>
             <nav class="navbar" id="navbar">
                 <ul>
-
-                    {% if lang_code == "ko" %}
-                        <li><a class="active" href="{{ url_for('ko_home') }}">{{_("Home")}}</a></li>
-                    {% elif lang_code == "sv"%}
-                        <li><a class="nav-link scrollto" href="{{ url_for('sv_home') }}">{{_("Home")}}</a></li>
-                        <li><a class="nav-link scrollto" href="{{ url_for('sv_booking') }}">{{_("Booking")}}</a></li>
-                        <li><a class="nav-link scrollto" href="{{ url_for('sv_todo') }}">{{_("To do")}}</a></li>
-                        <li><a class="nav-link scrollto" href="#">{{_("Contact")}}</a></li>
-                    {% elif lang_code == "en" %}
-                        <li><a class="nav-link scrollto" href="{{ url_for('index') }}">{{_("Home")}}</a></li>
+                    {% if country_selector == "ko" %}
+                        {% if lang_code == "ko" %}
+                            <li><a class="active" href="{{ url_for('ko_home') }}">{{_("Home")}}</a></li>
+                        {% elif lang_code == "sv"%}
+                            <li><a class="nav-link scrollto" href="{{ url_for('ko_home') }}">{{_("Home")}}</a></li>
+                            <li><a class="nav-link scrollto" href="{{ url_for('ko_booking') }}">{{_("Booking")}}</a></li>
+                            <li><a class="nav-link scrollto" href="{{ url_for('ko_todo') }}">{{_("To do")}}</a></li>
+                        {% elif lang_code == "en" %}
+                            <li><a class="nav-link scrollto" href="{{ url_for('index') }}">{{_("Home")}}</a></li>
+                        {% endif %}
+                    {% elif country_selector == "sv" %}
+                        {% if lang_code == "ko" %}
+                            <li><a class="active" href="{{ url_for('ko_home') }}">{{_("Home")}}</a></li>
+                        {% elif lang_code == "sv"%}
+                            <li><a class="nav-link scrollto" href="{{ url_for('ko_home') }}">{{_("Home")}}</a></li>
+                            <li><a class="nav-link scrollto" href="{{ url_for('ko_booking') }}">{{_("Booking")}}</a></li>
+                            <li><a class="nav-link scrollto" href="{{ url_for('ko_todo') }}">{{_("To do")}}</a></li>
+                        {% elif lang_code == "en" %}
+                            <li><a class="nav-link scrollto" href="{{ url_for('index') }}">{{_("Home")}}</a></li>
+                            <li><a class="nav-link scrollto" href="{{ url_for('en_home') }}">{{_("Home")}}</a></li>
+                            <li><a class="nav-link scrollto" href="{{ url_for('en_booking') }}">{{_("Booking")}}</a></li>
+                            <li><a class="nav-link scrollto" href="{{ url_for('en_todo') }}">{{_("To do")}}</a></li>
+                        {% endif %}
+                    {% elif country_selector == "en" %}
+                            <li><a class="nav-link scrollto" href="{{ url_for('index') }}">{{_("Home")}}</a></li>
+                            <li><a class="nav-link scrollto" href="{{ url_for('ko_home') }}">{{_("Home")}}</a></li>
+                            <li><a class="nav-link scrollto" href="{{ url_for('ko_booking') }}">{{_("Booking")}}</a></li>
+                            <li><a class="nav-link scrollto" href="{{ url_for('ko_todo') }}">{{_("To do")}}</a></li>
                     {% endif %}
                     <li class="dropdown"><a href="#"><span>{{_("Language")}}</span> <i class="bi bi-chevron-down"></i></a>
                         <ul>
@@ -44,15 +62,30 @@
 
             <nav class="navbar" id="navbar">
                 <ul>
-                    {% if lang_code == "ko" %}
-                        <li><a class="nav-link scrollto activ" href="{{ url_for('ko_home') }}">{{_("Home")}}</a></li>
-                    {% elif lang_code == "sv"%}
-                        <li><a class="nav-link scrollto" href="{{ url_for('sv_home') }}">{{_("Home")}}</a></li>
-                        <li><a class="nav-link scrollto" href="{{ url_for('sv_booking') }}">{{_("Booking")}}</a></li>
-                        <li><a class="nav-link scrollto" href="{{ url_for('sv_todo') }}">{{_("To do")}}</a></li>
-                        <li><a class="nav-link scrollto" href="#">{{_("Contact")}}</a></li>
-                    {% elif lang_code == "en" %}
-                        <li><a class="nav-link scrollto activ" href="{{ url_for('index') }}">{{_("Home")}}</a></li>
+                    {% if country_selector == "ko" %}
+                        {% if lang_code == "ko" %}
+                            <li><a class="active" href="{{ url_for('ko_home') }}">{{_("Home")}}</a></li>
+                        {% elif lang_code == "sv"%}
+                            <li><a class="nav-link scrollto" href="{{ url_for('ko_home') }}">{{_("Home")}}</a></li>
+                            <li><a class="nav-link scrollto" href="{{ url_for('ko_booking') }}">{{_("Booking")}}</a></li>
+                            <li><a class="nav-link scrollto" href="{{ url_for('ko_todo') }}">{{_("To do")}}</a></li>
+                        {% elif lang_code == "en" %}
+                            <li><a class="nav-link scrollto" href="{{ url_for('index') }}">{{_("Home")}}</a></li>
+                        {% endif %}
+                    {% elif country_selector == "sv" %}
+                        {% if lang_code == "ko" %}
+                            <li><a class="active" href="{{ url_for('ko_home') }}">{{_("Home")}}</a></li>
+                        {% elif lang_code == "sv"%}
+                            <li><a class="nav-link scrollto" href="{{ url_for('sv_home') }}">{{_("Home")}}</a></li>
+                            <li><a class="nav-link scrollto" href="{{ url_for('sv_booking') }}">{{_("Booking")}}</a></li>
+                            <li><a class="nav-link scrollto" href="{{ url_for('sv_todo') }}">{{_("To do")}}</a></li>
+                        {% elif lang_code == "en" %}
+                            <li><a class="nav-link scrollto" href="{{ url_for('index') }}">{{_("Home")}}</a></li>
+                            <li><a class="nav-link scrollto" href="{{ url_for('sv_home') }}">{{_("Home")}}</a></li>
+                            <li><a class="nav-link scrollto" href="{{ url_for('sv_booking') }}">{{_("Booking")}}</a></li>
+                            <li><a class="nav-link scrollto" href="{{ url_for('sv_todo') }}">{{_("To do")}}</a></li>
+                        {% endif %}
+                    {% elif country_selector == "en" %}
                     {% endif %}
                     <li class="dropdown"><a href="#"><span>{{_("Language Selector")}}</span> <i class="bi bi-chevron-down"></i></a>
                         <ul>
@@ -77,7 +110,37 @@
 
             <nav class="navbar" id="navbar">
                 <ul>
-                    <li class="dropdown"><a href="#"><span>{{_("Language")}}</span> <i class="bi bi-chevron-down"></i></a>ds
+                    {% if country_selector == "ko" %}
+                        {% if lang_code == "ko" %}
+                            <li><a class="active" href="{{ url_for('ko_home') }}">{{_("Home")}}</a></li>
+                        {% elif lang_code == "sv"%}
+                            <li><a class="nav-link scrollto" href="{{ url_for('ko_home') }}">{{_("Home")}}</a></li>
+                            <li><a class="nav-link scrollto" href="{{ url_for('ko_booking') }}">{{_("Booking")}}</a></li>
+                            <li><a class="nav-link scrollto" href="{{ url_for('ko_todo') }}">{{_("To do")}}</a></li>
+                        {% elif lang_code == "en" %}
+                            <li><a class="nav-link scrollto" href="{{ url_for('index') }}">{{_("Home")}}</a></li>
+                            <li><a class="nav-link scrollto" href="{{ url_for('ko_home') }}">{{_("Home")}}</a></li>
+                            <li><a class="nav-link scrollto" href="{{ url_for('ko_booking') }}">{{_("Booking")}}</a></li>
+                            <li><a class="nav-link scrollto" href="{{ url_for('ko_todo') }}">{{_("To do")}}</a></li>
+                        {% endif %}
+
+                    {% elif country_selector == "sv" %}
+                        {% if lang_code == "ko" %}
+                            <li><a class="active" href="{{ url_for('ko_home') }}">{{_("Home")}}</a></li>
+                        {% elif lang_code == "sv"%}
+                            <li><a class="nav-link scrollto" href="{{ url_for('sv_home') }}">{{_("Home")}}</a></li>
+                            <li><a class="nav-link scrollto" href="{{ url_for('sv_booking') }}">{{_("Booking")}}</a></li>
+                            <li><a class="nav-link scrollto" href="{{ url_for('sv_todo') }}">{{_("To do")}}</a></li>
+                        {% elif lang_code == "en" %}
+                            <li><a class="nav-link scrollto" href="{{ url_for('index') }}">{{_("Home")}}</a></li>
+                            <li><a class="nav-link scrollto" href="{{ url_for('sv_home') }}">{{_("Home")}}</a></li>
+                            <li><a class="nav-link scrollto" href="{{ url_for('sv_booking') }}">{{_("Booking")}}</a></li>
+                            <li><a class="nav-link scrollto" href="{{ url_for('sv_todo') }}">{{_("To do")}}</a></li>
+                        {% endif %}
+                    {% elif country_selector == "en" %}
+
+                    {% endif %}
+                    <li class="dropdown"><a href="#"><span>{{_("Language")}}</span> <i class="bi bi-chevron-down"></i></a>
                         <ul>
                             <li><a href="{{ url_for('set_language', lang_code='en') }}">{{_('English')}}</a></li>
                             <li><a href="{{ url_for('set_language', lang_code='ko') }}">{{_('Korean')}}</a></li>
