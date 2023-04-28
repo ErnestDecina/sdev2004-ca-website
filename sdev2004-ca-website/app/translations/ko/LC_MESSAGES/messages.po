@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PROJECT VERSION\n"
 "Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
-"POT-Creation-Date: 2023-04-20 13:23+0100\n"
+"POT-Creation-Date: 2023-04-28 12:11+0100\n"
 "PO-Revision-Date: 2023-04-18 17:39+0100\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language: ko\n"
@@ -24,9 +24,9 @@ msgstr "SDEV 할당"
 
 #: templates/index.html:12
 msgid "AES Travel"
-msgstr ""
+msgstr "AES 여행"
 
-#: templates/index.html:13
+#: templates/countries/ko/home.html:166 templates/index.html:13
 msgid "Bringing you where you want to be"
 msgstr "당신이 원하는 곳으로 당신을 데려오는 것"
 
@@ -48,139 +48,202 @@ msgstr "스웨덴"
 
 # ko/booking.html
 # Author: Ron Pingol
-#: templates/countries/ko/booking.html:9
-msgid "Accommodation"
+#: templates/countries/ko/booking.html:11
+msgid "Accommodation in Korea"
 msgstr "숙소"
 
+#: templates/countries/ko/booking.html:24
+msgid "Jeju-Do Island Resort"
+msgstr "제주도 리조트"
+
 #: templates/countries/ko/booking.html:26
-#: templates/countries/sv/booking.html:40
-msgid "All"
-msgstr "모두"
-
-#: templates/countries/ko/booking.html:27
-msgid "Seoul"
-msgstr "서울랜드"
-
-#: templates/countries/ko/booking.html:28
-msgid "Jeju"
-msgstr "제주"
-
-#: templates/countries/ko/booking.html:29
-msgid "Busan"
-msgstr "부산"
+msgid ""
+"               Room: Deluxe King Room with Ocean View. Price: ₩200 per "
+"night. Other: Amenities include an outdoor pool, fitness center, and spa."
+" The hotel offers on-site dining options and free Wi-Fi. Located near "
+"popular attractions, free parking provided."
+msgstr ""
+"객실: 오션뷰가 보이는 디럭스 킹 객실. 가격: 1박에 200파운드. 기타: 야외 수영장, 피트니스 센터, 스파 등의 편의 시설이 "
+"제공됩니다. 호텔은 현장 식사 옵션과 무료 Wi-Fi를 제공합니다. 인기 명소 근처에 위치하고 있으며 무료 주차가 제공됩니다."
 
 #: templates/countries/ko/booking.html:41
-msgid ""
-"Room: Deluxe King Room | Price: $200/night | Other: Spacious with king-"
-"sized bed, modern furnishings, large en-suite bathroom, panoramic city "
-"views, and complimentary Wi-Fi."
+msgid "Hongdae Street Hotel"
 msgstr ""
-"객실: 디럭스 킹룸 | 가격: $200/박 | 기타: 킹이 있는 넓은 객실- 사이즈 침대, 현대적인 가구, 넓은 실내 욕실, "
-"파노라마 시티뷰, 무료 와이파이."
+"객실: 오션뷰가 보이는 디럭스 킹 객실. 가격: 1박에 200파운드. 기타: 야외 수영장, 피트니스 센터, 스파 등의 편의 시설이 "
+"제공됩니다. 호텔은 현장 식사 옵션과 무료 Wi-Fi를 제공합니다. 인기 명소 근처에 위치하고 있으며 무료 주차가 제공됩니다."
 
-#: templates/countries/ko/booking.html:54
+#: templates/countries/ko/booking.html:43
 msgid ""
-"Room: Standard Double Room | Price: $150/night | Other: Cozy and "
-"comfortable, this room features a double bed, modern amenities, and a "
-"sleek en-suite bathroom. Stay connected with complimentary high-speed Wi-"
-"Fi and enjoy a relaxing stay in Busan at an affordable price."
+"Room: Standard Double Room. Price: ₩80 per night. Other: Located in the "
+"heart of Hongdae Street with easy access to public transportation. Offers"
+" 24-hour front desk, luggage storage, and laundry facilities for guests' "
+"convenience."
 msgstr ""
-"객실: 스탠다드 더블룸 | 가격: $150/박 | 기타: 아늑하고 편안하고, 이 방은 더블 침대, 현대적인 편의 시설, 그리고 "
-"욕실이 없는 욕실 무료 고속 Wi-Fi로 언제든지 연결 가능 부산에서 합리적인 가격으로 편안한 시간을 보내십시오."
+"객실: 스탠다드 더블룸. 가격: 1박에 80파운드. 기타 : 홍대거리 중심부에 위치하여 대중교통 이용이 편리합니다. 투숙객의 편의를"
+" 위해 24시간 프론트 데스크, 수하물 보관소 및 세탁 시설을 제공합니다."
 
-#: templates/countries/ko/booking.html:67
-msgid ""
-"Room: Family Suite | Price: $300/night | Other: Perfect for families, "
-"this spacious suite features two bedrooms with a king-sized bed and twin "
-"beds, modern furnishings, and two en-suite bathrooms. Enjoy complimentary"
-" high-speed Wi-Fi and create unforgettable memories with your loved ones "
-"during your stay in Seoul."
-msgstr ""
-"객실: 패밀리 스위트 | 가격: $300/박 | 기타: 가족에게 완벽한, 이 넓은 스위트룸은 킹사이즈 침대와 트윈이 있는 침실 두 "
-"개가 있습니다. 호텔, 현대식 가구, 침실이 딸린 욕실 2개. 무료로 즐기십시오.  초고속 와이파이로 사랑하는 사람들과 잊지 못할 "
-"추억 만들기 서울에 머무는 동안."
+#: templates/countries/ko/booking.html:57
+msgid "Seoul Gangnam Street Hotel"
+msgstr "서울 강남 스트리트 호텔"
 
-#: templates/countries/ko/booking.html:80
+#: templates/countries/ko/booking.html:59
 msgid ""
-"Room: Garden View Room | Price: $180/night | Other: Relax in this "
-"peaceful room with a garden view, featuring a king-sized bed, elegant "
-"furnishings, and a luxurious en-suite bathroom. Stay connected with "
-"complimentary high-speed Wi-Fi and enjoy a tranquil retreat during your "
-"stay in Jeju."
+"Room: Superior Twin Room. Price: ₩120 per night. Other: Located in the "
+"heart of Gangnam Street with easy access to public transportation. Offers"
+" fitness center, sauna, and business center. Free parking provided for "
+"guests who arrive by car. Breakfast available for an additional fee."
 msgstr ""
-"객실: 가든뷰 객실 | 가격: $180/박 | 기타: 이 호텔에서 편히 쉬십시오 정원이 보이는 침실, 킹사이즈 침대, 우아함 침실,"
-" 호화로운 실내 욕실 와 지속적으로 연결 초고속 와이파이를 무료로 제공하고 조용한 휴식을 즐기십시오. 제주에 머무르세요."
+"객실: 슈페리어 트윈룸. 가격: 1박에 120파운드. 기타 : 강남대로 중심부에 위치하여 대중교통 이용이 편리합니다. 피트니스 "
+"센터, 사우나 및 비즈니스 센터를 제공합니다. 자동차로 도착하는 투숙객을 위해 무료 주차가 제공됩니다. 추가 요금으로 조식 이용 "
+"가능합니다."
+
+#: templates/countries/ko/booking.html:73
+msgid "Seoul Incheon Hotel"
+msgstr "서울인천호텔"
+
+#: templates/countries/ko/booking.html:75
+msgid ""
+"Room: Deluxe King Room with City View. Price: ₩150 per night. Other: "
+"Located in Incheon with easy access to public transportation. Offers "
+"indoor swimming pool, fitness center, and spa. Free breakfast served "
+"daily in the hotel's restaurant. Free shuttle service to and from the "
+"airport provided."
+msgstr ""
+"객실: 시티 뷰가 있는 디럭스 킹 객실. 가격: 1박에 150파운드. 기타 : 인천에 위치하여 대중교통 이용이 용이함. 실내 "
+"수영장, 피트니스 센터 및 스파를 제공합니다. 호텔 레스토랑에서 매일 무료 아침 식사 제공. 공항을 오가는 무료 셔틀 서비스가 "
+"제공됩니다."
+
+#: templates/countries/ko/booking.html:91
+msgid "Seoul NeighbourHood Hotel"
+msgstr "서울이웃후드 호텔"
 
 #: templates/countries/ko/booking.html:93
 msgid ""
-"Room: Ocean View Suite | Price: $250/night | Other: Enjoy breathtaking "
-"ocean views from this luxurious suite featuring a king-sized bed, stylish"
-" furnishings, and a spa-like en-suite bathroom. Stay connected with "
-"complimentary high-speed Wi-Fi and unwind in comfort during your stay in "
-"Busan."
+"Room: Standard Queen Room. Price: ₩60 per night. Other: Located in a "
+"quiet neighbourhood with easy access to public transportation. Offers "
+"24-hour front desk, luggage storage, and laundry facilities. Free parking"
+" provided for guests who arrive by car. Breakfast not included, but "
+"plenty of dining options available in the neighbourhood. Cozy room with "
+"comfortable queen-sized bed and modern amenities like flat-screen TV and "
+"free Wi-Fi."
 msgstr ""
-"객실: 오션뷰 스위트 | 가격: $250/박 | 기타: 숨막히는 시간을 즐기십시오. 킹 사이즈 침대가 특징인 이 호화로운 "
-"스위트룸에서 멋진 경치를 감상할 수 있습니다.  가구, 그리고 스파 같은 실내 욕실. 와 지속적으로 연결 초고속 와이파이를 무료로 "
-"제공하고 숙박하는 동안 편안하게 휴식을 취할 수 있습니다. 부산."
+"객실: 스탠다드 퀸 객실. 가격: 1박에 60파운드. 기타: 조용한 지역에 위치하고 있으며 대중교통 이용이 용이합니다. 24시간 "
+"프론트 데스크, 수하물 보관소 및 세탁 시설을 제공합니다. 자동차로 도착하는 투숙객을 위해 무료 주차가 제공됩니다. 조식은 포함되지"
+" 않지만, 인근 지역에서 다양한 식사 옵션을 이용할 수 있습니다. 편안한 퀸사이즈 침대와 평면 TV, 무료 Wi-Fi와 같은 "
+"현대적인 편의시설이 있는 아늑한 방."
 
-#: templates/countries/ko/booking.html:106
-msgid ""
-"Room: Executive Suite | Price: $350/night | Other: Indulge in luxury with"
-" this spacious suite featuring a king-sized bed, separate living area, "
-"modern furnishings, and a spa-like en-suite bathroom. Enjoy stunning city"
-" views from your high-floor windows, and stay connected with "
-"complimentary high-speed Wi-Fi during your stay in Seoul."
-msgstr ""
-"객실: 이그제큐티브 스위트 | 가격: $350/박 | 기타: 럭셔리함을 즐기십시오.  킹사이즈 침대와 별도의 생활공간이 특징인 이 "
-"넓은 스위트룸. 현대적인 가구와 스파 같은 실내 욕실. 멋진 도시를 즐겨보세요.  높은 층의 창문에서 보이는 경치, 그리고 와 "
-"연결된 상태 유지 서울에 머무는 동안 무료 초고속 와이파이."
+#: templates/countries/ko/booking.html:104
+#: templates/countries/sv/booking.html:14
+#: templates/countries/sv/booking.html:308 templates/countries/sv/home.html:313
+msgid "AES Travel: Sweden"
+msgstr "AES Travel: 스웨덴"
 
-#: templates/countries/ko/booking.html:119
+#: templates/countries/ko/booking.html:105
+#: templates/countries/sv/booking.html:15
+#, fuzzy
 msgid ""
-"Room: Oceanfront Villa | Price: $450/night | Other: Escape to this "
-"luxurious villa with stunning ocean views, featuring a king-sized bed, "
-"private terrace, elegant furnishings, and a spacious en-suite bathroom "
-"with a whirlpool tub. Stay connected with complimentary high-speed Wi-Fi "
-"and enjoy a peaceful retreat during your stay in Jeju."
+"Get lost in Sweden's untamed wilderness, then find yourself in its "
+"vibrant culture."
+msgstr "스웨덴의 길들여지지 않은 황무지에서 길을 잃은 다음 활기찬 문화에서 자신을 찾으십시오."
+
+#: templates/countries/ko/booking.html:116
+#: templates/countries/ko/booking.html:260
+#: templates/countries/sv/booking.html:26
+#: templates/countries/sv/booking.html:154
+#: templates/countries/sv/booking.html:319 templates/layouts/header.html:20
+#: templates/layouts/header.html:30 templates/layouts/header.html:35
+#: templates/layouts/header.html:77 templates/layouts/header.html:81
+#: templates/layouts/header.html:89 templates/layouts/header.html:93
+#: templates/layouts/header.html:131 templates/layouts/header.html:135
+#: templates/layouts/header.html:144 templates/layouts/header.html:148
+msgid "Booking"
+msgstr "예약"
+
+#: templates/countries/ko/booking.html:117
+#: templates/countries/ko/booking.html:261
+#: templates/countries/sv/booking.html:27
+#: templates/countries/sv/booking.html:320
+msgid "Find your next adventure in Sweden..."
+msgstr "스웨덴에서 다음 모험을 찾아보세요..."
+
+#: templates/countries/ko/booking.html:118
+#: templates/countries/ko/booking.html:262
+#: templates/countries/sv/booking.html:28
+msgid ""
+"Sweden offers a diverse range of experiences, and our selection of "
+"hotels, campsites,\n"
+"            and B&Bs reflect that. Whether you're looking for a luxurious"
+" urban getaway in Stockholm, a cozy cabin in the woods,\n"
+"            or a seaside bed and breakfast, we have something for "
+"everyone. Our accommodations offer unique experiences that reflect the "
+"local culture and heritage,\n"
+"            with activities ranging from hiking and skiing in the "
+"mountains to fishing and kayaking in the archipelagos.\n"
+"            You can enjoy a traditional Swedish breakfast with freshly "
+"baked bread or indulge in a spa treatment at our luxury hotels.\n"
+"            Whatever your preference,\n"
+"            we guarantee that you will have an unforgettable experience "
+"while exploring Sweden's natural beauty and vibrant culture."
 msgstr ""
-"객실: 오션프론트 빌라 | 가격: $450/박 | 기타: 이스케이프 투 this 킹사이즈 침대가 특징인 멋진 바다 전망의 멋진 빌라"
-" 개인 테라스, 우아한 가구, 넓은 실내 욕실 월풀 욕조로\" 무료 고속 Wi-Fi로 언제든지 연결 가능 제주에 머무는 동안 "
-"평화로운 휴양을 즐기십시오."
+"스웨덴은 다양한 경험을 제공하며 우리가 선택한 호텔, 캠프장 및 B&B는 이를 반영합니다. 스톡홀름의 고급스러운 도시 휴양지, "
+"숲속의 아늑한 오두막 또는 해변 B&B를 찾고 계시다면 모두를 위한 것이 있습니다. 숙소는 산에서의 하이킹과 스키부터 군도에서의 "
+"낚시와 카약에 이르기까지 다양한 활동을 통해 현지 문화와 유산을 반영하는 독특한 경험을 제공합니다. 갓 구운 빵과 함께 전통적인 "
+"스웨덴식 아침 식사를 즐기거나 고급 호텔에서 스파 트리트먼트를 받으실 수 있습니다. 귀하의 선호도가 무엇이든 스웨덴의 자연미와 "
+"활기찬 문화를 탐험하면서 잊을 수 없는 경험을 하게 될 것을 보장합니다."
+
+#: templates/countries/ko/booking.html:131
+#: templates/countries/ko/booking.html:275
+#: templates/countries/sv/booking.html:41
+#: templates/countries/sv/booking.html:171
+#: templates/countries/sv/booking.html:330
+msgid "All"
+msgstr "모두"
 
 #: templates/countries/ko/booking.html:132
-msgid ""
-"Room: Family Room | Price: $250/night | Other: Perfect for families, this"
-" spacious room features a king-sized bed, twin beds, modern amenities, "
-"and a sleek en-suite bathroom. Enjoy stunning mountain views from your "
-"room, and stay connected with complimentary high-speed Wi-Fi during your "
-"stay in Jeju."
-msgstr ""
-"객실: 패밀리룸 | 가격: 하룻밤에 250달러 | 기타: 가족에게 완벽한, 이것  넓은 객실에는 킹사이즈 침대, 트윈 침대, "
-"현대적인 편의 시설이 있습니다. 날렵한 실내 욕실\" \"에서 멋진 산 경치를 감상할 수 있습니다. 객실에서 무료 고속 Wi-Fi를"
-" 사용할 수 있습니다. 제주에 머무르세요."
+#: templates/countries/ko/booking.html:276
+#: templates/countries/sv/booking.html:42
+#: templates/countries/sv/booking.html:172
+#: templates/countries/sv/booking.html:331
+msgid "Hotels"
+msgstr "호텔"
 
-#: templates/countries/ko/booking.html:145
-msgid ""
-"Room: Business Suite | Price: $300/night | Other: Ideal for business "
-"travelers, this spacious suite features a king-sized bed, separate living"
-" area, work desk, and a luxurious en-suite bathroom. Enjoy complimentary "
-"high-speed Wi-Fi and stay productive during your stay in Busan. The suite"
-" also offers panoramic city views for a relaxing retreat after a long day"
-" of work."
-msgstr ""
-"객실: Business Suite | 가격: $300/박 | 기타: 비즈니스에 이상적임 따라서, 이 넓은 스위트룸은 킹사이즈 침대,"
-" 별도의 거실이 특징입니다.  공간, 업무용 책상, 고급스러운 실내 욕실. 무료로 즐기십시오. 부산에 머무는 동안 고속 Wi-Fi와"
-" 생산성을 유지합니다. 스위트룸  또한 긴 하루 후 편안한 휴식을 위한 파노라마 도시 경관을 제공합니다. \" 노동의."
+#: templates/countries/ko/booking.html:133
+#: templates/countries/ko/booking.html:277
+#: templates/countries/sv/booking.html:43
+#: templates/countries/sv/booking.html:173
+#: templates/countries/sv/booking.html:332
+msgid "Outdoors"
+msgstr "옥외"
 
-#: templates/countries/ko/home.html:12
+#: templates/countries/ko/booking.html:134
+#: templates/countries/ko/booking.html:278
+#: templates/countries/sv/booking.html:44
+#: templates/countries/sv/booking.html:174
+#: templates/countries/sv/booking.html:333
+msgid "B&Bs"
+msgstr "비앤비"
+
+#: templates/countries/ko/booking.html:250 templates/countries/ko/home.html:94
+#: templates/countries/ko/home.html:165 templates/countries/ko/todo.html:122
+#: templates/countries/ko/todo.html:197
+#, fuzzy
+msgid "AES Korea"
+msgstr "비스트 코리아"
+
+#: templates/countries/ko/booking.html:251
+#, fuzzy
+msgid "Booking Information"
+msgstr "숙소를 찾고 계신가요?"
+
+#: templates/countries/ko/home.html:14
 msgid "AES Travel: Korea"
 msgstr "AES Travel: 한국"
 
-#: templates/countries/ko/home.html:13
+#: templates/countries/ko/home.html:15
 msgid "Are you ready to go travel with your family and friends to korea?"
 msgstr "당신은 당신의 가족과 친구들과 한국으로 여행을 갈 준비가 되었습니까?"
 
-#: templates/countries/ko/home.html:17
+#: templates/countries/ko/home.html:19
 msgid ""
 "Welcome to our website dedicated to all things related to traveling to "
 "Korea! Korea is a fascinating and vibrant country with a rich culture and"
@@ -192,7 +255,7 @@ msgstr ""
 "나라입니다. 여러분이 서울의 번화한 거리를 탐험하거나, 천연 온천에 몸을 담그거나, 고대 사원을 발견하는 것에 관심이 있다면, "
 "한국은 모두를 위한 무언가를 가지고 있습니다."
 
-#: templates/countries/ko/home.html:18
+#: templates/countries/ko/home.html:20
 msgid ""
 "As a society that values community and social connections, Korea is the "
 "perfect destination for those looking to explore with their loved ones. "
@@ -209,28 +272,38 @@ msgstr ""
 "있으므로 가족 및 친구와 함께 시간을 최대한 활용하는 데 집중할 수 있습니다. 우리와 함께 한국의 아름다움과 따뜻함을 찾아보세요. "
 "지금 바로 여행 예약하세요!"
 
-#: templates/countries/ko/home.html:30
+#: templates/countries/ko/home.html:32 templates/countries/sv/home.html:331
 msgid "Website Progression"
 msgstr "웹 사이트 진행"
 
-#: templates/countries/ko/home.html:41 templates/layouts/header.html:9
-#: templates/layouts/header.html:36
+#: templates/countries/ko/home.html:43 templates/countries/sv/home.html:342
+#: templates/layouts/header.html:17 templates/layouts/header.html:19
+#: templates/layouts/header.html:23 templates/layouts/header.html:27
+#: templates/layouts/header.html:29 templates/layouts/header.html:33
+#: templates/layouts/header.html:34 templates/layouts/header.html:39
+#: templates/layouts/header.html:74 templates/layouts/header.html:76
+#: templates/layouts/header.html:80 templates/layouts/header.html:86
+#: templates/layouts/header.html:88 templates/layouts/header.html:92
+#: templates/layouts/header.html:128 templates/layouts/header.html:130
+#: templates/layouts/header.html:134 templates/layouts/header.html:141
+#: templates/layouts/header.html:143 templates/layouts/header.html:147
 msgid "Home"
 msgstr "집이에요"
 
-#: templates/countries/ko/home.html:50
+#: templates/countries/ko/home.html:52 templates/countries/ko/todo.html:198
+#: templates/countries/sv/home.html:351
 msgid "What to do?"
 msgstr "무엇을 해야 해요?"
 
-#: templates/countries/ko/home.html:59
+#: templates/countries/ko/home.html:61 templates/countries/sv/home.html:360
 msgid "Booking your Trip"
 msgstr "여행 예약"
 
-#: templates/countries/ko/home.html:72
+#: templates/countries/ko/home.html:74
 msgid "Don't know what to do in Korea?"
 msgstr "한국에서 무엇을 해야 할지 모르십니까?"
 
-#: templates/countries/ko/home.html:73
+#: templates/countries/ko/home.html:75
 msgid ""
 "Are you planning a trip to Korea, but unsure of what to do or where to "
 "start? Look no further! Our guided to-do list is the perfect resource for"
@@ -260,23 +333,92 @@ msgstr ""
 "음식을 맛보고 싶은 미식가, 고대 사원과 궁전을 탐험하는 데 관심이 있는 역사 애호가, 한국의 산과 해변에서 모험을 즐기는 자연 "
 "애호가 등 여러분을 취재해 드립니다."
 
-#: templates/countries/ko/home.html:75
+#: templates/countries/ko/home.html:77 templates/countries/sv/home.html:376
 msgid "Well have a look at our guided todo list"
 msgstr "가이드가 안내하는 작업관리 목록을 살펴봅니다"
 
-#: templates/countries/ko/home.html:80
+#: templates/countries/ko/home.html:82 templates/countries/sv/home.html:378
 msgid "Continue to To Do"
 msgstr "작업관리 계속"
 
-#: templates/countries/ko/todo.html:9
+#: templates/countries/ko/home.html:95 templates/countries/ko/todo.html:123
+msgid "Brining you places"
+msgstr ""
+
+#: templates/countries/ko/home.html:109 templates/countries/ko/home.html:179
+msgid "Squid Game Island"
+msgstr ""
+
+#: templates/countries/ko/home.html:111 templates/countries/ko/home.html:181
+msgid "Famous movie filmed at this location!"
+msgstr ""
+
+#: templates/countries/ko/home.html:116 templates/countries/ko/home.html:186
+#, fuzzy
+msgid "Jeju Island"
+msgstr "제주도 리조트"
+
+#: templates/countries/ko/home.html:117 templates/countries/ko/home.html:187
+msgid "Visit Jeju the famous island where 'Running man' was filmed"
+msgstr ""
+
+#: templates/countries/ko/home.html:127
+msgid "What we provide"
+msgstr ""
+
+#: templates/countries/ko/home.html:128 templates/countries/ko/home.html:198
+msgid ""
+"As a solo traveler, you have the freedom to explore at your own pace and "
+"experience Korea in a way that suits your interests. From the bustling "
+"streets of Seoul to the serene beauty of the countryside, Korea has "
+"something for everyone.\n"
+"\n"
+"One of the best things about traveling alone in Korea is the opportunity "
+"to immerse yourself in the local culture. Whether you're sampling "
+"traditional Korean cuisine or attending a cultural festival, there are "
+"endless ways to connect with the people and traditions of this vibrant "
+"country.\n"
+"\n"
+"If you're looking for adventure, Korea has plenty to offer. Hike to the "
+"top of Mount Hallasan on Jeju Island, explore the ancient ruins of "
+"Gyeongju, or hit the slopes at one of Korea's many ski resorts. And when "
+"you're ready to unwind, soak in a hot spring or relax on one of Korea's "
+"stunning beaches."
+msgstr ""
+
+#: templates/countries/ko/home.html:141 templates/countries/ko/home.html:211
+msgid "Bukchon Hanok Villag"
+msgstr ""
+
+#: templates/countries/ko/home.html:143 templates/countries/ko/home.html:213
+msgid ""
+"a traditional Korean village located in Seoul, where visitors can see and"
+" experience traditional Korean culture and architecture."
+msgstr ""
+
+#: templates/countries/ko/home.html:148 templates/countries/ko/home.html:218
+msgid "Gyeongju"
+msgstr ""
+
+#: templates/countries/ko/home.html:149 templates/countries/ko/home.html:219
+msgid ""
+"a city known for its ancient historic sites and cultural heritage, "
+"including royal tombs, temples, and monuments."
+msgstr ""
+
+#: templates/countries/ko/home.html:197
+msgid "Portfolio"
+msgstr ""
+
+#: templates/countries/ko/todo.html:13
 msgid "Traveling in Korea"
 msgstr "한국 여행"
 
-#: templates/countries/ko/todo.html:22
+#: templates/countries/ko/todo.html:26
 msgid "The Five Royal Palaces of Seoul"
 msgstr "서울 5대 궁"
 
-#: templates/countries/ko/todo.html:24
+#: templates/countries/ko/todo.html:28 templates/countries/sv/todo.html:265
 msgid ""
 "The five palaces of Seoul are royal palaces of the Joseon Dynasty and "
 "symbols of Korea’s culture and history. Each palace has its unique "
@@ -291,11 +433,11 @@ msgstr ""
 "경복궁, 왕의 거처; 창덕궁, \"\" \"1997년 유네스코 세계문화유산으로 등재된 창덕궁, \" \"덕수궁, 한국 미학과 서양의"
 " 조합\" \"건축; 창경궁, 현재 피해에서 복원 된\" \"일본 점령으로 인한; 그리고 경희궁, 겸손하고\" \"단순하다.\""
 
-#: templates/countries/ko/todo.html:39
+#: templates/countries/ko/todo.html:43
 msgid "Hongik University Hongdae Street"
 msgstr "홍익대 홍대 거리"
 
-#: templates/countries/ko/todo.html:41
+#: templates/countries/ko/todo.html:45 templates/countries/sv/todo.html:282
 msgid ""
 "The heart of Seoul’s youth culture is this eclectic collection of cafes, "
 "restaurants, bars, clubs, art markets, galleries, and shops. Its numerous"
@@ -308,11 +450,11 @@ msgstr ""
 "구불구불하게 이어져 있으며, 클럽, 예술, \" \"벽화(피카소 거리)와 같은 독특한 테마를 가지고 있습니다. 버스킹, 공연, "
 "이벤트, 그리고 \"\" \"젊은 자유의 강력한 에너지가 수많은 젊은이들을 이 지역으로 끌어들입니다.\" \"특히 주말에\""
 
-#: templates/countries/ko/todo.html:55
+#: templates/countries/ko/todo.html:59
 msgid "COEX (Starfield)"
 msgstr "코엑스(스타필드)"
 
-#: templates/countries/ko/todo.html:57
+#: templates/countries/ko/todo.html:61 templates/countries/sv/todo.html:298
 msgid ""
 "COEX is a cultural center housing shops, film theaters, an aquarium, a "
 "large bookstore, and a library. Starfield Library in particular is a "
@@ -324,11 +466,11 @@ msgstr ""
 "높이의\" \"서점. 책을 통한 열린 소통의 공간으로 설계된 \"\" \"책을 통한 소통의 공간으로 설계되었으며, 문학을 테마로 한"
 " 다양한 문화 행사를 개최합니다.\""
 
-#: templates/countries/ko/todo.html:71
+#: templates/countries/ko/todo.html:75
 msgid "Seoul Land"
 msgstr "서울랜드"
 
-#: templates/countries/ko/todo.html:73
+#: templates/countries/ko/todo.html:77 templates/countries/sv/todo.html:314
 msgid ""
 "Seoul Land has gained popularity as a land of adventures and dreams. Its "
 "attractions are organized by themes, such as the World Plaza, Tomorrow "
@@ -342,11 +484,11 @@ msgstr ""
 "애니메이션 캐릭터에서 영감을 받았습니다. 놀이공원에는 썰매장도 운영 중입니다.\" \"슬로프와 겨울철 낚시터도 운영합니다. 밤이 "
 "되면 서울랜드는 \" \"루나로 변신합니다. \"화려한 조명으로 장식된 공원.\""
 
-#: templates/countries/ko/todo.html:89
+#: templates/countries/ko/todo.html:93
 msgid "Seomjingang Train Village in Gokseong"
 msgstr "곡성 섬진강 기차마을"
 
-#: templates/countries/ko/todo.html:91
+#: templates/countries/ko/todo.html:95 templates/countries/sv/todo.html:330
 msgid ""
 "Seomjingang Train Village is a train-themed park developed from the "
 "former Gokseong Station and the discontinued Jeolla Line. The village is "
@@ -360,84 +502,167 @@ msgstr ""
 "도깨비를 테마로 한 요술(마법)랜드, \" \"철도를 배우고 체험할 수 있는 치치뿌뿌 놀이터\" \"역사와 문화, 동물농장, "
 "VR존, 미디어 아트\" \"전시관. 방문객들은 또한 레일바이크나 증기 \"\" \"기관차.\""
 
-#: templates/countries/ko/todo.html:102
+#: templates/countries/ko/todo.html:106 templates/countries/sv/todo.html:341
 msgid "Looking for accommodation?"
 msgstr "숙소를 찾고 계신가요?"
 
-#: templates/countries/ko/todo.html:105
+#: templates/countries/ko/todo.html:109 templates/countries/sv/todo.html:344
 msgid "Check out South Korea's places to stay"
 msgstr "한국의 숙소를 확인해 보세요"
 
-#: templates/countries/ko/todo.html:110
+#: templates/countries/ko/todo.html:114 templates/countries/sv/todo.html:349
 msgid "Book here"
 msgstr "여기에서 예약하세요"
 
-#: templates/countries/sv/booking.html:13
-msgid "AES Travel: Sweden"
+#: templates/countries/sv/booking.html:186
+msgid ""
+"This family-friendly hotel in Malmö, Sweden offers spacious rooms and "
+"suites, family-friendly dining options, and a range of facilities such as"
+" a playroom, outdoor playground, game room, and swimming pool."
+msgstr ""
+"스웨덴 말뫼에 있는 이 가족 친화적인 호텔은 넓은 객실과 스위트룸, 가족 친화적인 식사 옵션, 그리고 놀이방, 야외 놀이터, "
+"게임방, 수영장과 같은 다양한 시설을 제공합니다."
+
+#: templates/countries/sv/booking.html:187
+msgid "Malmö"
+msgstr "말뫼"
+
+#: templates/countries/sv/booking.html:199
+msgid ""
+"This charming B&B in the quiet town of Lund in Southern Sweden is "
+"affordable, spacious and includes a garden for the whole family to enjoy."
+msgstr "스웨덴 남부의 조용한 마을인 룬드에 있는 이 매력적인 B&B는 저렴하고 넓으며 온 가족이 즐길 수 있는 정원을 포함하고 있습니다."
+
+#: templates/countries/sv/booking.html:200
+msgid "Lund"
+msgstr "작은 숲"
+
+#: templates/countries/sv/booking.html:212
+msgid ""
+"This hotel outside the beautiful coastal city of Helsingborg offers all "
+"the facilities a family could need including large, three-bed rooms, a "
+"swimming pool and a fine restaurant with comfortable outdoor dining."
+msgstr ""
+"아름다운 해안 도시 헬싱보리 외곽에 위치한 이 호텔은 넓은 3개의 침실, 수영장, 편안한 야외 식사가 가능한 고급 레스토랑 등 "
+"가족이 필요로 하는 모든 시설을 제공합니다."
+
+#: templates/countries/sv/booking.html:213
+msgid "Helsingborg"
+msgstr "헬싱보리"
+
+#: templates/countries/sv/booking.html:225
+msgid ""
+"Explore Sweden's natural beauty with your family at this scenic site in "
+"Ryd."
+msgstr "리드에 있는 이 경치 좋은 곳에서 가족과 함께 스웨덴의 자연미를 탐험해 보세요."
+
+#: templates/countries/sv/booking.html:226
+msgid "Ryd"
+msgstr "청소"
+
+#: templates/countries/sv/booking.html:238
+msgid ""
+"This beauty spot in rural Sweden offer great views of lake Vättern and "
+"plenty of space for the family to enjoy while still having the comforts "
+"of complimentary Wi-Fi and a sauna."
+msgstr ""
+"스웨덴 시골에 위치한 이 아름다운 장소는 베튼 호수의 멋진 전망과 가족들이 즐길 수 있는 충분한 공간을 제공하며 무료 와이파이와 "
+"사우나를 제공합니다."
+
+#: templates/countries/sv/booking.html:239
+msgid "Västergötland"
+msgstr "베스터고틀란트"
+
+#: templates/countries/sv/booking.html:251
+msgid ""
+"Explore the cultural heart of Sweden with your family while staying at "
+"this luxurious and reasonably-priced hotel with meals, Wi-Fi and a "
+"discount on city tours all included."
+msgstr ""
+"식사, Wi-Fi 및 시티 투어 할인이 모두 포함된 고급스럽고 합리적인 가격의 이 호텔에서 가족과 함께 스웨덴의 문화 중심지를 "
+"탐험해 보십시오."
+
+#: templates/countries/sv/booking.html:252 templates/countries/sv/todo.html:100
+#: templates/countries/sv/todo.html:263 templates/countries/sv/todo.html:425
+msgid "Stockholm"
+msgstr "스톡홀름"
+
+#: templates/countries/sv/booking.html:264
+msgid ""
+"Ljusdal Camping is a picturesque campsite located in central Sweden, "
+"situated on the banks of the Ljusnan river amidst lush forests and scenic"
+" hiking trails. Perfect for an active family."
+msgstr ""
+"Ljusdal Camping은 울창한 숲과 경치 좋은 등산로 가운데 Ljusnan 강 유역에 위치한 중앙 스웨덴에 위치한 그림 같은"
+" 캠프장입니다. 활동적인 가족에게 적합"
+
+#: templates/countries/sv/booking.html:265
+msgid "Gävleborg"
+msgstr "예블레보르"
+
+#: templates/countries/sv/booking.html:277
+msgid ""
+"Björkängen Camping is a serene lakeside campsite, offering both cozy "
+"cabins and tent sites for a peaceful outdoor getaway. Visitors can enjoy "
+"recreational activities such as kayaking, paddleboarding, and fishing on "
+"the clear waters of Lake Vänern. "
+msgstr ""
+"비외르캉겐 캠핑은 조용한 호숫가 캠프장으로, 아늑한 오두막과 텐트 장소를 모두 제공하여 평화로운 야외 휴가를 즐길 수 있습니다. "
+"방문객들은 배넌 호수의 맑은 물에서 카약, 패들보드, 낚시와 같은 레크리에이션 활동을 즐길 수 있습니다."
+
+#: templates/countries/sv/booking.html:278
+msgid "Värmland"
+msgstr "웜랜드"
+
+#: templates/countries/sv/booking.html:290
+msgid ""
+"Gästgiveri B&B is a charming B&B in Arvidsjaur, Northern Sweden. It "
+"offers comfortable rooms with traditional Swedish decor and modern "
+"amenities. Guests can enjoy complimentary meals and a sauna. Perfect for "
+"a winter family getaway."
+msgstr ""
+"Gästgiveri B&B는 북부 스웨덴 Arvidsjaur에 위치한 매력적인 B&B입니다. 스웨덴 전통 장식과 현대적인 편의 "
+"시설을 갖춘 편안한 객실을 제공합니다. 투숙객은 무료 식사와 사우나를 즐기실 수 있습니다. 겨울 가족 휴양지로 안성맞춤입니다."
+
+#: templates/countries/sv/booking.html:291
+msgid "Arvidsjaur"
+msgstr "아르비드샤우르"
+
+#: templates/countries/sv/booking.html:309
+msgid ""
+"Escape to the untouched beauty of Sweden - where nature, culture, and "
+"adventure collide!"
 msgstr ""
 
-#: templates/countries/sv/booking.html:14
+#: templates/countries/sv/booking.html:321
 msgid ""
-"Get lost in Sweden's untamed wilderness, then find yourself in its "
-"vibrant culture."
-msgstr "스웨덴의 길들여지지 않은 황무지에서 길을 잃은 다음 활기찬 문화에서 자신을 찾으십시오."
-
-#: templates/countries/sv/booking.html:25 templates/layouts/header.html:37
-msgid "Booking"
-msgstr "예약"
-
-#: templates/countries/sv/booking.html:26
-msgid "Find your next adventure in Sweden..."
-msgstr "스웨덴에서 다음 모험을 찾아보세요..."
-
-#: templates/countries/sv/booking.html:27
-msgid ""
-"Sweden offers a diverse range of experiences, and our selection of "
-"hotels, campsites,\n"
-"            and B&Bs reflect that. Whether you're looking for a luxurious"
-" urban getaway in Stockholm, a cozy cabin in the woods,\n"
-"            or a seaside bed and breakfast, we have something for "
-"everyone. Our accommodations offer unique experiences that reflect the "
-"local culture and heritage,\n"
-"            with activities ranging from hiking and skiing in the "
-"mountains to fishing and kayaking in the archipelagos.\n"
-"            You can enjoy a traditional Swedish breakfast with freshly "
-"baked bread or indulge in a spa treatment at our luxury hotels.\n"
-"            Whatever your preference,\n"
-"            we guarantee that you will have an unforgettable experience "
-"while exploring Sweden's natural beauty and vibrant culture."
+"Welcome to Sweden, a land of breathtaking natural beauty, captivating "
+"culture, and thrilling adventure! Whether you're seeking the tranquility "
+"of unspoiled wilderness, the vibrant energy of cosmopolitan cities, or "
+"the rich history and heritage of a proud and storied people, Sweden has "
+"it all. From the rugged mountains and pristine forests of the north to "
+"the sparkling lakes and vibrant cities of the south, every corner of this"
+" remarkable country is waiting to be discovered. Explore ancient Viking "
+"settlements, soak in hot springs under the Northern Lights, hike through "
+"towering pine forests, or savor the flavors of Swedish cuisine - the "
+"possibilities are endless. Come experience the warm hospitality, stunning"
+" landscapes, and endless opportunities for excitement and discovery that "
+"await you in Sweden!"
 msgstr ""
-"스웨덴은 다양한 경험을 제공하며 우리가 선택한 호텔, 캠프장 및 B&B는 이를 반영합니다. 스톡홀름의 고급스러운 도시 휴양지, "
-"숲속의 아늑한 오두막 또는 해변 B&B를 찾고 계시다면 모두를 위한 것이 있습니다. 숙소는 산에서의 하이킹과 스키부터 군도에서의 "
-"낚시와 카약에 이르기까지 다양한 활동을 통해 현지 문화와 유산을 반영하는 독특한 경험을 제공합니다. 갓 구운 빵과 함께 전통적인 "
-"스웨덴식 아침 식사를 즐기거나 고급 호텔에서 스파 트리트먼트를 받으실 수 있습니다. 귀하의 선호도가 무엇이든 스웨덴의 자연미와 "
-"활기찬 문화를 탐험하면서 잊을 수 없는 경험을 하게 될 것을 보장합니다."
 
-#: templates/countries/sv/booking.html:41
-msgid "Hotels"
-msgstr "호텔"
-
-#: templates/countries/sv/booking.html:42
-msgid "Outdoors"
-msgstr "옥외"
-
-#: templates/countries/sv/booking.html:43
-msgid "B&Bs"
-msgstr "비앤비"
-
-#: templates/countries/sv/home.html:14
+#: templates/countries/sv/home.html:16
 msgid "Welcome to Sweden"
 msgstr "스웨덴에 오신 것을 환영합니다"
 
-#: templates/countries/sv/home.html:15
+#: templates/countries/sv/home.html:17 templates/countries/sv/home.html:389
 msgid "Where Dreams are made"
 msgstr "꿈이 만들어지는 곳"
 
-#: templates/countries/sv/home.html:29
+#: templates/countries/sv/home.html:31 templates/countries/sv/home.html:402
 msgid "About AES SWEDEN"
 msgstr "AES 스웨덴 소개"
 
-#: templates/countries/sv/home.html:31
+#: templates/countries/sv/home.html:33 templates/countries/sv/home.html:404
 msgid ""
 "Welcome to our website dedicated to traveling to Sweden! If you are "
 "planning a trip to this beautiful Scandinavian country, you have come to "
@@ -471,121 +696,122 @@ msgstr ""
 "\" \" 그래서 당신이 솔로 모험을 계획하고 있든, 로맨틱한 휴가 또는 가족 휴가, 저희 웹사이트는 모두를 위한 원스톱 "
 "상점입니다. things Sweden. 오늘 탐험을 시작하고 사랑에 빠질 준비를 하세요. 이 놀라운 나라!"
 
-#: templates/countries/sv/home.html:36 templates/countries/sv/todo.html:142
+#: templates/countries/sv/home.html:38 templates/countries/sv/home.html:409
+#: templates/countries/sv/todo.html:144
 msgid "About us"
 msgstr "회사 소개"
 
-#: templates/countries/sv/home.html:44
+#: templates/countries/sv/home.html:46 templates/countries/sv/home.html:417
 msgid "Travel Planning"
 msgstr "여행 계획"
 
-#: templates/countries/sv/home.html:45
+#: templates/countries/sv/home.html:47 templates/countries/sv/home.html:418
 msgid "We provide the best guides and plans for Travelling"
 msgstr "여행을 위한 최고의 가이드와 계획을 제공합니다."
 
-#: templates/countries/sv/home.html:49
+#: templates/countries/sv/home.html:51 templates/countries/sv/home.html:422
 msgid "Destinations"
 msgstr "목적지"
 
-#: templates/countries/sv/home.html:50
+#: templates/countries/sv/home.html:52 templates/countries/sv/home.html:423
 msgid "Guides for popular tourist Destinations"
 msgstr "인기 관광지 안내"
 
-#: templates/countries/sv/home.html:54
+#: templates/countries/sv/home.html:56 templates/countries/sv/home.html:427
 msgid "Photography"
 msgstr "사진술"
 
-#: templates/countries/sv/home.html:55
+#: templates/countries/sv/home.html:57 templates/countries/sv/home.html:428
 msgid ""
 "Articles on travel photography, including tips for taking great photos "
 "and editing techniques"
 msgstr "멋진 사진을 찍는 요령을 포함한 여행 사진 관련 기"
 
-#: templates/countries/sv/home.html:59
+#: templates/countries/sv/home.html:61 templates/countries/sv/home.html:432
 msgid "Safety"
 msgstr "안전"
 
-#: templates/countries/sv/home.html:60
+#: templates/countries/sv/home.html:62 templates/countries/sv/home.html:433
 msgid "Your Safety is the most important aspect that we provide on Trips"
 msgstr "귀하의 안전은 당사가 Trips에서 제공하는 가장 중요한 측면입니다."
 
-#: templates/countries/sv/home.html:77
+#: templates/countries/sv/home.html:79 templates/countries/sv/home.html:450
 msgid "Services"
 msgstr "서비스"
 
-#: templates/countries/sv/home.html:78
+#: templates/countries/sv/home.html:80 templates/countries/sv/home.html:451
 msgid "We Offer a Wide Range of Services which Include"
 msgstr "다음과 같은 다양한 서비스를 제공합니다."
 
-#: templates/countries/sv/home.html:85
+#: templates/countries/sv/home.html:87 templates/countries/sv/home.html:458
 msgid "Booking Agency"
 msgstr "예약 대행사"
 
-#: templates/countries/sv/home.html:86
+#: templates/countries/sv/home.html:88 templates/countries/sv/home.html:459
 msgid "This agency will handle all bookings and services related"
 msgstr "이 대행사는 관련된 모든 예약 및 서비스를 처리합니다."
 
-#: templates/countries/sv/home.html:93
+#: templates/countries/sv/home.html:95 templates/countries/sv/home.html:466
 msgid "Activities Agency"
 msgstr "활동 기관"
 
-#: templates/countries/sv/home.html:94
+#: templates/countries/sv/home.html:96 templates/countries/sv/home.html:467
 msgid "Will suggest activities you can do in a selected Trip"
 msgstr "선택한 여행에서 할 수 있는 활동을 제안합니다."
 
-#: templates/countries/sv/home.html:101
+#: templates/countries/sv/home.html:103 templates/countries/sv/home.html:474
 msgid "Finanical Agency"
 msgstr "금융 기관"
 
-#: templates/countries/sv/home.html:102
+#: templates/countries/sv/home.html:104 templates/countries/sv/home.html:475
 msgid "Handle finances according to your budget and needs"
 msgstr "예산과 필요에 따라 재정을 처리합니다."
 
-#: templates/countries/sv/home.html:109
+#: templates/countries/sv/home.html:111 templates/countries/sv/home.html:482
 msgid "Visa Agency"
 msgstr "비자 대행사"
 
-#: templates/countries/sv/home.html:110
+#: templates/countries/sv/home.html:112 templates/countries/sv/home.html:483
 msgid "Provides assistance in obtaining Visas"
 msgstr "비자 취득 지원 제공"
 
-#: templates/countries/sv/home.html:129 templates/countries/sv/todo.html:206
+#: templates/countries/sv/home.html:131 templates/countries/sv/todo.html:208
 msgid "Happy Clients"
 msgstr "행복한 고객"
 
-#: templates/countries/sv/home.html:129
+#: templates/countries/sv/home.html:131
 msgid "Travelling the Globe"
 msgstr "지구를 여행하다"
 
-#: templates/countries/sv/home.html:137
+#: templates/countries/sv/home.html:139
 msgid "Recommendations"
 msgstr "추천"
 
-#: templates/countries/sv/home.html:137
+#: templates/countries/sv/home.html:139
 msgid "being recommended Everyday"
 msgstr "매일 추천받는"
 
-#: templates/countries/sv/home.html:145 templates/countries/sv/todo.html:222
+#: templates/countries/sv/home.html:147 templates/countries/sv/todo.html:224
 msgid "Hours Of Support"
 msgstr "지원 시간"
 
-#: templates/countries/sv/home.html:145
+#: templates/countries/sv/home.html:147
 msgid "given every Week"
 msgstr "매주 주어진"
 
-#: templates/countries/sv/home.html:153
+#: templates/countries/sv/home.html:155
 msgid "Winners"
 msgstr "수상자"
 
-#: templates/countries/sv/home.html:153
+#: templates/countries/sv/home.html:155
 msgid "for our monthly Travel Lottery"
 msgstr "월간 여행 복권"
 
-#: templates/countries/sv/home.html:168
+#: templates/countries/sv/home.html:170
 msgid "Team"
 msgstr "팀"
 
-#: templates/countries/sv/home.html:169
+#: templates/countries/sv/home.html:171
 msgid ""
 "Our devoted team at AES Travel offers a personalized and hassle-free "
 "travel experience. With our platform, users can easily browse, book and "
@@ -594,236 +820,513 @@ msgstr ""
 "AES Travel의 헌신적인 팀은 개인화되고 번거로움 없는 서비스를 제공합니다. 여행 경험. 우리 플랫폼을 통해 사용자는 쉽게 "
 "검색, 예약 및 그들의 여행을 계획하십시오."
 
-#: templates/countries/sv/home.html:179
+#: templates/countries/sv/home.html:181
 msgid "Product Manager"
 msgstr "제품 관리자"
 
-#: templates/countries/sv/home.html:195
+#: templates/countries/sv/home.html:197
 msgid "Chief Executive Officer"
 msgstr "최고 경영자"
 
-#: templates/countries/sv/home.html:211
+#: templates/countries/sv/home.html:213
 msgid "CTO"
 msgstr "CTO"
 
-#: templates/countries/sv/home.html:232 templates/layouts/header.html:39
+#: templates/countries/sv/home.html:234 templates/countries/sv/home.html:498
 msgid "Contact"
 msgstr "연락하다"
 
-#: templates/countries/sv/home.html:233
+#: templates/countries/sv/home.html:235 templates/countries/sv/home.html:499
 msgid ""
 "You can contact AES Travel by Email and phone which are below. You also "
 "have the option of going to are main offices at the address below or "
 "filling out a form which we will respond according to our working hours."
 msgstr "아래의 이메일과 전화로 AES Travel에 연락하실 수 있습니다. 또"
 
-#: templates/countries/sv/home.html:240
+#: templates/countries/sv/home.html:242 templates/countries/sv/home.html:506
 msgid "Our Address"
 msgstr "우리 주소"
 
-#: templates/countries/sv/home.html:248
+#: templates/countries/sv/home.html:250 templates/countries/sv/home.html:514
 msgid "Email Us"
 msgstr "이메일 보내기"
 
-#: templates/countries/sv/home.html:256
+#: templates/countries/sv/home.html:258 templates/countries/sv/home.html:522
 msgid "Call Us"
 msgstr "전화주세요"
 
-#: templates/countries/sv/home.html:288
+#: templates/countries/sv/home.html:290 templates/countries/sv/home.html:554
 msgid "Your message has been sent. Thank you!"
 msgstr "귀하의 메시지가 전송되었습니다. 감사합니다!"
 
-#: templates/countries/sv/home.html:290
+#: templates/countries/sv/home.html:292 templates/countries/sv/home.html:556
 msgid "Send Message"
 msgstr "문자 보내"
 
-#: templates/countries/sv/todo.html:14
+#: templates/countries/sv/home.html:314
+msgid "Are you ready to go travel with your family and friends to Sweden?"
+msgstr "당신은 당신의 가족과 친구들과 한국으로 여행을 갈 준비가 되었습니까?"
+
+#: templates/countries/sv/home.html:318
+msgid ""
+"Welcome to our website dedicated to traveling to Sweden! If you are "
+"planning a trip to this beautiful Scandinavian country, you have come to "
+"the right place."
+msgstr ""
+"스웨덴 여행 전용 웹사이트에 오신 것을 환영합니다! 만약 여러분이 이 아름다운 스칸디나비아 나라로의 여행을 계획하고 있다면, "
+"여러분은 올바른 장소에 왔습니다."
+
+#: templates/countries/sv/home.html:319
+msgid ""
+"Our website is also packed with helpful resources to make your trip "
+"planning easy and stress-free."
+msgstr "저희 웹사이트는 또한 여러분의 여행 계획을 쉽고 스트레스 없이 만들 수 있는 유용한 자료들로 가득 차 있습니다."
+
+#: templates/countries/sv/home.html:373
+msgid "Don't know what to do in Sweden?"
+msgstr "한국에서 무엇을 해야 할지 모르십니까?"
+
+#: templates/countries/sv/home.html:374
+msgid ""
+"Are you planning a trip to Sweden, but unsure of what to do or where to "
+"start? Look no further! Our guided to-do list is the perfect resource for"
+" anyone looking to make the most of their time in this beautiful country."
+" Sweden is a land of contrasts, where ancient Nordic Castles and modern "
+"architecture coexist, and traditional customs and contemporary trends "
+"blend seamlessly. With so much to see and do, it can be overwhelming to "
+"plan your itinerary. That's where our guided to-do list comes in. Our "
+"team of experts has curated a comprehensive list of must-see attractions,"
+" hidden gems, and cultural experiences that will give you a taste of "
+"everything Sweden has to offer. From exploring the vibrant streets of "
+"Stockholm to hiking through picturesque glacier parks, our to-do list has"
+" something for everyone. Not sure where to start? Our to-do list is "
+"organized by category, making it easy to find activities that match your "
+"interests , we've got you covered."
+msgstr ""
+"당신은 한국 여행을 계획하고 있지만, 무엇을 해야 할지 또는 어디서부터 시작해야 할지 잘 모르십니까? 더 이상 보지 마! 우리가 "
+"안내하는 할 일 목록은 이 아름다운 나라에서 시간을 최대한 활용하고자 하는 모든 사람들에게 완벽한 자료입니다. 한국은 고대 사원과 "
+"현대적인 고층 건물이 공존하고, 전통적인 관습과 현대적인 유행이 매끄럽게 어우러지는 대조의 땅입니다. 보고 할 것이 너무 많아서 "
+"여행 일정을 계획하는 것은 벅찰 수 있습니다. 바로 여기에서 가이드가 안내하는 할 일 목록이 제공됩니다. 우리의 전문가 팀은 한국이"
+" 제공하는 모든 것을 맛볼 수 있는 필수 명소, 숨겨진 보석, 그리고 문화적 경험의 포괄적인 목록을 큐레이션했습니다. 활기찬 서울의"
+" 거리를 탐험하는 것에서부터 그림 같은 국립공원을 통한 하이킹에 이르기까지, 우리의 할 일 목록은 모든 사람들을 위한 것입니다. "
+"어디서부터 시작해야 할지 모르겠어요? 할 일 목록은 범주별로 구성되어 있어 관심사에 맞는 활동을 쉽게 찾을 수 있습니다. 한국 "
+"음식을 맛보고 싶은 미식가, 고대 사원과 궁전을 탐험하는 데 관심이 있는 역사 애호가, 한국의 산과 해변에서 모험을 즐기는 자연 "
+"애호가 등 여러분을 취재해 드립니다."
+
+#: templates/countries/sv/home.html:388
+msgid "AES Sweden"
+msgstr "AES 스웨덴 소개"
+
+#: templates/countries/sv/todo.html:16
 msgid "Hej, welcome to Sweden!"
 msgstr "헤즈, 스웨덴에 오신 것을 환영합니다!"
 
-#: templates/countries/sv/todo.html:15
+#: templates/countries/sv/todo.html:17
 msgid "Things to do and places to see."
 msgstr "할 것들과 볼 곳들."
 
-#: templates/countries/sv/todo.html:26
+#: templates/countries/sv/todo.html:28 templates/countries/sv/todo.html:280
+#: templates/countries/sv/todo.html:370
 msgid "North Sweden"
 msgstr "북스웨덴"
 
-#: templates/countries/sv/todo.html:27
+#: templates/countries/sv/todo.html:29 templates/countries/sv/todo.html:371
 msgid "Explore the north of Sweden"
 msgstr "스웨덴 북부 탐험"
 
-#: templates/countries/sv/todo.html:34
+#: templates/countries/sv/todo.html:36 templates/countries/sv/todo.html:378
 msgid "Northern Lights"
 msgstr "노던 라이츠"
 
-#: templates/countries/sv/todo.html:35
+#: templates/countries/sv/todo.html:37 templates/countries/sv/todo.html:379
 msgid "Come visit the Arctic circle and see the stunning lights in the night sky"
 msgstr "북극권에 와서 밤하늘의 놀라운 빛을 보세요"
 
-#: templates/countries/sv/todo.html:42 templates/countries/sv/todo.html:106
-#: templates/countries/sv/todo.html:170
+#: templates/countries/sv/todo.html:44 templates/countries/sv/todo.html:108
+#: templates/countries/sv/todo.html:172 templates/countries/sv/todo.html:386
+#: templates/countries/sv/todo.html:433 templates/countries/sv/todo.html:480
 msgid "Architecture"
 msgstr "건축학"
 
-#: templates/countries/sv/todo.html:43
+#: templates/countries/sv/todo.html:45
 msgid "Come explore the world famous scandinavian architectural design"
 msgstr "세계적으로 유명한 스칸디나비아 건축 디자인을 탐험하러 오세요"
 
-#: templates/countries/sv/todo.html:50
+#: templates/countries/sv/todo.html:52 templates/countries/sv/todo.html:394
 msgid "Gastrikland"
 msgstr "가스트리클랜드"
 
-#: templates/countries/sv/todo.html:51
+#: templates/countries/sv/todo.html:53 templates/countries/sv/todo.html:395
 msgid "Naturally stunning region in the East of Sweden"
 msgstr "스웨덴 동부의 자연적으로 놀라운 지역"
 
-#: templates/countries/sv/todo.html:58
+#: templates/countries/sv/todo.html:60 templates/countries/sv/todo.html:402
 msgid "Sami"
 msgstr "사미"
 
-#: templates/countries/sv/todo.html:59
+#: templates/countries/sv/todo.html:61 templates/countries/sv/todo.html:403
 msgid "Beautiful old Indigenous Culture in the North of Sweden"
 msgstr "스웨덴 북부의 아름다운 토착 문화"
 
-#: templates/countries/sv/todo.html:74
+#: templates/countries/sv/todo.html:76
 msgid "Swedish food"
 msgstr "스웨덴 음식"
 
-#: templates/countries/sv/todo.html:76
+#: templates/countries/sv/todo.html:78
 msgid "Try out these swedish delacacies"
 msgstr "이 스웨덴 음식들을 먹어보세요"
 
-#: templates/countries/sv/todo.html:78
+#: templates/countries/sv/todo.html:80
 msgid "recipes"
 msgstr "조리법"
 
-#: templates/countries/sv/todo.html:90
+#: templates/countries/sv/todo.html:92 templates/countries/sv/todo.html:296
+#: templates/countries/sv/todo.html:417
 msgid "Central Sweden"
 msgstr "스웨덴 중부"
 
-#: templates/countries/sv/todo.html:91
+#: templates/countries/sv/todo.html:93 templates/countries/sv/todo.html:418
 msgid "Explore the Central regions of Sweden"
 msgstr "스웨덴 중부 지역 탐색"
 
-#: templates/countries/sv/todo.html:98
-msgid "Stockholm"
-msgstr "스톡홀름"
-
-#: templates/countries/sv/todo.html:99
+#: templates/countries/sv/todo.html:101 templates/countries/sv/todo.html:426
 msgid "Come see Sweden's beautiful capital city."
 msgstr "스웨덴의 아름다운 수도를 보러 오세요."
 
-#: templates/countries/sv/todo.html:107
+#: templates/countries/sv/todo.html:109
 msgid "World famous style"
 msgstr "세계적으로 유명한 스타일"
 
-#: templates/countries/sv/todo.html:114
+#: templates/countries/sv/todo.html:116 templates/countries/sv/todo.html:441
 msgid "Nature"
 msgstr "자연."
 
-#: templates/countries/sv/todo.html:115
+#: templates/countries/sv/todo.html:117 templates/countries/sv/todo.html:442
 msgid "Visit one of Sweden's many lakes or hiking trails"
 msgstr "스웨덴의 많은 호수나 등산로 중 하나를 방문하세요"
 
-#: templates/countries/sv/todo.html:122 templates/countries/sv/todo.html:186
+#: templates/countries/sv/todo.html:124 templates/countries/sv/todo.html:188
+#: templates/countries/sv/todo.html:449 templates/countries/sv/todo.html:496
 msgid "Festivals"
 msgstr "축제"
 
-#: templates/countries/sv/todo.html:123 templates/countries/sv/todo.html:187
+#: templates/countries/sv/todo.html:125 templates/countries/sv/todo.html:189
+#: templates/countries/sv/todo.html:450 templates/countries/sv/todo.html:497
 msgid "lot's of traditional festivals throught the year"
 msgstr "연중 많은 전통 축제"
 
-#: templates/countries/sv/todo.html:138
+#: templates/countries/sv/todo.html:140
 msgid "Culture"
 msgstr "문화"
 
-#: templates/countries/sv/todo.html:140
+#: templates/countries/sv/todo.html:142
 msgid "Learn More about our culture."
 msgstr "우리의 문화에 대해 자세히 알아보세요."
 
-#: templates/countries/sv/todo.html:154
+#: templates/countries/sv/todo.html:156 templates/countries/sv/todo.html:312
+#: templates/countries/sv/todo.html:464
 msgid "South Sweden"
 msgstr "남스웨덴"
 
-#: templates/countries/sv/todo.html:155
+#: templates/countries/sv/todo.html:157 templates/countries/sv/todo.html:465
 msgid "Explore the South of Sweden"
 msgstr "스웨덴 남부 탐험"
 
-#: templates/countries/sv/todo.html:162
+#: templates/countries/sv/todo.html:164 templates/countries/sv/todo.html:472
 msgid "Gothenburg"
 msgstr "고테버그"
 
-#: templates/countries/sv/todo.html:163
+#: templates/countries/sv/todo.html:165
 msgid "Beautiful city in south"
 msgstr "남쪽의 아름다운 도시"
 
-#: templates/countries/sv/todo.html:171
+#: templates/countries/sv/todo.html:173
 msgid "World famous building style"
 msgstr "세계적으로 유명한 건축 양식"
 
-#: templates/countries/sv/todo.html:178
+#: templates/countries/sv/todo.html:180 templates/countries/sv/todo.html:488
 msgid "Oresund bridge"
 msgstr "오리선대교"
 
-#: templates/countries/sv/todo.html:179
+#: templates/countries/sv/todo.html:181 templates/countries/sv/todo.html:489
 msgid "Longest bridge in Europe connects to Denmark"
 msgstr "덴마크와 연결되는 유럽에서 가장 긴 다리"
 
-#: templates/countries/sv/todo.html:214
+#: templates/countries/sv/todo.html:216
 msgid "Projects"
 msgstr "계획, 기획, 설계"
 
-#: templates/countries/sv/todo.html:230
+#: templates/countries/sv/todo.html:232
 msgid "Hard Workers"
 msgstr "열심히 일하는 사람들"
 
-#: templates/layouts/footer.html:13 templates/layouts/footer.html:56
-#: templates/layouts/footer.html:75
+#: templates/countries/sv/todo.html:250
+msgid "Traveling in Sweden"
+msgstr "한국 여행"
+
+#: templates/countries/sv/todo.html:328
+msgid "Swedish Food and Culture"
+msgstr "스웨덴 음식"
+
+#: templates/countries/sv/todo.html:358
+#, fuzzy
+msgid "Hej, Welcome to Sweden!"
+msgstr "헤즈, 스웨덴에 오신 것을 환영합니다!"
+
+#: templates/countries/sv/todo.html:359
+msgid "all the best Things to do and see in Sweden"
+msgstr ""
+
+#: templates/countries/sv/todo.html:387
+msgid ""
+"World famous Scandinavian architecture in located here in the north "
+"Sweden is a beautiful thing to see"
+msgstr ""
+
+#: templates/countries/sv/todo.html:434
+msgid ""
+"World famous Scandinavian architecture in located here in the centre of "
+"Sweden is a beautiful thing to see"
+msgstr ""
+
+#: templates/countries/sv/todo.html:473
+msgid "Beautiful city in the south of Sweden featuring many amazing sights to see"
+msgstr ""
+
+#: templates/countries/sv/todo.html:481
+msgid ""
+"World famous Scandinavian architecture in located here in the south of "
+"Sweden is a beautiful thing to see"
+msgstr ""
+
+#: templates/layouts/footer.html:14 templates/layouts/footer.html:57
+#: templates/layouts/footer.html:77
 msgid "Copyright"
 msgstr "저작권"
 
-#: templates/layouts/footer.html:13 templates/layouts/footer.html:56
-#: templates/layouts/footer.html:75
+#: templates/layouts/footer.html:14 templates/layouts/footer.html:57
+#: templates/layouts/footer.html:77
 msgid "All Rights Reserved"
 msgstr "무단 전재 금지"
 
-#: templates/layouts/footer.html:34
+#: templates/layouts/footer.html:35
 msgid "Home to the Worlds best Travel Services"
 msgstr "홈 투 더 월드 베스트 여행 서비스"
 
-#: templates/layouts/header.html:6
-msgid "Vist Korea"
+#: templates/layouts/header.html:7 templates/layouts/header.html:60
+#: templates/layouts/header.html:115
+msgid "Visit Korea"
 msgstr "비스트 코리아"
 
-#: templates/layouts/header.html:10 templates/layouts/header.html:63
-msgid "Language"
-msgstr "언어"
-
-#: templates/layouts/header.html:12 templates/layouts/header.html:42
-#: templates/layouts/header.html:65
-msgid "English"
-msgstr "영어"
-
-#: templates/layouts/header.html:13 templates/layouts/header.html:43
-#: templates/layouts/header.html:66
-msgid "Korean"
-msgstr "한국인이에요"
-
-#: templates/layouts/header.html:14 templates/layouts/header.html:44
-#: templates/layouts/header.html:67
-msgid "Swedish"
-msgstr "스웨덴의"
-
-#: templates/layouts/header.html:29
-msgid "Vist Sweden"
+#: templates/layouts/header.html:9 templates/layouts/header.html:62
+#: templates/layouts/header.html:117
+msgid "Visit Sweden"
 msgstr "비스트 스웨덴"
 
-#: templates/layouts/header.html:38
+#: templates/layouts/header.html:11 templates/layouts/header.html:64
+#: templates/layouts/header.html:119
+msgid "AES Travels"
+msgstr "AES Travel: 한국"
+
+#: templates/layouts/header.html:21 templates/layouts/header.html:31
+#: templates/layouts/header.html:36 templates/layouts/header.html:78
+#: templates/layouts/header.html:82 templates/layouts/header.html:90
+#: templates/layouts/header.html:94 templates/layouts/header.html:132
+#: templates/layouts/header.html:136 templates/layouts/header.html:145
+#: templates/layouts/header.html:149
 msgid "To do"
 msgstr "하기 위해서요"
 
-#: templates/layouts/header.html:40
+#: templates/layouts/header.html:41 templates/layouts/header.html:154
+msgid "Language"
+msgstr "언어"
+
+#: templates/layouts/header.html:43 templates/layouts/header.html:100
+#: templates/layouts/header.html:156
+msgid "English"
+msgstr "영어"
+
+#: templates/layouts/header.html:44 templates/layouts/header.html:101
+#: templates/layouts/header.html:157
+msgid "Korean"
+msgstr "한국인이에요"
+
+#: templates/layouts/header.html:45 templates/layouts/header.html:102
+#: templates/layouts/header.html:158
+msgid "Swedish"
+msgstr "스웨덴의"
+
+#: templates/layouts/header.html:98
 msgid "Language Selector"
 msgstr "언어 선택기"
+
+#~ msgid "Seoul"
+#~ msgstr "서울랜드"
+
+#~ msgid "Jeju"
+#~ msgstr "제주"
+
+#~ msgid "Busan"
+#~ msgstr "부산"
+
+#~ msgid ""
+#~ "Room: Deluxe King Room | Price: "
+#~ "$200/night | Other: Spacious with "
+#~ "king-sized bed, modern furnishings, large"
+#~ " en-suite bathroom, panoramic city "
+#~ "views, and complimentary Wi-Fi."
+#~ msgstr ""
+#~ "객실: 디럭스 킹룸 | 가격: $200/박 | "
+#~ "기타: 킹이 있는 넓은 객실- 사이즈 침대, "
+#~ "현대적인 가구, 넓은 실내 욕실, 파노라마 시티뷰, "
+#~ "무료 와이파이."
+
+#~ msgid ""
+#~ "Room: Standard Double Room | Price: "
+#~ "$150/night | Other: Cozy and "
+#~ "comfortable, this room features a double"
+#~ " bed, modern amenities, and a sleek"
+#~ " en-suite bathroom. Stay connected "
+#~ "with complimentary high-speed Wi-Fi "
+#~ "and enjoy a relaxing stay in Busan"
+#~ " at an affordable price."
+#~ msgstr ""
+#~ "객실: 스탠다드 더블룸 | 가격: $150/박 | "
+#~ "기타: 아늑하고 편안하고, 이 방은 더블 침대, "
+#~ "현대적인 편의 시설, 그리고 욕실이 없는 욕실 무료"
+#~ " 고속 Wi-Fi로 언제든지 연결 가능 부산에서 "
+#~ "합리적인 가격으로 편안한 시간을 보내십시오."
+
+#~ msgid ""
+#~ "Room: Family Suite | Price: $300/night"
+#~ " | Other: Perfect for families, this"
+#~ " spacious suite features two bedrooms "
+#~ "with a king-sized bed and twin "
+#~ "beds, modern furnishings, and two en-"
+#~ "suite bathrooms. Enjoy complimentary high-"
+#~ "speed Wi-Fi and create unforgettable "
+#~ "memories with your loved ones during "
+#~ "your stay in Seoul."
+#~ msgstr ""
+#~ "객실: 패밀리 스위트 | 가격: $300/박 | "
+#~ "기타: 가족에게 완벽한, 이 넓은 스위트룸은 킹사이즈 "
+#~ "침대와 트윈이 있는 침실 두 개가 있습니다. 호텔,"
+#~ " 현대식 가구, 침실이 딸린 욕실 2개. 무료로 "
+#~ "즐기십시오.  초고속 와이파이로 사랑하는 사람들과 잊지 못할"
+#~ " 추억 만들기 서울에 머무는 동안."
+
+#~ msgid ""
+#~ "Room: Garden View Room | Price: "
+#~ "$180/night | Other: Relax in this "
+#~ "peaceful room with a garden view, "
+#~ "featuring a king-sized bed, elegant "
+#~ "furnishings, and a luxurious en-suite"
+#~ " bathroom. Stay connected with "
+#~ "complimentary high-speed Wi-Fi and "
+#~ "enjoy a tranquil retreat during your "
+#~ "stay in Jeju."
+#~ msgstr ""
+#~ "객실: 가든뷰 객실 | 가격: $180/박 | "
+#~ "기타: 이 호텔에서 편히 쉬십시오 정원이 보이는 "
+#~ "침실, 킹사이즈 침대, 우아함 침실, 호화로운 실내 "
+#~ "욕실 와 지속적으로 연결 초고속 와이파이를 무료로 "
+#~ "제공하고 조용한 휴식을 즐기십시오. 제주에 머무르세요."
+
+#~ msgid ""
+#~ "Room: Ocean View Suite | Price: "
+#~ "$250/night | Other: Enjoy breathtaking "
+#~ "ocean views from this luxurious suite"
+#~ " featuring a king-sized bed, stylish"
+#~ " furnishings, and a spa-like en-"
+#~ "suite bathroom. Stay connected with "
+#~ "complimentary high-speed Wi-Fi and "
+#~ "unwind in comfort during your stay "
+#~ "in Busan."
+#~ msgstr ""
+#~ "객실: 오션뷰 스위트 | 가격: $250/박 | "
+#~ "기타: 숨막히는 시간을 즐기십시오. 킹 사이즈 침대가 "
+#~ "특징인 이 호화로운 스위트룸에서 멋진 경치를 감상할 "
+#~ "수 있습니다.  가구, 그리고 스파 같은 실내 "
+#~ "욕실. 와 지속적으로 연결 초고속 와이파이를 무료로 "
+#~ "제공하고 숙박하는 동안 편안하게 휴식을 취할 수 "
+#~ "있습니다. 부산."
+
+#~ msgid ""
+#~ "Room: Executive Suite | Price: "
+#~ "$350/night | Other: Indulge in luxury"
+#~ " with this spacious suite featuring a"
+#~ " king-sized bed, separate living "
+#~ "area, modern furnishings, and a spa-"
+#~ "like en-suite bathroom. Enjoy stunning"
+#~ " city views from your high-floor "
+#~ "windows, and stay connected with "
+#~ "complimentary high-speed Wi-Fi during"
+#~ " your stay in Seoul."
+#~ msgstr ""
+#~ "객실: 이그제큐티브 스위트 | 가격: $350/박 | "
+#~ "기타: 럭셔리함을 즐기십시오.  킹사이즈 침대와 별도의 "
+#~ "생활공간이 특징인 이 넓은 스위트룸. 현대적인 가구와 "
+#~ "스파 같은 실내 욕실. 멋진 도시를 즐겨보세요.  "
+#~ "높은 층의 창문에서 보이는 경치, 그리고 와 연결된"
+#~ " 상태 유지 서울에 머무는 동안 무료 초고속 "
+#~ "와이파이."
+
+#~ msgid ""
+#~ "Room: Oceanfront Villa | Price: "
+#~ "$450/night | Other: Escape to this "
+#~ "luxurious villa with stunning ocean "
+#~ "views, featuring a king-sized bed, "
+#~ "private terrace, elegant furnishings, and "
+#~ "a spacious en-suite bathroom with "
+#~ "a whirlpool tub. Stay connected with "
+#~ "complimentary high-speed Wi-Fi and "
+#~ "enjoy a peaceful retreat during your "
+#~ "stay in Jeju."
+#~ msgstr ""
+#~ "객실: 오션프론트 빌라 | 가격: $450/박 | "
+#~ "기타: 이스케이프 투 this 킹사이즈 침대가 특징인 "
+#~ "멋진 바다 전망의 멋진 빌라 개인 테라스, 우아한"
+#~ " 가구, 넓은 실내 욕실 월풀 욕조로\" 무료 "
+#~ "고속 Wi-Fi로 언제든지 연결 가능 제주에 머무는"
+#~ " 동안 평화로운 휴양을 즐기십시오."
+
+#~ msgid ""
+#~ "Room: Family Room | Price: $250/night"
+#~ " | Other: Perfect for families, this"
+#~ " spacious room features a king-sized"
+#~ " bed, twin beds, modern amenities, "
+#~ "and a sleek en-suite bathroom. "
+#~ "Enjoy stunning mountain views from your"
+#~ " room, and stay connected with "
+#~ "complimentary high-speed Wi-Fi during"
+#~ " your stay in Jeju."
+#~ msgstr ""
+#~ "객실: 패밀리룸 | 가격: 하룻밤에 250달러 | "
+#~ "기타: 가족에게 완벽한, 이것  넓은 객실에는 킹사이즈 "
+#~ "침대, 트윈 침대, 현대적인 편의 시설이 있습니다. "
+#~ "날렵한 실내 욕실\" \"에서 멋진 산 경치를 "
+#~ "감상할 수 있습니다. 객실에서 무료 고속 Wi-"
+#~ "Fi를 사용할 수 있습니다. 제주에 머무르세요."
+
+#~ msgid ""
+#~ "Room: Business Suite | Price: $300/night"
+#~ " | Other: Ideal for business "
+#~ "travelers, this spacious suite features "
+#~ "a king-sized bed, separate living "
+#~ "area, work desk, and a luxurious "
+#~ "en-suite bathroom. Enjoy complimentary "
+#~ "high-speed Wi-Fi and stay productive"
+#~ " during your stay in Busan. The "
+#~ "suite also offers panoramic city views"
+#~ " for a relaxing retreat after a "
+#~ "long day of work."
+#~ msgstr ""
+#~ "객실: Business Suite | 가격: $300/박 |"
+#~ " 기타: 비즈니스에 이상적임 따라서, 이 넓은 스위트룸은"
+#~ " 킹사이즈 침대, 별도의 거실이 특징입니다.  공간, "
+#~ "업무용 책상, 고급스러운 실내 욕실. 무료로 즐기십시오."
+#~ " 부산에 머무는 동안 고속 Wi-Fi와 생산성을 "
+#~ "유지합니다. 스위트룸  또한 긴 하루 후 편안한 "
+#~ "휴식을 위한 파노라마 도시 경관을 제공합니다. \" "
+#~ "노동의."
 
