@@ -117,6 +117,14 @@
     </section>
 </main>
 {% elif lang_code == "sv" %}
+<section id="hero">
+    <div class="hero-container" data-aos="fade-up" style="background: linear-gradient(rgba(55, 142, 181, 0.5), rgba(55, 142, 181, 0.2)),  url({{ url_for('static', filename='img/ko/home/en-korea-2.jpeg' ) }}) top center;" >
+    <h1>{{_("AES Korea")}}</h1>
+    <h2>{{_("Brining you places")}}</h2>
+    <a href="#about" class="btn-get-started scrollto"><i class="bx bx-chevrons-down"></i></a>
+    </div>
+</section><!-- End Hero -->
+
 <!-- Sweden Body -->
 <main id="main">
 
@@ -183,6 +191,14 @@
     </section>
   </main>
 {% elif lang_code == "en" %}
+    <section class="d-flex align-items-center justify-content-center" id="hero"
+             style="background-image: url( {{ url_for('static', filename='img/' + lang_code + '/index/index-hero.webp') }} ); ">
+        <div class="container position-relative">
+            <h1>{{_('AES Korea')}}</h1>
+            <h2>{{_('What to do?')}}</h2>
+        </div>
+    </section><!-- End Hero -->
+
    <main id="main">
 
     <!-- ======= Portfolio Section ======= -->

@@ -4,11 +4,11 @@
     <header class="fixed-top" id="header">
         <div class="container d-flex align-items-center justify-content-between">
             {% if country_selector == "ko" %}
-                <h1 class="logo"><a href="{{ url_for('ko_home') }}">{{_("Vist Korea")}}</a></h1>
+                <h1 class="logo"><a href="{{ url_for('index') }}">{{_("Visit Korea")}}</a></h1>
             {% elif country_selector == "sv" %}
-                <h1 class="logo"><a href="{{ url_for('ko_home') }}">{{_("Vist Sweden")}}</a></h1>
+                <h1 class="logo"><a href="{{ url_for('index') }}">{{_("Visit Sweden")}}</a></h1>
             {% elif country_selector == "en" %}
-                <h1 class="logo"><a href="{{ url_for('ko_home') }}">{{_("AES Travels")}}</a></h1>
+                <h1 class="logo"><a href="{{ url_for('index') }}">{{_("AES Travels")}}</a></h1>
             {% endif %}
             <nav class="navbar" id="navbar">
                 <ul>
@@ -37,9 +37,6 @@
                         {% endif %}
                     {% elif country_selector == "en" %}
                             <li><a class="nav-link scrollto" href="{{ url_for('index') }}">{{_("Home")}}</a></li>
-                            <li><a class="nav-link scrollto" href="{{ url_for('ko_home') }}">{{_("Home")}}</a></li>
-                            <li><a class="nav-link scrollto" href="{{ url_for('ko_booking') }}">{{_("Booking")}}</a></li>
-                            <li><a class="nav-link scrollto" href="{{ url_for('ko_todo') }}">{{_("To do")}}</a></li>
                     {% endif %}
                     <li class="dropdown"><a href="#"><span>{{_("Language")}}</span> <i class="bi bi-chevron-down"></i></a>
                         <ul>
@@ -60,11 +57,11 @@
         <div class="container d-flex align-items-center justify-content-between position-relative">
             <div class="logo">
                 {% if country_selector == "ko" %}
-                    <h1 class="logo"><a href="{{ url_for('ko_home') }}">{{_("Vist Korea")}}</a></h1>
+                    <h1 class="logo"><a href="{{ url_for('index') }}">{{_("Visit Korea")}}</a></h1>
                 {% elif country_selector == "sv" %}
-                    <h1 class="logo"><a href="{{ url_for('ko_home') }}">{{_("Vist Sweden")}}</a></h1>
+                    <h1 class="logo"><a href="{{ url_for('index') }}">{{_("Visit Sweden")}}</a></h1>
                 {% elif country_selector == "en" %}
-                    <h1 class="logo"><a href="{{ url_for('ko_home') }}">{{_("AES Travels")}}</a></h1>
+                    <h1 class="logo"><a href="{{ url_for('index') }}">{{_("AES Travels")}}</a></h1>
                 {% endif %}
                 <!-- Uncomment below if you prefer to use an image logo -->
                 <!-- <a href="index.html"><img src="assets/img/logo.png" alt="" class="img-fluid"></a>-->
@@ -92,7 +89,6 @@
                             <li><a class="nav-link scrollto" href="{{ url_for('sv_booking') }}">{{_("Booking")}}</a></li>
                             <li><a class="nav-link scrollto" href="{{ url_for('sv_todo') }}">{{_("To do")}}</a></li>
                         {% elif lang_code == "en" %}
-                            <li><a class="nav-link scrollto" href="{{ url_for('index') }}">{{_("Home")}}</a></li>
                             <li><a class="nav-link scrollto" href="{{ url_for('sv_home') }}">{{_("Home")}}</a></li>
                             <li><a class="nav-link scrollto" href="{{ url_for('sv_booking') }}">{{_("Booking")}}</a></li>
                             <li><a class="nav-link scrollto" href="{{ url_for('sv_todo') }}">{{_("To do")}}</a></li>
@@ -116,11 +112,11 @@
     <header class="fixed-top header-transparent" id="header">
         <div class="container d-flex align-items-center justify-content-between">
                 {% if country_selector == "ko" %}
-                    <h1 class="logo"><a href="{{ url_for('ko_home') }}">{{_("Vist Korea")}}</a></h1>
+                    <h1 class="logo"><a href="{{ url_for('index') }}">{{_("Visit Korea")}}</a></h1>
                 {% elif country_selector == "sv" %}
-                    <h1 class="logo"><a href="{{ url_for('ko_home') }}">{{_("Vist Sweden")}}</a></h1>
+                    <h1 class="logo"><a href="{{ url_for('index') }}">{{_("Visit Sweden")}}</a></h1>
                 {% elif country_selector == "en" %}
-                    <h1 class="logo"><a href="{{ url_for('ko_home') }}">{{_("AES Travels")}}</a></h1>
+                    <h1 class="logo"><a href="{{ url_for('index') }}">{{_("AES Travels")}}</a></h1>
                 {% endif %}
             <!-- Uncomment below if you prefer to use an image logo -->
             <!-- <a href="index.html" class="logo"><img src="assets/img/logo.png" alt="" class="img-fluid"></a>-->
@@ -148,7 +144,6 @@
                             <li><a class="nav-link scrollto" href="{{ url_for('sv_booking') }}">{{_("Booking")}}</a></li>
                             <li><a class="nav-link scrollto" href="{{ url_for('sv_todo') }}">{{_("To do")}}</a></li>
                         {% elif lang_code == "en" %}
-                            <li><a class="nav-link scrollto" href="{{ url_for('index') }}">{{_("Home")}}</a></li>
                             <li><a class="nav-link scrollto" href="{{ url_for('sv_home') }}">{{_("Home")}}</a></li>
                             <li><a class="nav-link scrollto" href="{{ url_for('sv_booking') }}">{{_("Booking")}}</a></li>
                             <li><a class="nav-link scrollto" href="{{ url_for('sv_todo') }}">{{_("To do")}}</a></li>
