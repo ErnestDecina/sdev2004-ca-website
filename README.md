@@ -1,8 +1,5 @@
 # SDEV2004 Continuous Assessment Website
 
-Website link: https://aestravels.com
-A travel website that will serve information about Korean and Sweeden.
-
 ## Updated Documentation
 
 [Word Documentation](https://1drv.ms/w/s!Ats780sGNINomRlL078S1AlXuPbA?e=IwNpiD)
